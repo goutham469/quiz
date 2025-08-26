@@ -1,0 +1,34 @@
+### Test OTP System
+
+# 1. Send OTP to email
+POST http://localhost:4000/user/send-otp
+Content-Type: application/json
+
+{
+    "email": "test@example.com"
+}
+
+###
+
+# 2. Verify OTP (for existing user)
+POST http://localhost:4000/user/verify-otp
+Content-Type: application/json
+
+{
+    "email": "test@example.com",
+    "otp": "123456"
+}
+
+###
+
+# 3. Verify OTP (for new user)
+POST http://localhost:4000/user/verify-otp
+Content-Type: application/json
+
+{
+    "email": "newuser@example.com",
+    "otp": "123456",
+    "name": "New User"
+}
+
+###

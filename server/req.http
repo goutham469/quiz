@@ -1,0 +1,15 @@
+POST http://localhost:4000/user/auth
+Content-Type: application/json
+
+{
+    "email":"gouth@gmil.com",
+    "name":"Goutham reddy",
+    "profile_pic":"url2"
+}
+###
+POST http://localhost:4000/user/send-otp
+Content-Type: application/json
+
+{
+    "email":"gouth@gmil.com"
+}

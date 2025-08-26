@@ -1,0 +1,20 @@
+# Copy this to your .env file and fill in your values
+
+# Server Configuration
+PORT=4000
+
+# Database Configuration
+MYSQL_DATABASE_HOST=localhost
+MYSQL_DATABASE_USER=your_username
+MYSQL_DATABASE_PASSWORD=your_password
+MYSQL_DATABASE_DATABASE=quiz_db
+
+# Email Configuration (for OTP and Welcome emails)
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASS=your-app-password
+
+# Note: For Gmail, you need to:
+# 1. Enable 2-factor authentication
+# 2. Generate an "App Password" 
+# 3. Use that app password instead of your regular password
+# 4. Make sure "Less secure app access" is enabled if using regular password
