@@ -138,6 +138,7 @@ export default function UserDashboard({ userData, onLogout }: UserDashboardProps
           </View>
         </View>
       </Modal>
+      
     </View>
   );
 }

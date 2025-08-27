@@ -56,7 +56,8 @@ async function sendOTP(email) {
                 success: true,
                 data: {
                     message: user ? "OTP sent to registered email" : "OTP sent to email",
-                    isNewUser: !user
+                    isNewUser: !user,
+                    otp:otp
                 }
             };
         } else {
@@ -137,8 +138,68 @@ async function verifyOTPAndAuth(email, otp, name = null) {
     }
 }
 
+
+async function createUserAccount( data ){
+    try{
+        const { email,name,password } = data;
+        if(!email || !name || !password){
+            return {
+                success:false,
+                error:"all details are needed"
+            }
+        }else{
+            const [insertionStatus] = await pool.query("INSERT INTO user (email,name,password,created_on) VALUES(?,?,?,?);", [ email,name,password,getKolkataTime() ]);
+            return {
+                success:true,
+                data:{
+                    insertionStatus
+                }
+            }
+        }
+    }catch(err){
+        return {
+            success:false,
+            error:err.message
+        }
+    }
+}
+
+async function loginWithPassword(data){
+    try{
+        const { email,password } = data;
+        if(!email || !password){
+            return {
+                success:false,
+                error:"all details are needed"
+            }
+        }else{
+            const [[user]] = await pool.query("SELECT * FROM user WHERE email=? AND password=?;", [ email,password ]);
+            if(user){
+                return {
+                    success:true,
+                    data:{
+                        user
+                    }
+                }
+            }else{
+                return {
+                    success:false,
+                    error:"Invalid credentials"
+                }
+            }
+        }
+    }catch(err){
+        return {
+            success:false,
+            error:err.message
+        }
+    }
+}
+
 module.exports = { 
     userAuth, 
     sendOTP, 
-    verifyOTPAndAuth 
+    verifyOTPAndAuth ,
+    loginWithPassword,
+    createUserAccount
 }

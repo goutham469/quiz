@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, StyleSheet, TouchableOpacity, ScrollView, Dimensions, StatusBar } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
+import { View, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState, AppDispatch } from '@/store';
 import { fetchUserAttempts } from '@/store/slices/quizSlice';
@@ -9,8 +8,6 @@ import { ThemedText } from '@/components/ThemedText';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import { COLORS } from '@/constants/Config';
 import { router } from 'expo-router';
-
-const { width } = Dimensions.get('window');
 
 interface Stats {
   totalAttempts: number;
@@ -68,12 +65,13 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
-      <StatusBar barStyle="light-content" backgroundColor={COLORS.primary} />
-      <LinearGradient
-        colors={[COLORS.primary, '#667eea']}
-        style={styles.gradientHeader}
+      <ScrollView 
+        style={styles.scrollContainer}
+        contentContainerStyle={styles.scrollContent}
+        showsVerticalScrollIndicator={false}
       >
-        <View style={styles.headerContent}>
+        {/* Header Section */}
+        <View style={styles.headerSection}>
           <ThemedText type="title" style={styles.welcomeText}>
             Welcome back!
           </ThemedText>
@@ -81,14 +79,8 @@ export default function HomeScreen() {
             Ready to challenge yourself today?
           </ThemedText>
         </View>
-      </LinearGradient>
 
-      <ScrollView 
-        style={styles.scrollContainer}
-        contentContainerStyle={styles.scrollContent}
-        showsVerticalScrollIndicator={false}
-      >
-
+        {/* Profile Card */}
         <View style={styles.profileCard}>
           <View style={styles.profileAvatar}>
             <IconSymbol size={80} name="person.circle.fill" color={COLORS.primary} />
@@ -107,6 +99,7 @@ export default function HomeScreen() {
           </ThemedText>
         </View>
 
+        {/* Statistics Card */}
         <View style={styles.statsCard}>
           <ThemedText type="subtitle" style={styles.statsTitle}>
             Quiz Statistics
@@ -130,13 +123,14 @@ export default function HomeScreen() {
           </View>
         </View>
 
+        {/* Recent Attempts */}
         {stats.recentAttempts.length > 0 && (
           <View style={styles.recentCard}>
             <ThemedText type="subtitle" style={styles.recentTitle}>
               Recent Attempts
             </ThemedText>
             
-            {stats.recentAttempts.map((attempt: any, index: number) => (
+            {stats.recentAttempts.map((attempt, index) => (
               <View key={attempt.id || index} style={styles.attemptItem}>
                 <View style={styles.attemptInfo}>
                   <ThemedText style={styles.attemptCategory}>
@@ -158,6 +152,7 @@ export default function HomeScreen() {
           </View>
         )}
 
+        {/* Quick Actions */}
         <View style={styles.actionsCard}>
           <ThemedText type="subtitle" style={styles.actionsTitle}>
             Quick Actions
@@ -178,7 +173,7 @@ export default function HomeScreen() {
             <IconSymbol size={24} name="brain.head.profile" color={COLORS.success} />
             <ThemedText style={styles.actionText}>Take Aptitude Test</ThemedText>
           </TouchableOpacity>
-            
+          
           <TouchableOpacity 
             style={styles.actionButton}
             onPress={() => router.push('/(tabs)/gk')}
@@ -186,7 +181,7 @@ export default function HomeScreen() {
             <IconSymbol size={24} name="book.fill" color={COLORS.warning} />
             <ThemedText style={styles.actionText}>Take GK Test</ThemedText>
           </TouchableOpacity>
-            
+          
           <TouchableOpacity 
             style={styles.actionButton}
             onPress={() => router.push('/(tabs)/technical')}
@@ -196,6 +191,7 @@ export default function HomeScreen() {
           </TouchableOpacity>
         </View>
         
+        {/* Logout Button */}
         <TouchableOpacity
           style={styles.logoutButton}
           onPress={handleLogout}
@@ -213,35 +209,32 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f5f7fa',
-  },
-  gradientHeader: {
-    paddingTop: 50,
-    paddingBottom: 40,
-    paddingHorizontal: 20,
-  },
-  headerContent: {
-    alignItems: 'center',
-  },
-  welcomeText: {
-    color: '#ffffff',
-    fontSize: 32,
-    fontWeight: 'bold',
-    marginBottom: 8,
-    textAlign: 'center',
-  },
-  headerSubtext: {
-    color: '#ffffff',
-    fontSize: 18,
-    opacity: 0.95,
-    textAlign: 'center',
+    backgroundColor: '#f8f9fa',
   },
   scrollContainer: {
     flex: 1,
-    marginTop: -20,
   },
   scrollContent: {
-    paddingBottom: 40,
+    paddingBottom: 100,
+  },
+  headerSection: {
+    backgroundColor: COLORS.primary,
+    paddingTop: 60,
+    paddingHorizontal: 20,
+    paddingBottom: 30,
+    borderBottomLeftRadius: 25,
+    borderBottomRightRadius: 25,
+  },
+  welcomeText: {
+    color: '#ffffff',
+    fontSize: 28,
+    fontWeight: 'bold',
+    marginBottom: 5,
+  },
+  headerSubtext: {
+    color: '#ffffff',
+    fontSize: 16,
+    opacity: 0.9,
   },
   profileCard: {
     backgroundColor: '#ffffff',

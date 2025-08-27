@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import { View, TextInput, TouchableOpacity, Alert, StyleSheet } from 'react-native';
+import { useDispatch } from 'react-redux';
 import { ThemedText } from '@/components/ThemedText';
+import { setUser } from '@/store/slices/authSlice';
 import { API_URL } from '@/constants/Config';
+import { AppDispatch } from '@/store';
 
 type AuthStep = 'email' | 'otp' | 'name' | 'success';
 
@@ -11,6 +14,7 @@ interface AuthFormProps {
 }
 
 export default function AuthForm({ onSuccess, onStepChange }: AuthFormProps) {
+  const dispatch = useDispatch<AppDispatch>();
   const [email, setEmail] = useState('');
   const [otp, setOtp] = useState('');
   const [name, setName] = useState('');
@@ -75,6 +79,8 @@ export default function AuthForm({ onSuccess, onStepChange }: AuthFormProps) {
           onStepChange('name');
         } else {
           // Existing user - login successful
+          console.log('Setting existing user in Redux:', result.data.user);
+          dispatch(setUser(result.data.user));
           setCurrentStep('success');
           onStepChange('success');
           onSuccess(result.data);
@@ -110,9 +116,19 @@ export default function AuthForm({ onSuccess, onStepChange }: AuthFormProps) {
       const result = await response.json();
       
       if (result.success) {
+        // For new users, we need to get the user data from the response
+        const userData = {
+          id: result.data.status?.insertId || Date.now(),
+          name: name.trim(),
+          email: email.trim(),
+          created_on: new Date().toISOString()
+        };
+        
+        console.log('Setting new user in Redux:', userData);
+        dispatch(setUser(userData));
         setCurrentStep('success');
         onStepChange('success');
-        onSuccess(result.data);
+        onSuccess({ user: userData, isNewUser: true });
         Alert.alert('Success', 'Account created successfully! Welcome to Quiz App! 🎉');
       } else {
         Alert.alert('Error', result.error || 'Failed to create account');

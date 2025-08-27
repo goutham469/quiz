@@ -1,5 +1,5 @@
 const express = require('express')
-const { userAuth, sendOTP, verifyOTPAndAuth } = require('../controllers/user.controller')
+const { userAuth, sendOTP, verifyOTPAndAuth, createUserAccount, loginWithPassword } = require('../controllers/user.controller')
 const userRouter = express.Router()
 
 userRouter.get('/', (req,res)=>{
@@ -57,5 +57,15 @@ userRouter.post("/verify-otp", async (req,res)=>{
         });
     }
 })
+
+
+userRouter.post("/register", async(req,res)=>{
+    res.send( await createUserAccount(req.body) )
+} )
+
+userRouter.post("/login", async(req,res)=>{
+    res.send( await loginWithPassword(req.body) )
+})
+
 
 module.exports = userRouter;
