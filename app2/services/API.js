@@ -1,4 +1,4 @@
-const SERVER_URL = 'http://localhost:4000'
+const SERVER_URL = 'https://quiz-server.iamgoutham.in'
 
 export default API = {
     'register': async( data ) => {

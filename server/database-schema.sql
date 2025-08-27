@@ -6,7 +6,8 @@ CREATE TABLE IF NOT EXISTS questions (
     question TEXT NOT NULL,
     options JSON NOT NULL, -- Array of 4 options as JSON
     correct_option_index INT NOT NULL CHECK (correct_option_index >= 0 AND correct_option_index <= 3),
-    category ENUM('aptitude', 'general_knowledge', 'technical') NOT NULL,
+    category VARCHAR(50) NOT NULL, -- Changed from ENUM to VARCHAR for flexibility
+    subCategory VARCHAR(100), -- Added subcategory field
     difficulty ENUM('easy', 'medium', 'hard') DEFAULT 'medium',
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
