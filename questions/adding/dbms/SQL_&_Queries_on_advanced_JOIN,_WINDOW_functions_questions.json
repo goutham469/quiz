@@ -1,0 +1,541 @@
+[
+  {
+    "question": "Which JOIN type returns all rows from the left table, even if there are no matching rows in the right table?",
+    "options": [
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "FULL OUTER JOIN"
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What is the primary purpose of a WINDOW function in SQL?",
+    "options": [
+      "To perform aggregations across a set of rows related to the current row",
+      "To filter rows based on a condition",
+      "To sort the result set",
+      "To join tables based on a common column"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Which of the following is NOT a valid WINDOW function?",
+    "options": [
+      "ROW_NUMBER()",
+      "RANK()",
+      "SUM()",
+      "DELETE()"
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What does the `PARTITION BY` clause do in a WINDOW function?",
+    "options": [
+      "Specifies the order in which the window function is applied",
+      "Divides the result set into partitions to which the window function is applied",
+      "Filters the result set based on a condition",
+      "Joins two tables based on a common column"
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What does `ORDER BY` clause do inside a WINDOW function?",
+    "options": [
+      "Specifies the order of output for main query",
+      "Orders the result set after the window function is applied",
+      "Defines the order within each partition of a window function",
+      "Filters data from main query "
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Which JOIN type returns only the rows where there is a match in both tables?",
+    "options": [
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "INNER JOIN",
+      "FULL OUTER JOIN"
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What is the difference between `RANK()` and `DENSE_RANK()` WINDOW functions?",
+    "options": [
+      "`RANK()` assigns consecutive ranks, while `DENSE_RANK()` skips ranks.",
+      "`RANK()` assigns ranks with gaps, while `DENSE_RANK()` assigns consecutive ranks.",
+      "`RANK()` can only be used with numeric data, while `DENSE_RANK()` can be used with any data type.",
+      "There is no difference between them."
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What does the `LAG()` window function do?",
+    "options": [
+      "Returns the next row's value in the partition.",
+      "Returns the previous row's value in the partition.",
+      "Calculates the average value of the current row and the previous row.",
+      "Calculates the cumulative sum of a column."
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What does the `LEAD()` window function do?",
+    "options": [
+      "Returns the previous row's value in the partition.",
+      "Calculates the cumulative sum of a column.",
+      "Returns the next row's value in the partition.",
+      "Calculates the average value of the current row and the next row."
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Which JOIN type returns all rows from both tables and fills in NULL values for non-matching columns?",
+    "options": [
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "FULL OUTER JOIN"
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What is a self-join?",
+    "options": [
+      "Joining a table to itself.",
+      "Joining two tables with identical structures.",
+      "Joining two tables with different structures.",
+      "Joining a table to another database."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What is the purpose of `QUALIFY` clause in SQL? ",
+    "options": [
+      "To filter results of a window function.",
+      "To limit the number of returned rows",
+      "To join tables based on a condition.",
+      "To specify the data type of a column"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What is the use of cross apply?",
+    "options": [
+      "returns only rows that match on both tables",
+      "is used to invoke a table-valued function for each row of an outer table",
+      "It's used for self joining tables",
+      "It's used for left join tables"
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Given a table `employees` with columns `id`, `name`, and `salary`, and another table `departments` with columns `id` and `name`, write a query to find the employee with the highest salary in each department using window functions.",
+    "options": [
+      "SELECT e.name, d.name, MAX(e.salary) OVER (PARTITION BY d.id) FROM employees e JOIN departments d ON e.department_id = d.id",
+      "SELECT e.name, d.name, RANK() OVER (PARTITION BY d.id ORDER BY e.salary DESC) AS rank FROM employees e JOIN departments d ON e.department_id = d.id WHERE rank = 1",
+      "SELECT e.name, d.name, DENSE_RANK() OVER (PARTITION BY d.id ORDER BY e.salary DESC) AS rank FROM employees e JOIN departments d ON e.department_id = d.id WHERE rank = 1",
+      "Both B and C"
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What is the function of the `NTILE(n)` window function?",
+    "options": [
+      "Divides the rows into 'n' groups and assigns a rank to each group.",
+      "Calculates the cumulative distribution of a value within a group.",
+      "Determines the nth row in a window.",
+      "Divides the rows into 'n' groups and assigns a tile number to each row."
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Which join is used when you need all possible combinations of rows from two tables?",
+    "options": [
+      "INNER JOIN",
+      "LEFT JOIN",
+      "CROSS JOIN",
+      "FULL OUTER JOIN"
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "How do you specify a window frame in a window function?",
+    "options": [
+      "Using the `FRAME` clause.",
+      "Using the `RANGE` or `ROWS` keywords.",
+      "By specifying the starting and ending points relative to the current row.",
+      "Both B and C"
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What does `ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW` specify in a window function?",
+    "options": [
+      "The window frame includes all rows from the beginning of the partition up to the current row.",
+      "The window frame includes only the current row.",
+      "The window frame includes the current row and the next row.",
+      "The window frame includes all rows in the partition."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What does `RANGE BETWEEN 10 PRECEDING AND 10 FOLLOWING` do in window frame?",
+    "options": [
+      "Specifies frame by row numbers",
+      "Specifies frame by values range of a column",
+      "Specifies frame by values with number 10 as boundry for all",
+      "Invalid window frame syntax"
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What is the main difference between `JOIN` and `APPLY` operators?",
+    "options": [
+      "`JOIN` can only be used with tables, while `APPLY` can be used with table-valued functions.",
+      "`APPLY` can only be used with tables, while `JOIN` can be used with table-valued functions.",
+      "`APPLY` can pass values from left table to right, but `JOIN` can't.",
+      "A and C"
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Write a query to calculate a 3-month moving average of sales for each product using window functions.",
+    "options": [
+      "SELECT product_id, sale_date, AVG(sales) OVER (ORDER BY sale_date ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) FROM sales",
+      "SELECT product_id, sale_date, AVG(sales) OVER (PARTITION BY product_id ORDER BY sale_date ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) FROM sales",
+      "SELECT product_id, sale_date, AVG(sales) OVER (PARTITION BY product_id ORDER BY sale_date RANGE BETWEEN 2 PRECEDING AND CURRENT ROW) FROM sales",
+      "SELECT product_id, sale_date, AVG(sales) OVER (ORDER BY sale_date) FROM sales"
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "How to find the second highest salary using window function?",
+    "options": [
+      "Select salary from (select salary, dense_rank() over (order by salary desc) as rnk from employee) where rnk = 2",
+      "Select max(salary) from employee where salary < (select max(salary) from employee)",
+      "Select salary from employee order by salary desc limit 1 offset 1",
+      "All the above"
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Why is full outer join less preffered?",
+    "options": [
+      "It only returns matching records",
+      "It's faster than other join types",
+      "It can be performance intensive and lead to large result sets",
+      "It has more limitations and cannot be used on every databases"
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Which Window Function is used to calculate the difference between the current row's value and the value of the previous row in a partition?",
+    "options": [
+      "SUM()",
+      "LAG()",
+      "LEAD()",
+      "AVG()"
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "In the context of Window Functions, what does \"ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING\" define?",
+    "options": [
+      "A window frame that only includes the current row",
+      "A window frame starting from the current row and including all subsequent rows in the partition",
+      "A window frame that includes all rows in the partition",
+      "A window frame starting from the first row of the partition up to the current row"
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "You have a table `transactions` with columns `transaction_id`, `user_id`, `amount`, and `transaction_date`. How would you find the cumulative sum of transaction amounts for each user, ordered by transaction date, using a window function?",
+    "options": [
+      "SELECT transaction_id, user_id, amount, SUM(amount) OVER (PARTITION BY user_id ORDER BY transaction_date) AS cumulative_amount FROM transactions",
+      "SELECT transaction_id, user_id, amount, SUM(amount) OVER (ORDER BY transaction_date) AS cumulative_amount FROM transactions",
+      "SELECT transaction_id, user_id, amount, SUM(amount) OVER (PARTITION BY user_id) AS cumulative_amount FROM transactions",
+      "SELECT transaction_id, user_id, amount, SUM(amount) FROM transactions GROUP BY user_id ORDER BY transaction_date"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Which of the following is a disadvantage of using window functions compared to traditional aggregate functions with GROUP BY?",
+    "options": [
+      "Window functions can't perform calculations across rows.",
+      "Window functions can't be used to calculate running totals.",
+      "Window functions may have a higher computational overhead for large datasets.",
+      "Window functions can't be used with subqueries."
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Consider a table `orders` with columns `order_id`, `customer_id`, `order_date`, and `amount`. You need to find the 5-day moving average of the order amount for each customer. Which window frame specification is most appropriate?",
+    "options": [
+      "ROWS BETWEEN 5 PRECEDING AND CURRENT ROW",
+      "ROWS BETWEEN 4 PRECEDING AND CURRENT ROW",
+      "RANGE BETWEEN INTERVAL '5' DAY PRECEDING AND CURRENT ROW",
+      "RANGE BETWEEN 5 PRECEDING AND CURRENT ROW"
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Which of the following SQL standard features allows for specifying a set of rows that are somehow related to the current row, and then perform a calculation across that set of rows?",
+    "options": [
+      "Subqueries",
+      "GROUP BY Clause",
+      "Window Functions",
+      "Common Table Expressions (CTEs)"
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What is the purpose of the `FIRST_VALUE()` window function?",
+    "options": [
+      "Returns the first value in the entire dataset.",
+      "Returns the first value in each partition.",
+      "Returns the first non-null value in each partition.",
+      "Returns the value of the first row in the window frame."
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "If `orders` has columns `order_id`, `customer_id`, `order_date`, and `amount`, and you want to assign a quartile to each order based on its amount within each customer's orders, what window function should be used?",
+    "options": [
+      "NTILE(4)",
+      "RANK()",
+      "DENSE_RANK()",
+      "ROW_NUMBER()"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Table `employees` with `emp_id`, `salary` and `dept_id`. Write a SQL query to find employees earning more than the average salary within their department using Window Functions.",
+    "options": [
+      "SELECT emp_id, salary, dept_id FROM employees WHERE salary > AVG(salary) OVER (PARTITION BY dept_id)",
+      "SELECT emp_id, salary, dept_id FROM employees WHERE salary > (SELECT AVG(salary) FROM employees GROUP BY dept_id)",
+      "SELECT emp_id, salary, dept_id FROM (SELECT emp_id, salary, dept_id, AVG(salary) OVER (PARTITION BY dept_id) AS avg_salary FROM employees) AS subquery WHERE salary > avg_salary",
+      "SELECT emp_id, salary, dept_id FROM employees HAVING salary > AVG(salary) OVER (PARTITION BY dept_id)"
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What does the following query do? SELECT product_id, sale_date, sale_amount, (sale_amount - LAG(sale_amount, 1, 0) OVER (PARTITION BY product_id ORDER BY sale_date)) AS sales_difference FROM sales_table;",
+    "options": [
+      "Calculates the cumulative sum of sales amount for each product.",
+      "Calculates the difference in sales amount from the previous sale date for each product. If there is no previous sale, it assumes the previous sale amount was 0.",
+      "Calculates the running average of sales amount for each product.",
+      "Identifies the products with the highest and lowest sales on each sale date."
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Which of the following is an advanced use case for combining JOINs and Window Functions?",
+    "options": [
+      "Calculating a simple running total.",
+      "Determining the maximum value in a table.",
+      "Performing complex data analysis across related tables, such as identifying top-performing customers based on purchase history and demographic data.",
+      "Filtering data based on a single condition."
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What is the potential performance impact of using many complex window functions in a single query?",
+    "options": [
+      "It always speeds up query execution.",
+      "It has no impact on performance.",
+      "It can significantly increase query execution time and resource consumption, especially on large datasets.",
+      "It reduces memory usage."
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What is a key difference between a LATERAL JOIN and a regular INNER JOIN?",
+    "options": [
+      "A LATERAL JOIN can return more rows than the left-hand table.",
+      "A LATERAL JOIN can refer to columns of the left-hand table in its ON condition.",
+      "A LATERAL JOIN is always faster than an INNER JOIN.",
+      "A LATERAL JOIN only works with scalar functions."
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "In the context of SQL, what does the term \"window frame\" refer to?",
+    "options": [
+      "The physical window on your computer screen where SQL queries are executed.",
+      "A specific time period for analyzing data.",
+      "The set of rows that are considered for a window function's calculation, relative to the current row.",
+      "A user interface element for displaying query results."
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Given two tables, `customers` (customer_id, name, signup_date) and `orders` (order_id, customer_id, order_date, amount), how would you find the total amount spent by each customer in the month following their signup date, using joins and potentially window functions?",
+    "options": [
+      "Using a simple JOIN and GROUP BY.",
+      "Using a subquery to filter orders within the signup month.",
+      "Using a LEFT JOIN and a window function to calculate the running total.",
+      "Using a JOIN with a date range condition and a GROUP BY clause."
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "How can you optimize the performance of queries that use window functions on very large tables?",
+    "options": [
+      "By using more window functions.",
+      "By avoiding indexes on the tables.",
+      "By partitioning the tables and using appropriate window frame specifications.",
+      "By increasing the number of CPU cores on the database server."
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What is the key advantage of using window functions over correlated subqueries in many scenarios?",
+    "options": [
+      "Window functions are always easier to write.",
+      "Correlated subqueries are more performant.",
+      "Window functions often offer better performance and readability.",
+      "Correlated subqueries are more standard across different SQL dialects."
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "How can you use window functions to identify the 'top N' records within each group?",
+    "options": [
+      "Using the MAX() aggregate function.",
+      "Using the RANK() or DENSE_RANK() window functions and filtering based on rank.",
+      "Using the ORDER BY clause without any window functions.",
+      "Using the GROUP BY clause with a LIMIT clause."
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Suppose you have a table `log_entries` with columns `entry_id`, `user_id`, `timestamp`, and `activity`. Write a query using window functions to identify sessions (defined as a series of activities by a user within a 30-minute window of each other) and assign a session ID to each log entry.",
+    "options": [
+      "This cannot be done using window functions.",
+      "Using `ROW_NUMBER()` ordered by timestamp.",
+      "Using `LAG()` and `CASE` statements to detect session boundaries and assign session IDs.",
+      "Using `SUM()` to calculate total activity count."
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What is the difference between `APPLY` and `OUTER APPLY`?",
+    "options": [
+      "There is no difference.",
+      "`APPLY` only returns matching rows, while `OUTER APPLY` returns all rows from the left table even if there is no match in the right table-valued function.",
+      "`OUTER APPLY` only returns matching rows, while `APPLY` returns all rows from the left table even if there is no match in the right table-valued function.",
+      "`APPLY` is deprecated and `OUTER APPLY` is the preferred method."
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "You have two tables: `Products (product_id, name, category_id)` and `CategorySales (category_id, sale_date, total_sales)`.  Write a query to find the product with the highest sales within its category for each `sale_date`.  Consider scenarios where multiple products might have the same highest sales within a category.",
+    "options": [
+      "This requires procedural code and cannot be done with a single SQL query.",
+      "Using a subquery to find the maximum sales for each category and then joining back to the `Products` table.",
+      "Using window functions to rank products by sales within each category and then filtering to only include the top-ranked product.",
+      "Using a `GROUP BY` clause and aggregate functions."
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "What is a common use case for `ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING`?",
+    "options": [
+      "Calculating a running total.",
+      "Finding the average value of the previous row.",
+      "Calculating the total sum of a column for each partition.",
+      "Selecting only the last row in each partition."
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "How does the choice of `RANGE` vs `ROWS` affect window frame computation?",
+    "options": [
+      "`RANGE` is faster than `ROWS`.",
+      "`ROWS` considers the physical row number, while `RANGE` considers the values in the `ORDER BY` clause.",
+      "`RANGE` can only be used with numeric data types.",
+      "They are interchangeable and have the same effect."
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "You are given a table named `employees` with columns `emp_id`, `department_id`, `salary`, and `hire_date`. Write a SQL query to find the employee who was hired most recently in each department and also has the highest salary in that department.",
+    "options": [
+      "SELECT emp_id, department_id, MAX(salary) OVER (PARTITION BY department_id) FROM employees",
+      "SELECT emp_id, department_id, MAX(hire_date) OVER (PARTITION BY department_id) FROM employees",
+      "SELECT emp_id, department_id FROM (SELECT emp_id, department_id, salary, hire_date, ROW_NUMBER() OVER (PARTITION BY department_id ORDER BY hire_date DESC, salary DESC) as rn FROM employees) WHERE rn = 1",
+      "SELECT emp_id, department_id FROM (SELECT emp_id, department_id, salary, hire_date, ROW_NUMBER() OVER (PARTITION BY department_id ORDER BY hire_date ASC, salary DESC) as rn FROM employees) WHERE rn = 1"
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "Given a table with sales data including columns for date and sales amount, write a query to calculate the year-over-year growth rate for each month.",
+    "options": [
+      "Impossible without procedural extensions.",
+      "Using `LAG()` to get the previous year's sales and calculating the growth rate.",
+      "Using `LEAD()` to get the next year's sales and calculating the growth rate.",
+      "Using a self-join to compare the current month's sales with the same month in the previous year."
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  },
+  {
+    "question": "With complex queries using multiple nested window functions, what considerations are important for query optimization?",
+    "options": [
+      "Adding more indexes to all columns.",
+      "Simplifying the query by removing window functions.",
+      "Analyzing the query execution plan to identify performance bottlenecks and optimize the window frame specifications and ordering.",
+      "Increasing the database server's memory."
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on advanced JOIN, WINDOW functions"
+  }
+]

@@ -1,0 +1,695 @@
+[
+  {
+    "question": "A rectangular garden is 12m long and 8m wide. A path 2m wide is built around the outside of the garden. What is the area of the path?",
+    "options": [
+      "96 sq m",
+      "80 sq m",
+      "120 sq m",
+      "104 sq m"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The perimeter of a square is equal to the perimeter of a rectangle. If the sides of the rectangle are 8 cm and 12 cm, what is the area of the square?",
+    "options": [
+      "100 sq cm",
+      "81 sq cm",
+      "64 sq cm",
+      "49 sq cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A circular pond has a radius of 7m. A 1m wide path is built around the pond. What is the area of the path? (Use π = 22/7)",
+    "options": [
+      "44 sq m",
+      "50 sq m",
+      "40 sq m",
+      "46 sq m"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "What is the volume of a cube with a surface area of 150 sq cm?",
+    "options": [
+      "125 cubic cm",
+      "100 cubic cm",
+      "75 cubic cm",
+      "50 cubic cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A rectangular prism has dimensions 5cm x 4cm x 3cm. What is the length of the longest diagonal of the prism?",
+    "options": [
+      "√50 cm",
+      "√34 cm",
+      "√25 cm",
+      "√17 cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A wire is bent into the shape of a circle with radius 21 cm. If the same wire is bent into the shape of a square, what is the side length of the square? (Use π = 22/7)",
+    "options": [
+      "33 cm",
+      "22 cm",
+      "44 cm",
+      "55 cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A room is 6m long, 5m wide, and 4m high.  What is the cost of plastering the four walls at a rate of Rs. 5 per square meter?",
+    "options": [
+      "Rs. 440",
+      "Rs. 220",
+      "Rs. 330",
+      "Rs. 550"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A solid cone of height 12cm and base radius 5cm is melted and recast into a solid sphere. What is the radius of the sphere?",
+    "options": [
+      "5 cm",
+      "6 cm",
+      "7 cm",
+      "8 cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The ratio of the radii of two circles is 3:4. What is the ratio of their areas?",
+    "options": [
+      "3:4",
+      "9:16",
+      "27:64",
+      "81:256"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A cylindrical tank is 2.8m in diameter and 4.2m high. How many liters of water can it hold? (Use π = 22/7, 1 cubic meter = 1000 liters)",
+    "options": [
+      "25958.4 liters",
+      "25900 liters",
+      "26000 liters",
+      "25800 liters"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The length of a rectangle is increased by 20% and the width is decreased by 20%. What is the percentage change in the area?",
+    "options": [
+      "4% increase",
+      "4% decrease",
+      "No change",
+      "2% decrease"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A square and an equilateral triangle have the same perimeter. If the area of the triangle is 36√3 sq cm, what is the area of the square?",
+    "options": [
+      "48 sq cm",
+      "64 sq cm",
+      "81 sq cm",
+      "100 sq cm"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A hall is 15m long and 12m broad. If the sum of the areas of the floor and the ceiling is equal to the sum of the areas of the four walls, what is the height of the hall?",
+    "options": [
+      "10m",
+      "5m",
+      "7.5m",
+      "12m"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A cone is cut into two parts by a horizontal plane through the midpoint of its axis. What is the ratio of the volume of the smaller cone to the volume of the frustum?",
+    "options": [
+      "1:3",
+      "1:7",
+      "1:8",
+      "1:9"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "If the radius of a sphere is increased by 50%, by what percent does the volume increase?",
+    "options": [
+      "237.5%",
+      "125%",
+      "50%",
+      "337.5%"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A rectangular field has an area of 144 sq m. If the cost of fencing the field is Rs. 60 per meter and the total cost of fencing is Rs. 7200, what is the length of the field?",
+    "options": [
+      "16m",
+      "18m",
+      "20m",
+      "24m"
+    ],
+    "correct_option_index": 3,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The volume of a right circular cylinder is 1617 cubic cm. If the radius of its base is 7 cm, what is the curved surface area of the cylinder? (Use π = 22/7)",
+    "options": [
+      "396 sq cm",
+      "308 sq cm",
+      "440 sq cm",
+      "550 sq cm"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A solid metal cube of edge 14 cm is melted and recast into smaller cubes each of edge 7 cm. How many such smaller cubes can be obtained?",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A circle is inscribed in a square. If the side of the square is 10 cm, what is the area of the circle?",
+    "options": [
+      "25π sq cm",
+      "50π sq cm",
+      "100π sq cm",
+      "200π sq cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The perimeter of a rhombus is 40 cm and one of its diagonals is 12 cm. What is the area of the rhombus?",
+    "options": [
+      "96 sq cm",
+      "48 sq cm",
+      "24 sq cm",
+      "192 sq cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A water tank is 2/5 filled. If 16 liters of water is added, it becomes 6/10 full. What is the capacity of the tank?",
+    "options": [
+      "40 liters",
+      "80 liters",
+      "60 liters",
+      "100 liters"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The height of a cone is equal to the radius of its base.  If the volume of the cone is 9π cubic cm, what is the radius of the base?",
+    "options": [
+      "3 cm",
+      "4 cm",
+      "5 cm",
+      "6 cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A rectangular lawn is 30 m long and 20 m wide. It has two roads each 2 m wide running across the middle of it, one parallel to the length and the other parallel to the width. What is the area of the roads?",
+    "options": [
+      "100 sq m",
+      "96 sq m",
+      "92 sq m",
+      "88 sq m"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A cube is painted red on all faces. It is then cut into 27 smaller cubes of equal size. How many smaller cubes have only one face painted?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A solid sphere of radius 6 cm is melted and recast into a hollow cylinder of uniform thickness. If the external radius of the base of the cylinder is 5 cm and its height is 32 cm, what is the thickness of the cylinder?",
+    "options": [
+      "1 cm",
+      "1.5 cm",
+      "2 cm",
+      "2.5 cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The area of a regular hexagon is 54√3 sq cm. What is the length of its side?",
+    "options": [
+      "4 cm",
+      "6 cm",
+      "8 cm",
+      "10 cm"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A spherical ball of lead, 3 cm in diameter, is melted and recast into three spherical balls. The diameters of two of these balls are 1.5 cm and 2 cm respectively. What is the diameter of the third ball?",
+    "options": [
+      "2.5 cm",
+      "3 cm",
+      "3.5 cm",
+      "4 cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A cylinder of height 20 cm has a radius of 7 cm.  What is the volume of the largest sphere that can be placed inside the cylinder?",
+    "options": [
+      "1437.33 cu cm",
+      "1400 cu cm",
+      "4000 cu cm",
+      "1000 cu cm"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "What is the area of an isosceles triangle with equal sides of length 10 cm and a base of 12 cm?",
+    "options": [
+      "48 sq cm",
+      "50 sq cm",
+      "60 sq cm",
+      "96 sq cm"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A rectangular piece of cardboard is 18 cm long and 15 cm wide. Squares of side 3 cm are cut off from each corner and the remaining part is folded up to form an open box. What is the volume of the box?",
+    "options": [
+      "432 cubic cm",
+      "486 cubic cm",
+      "324 cubic cm",
+      "216 cubic cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "If the perimeter of a circle is increased by 50%, by what percentage does the area increase?",
+    "options": [
+      "50%",
+      "100%",
+      "125%",
+      "225%"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A right triangle has legs of length 6 cm and 8 cm. What is the area of the circle circumscribed about the triangle?",
+    "options": [
+      "25π sq cm",
+      "100π sq cm",
+      "16π sq cm",
+      "36π sq cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The surface area of a sphere is numerically equal to its volume. What is the radius of the sphere?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The ratio of the curved surface area to the total surface area of a right circular cylinder is 2:3. If the total surface area is 1848 sq cm, what is the volume of the cylinder?",
+    "options": [
+      "25958.4 cubic cm",
+      "10780 cubic cm",
+      "6776 cubic cm",
+      "5544 cubic cm"
+    ],
+    "correct_option_index": 3,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The length of a room is 5.5 meters and the width is 3.75 meters. Find the cost of paving the floor with slabs at the rate of Rs. 800 per square meter.",
+    "options": [
+      "Rs. 16500",
+      "Rs. 17500",
+      "Rs. 18500",
+      "Rs. 19500"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A cone and a cylinder have the same base radius and the same height. What is the ratio of the volume of the cone to the volume of the cylinder?",
+    "options": [
+      "1:2",
+      "1:3",
+      "2:3",
+      "3:2"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A tank 25m long, 12m wide and 6m deep is to be constructed. The cost of iron sheet required, for the top and bottom, is Rs 175 per sq. m and for the remaining side it is Rs 75 per sq. m. What is the entire cost of the iron sheet?",
+    "options": [
+      "Rs 1,25,000",
+      "Rs 1,17,000",
+      "Rs 1,00,000",
+      "Rs 1,20,000"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A person walks diagonally across a square field. If the side of the field is 50 m, what is the distance he walks?",
+    "options": [
+      "50√2 m",
+      "50 m",
+      "100 m",
+      "100√2 m"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The area of a trapezium is 405 sq cm. Its parallel sides are in the ratio 4:5, and the distance between them is 18 cm. What is the length of the longer parallel side?",
+    "options": [
+      "45 cm",
+      "25 cm",
+      "50 cm",
+      "60 cm"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A circle is inscribed in an equilateral triangle of side 'a'. What is the radius of the circle?",
+    "options": [
+      "a / (2√3)",
+      "a / √3",
+      "a / 2",
+      "a / 4"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The volume of a cube is increased by 72.8%.  By what percentage does each side increase?",
+    "options": [
+      "20%",
+      "24%",
+      "25%",
+      "30%"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The inner circumference of a circular track is 220 meters. The track is 7 meters wide everywhere. What is the area of the track? (Use π = 22/7)",
+    "options": [
+      "1524 sq m",
+      "1694 sq m",
+      "2002 sq m",
+      "2112 sq m"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "If the length and breadth of a rectangle are in the ratio 3:2 and its perimeter is 20 cm, what is its area?",
+    "options": [
+      "12 sq cm",
+      "24 sq cm",
+      "36 sq cm",
+      "48 sq cm"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A rectangular park is 45 m long and 30 m wide. A path 2.5 m wide is constructed outside the park. Find the area of the path.",
+    "options": [
+      "400 sq m",
+      "375 sq m",
+      "285 sq m",
+      "450 sq m"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "If the diameter of a wheel is 1.4 m, how many revolutions will it make to cover a distance of 1.1 km?",
+    "options": [
+      "250",
+      "500",
+      "750",
+      "1000"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A room is 5m long and 4m wide. How many square meters of carpet are needed to cover the floor?",
+    "options": [
+      "9",
+      "18",
+      "20",
+      "22"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "What is the area of the largest circle that can be cut out of a rectangle measuring 10 cm by 8 cm?",
+    "options": [
+      "16π sq cm",
+      "20π sq cm",
+      "25π sq cm",
+      "100π sq cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A swimming pool is 20 m long, 15 m broad and 3 m deep. What is the volume of water it can hold?",
+    "options": [
+      "300 cubic m",
+      "600 cubic m",
+      "900 cubic m",
+      "1200 cubic m"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The curved surface area of a cylinder is 880 sq cm and its radius is 14 cm. What is its height?",
+    "options": [
+      "5 cm",
+      "10 cm",
+      "15 cm",
+      "20 cm"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A metal pipe is 77 cm long. The inner diameter of a cross-section is 4 cm and the outer diameter is 4.4 cm. Find its total surface area.",
+    "options": [
+      "1056.8 sq cm",
+      "2034.4 sq cm",
+      "2043.4 sq cm",
+      "3043.4 sq cm"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "How many liters of water will a cylindrical tank of diameter 140 cm and height 100 cm hold?",
+    "options": [
+      "1540 liters",
+      "154 liters",
+      "15.4 liters",
+      "1.54 liters"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "Find the area of a quadrilateral ABCD in which AB = 3 cm, BC = 4 cm, CD = 4 cm, DA = 5 cm and AC = 5 cm.",
+    "options": [
+      "12 sq cm",
+      "15.2 sq cm",
+      "9 sq cm",
+      "17.6 sq cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A hemispherical bowl has a diameter of 10.5 cm. How many liters of milk would it hold?",
+    "options": [
+      "0.303 liters",
+      "3.03 liters",
+      "0.33 liters",
+      "30.3 liters"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "If each edge of a cube is increased by 50%, find the percentage increase in its surface area.",
+    "options": [
+      "25%",
+      "50%",
+      "75%",
+      "125%"
+    ],
+    "correct_option_index": 3,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The length of a rectangle is doubled while its breadth is halved. What happens to the area?",
+    "options": [
+      "Increases by 50%",
+      "Remains the same",
+      "Doubles",
+      "Quadruples"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The radii of two circles are 8 cm and 6 cm respectively. Find the radius of the circle having area equal to the sum of the areas of the two circles.",
+    "options": [
+      "10 cm",
+      "14 cm",
+      "2 cm",
+      "48 cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The minute hand of a clock is 14 cm long. How much area does it cover in 5 minutes?",
+    "options": [
+      "51.33 sq cm",
+      "50 sq cm",
+      "60 sq cm",
+      "61.33 sq cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "Find the height of a cylinder whose radius is 7 cm and the total surface area is 968 sq cm.",
+    "options": [
+      "15 cm",
+      "14 cm",
+      "16 cm",
+      "17 cm"
+    ],
+    "correct_option_index": 1,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "How many bricks, each measuring 25 cm x 12.5 cm x 7.5 cm will be required to construct a wall 15 m long, 6 m high and 0.5 m wide?",
+    "options": [
+      "600",
+      "3000",
+      "6000",
+      "30000"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "If the cost of fencing a square field at Rs. 5 per meter is Rs. 160, find the area of the square field.",
+    "options": [
+      "400 sq m",
+      "1600 sq m",
+      "800 sq m",
+      "640 sq m"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "Find the area of an equilateral triangle whose perimeter is 60 cm.",
+    "options": [
+      "100√3 sq cm",
+      "200√3 sq cm",
+      "300√3 sq cm",
+      "600 sq cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "The dimensions of a room are 12.5 m x 9 m x 7 m. Find the cost of white washing the walls and ceiling at Rs. 8 per square meter.",
+    "options": [
+      "Rs. 1650",
+      "Rs. 2650",
+      "Rs. 3650",
+      "Rs. 4650"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  },
+  {
+    "question": "A rectangular field is 30 m long and 20 m wide. What is the length of its diagonal?",
+    "options": [
+      "25 m",
+      "30 m",
+      "36 m",
+      "50 m"
+    ],
+    "correct_option_index": 2,
+    "category": "Perimeter, Area, Volume"
+  }
+]

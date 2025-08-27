@@ -1,0 +1,541 @@
+[
+  {
+    "question": "Which architectural pattern is best suited for applications requiring high availability and fault tolerance?",
+    "options": [
+      "Monolithic Architecture",
+      "Microservices Architecture",
+      "Layered Architecture",
+      "Event-Driven Architecture"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Which pattern promotes loose coupling and independent deployment of services?",
+    "options": [
+      "Monolithic Architecture",
+      "Microservices Architecture",
+      "Client-Server Architecture",
+      "Master-Slave Architecture"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the primary advantage of using a message queue in an event-driven architecture?",
+    "options": [
+      "Synchronous communication",
+      "Asynchronous communication",
+      "Tight coupling",
+      "Reduced scalability"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "In the context of system design, what does the term 'CAP theorem' refer to?",
+    "options": [
+      "Consistency, Availability, Partition Tolerance",
+      "Capacity, Agility, Performance",
+      "Communication, Architecture, Protocol",
+      "Cost, Adaptability, Portability"
+    ],
+    "correct_option_index": 0,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Which architecture pattern relies on a central repository for shared data?",
+    "options": [
+      "Microservices Architecture",
+      "Shared-Nothing Architecture",
+      "Blackboard Architecture",
+      "Layered Architecture"
+    ],
+    "correct_option_index": 2,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the main characteristic of a Service-Oriented Architecture (SOA)?",
+    "options": [
+      "Tight coupling between services",
+      "Services communicate using standardized interfaces",
+      "Monolithic application structure",
+      "Direct database access from all services"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Which pattern is often used to handle peak loads by automatically scaling resources?",
+    "options": [
+      "Monolithic Architecture",
+      "Layered Architecture",
+      "Auto-Scaling Architecture",
+      "Pipeline Architecture"
+    ],
+    "correct_option_index": 2,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the role of an API Gateway in a microservices architecture?",
+    "options": [
+      "Directly access the database",
+      "Handle inter-service communication",
+      "Provide a single entry point for clients",
+      "Manage service deployment"
+    ],
+    "correct_option_index": 2,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Which architectural pattern is suitable for real-time data processing and streaming?",
+    "options": [
+      "Client-Server Architecture",
+      "Batch Processing Architecture",
+      "Stream Processing Architecture",
+      "Layered Architecture"
+    ],
+    "correct_option_index": 2,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the 'Strangler Fig' pattern used for?",
+    "options": [
+      "Database migration",
+      "Gradually migrating a monolithic application to a microservices architecture",
+      "Network security",
+      "Load balancing"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Explain the concept of 'CQRS' and its benefit.",
+    "options": [
+      "Command Query Responsibility Segregation - separation of read and write operations for optimization",
+      "Centralized Query Routing System - a system for routing queries to the correct database",
+      "Complex Query Resolution Strategy - strategy for solving complex queries",
+      "Continuous Query Refinement System - a system for refining queries over time"
+    ],
+    "correct_option_index": 0,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the trade-off of using eventual consistency in distributed systems?",
+    "options": [
+      "Increased latency",
+      "Data inconsistency for a short period",
+      "Reduced scalability",
+      "Lower availability"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Which architectural pattern is beneficial when dealing with complex business rules and workflows?",
+    "options": [
+      "Layered Architecture",
+      "Microservices Architecture",
+      "Pipeline Architecture",
+      "Event-Driven Architecture"
+    ],
+    "correct_option_index": 2,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What are the key differences between push and pull based architectures in the context of data transfer?",
+    "options": [
+      "Push: Client requests data; Pull: Server sends data.",
+      "Push: Server sends data; Pull: Client requests data.",
+      "Push: Data is transferred synchronously; Pull: Data is transferred asynchronously",
+      "Push and Pull are synonymous"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the purpose of using a circuit breaker pattern?",
+    "options": [
+      "Load Balancing",
+      "To handle failures and prevent cascading failures in distributed systems",
+      "Data Encryption",
+      "Authentication"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "In the context of system design, what is the 'Backends for Frontends' (BFF) pattern?",
+    "options": [
+      "A single backend for all types of frontends",
+      "Multiple backends designed specifically for different types of frontends",
+      "A backend used only for authentication",
+      "A backend used only for data storage"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the primary goal of using Domain-Driven Design (DDD) in system architecture?",
+    "options": [
+      "To simplify the database schema",
+      "To align the software design with the business domain",
+      "To reduce the amount of code",
+      "To improve the user interface"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What architectural pattern helps manage complexity by dividing a system into distinct layers with specific responsibilities?",
+    "options": [
+      "Microkernel Architecture",
+      "Layered Architecture",
+      "Event-Driven Architecture",
+      "Pipe and Filter Architecture"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the purpose of 'Data Lake' architecture pattern?",
+    "options": [
+      "Structured data storage only",
+      "Centralized repository for storing all types of data in its raw format",
+      "A backup system",
+      "Relational Database Management System"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "In the context of system design, what does the term 'Idempotency' mean?",
+    "options": [
+      "An operation that can be performed only once",
+      "An operation that has no side effects",
+      "An operation that produces the same result if executed multiple times",
+      "An operation that is always successful"
+    ],
+    "correct_option_index": 2,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Which architectural pattern is particularly well-suited for handling complex data transformations and routing?",
+    "options": [
+      "Microservices Architecture",
+      "Client-Server Architecture",
+      "Pipe and Filter Architecture",
+      "Layered Architecture"
+    ],
+    "correct_option_index": 2,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the primary benefit of using the 'Observer' pattern in system architecture?",
+    "options": [
+      "Tight coupling between components",
+      "Loose coupling between components",
+      "Centralized control",
+      "Reduced performance"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Explain the use case of 'Scatter-Gather' pattern.",
+    "options": [
+      "To reduce network latency",
+      "To route request to a single service",
+      "To send a request to multiple services and aggregate the results",
+      "To provide only the fastest response from multiple services"
+    ],
+    "correct_option_index": 2,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the purpose of the 'Leader Election' pattern in distributed systems?",
+    "options": [
+      "To balance the load across servers",
+      "To choose a single node to perform a specific task",
+      "To replicate data across multiple nodes",
+      "To monitor the health of servers"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "When would you choose a message broker like Kafka over a simple message queue?",
+    "options": [
+      "When you need guaranteed message delivery",
+      "When you need high throughput and persistence of messages",
+      "When you need synchronous communication",
+      "When you have a single consumer"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Describe the difference between horizontal and vertical scaling and which architecture supports horizontal scaling best?",
+    "options": [
+      "Horizontal: Increase resources on a single machine; Vertical: Add more machines. Monolithic supports horizontal",
+      "Horizontal: Add more machines; Vertical: Increase resources on a single machine. Microservices supports horizontal.",
+      "Horizontal and Vertical are synonymous, SOA Supports horizontal.",
+      "Horizontal: Divide the database, Vertical: Divide the API layer. Layered supports horizontal"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the purpose of implementing the 'Retry' pattern in a distributed system?",
+    "options": [
+      "To reduce the number of requests to a service",
+      "To handle transient failures and improve reliability",
+      "To improve performance by caching results",
+      "To simplify the code"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Which architectural pattern focuses on breaking down an application into a core system and pluggable modules?",
+    "options": [
+      "Layered Architecture",
+      "Microservices Architecture",
+      "Microkernel Architecture",
+      "Event-Driven Architecture"
+    ],
+    "correct_option_index": 2,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the disadvantage of using 'Sharding' (Database sharding) in a distributed system?",
+    "options": [
+      "Decreased storage capacity",
+      "Increased complexity in query routing and data management",
+      "Reduced performance",
+      "Lower availability"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Explain the role of 'Service Discovery' in Microservice architecture?",
+    "options": [
+      "To discover the API Documentation of a service",
+      "To automatically locate and connect to available service instances",
+      "To find the logs of service instances",
+      "To monitor the service health"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the primary benefit of using the 'Immutable Infrastructure' pattern?",
+    "options": [
+      "Easier debugging",
+      "Simplified updates and rollbacks",
+      "Improved performance",
+      "Reduced storage costs"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Which architecture is suitable for applications with high computational requirements?",
+    "options": [
+      "Monolithic Architecture",
+      "Microservices Architecture",
+      "Actor Model Architecture",
+      "Layered Architecture"
+    ],
+    "correct_option_index": 2,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What problem does the 'Rate Limiting' pattern solve in API design?",
+    "options": [
+      "Preventing unauthorized access",
+      "Protecting against abuse and resource exhaustion",
+      "Improving performance by caching requests",
+      "Simplifying authentication"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Which architectural pattern is useful when you need to distribute computations across multiple nodes?",
+    "options": [
+      "Client-Server Architecture",
+      "MapReduce Architecture",
+      "Layered Architecture",
+      "Event-Driven Architecture"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the role of 'Configuration Management' tools (like Ansible, Chef, Puppet) in system design?",
+    "options": [
+      "To manage code deployments",
+      "To automate infrastructure provisioning and configuration",
+      "To monitor system performance",
+      "To handle user authentication"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the main characteristic of Reactive Programming, and how is it related to system architecture?",
+    "options": [
+      "Synchronous and blocking operations; it's unrelated",
+      "Asynchronous and non-blocking operations; it enables resilient and scalable systems",
+      "Procedural programming style; simplifies debugging",
+      "Object-oriented programming; improves code reusability"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Which architectural pattern prioritizes processing data in small, independent units to increase parallelism?",
+    "options": [
+      "Monolithic Architecture",
+      "Pipeline Architecture",
+      "Microservices Architecture",
+      "Layered Architecture"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the primary benefit of using 'Containerization' (e.g., Docker) in a Microservices Architecture?",
+    "options": [
+      "Simplified database management",
+      "Improved network security",
+      "Consistent and isolated execution environments for services",
+      "Reduced development costs"
+    ],
+    "correct_option_index": 2,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Explain the advantage of using 'Serverless' architecture pattern.",
+    "options": [
+      "Complete control over server infrastructure",
+      "Automatic scaling and pay-per-use billing",
+      "Simplified database management",
+      "Increased security"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What are the key components of the 'Three-Tier Architecture' pattern?",
+    "options": [
+      "Presentation, Business Logic, Data Access",
+      "Client, Server, Database",
+      "Frontend, Backend, Middleware",
+      "User Interface, API, Storage"
+    ],
+    "correct_option_index": 0,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "In the context of distributed systems, what does 'Byzantine Fault Tolerance' mean?",
+    "options": [
+      "Tolerance of any kind of fault",
+      "Tolerance of faults caused by malicious or unpredictable behavior",
+      "Tolerance of hardware failures only",
+      "Tolerance of network failures only"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the difference between orchestration and choreography in microservices communication?",
+    "options": [
+      "Orchestration is centralized, choreography is decentralized",
+      "Orchestration is decentralized, choreography is centralized",
+      "Orchestration involves synchronous communication, choreography involves asynchronous communication",
+      "Orchestration and choreography are synonymous"
+    ],
+    "correct_option_index": 0,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What are the main advantages of using a 'Blackboard Pattern'?",
+    "options": [
+      "Data persistency",
+      "Fault tolerance and Scalability",
+      "Flexibility and reusability",
+      "Performance and Security"
+    ],
+    "correct_option_index": 2,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is 'API Composition' pattern used for in microservice environment?",
+    "options": [
+      "Data Encryption",
+      "Load Balancing",
+      "Aggregating data from multiple services into a single response",
+      "Monitoring service health"
+    ],
+    "correct_option_index": 2,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the role of 'Sidecar' pattern in microservices architecture?",
+    "options": [
+      "To provide auxiliary functionality to a service without modifying the service's core logic",
+      "To act as a load balancer",
+      "To manage database connections",
+      "To handle authentication"
+    ],
+    "correct_option_index": 0,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "How does using 'Eventual Consistency' affect system design, and which pattern often uses it?",
+    "options": [
+      "It ensures immediate data consistency; Layered Architecture",
+      "It may lead to temporary data inconsistencies; Microservices Architecture",
+      "It simplifies data management; Monolithic Architecture",
+      "It reduces the need for transactions; Client-Server Architecture"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "Explain the role of 'Message Broker' in context to Event-Driven architecture?",
+    "options": [
+      "To provide the logging of the events",
+      "To route messages between components",
+      "To handle data encryption",
+      "To balance load"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What is the importance of 'Monitoring' and 'Logging' in distributed system architectures?",
+    "options": [
+      "They are not required",
+      "To track the behaviour of the system",
+      "Only useful for debugging",
+      "Solely for security purposes"
+    ],
+    "correct_option_index": 1,
+    "category": "Architecture Patterns in system design"
+  },
+  {
+    "question": "What are the advantage of choosing 'Asynchronous Communication' between microservices?",
+    "options": [
+      "Tight coupling",
+      "High Latency",
+      "Loosely coupling",
+      "Easy to Debug"
+    ],
+    "correct_option_index": 2,
+    "category": "Architecture Patterns in system design"
+  }
+]

@@ -1,0 +1,541 @@
+[
+  {
+    "question": "Which normalization form addresses transitive dependency?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the primary goal of database normalization?",
+    "options": [
+      "Improve query performance",
+      "Reduce data redundancy",
+      "Increase storage capacity",
+      "Enhance security"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "In the context of distributed databases, what does ACID stand for?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Availability, Consistency, Isolation, Durability",
+      "Atomicity, Concurrency, Integrity, Durability",
+      "Availability, Concurrency, Integrity, Durability"
+    ],
+    "correct_option_index": 0,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Which of the following concurrency control techniques prevents phantom reads?",
+    "options": [
+      "Two-Phase Locking",
+      "Timestamp Ordering",
+      "Serializable Snapshot Isolation (SSI)",
+      "Optimistic Concurrency Control"
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is a Bloom filter used for?",
+    "options": [
+      "Data compression",
+      "Data encryption",
+      "Approximate membership testing",
+      "Exact membership testing"
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Which of the following is NOT a type of NoSQL database?",
+    "options": [
+      "Key-value store",
+      "Document database",
+      "Relational database",
+      "Graph database"
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the CAP theorem in distributed databases?",
+    "options": [
+      "Consistency, Availability, Partition Tolerance",
+      "Concurrency, Availability, Partition Tolerance",
+      "Consistency, Atomicity, Partition Tolerance",
+      "Concurrency, Atomicity, Partition Tolerance"
+    ],
+    "correct_option_index": 0,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the purpose of a materialized view?",
+    "options": [
+      "To improve security",
+      "To precompute and store query results",
+      "To enforce data integrity constraints",
+      "To create a backup of the database"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the difference between clustered and non-clustered indexes?",
+    "options": [
+      "Clustered indexes store data in a different file, non-clustered indexes store data in the same file",
+      "Clustered indexes determine the physical order of data, non-clustered indexes do not",
+      "Clustered indexes are faster than non-clustered indexes",
+      "Clustered indexes can only be created on primary keys"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Which isolation level is the most restrictive and prevents the most concurrency issues?",
+    "options": [
+      "Read Committed",
+      "Read Uncommitted",
+      "Repeatable Read",
+      "Serializable"
+    ],
+    "correct_option_index": 3,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is sharding in database systems?",
+    "options": [
+      "A technique for data compression",
+      "A technique for data encryption",
+      "A technique for horizontally partitioning data across multiple servers",
+      "A technique for data validation"
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "In the context of database security, what is SQL injection?",
+    "options": [
+      "A type of hardware failure",
+      "A vulnerability where malicious SQL code is inserted into an application",
+      "A technique for optimizing SQL queries",
+      "A method for backing up a database"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Which of the following is a characteristic of a data warehouse?",
+    "options": [
+      "Real-time transactional data",
+      "Operational data",
+      "Subject-oriented data",
+      "Highly volatile data"
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the purpose of the GROUP BY clause in SQL?",
+    "options": [
+      "To sort the result set",
+      "To filter the result set",
+      "To aggregate data based on specified columns",
+      "To join tables together"
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Which isolation level prevents dirty reads but allows non-repeatable reads?",
+    "options": [
+      "Read Uncommitted",
+      "Read Committed",
+      "Repeatable Read",
+      "Serializable"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the purpose of a stored procedure?",
+    "options": [
+      "To define data types",
+      "To create tables",
+      "To encapsulate a set of SQL statements for reuse",
+      "To manage user permissions"
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Which type of join returns all rows from the left table and matching rows from the right table, padding with NULLs if no match is found?",
+    "options": [
+      "Inner Join",
+      "Right Join",
+      "Full Outer Join",
+      "Left Outer Join"
+    ],
+    "correct_option_index": 3,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the main difference between OLTP and OLAP systems?",
+    "options": [
+      "OLTP is for analytical processing, OLAP is for transactional processing",
+      "OLTP is for online transactional processing, OLAP is for online analytical processing",
+      "OLTP uses NoSQL databases, OLAP uses relational databases",
+      "OLTP is more secure than OLAP"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is data mining?",
+    "options": [
+      "The process of extracting gold from data",
+      "The process of cleaning data",
+      "The process of discovering patterns and insights from large datasets",
+      "The process of backing up data"
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the purpose of indexing in a database?",
+    "options": [
+      "To improve data security",
+      "To speed up data retrieval",
+      "To reduce storage space",
+      "To simplify data management"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of a good database schema?",
+    "options": [
+      "Data redundancy",
+      "Data integrity",
+      "Data consistency",
+      "Data efficiency"
+    ],
+    "correct_option_index": 0,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the role of the database administrator (DBA)?",
+    "options": [
+      "To design user interfaces",
+      "To manage and maintain the database system",
+      "To write application code",
+      "To perform data analysis"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "A distributed database system employs a 2PC protocol.  A participant fails to respond to the commit request from the coordinator.  What is the most appropriate action for the coordinator to take?",
+    "options": [
+      "Proceed with the commit for other participants.",
+      "Rollback the transaction across all participants.",
+      "Wait indefinitely for the failed participant to recover.",
+      "Attempt to commit the transaction again after a short delay."
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Which of the following query optimization techniques is LEAST likely to be applied by a modern database system's query optimizer?",
+    "options": [
+      "Cost-based optimization.",
+      "Heuristic optimization.",
+      "Rule-based optimization.",
+      "Random query rewrite."
+    ],
+    "correct_option_index": 3,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the primary advantage of using a column-oriented database over a row-oriented database for analytical workloads?",
+    "options": [
+      "Improved data integrity.",
+      "Faster transaction processing.",
+      "More efficient storage and retrieval of columns.",
+      "Simplified schema design."
+    ],
+    "correct_option_index": 3,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Which data structure is commonly used to implement database indexes?",
+    "options": [
+      "Linked List",
+      "Hash Table",
+      "B-Tree",
+      "Queue"
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the purpose of the WHERE clause in SQL?",
+    "options": [
+      "To sort the result set",
+      "To filter the result set",
+      "To group the result set",
+      "To join tables"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Consider a database using MVCC (Multi-Version Concurrency Control). A long-running transaction T1 starts, and several other transactions commit after T1 starts.  If T1 reads a row that was modified by one of these later transactions, what will T1 see?",
+    "options": [
+      "The latest committed version of the row.",
+      "The version of the row as it existed when T1 started.",
+      "A corrupted or inconsistent version of the row.",
+      "The transaction will be aborted."
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the significance of the Byzantine Generals Problem in the context of distributed databases?",
+    "options": [
+      "It highlights the challenges of achieving consensus in the presence of faulty processes.",
+      "It describes the difficulty of optimizing query execution plans.",
+      "It refers to the problem of managing large datasets.",
+      "It explains the need for data encryption."
+    ],
+    "correct_option_index": 0,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Which data warehousing technique is most effective at handling slowly changing dimensions?",
+    "options": [
+      "Star schema.",
+      "Snowflake schema.",
+      "Fact constellation schema.",
+      "Using Type 2 SCD (Slowly Changing Dimension) attributes."
+    ],
+    "correct_option_index": 3,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the difference between a primary key and a foreign key?",
+    "options": [
+      "Primary key identifies a table, foreign key identifies a column",
+      "Primary key identifies a row, foreign key identifies a table",
+      "Primary key uniquely identifies a row in a table, foreign key references a row in another table",
+      "Primary key is used for security, foreign key is used for performance"
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the purpose of a subquery in SQL?",
+    "options": [
+      "To create a new table",
+      "To filter data in the main query",
+      "To optimize query performance",
+      "To encrypt data"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Which of the following is an example of a NoSQL database?",
+    "options": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Oracle"
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "A data stream processing system needs to estimate the number of distinct users visiting a website in real-time. Which algorithm is most suitable for this task?",
+    "options": [
+      "Bloom Filter.",
+      "Count-Min Sketch.",
+      "HyperLogLog.",
+      "Reservoir Sampling."
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "In the context of data warehousing, what does the term 'data cleansing' refer to?",
+    "options": [
+      "Removing outdated data.",
+      "Optimizing query performance.",
+      "Ensuring data quality and consistency.",
+      "Encrypting sensitive information."
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Consider a scenario where you need to process a very large dataset that does not fit into the memory of a single machine. Which approach is most appropriate?",
+    "options": [
+      "Using a very large main memory machine.",
+      "Implementing a distributed computing framework like Hadoop or Spark.",
+      "Using a relational database with aggressive indexing.",
+      "Compressing the data as much as possible."
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the role of data validation in database management?",
+    "options": [
+      "To ensure data security",
+      "To ensure data accuracy and consistency",
+      "To improve query performance",
+      "To reduce storage space"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Which of the following is a characteristic of a relational database?",
+    "options": [
+      "Data is stored in key-value pairs",
+      "Data is stored in documents",
+      "Data is stored in tables with rows and columns",
+      "Data is stored in graphs"
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "In a blockchain database, what consensus algorithm ensures that all nodes agree on the order of transactions?",
+    "options": [
+      "Paxos",
+      "Raft",
+      "Proof-of-Work",
+      "Two-Phase Commit"
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "You are designing a database for a social media platform where users can 'like' posts. Which database model is most suitable for efficiently querying the number of likes a post has?",
+    "options": [
+      "Relational Database (SQL)",
+      "Document Database",
+      "Key-Value Store",
+      "Graph Database"
+    ],
+    "correct_option_index": 3,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Which technique ensures data consistency in a distributed database environment when network partitions occur?",
+    "options": [
+      "Two-Phase Locking",
+      "Quorum Consensus",
+      "CAP Theorem",
+      "ACID Properties"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the purpose of the HAVING clause in SQL?",
+    "options": [
+      "To filter rows before grouping",
+      "To filter rows after grouping",
+      "To sort rows",
+      "To join tables"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is data replication?",
+    "options": [
+      "Creating a backup of the database",
+      "Storing data in multiple locations",
+      "Compressing data",
+      "Encrypting data"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "Consider the following SQL query: `SELECT department, AVG(salary) FROM employees GROUP BY department HAVING COUNT(*) > 10`. What does the `HAVING` clause do in this query?",
+    "options": [
+      "It filters the `employees` table to only include employees with salaries greater than 10.",
+      "It filters the result set to only include departments with more than 10 employees.",
+      "It calculates the average salary for each department and returns all results.",
+      "It counts the number of employees in each department and only returns those counts greater than 10."
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "You are designing a large-scale e-commerce website and need to choose a database system for storing product information. Which of the following factors is MOST crucial when making this decision?",
+    "options": [
+      "The database's licensing cost.",
+      "The database administrator's familiarity with the system.",
+      "The database's ability to handle high transaction volumes and complex queries.",
+      "The database's graphical user interface."
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "In the context of database security, what is role-based access control (RBAC)?",
+    "options": [
+      "A method of encrypting data at rest.",
+      "A technique for preventing SQL injection attacks.",
+      "A way to grant database permissions based on user roles.",
+      "A strategy for backing up and restoring data."
+    ],
+    "correct_option_index": 2,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the benefit of using a view in SQL?",
+    "options": [
+      "To improve data security",
+      "To simplify complex queries",
+      "To reduce storage space",
+      "To speed up data retrieval"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "What is the difference between DDL and DML in SQL?",
+    "options": [
+      "DDL is for data manipulation, DML is for data definition",
+      "DDL is for data definition, DML is for data manipulation",
+      "DDL is for data security, DML is for data integrity",
+      "DDL is for data retrieval, DML is for data updates"
+    ],
+    "correct_option_index": 1,
+    "category": "Advanced Databases"
+  },
+  {
+    "question": "You need to design a database to store information about relationships between people, such as friendships and family connections. Which database model is the most appropriate?",
+    "options": [
+      "Relational Database (SQL)",
+      "Document Database",
+      "Key-Value Store",
+      "Graph Database"
+    ],
+    "correct_option_index": 3,
+    "category": "Advanced Databases"
+  }
+]

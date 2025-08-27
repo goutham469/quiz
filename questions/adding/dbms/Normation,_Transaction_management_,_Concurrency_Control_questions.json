@@ -1,0 +1,520 @@
+[
+  {
+    "question": "Which normal form is based on the concept of full functional dependency?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "correct_option_index": 1,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What is the primary goal of normalization in database design?",
+    "options": [
+      "Data redundancy",
+      "Data integrity",
+      "Performance optimization",
+      "Storage efficiency"
+    ],
+    "correct_option_index": 1,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which of the following is NOT a property of a transaction?",
+    "options": [
+      "Atomicity",
+      "Consistency",
+      "Isolation",
+      "Durability",
+      "Volatility"
+    ],
+    "correct_option_index": 4,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which concurrency control technique uses timestamps to order transactions?",
+    "options": [
+      "Locking",
+      "Optimistic Concurrency Control",
+      "Timestamp Ordering",
+      "Two-Phase Commit"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What is the primary purpose of Two-Phase Locking (2PL)?",
+    "options": [
+      "Prevent deadlock",
+      "Ensure serializability",
+      "Improve performance",
+      "Reduce storage space"
+    ],
+    "correct_option_index": 1,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "In which normal form, every non-key attribute is fully functionally dependent on the primary key?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "correct_option_index": 1,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What type of dependency does the 3NF primarily address that is not covered by 2NF?",
+    "options": [
+      "Partial Dependency",
+      "Transitive Dependency",
+      "Multi-valued Dependency",
+      "Join Dependency"
+    ],
+    "correct_option_index": 1,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "A transaction must be atomic, meaning:",
+    "options": [
+      "It must be performed in a single step",
+      "It must be divisible into smaller units",
+      "It must be either entirely completed or not at all",
+      "It must be consistent with database constraints"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which isolation level provides the highest degree of isolation and prevents dirty reads, non-repeatable reads, and phantom reads?",
+    "options": [
+      "Read Uncommitted",
+      "Read Committed",
+      "Repeatable Read",
+      "Serializable"
+    ],
+    "correct_option_index": 3,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which of the following techniques is used to avoid cascading rollbacks in concurrent transactions?",
+    "options": [
+      "Strict Two-Phase Locking",
+      "Basic Two-Phase Locking",
+      "Timestamp Ordering",
+      "Optimistic Concurrency Control"
+    ],
+    "correct_option_index": 0,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which normal form deals with the scenario when a non-prime attribute is transitively dependent on the primary key?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What is the benefit of using denormalization in database design?",
+    "options": [
+      "Reduce data redundancy",
+      "Improve query performance",
+      "Enforce data integrity",
+      "Simplify database structure"
+    ],
+    "correct_option_index": 1,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What ACID property ensures that database remains in a consistent state after a transaction?",
+    "options": [
+      "Atomicity",
+      "Consistency",
+      "Isolation",
+      "Durability"
+    ],
+    "correct_option_index": 1,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "In concurrency control, what does 'livelock' refer to?",
+    "options": [
+      "A transaction that is permanently blocked",
+      "A situation where transactions repeatedly restart but never make progress",
+      "A transaction that is rolled back",
+      "A transaction that has committed"
+    ],
+    "correct_option_index": 1,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What is the role of the 'prepare' phase in the two-phase commit protocol?",
+    "options": [
+      "To commit the transaction",
+      "To rollback the transaction",
+      "To query if all participants are ready to commit",
+      "To abort the transaction if any participant fails"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which normal form eliminates redundancy caused by transitive dependency?",
+    "options": [
+      "2NF",
+      "3NF",
+      "4NF",
+      "5NF"
+    ],
+    "correct_option_index": 1,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What type of anomaly is prevented by decomposing a relation into BCNF?",
+    "options": [
+      "Insertion anomaly",
+      "Deletion anomaly",
+      "Update anomaly",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What ensures that concurrent execution of transactions results in a state equivalent to transactions executing serially?",
+    "options": [
+      "Atomicity",
+      "Consistency",
+      "Serializability",
+      "Durability"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which of the following is NOT a deadlock prevention technique?",
+    "options": [
+      "Wait-Die",
+      "Wound-Wait",
+      "Timestamp Ordering",
+      "Two-Phase Locking"
+    ],
+    "correct_option_index": 3,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "In Two-Phase Commit protocol, what happens if the coordinator fails after sending 'prepare' message?",
+    "options": [
+      "The transaction is automatically committed",
+      "The transaction is automatically rolled back",
+      "All participants remain in an uncertain state until coordinator recovers",
+      "One participant is chosen to be new coordinator"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which normal form deals with multi-valued dependencies?",
+    "options": [
+      "3NF",
+      "BCNF",
+      "4NF",
+      "5NF"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "When is it acceptable to denormalize a database?",
+    "options": [
+      "Always",
+      "When there are many write operations",
+      "When read performance is critical",
+      "When data integrity is unimportant"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What ACID property ensures that changes made by a committed transaction are permanent?",
+    "options": [
+      "Atomicity",
+      "Consistency",
+      "Isolation",
+      "Durability"
+    ],
+    "correct_option_index": 3,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What is 'phantom read' in database concurrency?",
+    "options": [
+      "Reading data that was never committed",
+      "Reading data that was updated by another transaction",
+      "Reading different sets of data that satisfy the same query due to insertion or deletion by another transaction",
+      "Reading data before another transaction changes it"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What is the advantage of optimistic concurrency control?",
+    "options": [
+      "Avoids deadlocks",
+      "Simple to implement",
+      "High overhead",
+      "Guaranteed serializability"
+    ],
+    "correct_option_index": 0,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Boyce-Codd Normal Form (BCNF) eliminates which type of dependency?",
+    "options": [
+      "Partial",
+      "Transitive",
+      "Multi-valued",
+      "All Non-trivial Functional Dependencies"
+    ],
+    "correct_option_index": 3,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Fifth Normal Form (5NF) is also known as:",
+    "options": [
+      "Project-Join Normal Form (PJNF)",
+      "Domain-Key Normal Form (DKNF)",
+      "Elementary Key Normal Form (EKNF)",
+      "Sixth Normal Form"
+    ],
+    "correct_option_index": 0,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which isolation level protects against dirty reads but allows non-repeatable reads and phantom reads?",
+    "options": [
+      "Read Uncommitted",
+      "Read Committed",
+      "Repeatable Read",
+      "Serializable"
+    ],
+    "correct_option_index": 1,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "The 'Wound-Wait' deadlock prevention scheme:",
+    "options": [
+      "Allows older transactions to wait for younger ones",
+      "Allows younger transactions to wait for older ones",
+      "Causes older transactions to abort younger ones",
+      "Causes younger transactions to abort older ones"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "In the context of database recovery, what is 'checkpointing'?",
+    "options": [
+      "A point where all transactions are rolled back",
+      "A snapshot of the database state to speed up recovery",
+      "A point where all transactions are committed",
+      "A phase where database is read-only"
+    ],
+    "correct_option_index": 1,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which normal form addresses redundancy caused by join dependencies?",
+    "options": [
+      "4NF",
+      "BCNF",
+      "5NF",
+      "DKNF"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What is a major drawback of denormalization?",
+    "options": [
+      "Improved data integrity",
+      "Reduced query performance",
+      "Increased data redundancy",
+      "Simplified data structure"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which of the following is NOT an ACID property?",
+    "options": [
+      "Atomicity",
+      "Concurrency",
+      "Isolation",
+      "Durability"
+    ],
+    "correct_option_index": 1,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What is a 'dirty read' in transaction management?",
+    "options": [
+      "Reading uncommitted data",
+      "Reading corrupted data",
+      "Reading outdated data",
+      "Reading inconsistent data"
+    ],
+    "correct_option_index": 0,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which concurrency control method uses the 'validate' phase before committing a transaction?",
+    "options": [
+      "Two-Phase Locking",
+      "Timestamp Ordering",
+      "Optimistic Concurrency Control",
+      "Multi-version Concurrency Control"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What is Domain-Key Normal Form (DKNF)?",
+    "options": [
+      "A normal form based on multivalued dependencies",
+      "A normal form based on join dependencies",
+      "A normal form ensuring every constraint on the relation is a logical consequence of the domain and key constraints",
+      "A normal form ensuring full functional dependency"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of normalization?",
+    "options": [
+      "Reduced data redundancy",
+      "Improved data integrity",
+      "Simplified query writing",
+      "Potentially faster query execution"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What does the term 'serializability' refer to in database transaction management?",
+    "options": [
+      "The ability to serialize data into different formats",
+      "The ability to execute transactions in a specific order",
+      "The property that concurrent execution produces the same result as a serial execution",
+      "The ability to rollback transactions"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "In deadlock detection, a 'wait-for graph' is used to represent:",
+    "options": [
+      "Data dependencies between tables",
+      "The order in which transactions are executed",
+      "The resources allocated to each transaction",
+      "The dependencies between transactions waiting for resources"
+    ],
+    "correct_option_index": 4,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What is the purpose of write-ahead logging (WAL) in database systems?",
+    "options": [
+      "To cache write operations for better performance",
+      "To ensure that changes are written to the log file before being applied to the database",
+      "To optimize read operations",
+      "To minimize data storage space"
+    ],
+    "correct_option_index": 1,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which normal form is considered the ultimate normal form, although rarely achievable in practice?",
+    "options": [
+      "BCNF",
+      "4NF",
+      "5NF",
+      "DKNF"
+    ],
+    "correct_option_index": 3,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What is the impact of increased normalization on query performance?",
+    "options": [
+      "Always improves query performance",
+      "Always decreases query performance",
+      "Can improve or decrease query performance depending on the queries and database design",
+      "Has no impact on query performance"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What does it mean for a schedule to be 'conflict serializable'?",
+    "options": [
+      "It can be serialized in any order.",
+      "It produces the same result as some serial schedule.",
+      "It is free from conflicts.",
+      "It requires a specific order of operations."
+    ],
+    "correct_option_index": 1,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which deadlock handling strategy involves terminating one or more transactions to break the deadlock cycle?",
+    "options": [
+      "Deadlock prevention",
+      "Deadlock avoidance",
+      "Deadlock detection and recovery",
+      "Deadlock ignorance"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What is the function of a 'shadow paging' technique in database recovery?",
+    "options": [
+      "Copies of pages are stored before modification; failures do not overwrite valid data.",
+      "Logs every change made to the database.",
+      "Checks the integrity of the database.",
+      "Periodically creates a full backup of the database."
+    ],
+    "correct_option_index": 0,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "Which RAID level provides disk striping with parity, offering fault tolerance and improved performance?",
+    "options": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 5",
+      "RAID 10"
+    ],
+    "correct_option_index": 2,
+    "category": "Normation, Transaction management , Concurrency Control"
+  },
+  {
+    "question": "What is a 'functional dependency' in the context of database design?",
+    "options": [
+      "A constraint between two relations",
+      "A constraint specifying a relationship between two sets of attributes where one set uniquely determines the other",
+      "A link between two tables",
+      "A rule for executing queries"
+    ],
+    "correct_option_index": 1,
+    "category": "Normation, Transaction management , Concurrency Control"
+  }
+]

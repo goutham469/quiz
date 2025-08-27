@@ -1,0 +1,519 @@
+[
+  {
+    "question": "Which of the following is NOT a primary goal of security in system design?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Scalability"
+    ],
+    "correct_option_index": 3,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "What is the primary purpose of a firewall in a system design?",
+    "options": [
+      "Prevent unauthorized access to the system",
+      "Improve system performance",
+      "Reduce latency",
+      "Distribute network traffic"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which reliability metric focuses on the probability that a system will operate without failure for a specified time period?",
+    "options": [
+      "MTBF (Mean Time Between Failures)",
+      "MTTR (Mean Time To Repair)",
+      "Availability",
+      "Throughput"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "What is the difference between authentication and authorization?",
+    "options": [
+      "Authentication verifies identity, authorization grants access",
+      "Authentication grants access, authorization verifies identity",
+      "They are the same thing",
+      "Authentication is about encryption, authorization is about passwords"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "What is a common technique for preventing SQL injection attacks?",
+    "options": [
+      "Input validation and sanitization",
+      "Using prepared statements",
+      "Encrypting the database",
+      "Disabling error messages"
+    ],
+    "correct_option_index": 1,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which design principle promotes minimizing the attack surface of a system?",
+    "options": [
+      "Defense in Depth",
+      "Principle of Least Privilege",
+      "Fail Fast",
+      "Separation of Concerns"
+    ],
+    "correct_option_index": 1,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "What is a key advantage of using microservices architecture for reliability?",
+    "options": [
+      "Fault isolation",
+      "Increased development speed",
+      "Simplified deployment",
+      "Reduced operational costs"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which of the following is a common strategy for achieving high availability?",
+    "options": [
+      "Redundancy and failover",
+      "Load balancing",
+      "Caching",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "What does the term 'CAP theorem' refer to in the context of distributed systems?",
+    "options": [
+      "Consistency, Availability, Partition Tolerance",
+      "Confidentiality, Authentication, Privacy",
+      "Capacity, Agility, Performance",
+      "Communication, Application, Presentation"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "What is the purpose of a security audit in system design?",
+    "options": [
+      "Identify vulnerabilities and weaknesses",
+      "Improve system performance",
+      "Reduce costs",
+      "Train employees"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which cryptographic technique is best suited for ensuring data integrity?",
+    "options": [
+      "Hashing",
+      "Encryption",
+      "Digital Signatures",
+      "Steganography"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "In the context of disaster recovery, what does RTO stand for?",
+    "options": [
+      "Recovery Time Objective",
+      "Response Time Optimization",
+      "Resource Turnover Opportunity",
+      "Risk Tolerance Override"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "What is the function of a WAF (Web Application Firewall)?",
+    "options": [
+      "Protect web applications from attacks",
+      "Improve web server performance",
+      "Manage website content",
+      "Monitor network traffic"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which of the following is NOT a common attack vector for compromising system security?",
+    "options": [
+      "Social engineering",
+      "Phishing",
+      "Buffer overflows",
+      "Kernel Panic"
+    ],
+    "correct_option_index": 3,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "What is the main benefit of implementing rate limiting in a system?",
+    "options": [
+      "Preventing denial-of-service attacks",
+      "Improving system performance",
+      "Reducing costs",
+      "Enhancing user experience"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Consider a system with components having independent probabilities of failure. Component A has a probability of failure of 0.1, and Component B has a probability of failure of 0.05. Assuming they are in series (both must function for the system to function), what is the approximate probability of the entire system failing?",
+    "options": [
+      "0.005",
+      "0.15",
+      "0.05",
+      "0.95"
+    ],
+    "correct_option_index": 1,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "A system experiences intermittent failures. The time to repair (TTR) for each failure is normally distributed with a mean of 3 hours and a standard deviation of 1 hour. What is the approximate probability that a repair will take longer than 5 hours?",
+    "options": [
+      "15.87%",
+      "2.28%",
+      "0.13%",
+      "50%"
+    ],
+    "correct_option_index": 1,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "You're designing a distributed database. Choosing 'Availability over Consistency' (AP) in the CAP theorem typically means what sacrifice?",
+    "options": [
+      "Data may be temporarily inconsistent",
+      "The system may be unavailable during partitions",
+      "The system will be slower",
+      "You need more hardware"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which type of cryptographic attack relies on exploiting vulnerabilities in the implementation of cryptographic algorithms, rather than weaknesses in the algorithm itself?",
+    "options": [
+      "Brute-force attack",
+      "Side-channel attack",
+      "Dictionary attack",
+      "Rainbow table attack"
+    ],
+    "correct_option_index": 1,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "What is the purpose of 'salting' a password hash?",
+    "options": [
+      "To prevent rainbow table attacks",
+      "To improve encryption strength",
+      "To speed up password verification",
+      "To reduce storage space"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "In OAuth 2.0, what is the role of the 'refresh token'?",
+    "options": [
+      "To obtain a new access token without requiring the user to re-authenticate",
+      "To revoke access to the resource server",
+      "To encrypt the access token",
+      "To verify the user's identity"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which technique is most effective in preventing Cross-Site Request Forgery (CSRF) attacks?",
+    "options": [
+      "Implementing anti-CSRF tokens",
+      "Using HTTPS",
+      "Input validation",
+      "Output encoding"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of a well-designed intrusion detection system (IDS)?",
+    "options": [
+      "High detection rate",
+      "Low false positive rate",
+      "Operates in promiscuous mode",
+      "Easily bypassed by sophisticated attackers"
+    ],
+    "correct_option_index": 3,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "What is the 'Byzantine Generals Problem' relevant to in distributed system design?",
+    "options": [
+      "Achieving consensus in the presence of unreliable components",
+      "Optimizing network bandwidth utilization",
+      "Managing user authentication",
+      "Preventing data corruption"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "A database server is configured with RAID 1 (mirroring). If one disk fails, what impact will this have on the database's write performance during the rebuild process?",
+    "options": [
+      "Write performance will be significantly degraded",
+      "Write performance will remain the same",
+      "Write performance will be slightly improved",
+      "Writes will be blocked until the rebuild is complete"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which of the following is the MOST critical factor in ensuring data durability in a cloud storage system?",
+    "options": [
+      "Data replication across multiple availability zones",
+      "Using SSDs instead of HDDs",
+      "Implementing strong encryption",
+      "Regular backups to tape"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Consider a distributed system where a service experiences a sudden spike in traffic. Which of the following strategies would be MOST effective in mitigating the impact of this surge and preventing cascading failures?",
+    "options": [
+      "Implementing circuit breakers and rate limiting",
+      "Adding more servers to the load balancer",
+      "Increasing the database connection pool size",
+      "Restarting the affected service instances"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "You're tasked with securing a system that handles sensitive financial data. Which of the following security practices would provide the STRONGEST protection against data breaches?",
+    "options": [
+      "End-to-end encryption with key management, multi-factor authentication, and intrusion detection",
+      "Implementing a firewall, regular password changes, and antivirus software",
+      "Conducting annual security audits and employee training",
+      "Using strong passwords and limiting access to sensitive data"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "A critical service in your system experiences memory leaks, gradually degrading performance over time. What's the BEST approach to address this issue?",
+    "options": [
+      "Implement automated service restarts and memory leak detection mechanisms.",
+      "Increase the server's memory capacity.",
+      "Ignore the problem until it causes a complete outage and then restart the service.",
+      "Implement aggressive garbage collection strategies"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "You are designing a system which should be Highly available. Which of the following is the best fit for your requirement?",
+    "options": [
+      "Single datacentre setup",
+      "Multiple datacentre setup with only active - backup",
+      "Multiple datacentre setup with Active-Active",
+      "Cloud based DR setup"
+    ],
+    "correct_option_index": 2,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which architectural style is known for its fault isolation capabilities, allowing individual services to fail without bringing down the entire system?",
+    "options": [
+      "Monolithic architecture",
+      "Microservices architecture",
+      "Layered architecture",
+      "Client-server architecture"
+    ],
+    "correct_option_index": 1,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "You discover a vulnerability in a third-party library used by your system. What is the FIRST step you should take?",
+    "options": [
+      "Apply the vendor-provided patch or update the library immediately",
+      "Ignore the vulnerability if it doesn't appear to affect your system",
+      "Publicly disclose the vulnerability to raise awareness",
+      "Contact legal counsel to assess liability"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "What is the primary challenge addressed by consensus algorithms like Paxos or Raft?",
+    "options": [
+      "Ensuring data consistency across distributed nodes in the presence of failures",
+      "Optimizing network communication latency",
+      "Preventing denial-of-service attacks",
+      "Managing user authentication and authorization"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which of the following is a critical aspect of key management in a secure system?",
+    "options": [
+      "Secure generation, storage, and rotation of encryption keys",
+      "Using the same key for all encryption operations",
+      "Storing keys in plaintext in the application configuration file",
+      "Sharing keys with all system administrators"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "How does 'chaos engineering' contribute to improving system reliability?",
+    "options": [
+      "By proactively injecting failures into the system to identify weaknesses and build resilience",
+      "By randomly shutting down servers to test disaster recovery procedures",
+      "By intentionally creating network congestion to simulate real-world conditions",
+      "By encouraging developers to write buggy code to test the system's error handling capabilities"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "What is the main advantage of using immutable infrastructure?",
+    "options": [
+      "Improved consistency and repeatability of deployments",
+      "Reduced cost of infrastructure management",
+      "Increased flexibility in scaling resources",
+      "Enhanced security against malware infections"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which of the following is NOT a common mitigation technique for DDoS attacks?",
+    "options": [
+      "Traffic scrubbing",
+      "Rate limiting",
+      "Blackholing",
+      "Increasing server CPU speed"
+    ],
+    "correct_option_index": 3,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "A zero-day exploit refers to",
+    "options": [
+      "A vulnerability that is unknown to the vendor and has no available patch",
+      "A vulnerability that has been publicly disclosed for zero days",
+      "A vulnerability that can only be exploited for zero days",
+      "A vulnerability that has a severity score of zero"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "What is the primary purpose of a Security Information and Event Management (SIEM) system?",
+    "options": [
+      "Centralized security monitoring, threat detection, and incident response",
+      "Managing user access and permissions",
+      "Scanning for vulnerabilities in web applications",
+      "Enforcing security policies across the organization"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which design pattern can help prevent cascading failures in a distributed system by isolating failing components?",
+    "options": [
+      "Circuit Breaker pattern",
+      "Singleton pattern",
+      "Observer pattern",
+      "Factory pattern"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "In a cloud environment, what is the benefit of using infrastructure as code (IaC)?",
+    "options": [
+      "Automated provisioning, configuration management, and version control of infrastructure",
+      "Reduced dependency on cloud provider APIs",
+      "Improved application performance",
+      "Enhanced security auditing capabilities"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which practice is MOST effective at preventing privilege escalation attacks?",
+    "options": [
+      "Principle of Least Privilege",
+      "Regular security audits",
+      "Strong password policies",
+      "Multi-factor authentication"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "What is a honeypot, in the context of network security?",
+    "options": [
+      "A decoy system designed to attract and trap attackers",
+      "A firewall configuration setting",
+      "A secure data storage location",
+      "A type of encryption algorithm"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which type of testing involves simulating real-world usage patterns and load to identify performance bottlenecks and stability issues?",
+    "options": [
+      "Load testing",
+      "Unit testing",
+      "Integration testing",
+      "Regression testing"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which is a major advantage of using canary deployments?",
+    "options": [
+      "Reduced risk by gradually rolling out changes to a subset of users",
+      "Faster overall deployment times",
+      "Lower infrastructure costs",
+      "Simplified rollback procedures"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "How do you calculate system availability, given MTBF (Mean Time Between Failures) and MTTR (Mean Time To Repair)?",
+    "options": [
+      "MTBF / (MTBF + MTTR)",
+      "(MTBF + MTTR) / MTBF",
+      "MTTR / (MTBF + MTTR)",
+      "MTBF * MTTR"
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  },
+  {
+    "question": "Which of the following is a primary responsibility of a Security Operations Center (SOC)?",
+    "options": [
+      "Continuously monitoring and analyzing security events to detect and respond to threats.",
+      "Developing and implementing security policies.",
+      "Managing user accounts and permissions.",
+      "Conducting penetration testing."
+    ],
+    "correct_option_index": 0,
+    "category": "Security & Reliability in System design"
+  }
+]

@@ -1,0 +1,783 @@
+[
+  {
+    "question": "The average weight of 8 people increases by 2.5 kg when a new person replaces one of them weighing 65 kg. What is the weight of the new person?",
+    "options": [
+      "85 kg",
+      "80 kg",
+      "82.5 kg",
+      "76 kg"
+    ],
+    "correct_option_index": 0,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average of 5 consecutive even numbers is 42. What is the product of the first and last number?",
+    "options": [
+      "1680",
+      "1760",
+      "1840",
+      "1920"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A container contains 40 liters of milk. From this container, 4 liters of milk were taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container?",
+    "options": [
+      "26.34 liters",
+      "27.36 liters",
+      "28.16 liters",
+      "29.16 liters"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "Two vessels A and B contain spirit and water mixed in the ratio 5:2 and 7:6 respectively. Find the ratio in which these mixtures be mixed to obtain a new mixture in vessel C containing spirit and water in the ratio 8:5.",
+    "options": [
+      "7:9",
+      "9:7",
+      "7:11",
+      "11:7"
+    ],
+    "correct_option_index": 0,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "In what ratio must a grocer mix two varieties of tea costing Rs. 15 per kg and Rs. 20 per kg respectively so as to obtain a mixture worth Rs. 16.50 per kg?",
+    "options": [
+      "7:3",
+      "5:7",
+      "11:9",
+      "13:7"
+    ],
+    "correct_option_index": 0,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average of 10 numbers is calculated as 15. It is discovered later on that while calculating the average, one number, namely 36, was wrongly read as 26. The correct average is:",
+    "options": [
+      "14",
+      "16",
+      "17",
+      "18"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A jar contains a mixture of two liquids A and B in the ratio 4 : 1. When 10 liters of the mixture is taken out and 10 liters of liquid B is poured into the jar, the ratio becomes 2 : 3. How many liters of liquid A was contained in the jar?",
+    "options": [
+      "16",
+      "18",
+      "32",
+      "40"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A milkman buys some milk at Rs. x per liter and mixes it with 20 liters of water. He sells the mixture at the same rate as before. If his gain is 20%, then what is the value of x?",
+    "options": [
+      "Rs. 8",
+      "Rs. 10",
+      "Rs. 12",
+      "Rs. 15"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average age of 30 students of a class is 14 years. If the average age of first 18 students is 15 years, find the average age of the remaining 12 students.",
+    "options": [
+      "11 years",
+      "12 years",
+      "13 years",
+      "14 years"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "How many kilograms of sugar costing Rs. 9 per kg must be mixed with 27 kg of sugar costing Rs. 7 per kg so that there may be a gain of 10% by selling the mixture at Rs. 9.24 per kg?",
+    "options": [
+      "36 kg",
+      "42 kg",
+      "54 kg",
+      "63 kg"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average weight of a group of 20 friends is 47 kg. Three new friends with weights 48 kg, 51 kg and 52 kg join the group. What is the average weight of the group now?",
+    "options": [
+      "47 kg",
+      "48 kg",
+      "48.5 kg",
+      "49 kg"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A vessel is filled with liquid, 3 parts of which are water and 5 parts syrup. How much of the mixture must be drawn off and replaced with water so that the mixture may be half water and half syrup?",
+    "options": [
+      "1/3",
+      "1/4",
+      "1/5",
+      "1/7"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average salary of all the workers in a workshop is Rs. 8000. The average salary of 7 technicians is Rs. 12000 and the average salary of the rest is Rs. 6000. The total number of workers in the workshop is:",
+    "options": [
+      "20",
+      "21",
+      "22",
+      "23"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A can contains a mixture of two liquids A and B in the ratio 7:5. When 9 liters of mixture are drawn off and the can is filled with B, the ratio of A and B becomes 7:9. How many liters of liquid A was contained by the can initially?",
+    "options": [
+      "10",
+      "20",
+      "21",
+      "25"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A shopkeeper mixes two varieties of rice costing Rs. 50 per kg and Rs. 60 per kg in the ratio 2:3. If he sells the mixed variety at Rs. 66 per kg, find his gain percent.",
+    "options": [
+      "10%",
+      "12%",
+      "20%",
+      "22%"
+    ],
+    "correct_option_index": 0,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average of seven numbers is 18. If one of the numbers is 17 and it is replaced by 31, then the average becomes",
+    "options": [
+      "21.5",
+      "19.5",
+      "20.5",
+      "22.5"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A vessel contains 20 litres of a mixture of milk and water in the ratio 3:2. 10 litres of the mixture is removed and replaced with pure milk and the operation is repeated once more. At the end of the two removals and replacements, what is the ratio of milk and water in the vessel?",
+    "options": [
+      "9:1",
+      "11:4",
+      "13:5",
+      "17:3"
+    ],
+    "correct_option_index": 0,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "Two types of tea costing Rs. 180 per kg and Rs. 280 per kg are mixed in the ratio 5:3. The mixed tea is then sold at Rs. 300 per kg. What is the profit percent?",
+    "options": [
+      "10%",
+      "20%",
+      "30%",
+      "40%"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average age of 8 men is increased by 2 years when two of them whose ages are 21 years and 23 years are replaced by two new men. The average age of the two new men is:",
+    "options": [
+      "22",
+      "24",
+      "28",
+      "30"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "How many litres of water must be added to 60 litres of milk at 1 1/2 litres for Rs. 2 so as to sell the mixture at Rs. 8 a dozen?",
+    "options": [
+      "30",
+      "40",
+      "50",
+      "60"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average of a collection of 20 measurements was calculated to be 56 cm. But it was later found that measurement was wrongly recorded as 64 cm instead of 46 cm. What is the correct average?",
+    "options": [
+      "54.1 cm",
+      "55.1 cm",
+      "55.9 cm",
+      "56.8 cm"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A container has a mixture of milk and water in the ratio of 7:5. If 9 liters of the mixture is replaced by 9 liters of water, then the ratio of milk and water becomes 7:9. Find the quantity of milk in the container initially.",
+    "options": [
+      "21 liters",
+      "20 liters",
+      "19 liters",
+      "18 liters"
+    ],
+    "correct_option_index": 0,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "In what ratio must water be mixed with milk to gain 20% by selling the mixture at cost price?",
+    "options": [
+      "1:5",
+      "1:6",
+      "1:4",
+      "1:3"
+    ],
+    "correct_option_index": 0,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average of 9 numbers is 30. If the average of the first 5 numbers is 25 and that of the last 3 numbers is 35, what is the 6th number?",
+    "options": [
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A mixture contains alcohol and water in the ratio 4:3. If 5 litres of water is added to the mixture, the ratio becomes 4:5. Find the quantity of alcohol in the given mixture.",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "Two vessels A and B contain milk and water mixed in the ratio 4:3 and 2:3. In what ratio must the liquids be mixed to obtain a new mixture containing half milk and half water?",
+    "options": [
+      "7:5",
+      "5:7",
+      "7:13",
+      "13:7"
+    ],
+    "correct_option_index": 0,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average weight of P, Q and R is 45 kg. If the average weight of P and Q be 40 kg and that of Q and R be 43 kg, then the weight of Q is?",
+    "options": [
+      "20 kg",
+      "26 kg",
+      "31 kg",
+      "35 kg"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A jar full of whisky contains 40% alcohol. A part of this whisky is replaced by another containing 19% alcohol and now the percentage of alcohol was found to be 26%. The quantity of whisky replaced is?",
+    "options": [
+      "1/2",
+      "2/3",
+      "3/4",
+      "4/5"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average marks of 100 students are given to be 40. Later on it was found that two marks were wrongly taken as 83 and 46 instead of 53 and 34. Find the correct average.",
+    "options": [
+      "39.1",
+      "39.5",
+      "39.9",
+      "40.3"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A container contains 60 liters of milk. 6 liters of milk is taken out from this container and replaced by water. This process is repeated two more times. How much milk is now left in the container?",
+    "options": [
+      "41.334",
+      "43.74",
+      "47.916",
+      "51.324"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "In a class, there are 20 boys whose average age is decreased by 3 months, when one boy aged 18 years is replaced by a new boy. The age of the new boy is?",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "Two vessels A and B contain acid and water mixed in the ratio 2:3 and 5:3 respectively. In what ratio must mixtures be drawn from these vessels to produce a mixture containing acid and water in the ratio 3:2?",
+    "options": [
+      "7:5",
+      "7:9",
+      "5:7",
+      "5:9"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average weight of 15 students in a class is 40 kg. The average weight of the first 7 students is 42 kg and that of the last 8 students is 38 kg. Find the weight of the 8th student.",
+    "options": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A container contains x liters of milk. A thief stole 20 liters of milk and replaced it with water. This process was repeated twice. Now the container contains 51.84 liters of milk. What is the value of x?",
+    "options": [
+      "80",
+      "85",
+      "90",
+      "95"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "In an alloy, zinc and copper are in the ratio 1:2. In the second alloy, the same elements are in the ratio 2:3. If these two alloys are mixed to form a new alloy in which two elements are in the ratio 5:8, find the ratio in which these two alloys are mixed.",
+    "options": [
+      "3:10",
+      "3:7",
+      "10:3",
+      "7:3"
+    ],
+    "correct_option_index": 0,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average of 11 numbers is 63. If the average of the first 6 numbers is 60 and the average of the last 6 numbers is 65, find the 6th number.",
+    "options": [
+      "57",
+      "58",
+      "60",
+      "62"
+    ],
+    "correct_option_index": 4,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A can contains a mixture of two liquids A and B in the ratio 7:5. When 9 liters of the mixture are drawn off and the can is filled with B, the ratio of A and B becomes 1:1. How many liters of liquid A was contained by the can initially?",
+    "options": [
+      "21",
+      "28",
+      "35",
+      "42"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "Two vessels A and B contain mixtures of milk and water. The ratio of milk and water in A is 5:3 and in B is 2:3. In what ratio should the mixtures be mixed so that the resulting mixture has milk and water in the ratio 1:1?",
+    "options": [
+      "2:3",
+      "3:2",
+      "1:2",
+      "2:1"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average salary of 15 employees in a company is Rs. 5000. If the salary of the manager is added, the average salary increases by Rs. 500. What is the salary of the manager?",
+    "options": [
+      "12500",
+      "13000",
+      "13500",
+      "14000"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A vessel contains a mixture of acid and water in the ratio 3:1. If 24 liters of the mixture is taken out and replaced with the same amount of water, the ratio becomes 3:5. What was the total quantity of the mixture in the vessel initially?",
+    "options": [
+      "36 liters",
+      "42 liters",
+      "48 liters",
+      "54 liters"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A shopkeeper has two varieties of sugar. The first variety costs Rs. 25 per kg and the second variety costs Rs. 40 per kg. In what ratio should he mix the two varieties so that he earns a profit of 10% by selling the mixed variety at Rs. 33 per kg?",
+    "options": [
+      "2:3",
+      "3:2",
+      "4:5",
+      "5:4"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average weight of a class of 30 students is 45 kg. If the weight of the teacher is included, the average weight increases by 2 kg. What is the weight of the teacher?",
+    "options": [
+      "90 kg",
+      "95 kg",
+      "105 kg",
+      "110 kg"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "From a container of milk, 6 liters of milk are drawn out and replaced with water. This operation is performed two more times. The ratio of milk and water left in the container is 121:24. Then find the initial quantity of milk in the container.",
+    "options": [
+      "36",
+      "42",
+      "48",
+      "54"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A sum of Rs. 41 is divided among 50 boys and girls. Each boy gets 90 paise and each girl gets 65 paise. Find the number of boys.",
+    "options": [
+      "16",
+      "34",
+      "18",
+      "32"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A merchant has 1000 kg of sugar, part of which he sells at 8% profit and the rest at 18% profit. He gains 14% on the whole. The quantity sold at 18% profit is?",
+    "options": [
+      "400",
+      "560",
+      "600",
+      "640"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average age of 40 students of a class is 15 years. When 10 new students are admitted, the average is increased by 0.2 years. The average age of the new students is:",
+    "options": [
+      "15.2",
+      "16",
+      "16.2",
+      "16.4"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "Two types of tea costing Rs. 180/kg and Rs. 280/kg are mixed in the ratio 5:3. The mixed tea is sold at Rs. 297/kg. Find the profit percentage.",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "35%"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average of 50 numbers is 38. If two numbers, namely 45 and 55 are discarded, the average of the remaining numbers is:",
+    "options": [
+      "36.5",
+      "37.0",
+      "37.5",
+      "37.5"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A solution of sugar syrup has 15% sugar. Another solution has 5% sugar. How many litres of the second solution must be added to 20 litres of the first solution to make a solution of 10% sugar?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A dishonest milkman professes to sell his milk at cost price but he mixes it with water and thereby gains 25%. The percentage of water in the mixture is:",
+    "options": [
+      "20%",
+      "25%",
+      "75%",
+      "80%"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A container contains 50 liters of milk. From this container, 5 liters of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container?",
+    "options": [
+      "36.45",
+      "35",
+      "40",
+      "45"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average weight of 8 persons is increased by 2.5 kg when one of them whose weight is 56 kg is replaced by a new person. What is the weight of the new person?",
+    "options": [
+      "65",
+      "70",
+      "76",
+      "80"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A mixture of milk and water contains 60% milk. When 10 litres of water is added, the percentage of milk becomes 50%. The quantity of the mixture is:",
+    "options": [
+      "50",
+      "60",
+      "70",
+      "80"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A jar contains a mixture of two liquids A and B in the ratio 4:1. When 10 litres of the mixture is taken out and 10 litres of liquid B is poured into the jar, the ratio becomes 2:3. The quantity of liquid A contained in the jar initially was:",
+    "options": [
+      "16",
+      "18",
+      "24",
+      "32"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "Two vessels A and B contain spirit and water mixed in the ratio 5:2 and 7:6 respectively. Find the ratio in which these mixtures be mixed to obtain a new mixture in vessel C containing spirit and water in the ratio 8:5?",
+    "options": [
+      "9:7",
+      "7:9",
+      "7:11",
+      "9:5"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average weight of 16 students is 50 kg. If the weight of the teacher is included, the average increases by 1 kg. What is the weight of the teacher?",
+    "options": [
+      "66",
+      "67",
+      "68",
+      "70"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "How many kilograms of sugar costing Rs. 9 per kg must be mixed with 27 kg of sugar costing Rs. 7 per kg so that there may be a gain of 10% by selling the mixture at Rs. 9.24 per kg?",
+    "options": [
+      "36",
+      "42",
+      "54",
+      "63"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "In what ratio must water be mixed with milk to gain 20% by selling the mixture at cost price?",
+    "options": [
+      "1:3",
+      "1:4",
+      "1:5",
+      "1:6"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average of 5 numbers is 27. If one number is excluded, the average becomes 25. Find the excluded number.",
+    "options": [
+      "30",
+      "32",
+      "33",
+      "35"
+    ],
+    "correct_option_index": 4,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "Tea worth Rs. 126 per kg and Rs. 135 per kg are mixed with a third variety in the ratio 1:1:2. If the mixture is worth Rs. 153 per kg, the price of the third variety per kg is:",
+    "options": [
+      "165.50",
+      "170",
+      "175.50",
+      "180"
+    ],
+    "correct_option_index": 4,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A mixture of 40 litres of milk and water contains 10% water. How much water should be added to the mixture to make the water 20% in the new mixture?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "6.5"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average of 20 numbers is zero. Of them, at the most, how many may be greater than zero?",
+    "options": [
+      "0",
+      "1",
+      "10",
+      "19"
+    ],
+    "correct_option_index": 4,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "Two vessels A and B contain mixtures of milk and water in the ratio 4:5 and 5:1 respectively. In what ratio should quantities of mixtures be taken from A and B to form a mixture in which milk to water is in the ratio 5:4?",
+    "options": [
+      "2:5",
+      "4:3",
+      "5:2",
+      "5:3"
+    ],
+    "correct_option_index": 4,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A milk vendor has 2 cans of milk. The first contains 25% water and the rest milk, the second contains 50% water. How much milk should he mix from each of the containers so as to get 12 litres of milk such that the ratio of water to milk is 3:5",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "The average weight of a group of 75 girls is 47 kg. Two girls whose weights are 45 kg and 43 kg leave the group. What is the average weight of the remaining girls?",
+    "options": [
+      "45.25",
+      "46",
+      "47",
+      "47.25"
+    ],
+    "correct_option_index": 4,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A mixture contains alcohol and water in the ratio 3:2. If 10 litres of water is added to the mixture, the ratio becomes 3:4. Find the quantity of alcohol in the mixture.",
+    "options": [
+      "12",
+      "15",
+      "18",
+      "20"
+    ],
+    "correct_option_index": 2,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A vessel contains 60 liters of milk. 12 liters of milk is taken out and replaced by water. Then again, 12 liters of mixture is taken out and replaced by water. The percentage of milk in the vessel after the second replacement is:",
+    "options": [
+      "52%",
+      "60%",
+      "64%",
+      "68%"
+    ],
+    "correct_option_index": 3,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "Three containers have volumes a:b:c and are full of a mixture of milk and water. In the first container, the ratio of milk and water is 1:a, in the second, it is 1:b and in the third, it is 1:c. If the contents of all three containers are mixed, what is the ratio of milk and water in the mixture?",
+    "options": [
+      "a+b+c:3",
+      "3:a+b+c",
+      "1:a+b+c",
+      "None of these"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A dishonest shopkeeper sells sugar at cost price, but uses a weight of 900 grams instead of 1 kg. What is his profit percentage?",
+    "options": [
+      "10%",
+      "11.11%",
+      "12%",
+      "9.09%"
+    ],
+    "correct_option_index": 1,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "A bartender has two types of rum: Type A at 60% alcohol and Type B at 40% alcohol. How much of each type should be mixed to get 100 liters of rum with 45% alcohol content?",
+    "options": [
+      "A=25L, B=75L",
+      "A=30L, B=70L",
+      "A=75L, B=25L",
+      "A=70L, B=30L"
+    ],
+    "correct_option_index": 0,
+    "category": "Average, Mixture & Alligation"
+  },
+  {
+    "question": "There are two containers with acid and water. First container contains 3/4 acid and rest water. Second contains 60% acid. How much of the containers needs to be mixed to form a 40L solution such that acid:water = 2:3?",
+    "options": [
+      "16L from 1st, 24L from 2nd",
+      "20L from 1st, 20L from 2nd",
+      "24L from 1st, 16L from 2nd",
+      "30L from 1st, 10L from 2nd"
+    ],
+    "correct_option_index": 0,
+    "category": "Average, Mixture & Alligation"
+  }
+]

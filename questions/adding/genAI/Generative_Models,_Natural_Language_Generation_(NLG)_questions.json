@@ -1,0 +1,794 @@
+[
+  {
+    "question": "Which of the following is NOT a common evaluation metric for text generation tasks?",
+    "options": [
+      "BLEU",
+      "ROUGE",
+      "Perplexity",
+      "Accuracy"
+    ],
+    "correct_option_index": 3,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which generative model is known for its ability to learn complex probability distributions and generate high-quality samples, but can be challenging to train due to mode collapse?",
+    "options": [
+      "LSTM",
+      "GRU",
+      "VAE",
+      "GAN"
+    ],
+    "correct_option_index": 3,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "In the context of NLG, what does 'temperature' control during the decoding process?",
+    "options": [
+      "The learning rate of the model",
+      "The vocabulary size",
+      "The randomness of the generated text",
+      "The number of layers in the model"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the primary function of an attention mechanism in sequence-to-sequence NLG models?",
+    "options": [
+      "To reduce the computational cost of training",
+      "To allow the decoder to focus on relevant parts of the input sequence",
+      "To prevent overfitting",
+      "To increase the model's vocabulary size"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which technique aims to address the 'exposure bias' problem in NLG, where the model is only trained on ground truth sequences?",
+    "options": [
+      "Teacher forcing",
+      "Scheduled sampling",
+      "Backpropagation",
+      "Dropout"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Consider a sentence: 'The cat sat on the mat'. A language model predicts the probability of the next word being 'dog' with a low probability (e.g., 0.001). This demonstrates the language model's ability to:",
+    "options": [
+      "Generate fluent text",
+      "Capture semantic relationships",
+      "Capture syntactic constraints",
+      "Memorize training data"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the purpose of 'beam search' in NLG decoding?",
+    "options": [
+      "To find the optimal learning rate",
+      "To explore a wider range of possible sequences and select the most promising ones",
+      "To reduce the model's memory footprint",
+      "To accelerate the training process"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which of the following is a potential drawback of using maximum likelihood estimation (MLE) for training NLG models?",
+    "options": [
+      "It is computationally expensive",
+      "It can lead to biased predictions",
+      "It can result in generic and repetitive text",
+      "It requires a large amount of labeled data"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the role of a discriminator in a Generative Adversarial Network (GAN) used for NLG?",
+    "options": [
+      "To generate new text sequences",
+      "To evaluate the quality of generated text and distinguish it from real text",
+      "To optimize the learning rate of the generator",
+      "To preprocess the input text data"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the core idea behind 'variational autoencoders' (VAEs) in the context of NLG?",
+    "options": [
+      "To generate text by randomly sampling from a probability distribution",
+      "To learn a latent space representation of text data and generate new text from that space",
+      "To translate text from one language to another",
+      "To classify text into different categories"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which of the following methods is used to address the vanishing gradient problem in training deep recurrent neural networks for NLG?",
+    "options": [
+      "Dropout",
+      "Batch normalization",
+      "Long Short-Term Memory (LSTM)",
+      "Early stopping"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "In NLG, what does the term 'hallucination' refer to?",
+    "options": [
+      "Generating text that is factually incorrect or nonsensical",
+      "Creating visually appealing text with stylistic variations",
+      "Producing text that is too similar to the training data",
+      "Generating text that is grammatically perfect but semantically meaningless"
+    ],
+    "correct_option_index": 0,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which architecture is widely used for machine translation tasks and also applicable for NLG, known for its parallel processing capabilities?",
+    "options": [
+      "Recurrent Neural Network (RNN)",
+      "Convolutional Neural Network (CNN)",
+      "Transformer",
+      "Generative Adversarial Network (GAN)"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the purpose of 'nucleus sampling' or 'top-p sampling' in NLG?",
+    "options": [
+      "To select the most probable word at each step of the decoding process",
+      "To randomly sample words from the entire vocabulary",
+      "To sample from the smallest set of words whose cumulative probability exceeds a threshold p",
+      "To prioritize grammatically correct sentences"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Consider an NLG system generating restaurant reviews. If the system consistently uses the phrase 'absolutely delightful' to describe every dish, this demonstrates a lack of:",
+    "options": [
+      "Fluency",
+      "Coherence",
+      "Diversity",
+      "Relevance"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which of these is a key challenge in evaluating open-ended text generation?",
+    "options": [
+      "The lack of standardized datasets",
+      "The subjectivity of human evaluation",
+      "The computational cost of training large models",
+      "The difficulty in measuring syntactic correctness"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the difference between conditional and unconditional generative models in NLG?",
+    "options": [
+      "Conditional models are always better than unconditional models",
+      "Conditional models generate text based on input conditions, while unconditional models generate text without any specific input",
+      "Unconditional models require more training data than conditional models",
+      "Conditional models can only generate text in a single language"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which of the following techniques is used to improve the coherence and consistency of long-form text generated by NLG models?",
+    "options": [
+      "Word embedding",
+      "Reinforcement learning",
+      "Hierarchical attention",
+      "Back-translation"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which of the following is a common application of NLG in the healthcare domain?",
+    "options": [
+      "Predicting stock prices",
+      "Generating personalized medical reports",
+      "Creating realistic video game characters",
+      "Automating customer service chatbots"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is a potential ethical concern associated with using NLG to generate news articles?",
+    "options": [
+      "The articles might be too well-written",
+      "The articles might be too short",
+      "The potential for spreading misinformation and propaganda",
+      "The articles might be too expensive to produce"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which of the following is a method for improving the factual accuracy of NLG models?",
+    "options": [
+      "Increasing the model size",
+      "Training on a larger dataset of text",
+      "Using knowledge graphs to provide external knowledge",
+      "Using a more complex neural network architecture"
+    ],
+    "correct_option_index": 3,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the purpose of 'Masked Language Modeling' (MLM) in pre-training language models like BERT for NLG?",
+    "options": [
+      "To predict the next word in a sequence",
+      "To generate new sentences from scratch",
+      "To reconstruct masked words in a sentence, forcing the model to learn contextual representations",
+      "To translate text from one language to another"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What does the acronym 'GPT' stand for in the context of generative models like GPT-3?",
+    "options": [
+      "Generative Pre-trained Transformer",
+      "Global Pattern Translator",
+      "Generalized Probability Tool",
+      "Gradient Processing Technology"
+    ],
+    "correct_option_index": 0,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "In Reinforcement Learning for NLG, what serves as the reward signal to guide the model's learning?",
+    "options": [
+      "The perplexity of the generated text",
+      "A predefined set of rules for grammar and style",
+      "A metric that quantifies the similarity between the generated text and a target text, or human feedback",
+      "The number of parameters in the model"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the role of 'prompt engineering' in using large language models like GPT-3 for specific NLG tasks?",
+    "options": [
+      "To optimize the model's training parameters",
+      "To design effective prompts that guide the model to generate the desired output",
+      "To compress the model to reduce its size",
+      "To prevent the model from generating harmful content"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the key difference between 'fine-tuning' and 'transfer learning' in the context of NLG?",
+    "options": [
+      "Fine-tuning is always better than transfer learning",
+      "Fine-tuning involves training a pre-trained model on a specific task, while transfer learning involves using a pre-trained model without further training",
+      "Transfer learning involves training a pre-trained model on a specific task, while fine-tuning involves adjusting the model's architecture",
+      "Fine-tuning and transfer learning are the same thing"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which type of generative model is particularly well-suited for generating images from text descriptions?",
+    "options": [
+      "Recurrent Neural Network (RNN)",
+      "Variational Autoencoder (VAE)",
+      "Generative Adversarial Network (GAN)",
+      "Transformer"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the 'mode collapse' problem in the context of training GANs for NLG?",
+    "options": [
+      "The generator always generates the same output, regardless of the input",
+      "The discriminator always classifies the generated text as fake",
+      "The training process diverges and the model fails to learn",
+      "The model only generates text in one specific style or genre"
+    ],
+    "correct_option_index": 0,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which of the following is a technique used to mitigate the risk of generating biased or unfair text with NLG models?",
+    "options": [
+      "Training on a larger dataset",
+      "Using a more complex model architecture",
+      "Adversarial training with a bias detector",
+      "Increasing the temperature during decoding"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the purpose of 'self-attention' in the Transformer architecture?",
+    "options": [
+      "To attend to the most important words in the input sequence",
+      "To attend to the hidden states of the previous layer",
+      "To attend to the output of the previous decoder step",
+      "To attend to the entire input sequence and capture long-range dependencies"
+    ],
+    "correct_option_index": 3,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which of the following methods can be used to improve the diversity of text generated by NLG models?",
+    "options": [
+      "Increasing the beam size during decoding",
+      "Decreasing the temperature during decoding",
+      "Using a larger vocabulary",
+      "Adding a diversity promoting loss function"
+    ],
+    "correct_option_index": 3,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the 'credit assignment problem' in the context of Reinforcement Learning for NLG?",
+    "options": [
+      "Determining which words in a generated sequence contributed to a positive reward",
+      "Determining the optimal learning rate for the model",
+      "Determining the best architecture for the neural network",
+      "Determining the size of the vocabulary"
+    ],
+    "correct_option_index": 0,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is a key challenge in evaluating the 'coherence' of long-form text generated by NLG models?",
+    "options": [
+      "The lack of objective metrics for measuring coherence",
+      "The difficulty in distinguishing between grammatical errors and stylistic choices",
+      "The computational cost of evaluating large amounts of text",
+      "The subjectivity of human evaluation"
+    ],
+    "correct_option_index": 0,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "How does 'back-translation' help improve the performance of NLG models, particularly in machine translation?",
+    "options": [
+      "By increasing the model size",
+      "By using a different neural network architecture",
+      "By generating synthetic parallel data by translating a monolingual corpus into another language and then back into the original language",
+      "By training the model on a larger dataset"
+    ],
+    "correct_option_index": 3,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which is the best suitable method for generating source code with comments given the user description?",
+    "options": [
+      "RNN's",
+      "CNN's",
+      "Transformers",
+      "Discriminators"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the function of a 'generator' in a generative adversarial network (GAN)?",
+    "options": [
+      "Discriminates fake from real data",
+      "Generates realistic data samples",
+      "Calculates the loss function",
+      "Trains the discriminator"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the role of 'sequence-to-sequence' (seq2seq) models in NLG?",
+    "options": [
+      "To classify text into different categories",
+      "To translate text from one language to another",
+      "To map an input sequence to an output sequence, enabling tasks like machine translation and text summarization",
+      "To generate images from text descriptions"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the purpose of 'embedding layers' in neural network architectures for NLG?",
+    "options": [
+      "To reduce the dimensionality of the input data",
+      "To represent words or tokens as dense vectors in a continuous vector space, capturing semantic relationships",
+      "To prevent overfitting",
+      "To accelerate the training process"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "In NLG, what is the disadvantage of having low perplexity of generated text?",
+    "options": [
+      "Very random text generation",
+      "High fluency of generated text",
+      "Low complexity in generated text",
+      "Cannot be decided"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the purpose of 'Knowledge Graph' in NLG models?",
+    "options": [
+      "To get more diversity while generation",
+      "To reduce training time",
+      "To store and retrieve factual information, improving the factual accuracy of generated text",
+      "For image retrieval"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the process called when an NLG model creates content that appears factually correct but is not supported by real-world information?",
+    "options": [
+      "Fact verification",
+      "Content creation",
+      "Hallucination",
+      "Improvisation"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which method is used to mitigate the issue of repetitive text generation in NLG models by penalizing the repetition of n-grams?",
+    "options": [
+      "Beam Search",
+      "Temperature Scaling",
+      "N-gram Diversity Penalty",
+      "Token Filtering"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "In the context of NLG, what is the function of a 'latent variable' in a Variational Autoencoder (VAE)?",
+    "options": [
+      "Represents the input sequence directly",
+      "Represents a compressed, probabilistic encoding of the input, capturing its essential features",
+      "Determines the vocabulary size",
+      "Controls the generation speed"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the main challenge in applying Reinforcement Learning to train NLG models?",
+    "options": [
+      "Defining a suitable reward function that aligns with desired text characteristics",
+      "Finding appropriate training data",
+      "Managing the computational complexity of RNNs",
+      "Avoiding overfitting"
+    ],
+    "correct_option_index": 0,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which of the following architectures is best suited for handling long-range dependencies in text generation tasks?",
+    "options": [
+      "Convolutional Neural Networks (CNNs)",
+      "Recurrent Neural Networks (RNNs)",
+      "Transformers",
+      "Feedforward Neural Networks (FFNNs)"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the purpose of 'self-conditioning' in the context of improved Variational Autoencoders (VAEs) for NLG?",
+    "options": [
+      "To condition the decoder on its own previous outputs, improving the consistency and coherence of generated text",
+      "To condition the encoder on external knowledge graphs",
+      "To condition the entire model on external knowledge graphs",
+      "To condition the model to not do a specific task"
+    ],
+    "correct_option_index": 0,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which evaluation metric assesses the fluency and grammaticality of generated text by measuring the log probability assigned by a language model?",
+    "options": [
+      "BLEU",
+      "ROUGE",
+      "Perplexity",
+      "F1-score"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "In the context of adversarial training for NLG, what is the role of the discriminator?",
+    "options": [
+      "To generate realistic text",
+      "To distinguish between real and generated text",
+      "To guide the generator towards the desired style",
+      "To find diverse options"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is a potential problem when training NLG models using maximum likelihood estimation (MLE)?",
+    "options": [
+      "Exposure bias, leading to a discrepancy between training and inference conditions",
+      "Inefficient training dynamics",
+      "Overly complex model architecture",
+      "Fast convergence to the best answer"
+    ],
+    "correct_option_index": 0,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which of these methods addresses the issue of 'exposure bias' in NLG training by exposing the model to its own generated outputs during training?",
+    "options": [
+      "Teacher Forcing",
+      "Maximum Likelihood Estimation (MLE)",
+      "Scheduled Sampling",
+      "Backpropagation"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "How do Transformer models capture long-range dependencies in sequences?",
+    "options": [
+      "Through recurrent connections",
+      "Through convolutional operations",
+      "Through self-attention mechanisms that allow each word to attend to all other words in the sequence",
+      "Through global average pooling"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the role of 'prompt engineering' when using large language models (LLMs) for NLG?",
+    "options": [
+      "Optimizing the model's training parameters",
+      "Designing input prompts that guide the model to generate desired outputs",
+      "Compressing the model for efficiency",
+      "Improving model stability"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which type of decoding strategy is most likely to produce diverse and creative text, but also has a higher risk of generating nonsensical or incoherent content?",
+    "options": [
+      "Greedy Decoding",
+      "Beam Search",
+      "Temperature Sampling",
+      "Nucleus Sampling"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "In the context of NLG, what is the function of a 'style transfer' model?",
+    "options": [
+      "To translate text between languages",
+      "To summarize long documents",
+      "To change the style of a given text while preserving its content",
+      "To correct grammatical errors"
+    ],
+    "correct_option_index": 3,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which method is used to encourage NLG models to generate more diverse outputs by penalizing the probability of selecting previously generated tokens?",
+    "options": [
+      "Beam Search",
+      "Temperature Scaling",
+      "Repetition Penalty",
+      "Sampling"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "How can external knowledge be incorporated into NLG models to improve their factual accuracy and coherence?",
+    "options": [
+      "By increasing the size of the training data",
+      "By using larger model architectures",
+      "By integrating knowledge graphs or other structured knowledge sources",
+      "By fine-tuning on specific datasets"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the function of a 'conditional variational autoencoder' (CVAE) in the context of NLG?",
+    "options": [
+      "Generates text with no input",
+      "Generates text based on a specific input condition or attribute",
+      "Generates code with no input",
+      "Translates text from one language to another"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which of the following is NOT a typical application of Natural Language Generation (NLG)?",
+    "options": [
+      "Text Summarization",
+      "Machine Translation",
+      "Image Recognition",
+      "Dialogue Generation"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which of the following is a characteristic of a good evaluation metric for NLG models?",
+    "options": [
+      "High computational cost",
+      "Correlation with human judgments",
+      "Independence from training data",
+      "Complexity to understand"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "In the context of text generation, what does 'coherence' refer to?",
+    "options": [
+      "The grammatical correctness of the text",
+      "The logical flow and consistency of ideas within the text",
+      "The similarity of the text to the training data",
+      "The length of the generated text"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which method is used to prevent overfitting in neural network-based NLG models by randomly dropping out some of the neurons during training?",
+    "options": [
+      "Batch normalization",
+      "Dropout",
+      "Early stopping",
+      "Weight decay"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What does the term 'one-shot learning' imply in the context of NLG?",
+    "options": [
+      "The model learns from a single example",
+      "The model is trained only once",
+      "The model generates only one sentence",
+      "The model requires minimal training data to perform well on a new task"
+    ],
+    "correct_option_index": 3,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which of these is a crucial component of the Transformer architecture that enables parallel processing of sequential data?",
+    "options": [
+      "Recurrent layers",
+      "Convolutional layers",
+      "Attention mechanism",
+      "Pooling layers"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the 'training-inference discrepancy' in NLG, and how is it typically addressed?",
+    "options": [
+      "The model performs well during training but poorly during inference; addressed by techniques like scheduled sampling",
+      "The model performs poorly during training but well during inference; addressed by increasing the learning rate",
+      "The model has different architectures for training and inference; addressed by using a unified architecture",
+      "The model is trained on synthetic data but tested on real data; addressed by domain adaptation techniques"
+    ],
+    "correct_option_index": 0,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the advantage of using a 'pointer network' in tasks like text summarization?",
+    "options": [
+      "Generating new words not seen in the input text",
+      "Selecting words directly from the input text, improving factual accuracy",
+      "Improving computational efficiency",
+      "Reducing memory requirements"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "How do you handle the generation of responses with desired sentiment in NLG tasks?",
+    "options": [
+      "By only considering a small set of parameters",
+      "By not using context",
+      "By filtering the parameters",
+      "By training the model with a conditional generation setup, like using sentiment labels as input"
+    ],
+    "correct_option_index": 3,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "How does reinforcement learning help improve the quality of text generated by NLG models?",
+    "options": [
+      "By providing human feedback on the generated text",
+      "By using a reward function to guide the model towards generating text that satisfies specific criteria",
+      "By training the model on a larger dataset of text",
+      "By using a more complex neural network architecture"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which of the following is a common challenge in evaluating the creativity of NLG models?",
+    "options": [
+      "The lack of objective metrics for measuring creativity",
+      "The computational cost of evaluating large amounts of text",
+      "The difficulty in distinguishing between grammatical errors and stylistic choices",
+      "The subjectivity of human evaluation"
+    ],
+    "correct_option_index": 0,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "Which of the following is the primary reason for using attention mechanisms in sequence-to-sequence models used for NLG?",
+    "options": [
+      "To speed up the training process",
+      "To increase the model's capacity",
+      "To allow the decoder to focus on relevant parts of the input sequence during generation",
+      "To reduce the risk of overfitting"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is the role of 'transfer learning' in NLG?",
+    "options": [
+      "To enhance image generation",
+      "To translate text from one language to other",
+      "To leverage knowledge from pre-trained models on related tasks to improve performance on a new task",
+      "To optimize data generation"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "In the context of generative models for text, what is the main purpose of 'conditioning'?",
+    "options": [
+      "To make the model simpler",
+      "To guide the generation process based on specific input or constraints",
+      "To limit the model's vocabulary size",
+      "To improve the model's speed"
+    ],
+    "correct_option_index": 1,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  },
+  {
+    "question": "What is 'few-shot learning' and how is it relevant in NLG?",
+    "options": [
+      "Training with millions of samples",
+      "Training a new language model",
+      "Training a language model with just a few examples, allowing it to adapt to new tasks or domains with limited data",
+      "Training a language model to reduce the learning rate"
+    ],
+    "correct_option_index": 2,
+    "category": "Generative Models, Natural Language Generation (NLG)"
+  }
+]

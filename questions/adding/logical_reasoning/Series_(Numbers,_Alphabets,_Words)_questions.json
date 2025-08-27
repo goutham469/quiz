@@ -1,0 +1,662 @@
+[
+  {
+    "question": "What is the next number in the series: 2, 6, 12, 20, ?",
+    "options": [
+      "30",
+      "28",
+      "24",
+      "32"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What letter comes next in the series: A, C, F, J, ?",
+    "options": [
+      "O",
+      "N",
+      "P",
+      "M"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Complete the series: ACE, BDF, CEG, ?",
+    "options": [
+      "DFH",
+      "DFA",
+      "EFH",
+      "FDH"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the missing number: 1, 4, 9, __, 25?",
+    "options": [
+      "16",
+      "12",
+      "15",
+      "18"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What comes next: January, March, May, July, ?",
+    "options": [
+      "September",
+      "August",
+      "October",
+      "November"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Identify the next term: AB, EF, IJ, ?",
+    "options": [
+      "MN",
+      "LM",
+      "NO",
+      "OP"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Find the missing letter: B, D, G, K, ?",
+    "options": [
+      "P",
+      "Q",
+      "O",
+      "R"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the next number in this sequence: 3, 8, 15, 24, ?",
+    "options": [
+      "35",
+      "36",
+      "34",
+      "37"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Determine the missing term: Z, W, T, Q, ?",
+    "options": [
+      "N",
+      "M",
+      "O",
+      "P"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the next word: Sun, Mercury, Venus, Earth, ?",
+    "options": [
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Uranus"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What comes next in the series: 5, 10, 17, 26, ?",
+    "options": [
+      "37",
+      "35",
+      "36",
+      "38"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Find the next letter in the series: B, E, H, K, ?",
+    "options": [
+      "N",
+      "O",
+      "M",
+      "L"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Complete the series: DEF, GHI, JKL, ?",
+    "options": [
+      "MNO",
+      "NOM",
+      "ONM",
+      "NMO"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the missing number: 2, 5, 10, __, 26?",
+    "options": [
+      "17",
+      "15",
+      "19",
+      "21"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What comes next: Monday, Wednesday, Friday, ?",
+    "options": [
+      "Sunday",
+      "Tuesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Identify the next term: BA, DC, FE, ?",
+    "options": [
+      "HG",
+      "GH",
+      "IH",
+      "JI"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Find the missing letter: A, D, H, M, ?",
+    "options": [
+      "S",
+      "T",
+      "R",
+      "U"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the next number: 1, 8, 27, 64, ?",
+    "options": [
+      "125",
+      "81",
+      "100",
+      "144"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Determine the missing term: AZ, BY, CX, ?",
+    "options": [
+      "DW",
+      "EW",
+      "EV",
+      "UV"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the next number in the series: 1, 1, 2, 3, 5, 8, ?",
+    "options": [
+      "13",
+      "12",
+      "11",
+      "10"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What letter comes next in the series: Z, W, T, Q, ?",
+    "options": [
+      "N",
+      "M",
+      "O",
+      "P"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Complete the series: ABD, CFH, EJM, ?",
+    "options": [
+      "GLS",
+      "HLS",
+      "ILR",
+      "GLR"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the missing number: 3, 7, 15, __, 63?",
+    "options": [
+      "31",
+      "23",
+      "30",
+      "47"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What comes next: Dog, Cat, Lion, Tiger, ?",
+    "options": [
+      "Leopard",
+      "Horse",
+      "Cow",
+      "Bear"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Identify the next term: AYB, DVE, HSG, ?",
+    "options": [
+      "MOL",
+      "MLJ",
+      "LKM",
+      "LOL"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Find the missing letter: Z, X, U, Q, ?",
+    "options": [
+      "L",
+      "M",
+      "K",
+      "N"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the next number: 5, 16, 51, 158, ?",
+    "options": [
+      "481",
+      "483",
+      "477",
+      "479"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Determine the missing term: ABD, FGI, LMN, ?",
+    "options": [
+      "RST",
+      "QRS",
+      "OPQ",
+      "SUV"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the next number in the series: 0, 6, 24, 60, 120, ?",
+    "options": [
+      "210",
+      "220",
+      "180",
+      "190"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What letter comes next in the series: B, D, G, K, ?",
+    "options": [
+      "P",
+      "Q",
+      "O",
+      "R"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Complete the series: ACE, FHJ, KMO, ?",
+    "options": [
+      "PRT",
+      "QRT",
+      "PRS",
+      "QRS"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the missing number: 2, 12, 36, 80, __, 252?",
+    "options": [
+      "150",
+      "140",
+      "160",
+      "170"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What comes next: January, February, March, April, ?",
+    "options": [
+      "May",
+      "June",
+      "July",
+      "August"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Identify the next term: AB, GH, NO, ?",
+    "options": [
+      "WX",
+      "UV",
+      "VW",
+      "XY"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Find the missing letter: Y, W, U, S, ?",
+    "options": [
+      "Q",
+      "P",
+      "O",
+      "R"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the next number: 1, 2, 6, 24, 120, ?",
+    "options": [
+      "720",
+      "600",
+      "360",
+      "480"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Determine the missing term: CFA, ELC, GPE, ?",
+    "options": [
+      "IQH",
+      "IRH",
+      "ISH",
+      "IQL"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Complete the series: ABZ, BCY, CDX, ?",
+    "options": [
+      "DEW",
+      "DEF",
+      "CEW",
+      "CFW"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the missing letter: B, D, H, L, ?",
+    "options": [
+      "P",
+      "R",
+      "Q",
+      "S"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What comes next in the series: 12, 23, 34, 45, ?",
+    "options": [
+      "56",
+      "67",
+      "78",
+      "89"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Identify the next term: AE, BF, CG, ?",
+    "options": [
+      "DH",
+      "DI",
+      "EH",
+      "FH"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the missing number: 4, 16, 36, 64, ?",
+    "options": [
+      "100",
+      "81",
+      "121",
+      "144"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What comes next: Monday, Tuesday, Wednesday, ?",
+    "options": [
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Identify the next term: ZA, YB, XC, ?",
+    "options": [
+      "WD",
+      "VE",
+      "UE",
+      "VU"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Find the missing letter: A, C, E, G, ?",
+    "options": [
+      "I",
+      "H",
+      "J",
+      "K"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Determine the missing term: ABD, CFI, DHL, ?",
+    "options": [
+      "EJO",
+      "EIM",
+      "EKN",
+      "EKM"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the next number: 7, 22, 67, 202, ?",
+    "options": [
+      "607",
+      "606",
+      "608",
+      "605"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Find the next term: DHL, PTX, BFJ, ?",
+    "options": [
+      "NRV",
+      "MRV",
+      "MSV",
+      "NSV"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the next number in the series: 4, 18, 48, 100, ?",
+    "options": [
+      "180",
+      "190",
+      "170",
+      "160"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What letter comes next in the series: A, Z, B, Y, C, X, ?",
+    "options": [
+      "D",
+      "W",
+      "V",
+      "E"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Complete the series: BDF, CFI, DHL, ?",
+    "options": [
+      "EJO",
+      "EIM",
+      "EKN",
+      "EJN"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the missing number: 16, 22, 30, 40, __, 66?",
+    "options": [
+      "52",
+      "51",
+      "53",
+      "50"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What comes next: January, March, June, August, ?",
+    "options": [
+      "October",
+      "September",
+      "November",
+      "December"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Identify the next term: CD, IJ, OP, ?",
+    "options": [
+      "UV",
+      "WZ",
+      "VW",
+      "XY"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Find the missing letter: A, F, K, P, ?",
+    "options": [
+      "U",
+      "V",
+      "W",
+      "X"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Determine the missing term: ACE, GIK, MOQ, ?",
+    "options": [
+      "SUV",
+      "SUW",
+      "SWU",
+      "TUV"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the next number: 2, 3, 8, 27, 112, ?",
+    "options": [
+      "565",
+      "564",
+      "563",
+      "562"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "Find the missing letter series: ELFA, GLHA, ILJA, ?",
+    "options": [
+      "OLPA",
+      "KLMA",
+      "KLJA",
+      "KLLA"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the next term in the series : AA, AB, BC, CE, ?",
+    "options": [
+      "EG",
+      "EH",
+      "FI",
+      "GH"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  },
+  {
+    "question": "What is the next term in the series : ABD, DGK, HMS, ?",
+    "options": [
+      "SBK",
+      "SBL",
+      "SNL",
+      "RBK"
+    ],
+    "correct_option_index": 0,
+    "category": "Series (Numbers, Alphabets, Words)"
+  }
+]

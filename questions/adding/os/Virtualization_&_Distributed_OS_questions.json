@@ -1,0 +1,530 @@
+[
+  {
+    "question": "Which of the following is NOT a key benefit of virtualization?",
+    "options": [
+      "Increased hardware utilization",
+      "Reduced energy consumption",
+      "Simplified disaster recovery",
+      "Guaranteed real-time performance"
+    ],
+    "correct_option_index": 3,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "What type of hypervisor runs directly on the hardware without a host operating system?",
+    "options": [
+      "Type 1",
+      "Type 2",
+      "Type 3",
+      "Type 0"
+    ],
+    "correct_option_index": 0,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which virtualization technique involves abstracting the operating system kernel?",
+    "options": [
+      "Full Virtualization",
+      "Para-virtualization",
+      "OS-level Virtualization",
+      "Hardware-assisted Virtualization"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "What is a 'VM snapshot' primarily used for?",
+    "options": [
+      "Creating a full backup of the VM",
+      "Reverting the VM to a previous state",
+      "Improving VM performance",
+      "Monitoring VM resource usage"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which distributed OS architecture relies on message passing for inter-process communication?",
+    "options": [
+      "Shared Memory Multiprocessor",
+      "Message Passing Interface (MPI)",
+      "Microkernel",
+      "Symmetric Multiprocessing (SMP)"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "In the context of distributed operating systems, what does 'fault tolerance' primarily refer to?",
+    "options": [
+      "Ability to handle increased workload",
+      "Ability to continue operating despite component failures",
+      "Ability to optimize resource allocation",
+      "Ability to automatically update software"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which consistency model guarantees that writes are seen by all processes in the same order?",
+    "options": [
+      "Eventual Consistency",
+      "Causal Consistency",
+      "Sequential Consistency",
+      "Linearizability"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "What is the primary function of a 'virtual machine monitor' (VMM)?",
+    "options": [
+      "Managing network connectivity",
+      "Allocating resources to virtual machines",
+      "Providing a user interface for VMs",
+      "Performing system security checks"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which of the following is a characteristic of a tightly coupled distributed system?",
+    "options": [
+      "High communication latency",
+      "Independent failure domains",
+      "Shared memory",
+      "Loosely defined communication protocols"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "What is the purpose of 'live migration' in virtualization?",
+    "options": [
+      "Upgrading the VM's operating system",
+      "Moving a running VM to a different physical host",
+      "Creating a backup of the VM",
+      "Monitoring VM resource utilization"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which of the following is a key challenge in distributed consensus algorithms like Paxos or Raft?",
+    "options": [
+      "Achieving low latency communication",
+      "Handling network partitions",
+      "Ensuring data encryption",
+      "Optimizing CPU utilization"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "What is the main difference between a 'container' and a 'virtual machine'?",
+    "options": [
+      "Containers provide full hardware virtualization, VMs do not",
+      "Containers share the host OS kernel, VMs have their own",
+      "Containers are more resource-intensive than VMs",
+      "Containers are less secure than VMs"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which of the following is an example of a container orchestration tool?",
+    "options": [
+      "VMware vSphere",
+      "Xen",
+      "Kubernetes",
+      "VirtualBox"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "In distributed systems, what does the acronym 'CAP' stand for?",
+    "options": [
+      "Consistency, Availability, Partition Tolerance",
+      "Concurrency, Authentication, Performance",
+      "Capacity, Automation, Provisioning",
+      "Control, Agility, Predictability"
+    ],
+    "correct_option_index": 0,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which of the following is a typical use case for serverless computing?",
+    "options": [
+      "Running long-running batch jobs",
+      "Hosting large databases",
+      "Handling event-driven microservices",
+      "Building complex desktop applications"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "What is the purpose of a 'virtual network interface card' (vNIC)?",
+    "options": [
+      "To improve VM storage performance",
+      "To connect a VM to a virtual network",
+      "To monitor VM CPU usage",
+      "To manage VM memory allocation"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which of the following is a characteristic of a microkernel architecture?",
+    "options": [
+      "All OS services run in kernel mode",
+      "OS services are implemented as user-level processes",
+      "Direct hardware access from user processes",
+      "Monolithic kernel design"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "What is the 'Byzantine Generals Problem' relevant to in distributed systems?",
+    "options": [
+      "Data compression algorithms",
+      "Network routing protocols",
+      "Fault-tolerant consensus",
+      "Resource allocation strategies"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which of these is a key consideration for data partitioning in a distributed database?",
+    "options": [
+      "Minimizing network bandwidth usage",
+      "Maximizing CPU core count",
+      "Increasing the number of database administrators",
+      "Simplifying data backup procedures"
+    ],
+    "correct_option_index": 0,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "What is the main advantage of using a distributed file system?",
+    "options": [
+      "Improved security against unauthorized access",
+      "Increased storage capacity and availability",
+      "Reduced CPU overhead",
+      "Simplified software deployment"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Consider a system where virtual machines are dynamically allocated to physical servers based on resource demand. Which scheduling algorithm is best suited to minimize the number of active servers?",
+    "options": [
+      "First-Come, First-Served (FCFS)",
+      "Round Robin",
+      "Best Fit Decreasing (BFD)",
+      "Shortest Job First (SJF)"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "A distributed system implements a vector clock for tracking causality. Process P1 sends a message to P2. P1's vector clock is (2, 5, 1). P2's vector clock before receiving the message is (3, 2, 2). What is P2's vector clock *after* receiving the message?",
+    "options": [
+      "(3, 2, 2)",
+      "(2, 5, 1)",
+      "(4, 6, 2)",
+      "(3, 6, 2)"
+    ],
+    "correct_option_index": 3,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which RAID level is most suitable for a virtualized environment where high read performance and fault tolerance are paramount, and write performance is less critical?",
+    "options": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 5",
+      "RAID 10"
+    ],
+    "correct_option_index": 3,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "A virtualized server hosts several applications. One application experiences a sudden surge in memory demand.  Which memory management technique is most effective in preventing this application from impacting the performance of other VMs on the same server?",
+    "options": [
+      "Memory Ballooning",
+      "Transparent Page Sharing",
+      "Demand Paging",
+      "Memory Swapping"
+    ],
+    "correct_option_index": 0,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "In a distributed system using Lamport timestamps, event A has timestamp 5 and event B has timestamp 7.  Can we definitively conclude that event A happened before event B?",
+    "options": [
+      "Yes, always",
+      "No, never",
+      "Yes, if they occurred on the same process",
+      "No, unless we know the processes are causally related"
+    ],
+    "correct_option_index": 3,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which distributed consensus algorithm is primarily designed for asynchronous networks and tolerates Byzantine faults?",
+    "options": [
+      "Paxos",
+      "Raft",
+      "PBFT (Practical Byzantine Fault Tolerance)",
+      "Two-Phase Commit"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "A Docker container is built from a Dockerfile. The Dockerfile has the instruction `COPY ./app /app`.  If the host machine's `./app` directory contains a 1GB file, and the container only needs a 1MB portion of that file, what is the primary disadvantage of this approach?",
+    "options": [
+      "Increased container build time",
+      "Larger container image size",
+      "Slower container startup time",
+      "Higher memory consumption during runtime"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which virtualization technology uses hardware extensions (e.g., Intel VT-x or AMD-V) to improve the performance of full virtualization?",
+    "options": [
+      "Para-virtualization",
+      "OS-level Virtualization",
+      "Hardware-assisted Virtualization",
+      "Emulation"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Consider a distributed database system. Which isolation level provides the highest degree of consistency but potentially reduces concurrency?",
+    "options": [
+      "Read Committed",
+      "Repeatable Read",
+      "Serializable",
+      "Read Uncommitted"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "A cloud provider offers 'Function as a Service' (FaaS). A function is triggered by an HTTP request. If the function experiences a cold start, what is the *most likely* reason?",
+    "options": [
+      "The function's code has errors",
+      "The function's container image has been garbage collected",
+      "The HTTP request was malformed",
+      "The cloud provider is experiencing network issues"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which resource management technique in virtualization allows the hypervisor to dynamically adjust the CPU allocation to VMs based on their current workload?",
+    "options": [
+      "CPU Pinning",
+      "CPU Overcommitment",
+      "CPU Affinity",
+      "CPU Reservation"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "A distributed system needs to maintain a global counter that must be incremented atomically. Which approach is *least* suitable for achieving this with high performance?",
+    "options": [
+      "Using a centralized server with a lock",
+      "Using a distributed consensus algorithm (e.g., Paxos)",
+      "Using a lock-free data structure",
+      "Using a sharded counter with periodic synchronization"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which network virtualization technique involves creating logical networks on top of a physical network infrastructure, allowing for isolation and segmentation of network traffic?",
+    "options": [
+      "VLAN (Virtual LAN)",
+      "NAT (Network Address Translation)",
+      "VPN (Virtual Private Network)",
+      "SDN (Software-Defined Networking)"
+    ],
+    "correct_option_index": 3,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "A team is deploying a microservices architecture using Docker containers and Kubernetes. They notice high latency in communication between services. Which of the following is *least* likely to contribute to this latency?",
+    "options": [
+      "Inefficient service discovery mechanism",
+      "Network congestion between Kubernetes nodes",
+      "Oversized Docker container images",
+      "Insufficient CPU cores allocated to Kubernetes nodes"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "In a distributed system employing eventual consistency, what strategy can be used to resolve conflicting updates to the same data item?",
+    "options": [
+      "Always reject conflicting updates",
+      "Last Write Wins (LWW)",
+      "Quorum-based consensus",
+      "Two-Phase Commit"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which of the following is *not* a typical benefit of using a message queue (e.g., Kafka, RabbitMQ) in a distributed system?",
+    "options": [
+      "Decoupling of services",
+      "Asynchronous communication",
+      "Guaranteed end-to-end message delivery",
+      "Strong consistency of data across services"
+    ],
+    "correct_option_index": 3,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "A system utilizes shadow paging for implementing atomic updates. After a crash, which action is required to restore the system to a consistent state?",
+    "options": [
+      "Rollback the transaction log",
+      "Switch to the shadow page",
+      "Replay the redo log",
+      "Copy the shadow page to the current page"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "In a distributed shared memory (DSM) system, what is the purpose of 'false sharing'?",
+    "options": [
+      "To reduce network traffic",
+      "To improve cache coherency",
+      "To allow multiple processes to access the same memory location simultaneously without synchronization",
+      "A performance problem where multiple processes access different data items residing on the same cache line"
+    ],
+    "correct_option_index": 3,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "A distributed system utilizes the Raft consensus algorithm.  If a majority of nodes in the cluster become unavailable, what is the state of the system?",
+    "options": [
+      "The system continues to operate without interruption",
+      "The system becomes read-only",
+      "The system enters a degraded mode with reduced functionality",
+      "The system becomes unavailable"
+    ],
+    "correct_option_index": 3,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Consider a system implementing the Paxos consensus algorithm.  What is the role of the 'Learner' process?",
+    "options": [
+      "To propose a value to be agreed upon",
+      "To accept or reject proposals",
+      "To learn the agreed-upon value",
+      "To manage the configuration of the cluster"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which virtualization technology allows multiple operating systems to run concurrently on a single physical machine by sharing the same operating system kernel?",
+    "options": [
+      "Full Virtualization",
+      "Para-virtualization",
+      "OS-level virtualization (Containers)",
+      "Hardware-assisted virtualization"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "What is the purpose of a 'virtual switch' in a virtualized environment?",
+    "options": [
+      "To provide a firewall for the VMs",
+      "To connect VMs to each other and to the physical network",
+      "To manage the storage resources for the VMs",
+      "To monitor the performance of the VMs"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "In the context of distributed systems, what does 'idempotency' refer to?",
+    "options": [
+      "The ability to process multiple requests concurrently",
+      "The ability to ensure that an operation has the same effect regardless of how many times it is executed",
+      "The ability to automatically scale the system based on demand",
+      "The ability to detect and recover from failures"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which scheduling algorithm is optimal for minimizing the average waiting time of processes in a single-processor system?",
+    "options": [
+      "First-Come, First-Served (FCFS)",
+      "Round Robin",
+      "Shortest Job First (SJF)",
+      "Priority Scheduling"
+    ],
+    "correct_option_index": 2,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "In the context of distributed systems, what is a 'quorum'?",
+    "options": [
+      "A group of nodes that participate in a consensus algorithm",
+      "A minimum number of nodes that must agree on a decision for it to be valid",
+      "A technique for load balancing requests across multiple servers",
+      "A mechanism for detecting and recovering from node failures"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "Which of the following is a key challenge in implementing distributed transactions?",
+    "options": [
+      "Ensuring data consistency across multiple databases",
+      "Minimizing network latency",
+      "Maximizing CPU utilization",
+      "Simplifying data backup procedures"
+    ],
+    "correct_option_index": 0,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "In a distributed file system, what is the role of metadata servers?",
+    "options": [
+      "To store the actual data files",
+      "To manage the namespace and file attributes",
+      "To provide security and access control",
+      "To perform data compression and encryption"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  },
+  {
+    "question": "A web application is deployed on a cluster of virtual machines behind a load balancer. Which strategy is most effective for ensuring high availability in case of a VM failure?",
+    "options": [
+      "Using a single, large VM with high resources",
+      "Implementing a stateless architecture and distributing traffic across multiple VMs",
+      "Creating regular backups of the VMs",
+      "Using a caching mechanism to reduce the load on the VMs"
+    ],
+    "correct_option_index": 1,
+    "category": "Virtualization & Distributed OS"
+  }
+]

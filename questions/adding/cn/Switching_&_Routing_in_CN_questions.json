@@ -1,0 +1,530 @@
+[
+  {
+    "question": "Which switching technique dedicates a physical path for the entire duration of a transmission?",
+    "options": [
+      "Packet Switching",
+      "Circuit Switching",
+      "Message Switching",
+      "Datagram Switching"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the primary function of a routing protocol?",
+    "options": [
+      "Data Encryption",
+      "Forwarding Packets",
+      "Path Discovery",
+      "Error Correction"
+    ],
+    "correct_option_index": 2,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "Which routing algorithm is considered a distance-vector routing protocol?",
+    "options": [
+      "OSPF",
+      "RIP",
+      "BGP",
+      "IS-IS"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the purpose of the TTL (Time To Live) field in an IP packet?",
+    "options": [
+      "To indicate the packet priority",
+      "To prevent packets from endlessly circulating",
+      "To specify the packet's destination port",
+      "To define the packet's size"
+    ],
+    "correct_option_index": 2,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "Which of the following is a link-state routing protocol?",
+    "options": [
+      "RIPv1",
+      "RIPv2",
+      "OSPF",
+      "BGP"
+    ],
+    "correct_option_index": 2,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "In the context of routing, what does 'convergence' refer to?",
+    "options": [
+      "The process of combining multiple IP addresses",
+      "The process of routers agreeing on the best paths",
+      "The process of encrypting data during transmission",
+      "The process of segmenting data into packets"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "Which protocol is primarily used for inter-domain routing between autonomous systems?",
+    "options": [
+      "RIP",
+      "OSPF",
+      "BGP",
+      "IGRP"
+    ],
+    "correct_option_index": 2,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the main advantage of using VLANs in a switched network?",
+    "options": [
+      "Increased bandwidth",
+      "Enhanced security and network segmentation",
+      "Reduced latency",
+      "Improved power efficiency"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the role of the Spanning Tree Protocol (STP) in a switched network?",
+    "options": [
+      "To provide load balancing across multiple paths",
+      "To prevent routing loops",
+      "To encrypt network traffic",
+      "To prioritize network traffic"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What does the term 'AS_PATH' attribute refer to in BGP routing?",
+    "options": [
+      "The physical path a packet takes",
+      "The list of autonomous systems a route has traversed",
+      "The bandwidth available on a particular link",
+      "The administrative distance of a route"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the primary function of Network Address Translation (NAT)?",
+    "options": [
+      "To provide encryption",
+      "To translate public IP addresses to private IP addresses",
+      "To perform routing decisions",
+      "To filter network traffic"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "In MPLS, what does the term 'label swapping' refer to?",
+    "options": [
+      "The process of changing IP addresses",
+      "The process of replacing one MPLS label with another",
+      "The process of encrypting MPLS packets",
+      "The process of compressing MPLS packets"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "Which switching method reads the entire frame before forwarding it?",
+    "options": [
+      "Cut-through switching",
+      "Fragment-free switching",
+      "Store-and-forward switching",
+      "Adaptive switching"
+    ],
+    "correct_option_index": 2,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the purpose of route aggregation (summarization)?",
+    "options": [
+      "To increase the size of routing tables",
+      "To decrease the size of routing tables",
+      "To improve security",
+      "To encrypt routing information"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the administrative distance of a directly connected route?",
+    "options": [
+      "0",
+      "1",
+      "10",
+      "110"
+    ],
+    "correct_option_index": 0,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the significance of the 'hold-down timer' in RIP?",
+    "options": [
+      "To prevent routing loops by suppressing updates",
+      "To determine the frequency of route advertisements",
+      "To prioritize network traffic",
+      "To encrypt routing information"
+    ],
+    "correct_option_index": 0,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "Which BGP attribute is used to influence path selection based on administrative policy?",
+    "options": [
+      "MED (Multi Exit Discriminator)",
+      "AS_PATH",
+      "NEXT_HOP",
+      "LOCAL_PREF"
+    ],
+    "correct_option_index": 3,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the purpose of a 'black hole route'?",
+    "options": [
+      "To route all traffic to a secure server",
+      "To discard unwanted traffic",
+      "To prioritize important traffic",
+      "To load balance across multiple links"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the difference between unicast, multicast, and broadcast addressing?",
+    "options": [
+      "Unicast is one-to-one, multicast is one-to-many, broadcast is one-to-all",
+      "Unicast is one-to-all, multicast is one-to-one, broadcast is one-to-many",
+      "Unicast is many-to-many, multicast is one-to-one, broadcast is one-to-many",
+      "They are all the same"
+    ],
+    "correct_option_index": 0,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the role of a Designated Router (DR) and Backup Designated Router (BDR) in OSPF?",
+    "options": [
+      "To act as a central point for all OSPF updates to reduce network congestion",
+      "To encrypt OSPF packets",
+      "To prioritize OSPF traffic",
+      "To implement load balancing"
+    ],
+    "correct_option_index": 0,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the key difference between Distance Vector and Link State routing protocols in terms of network knowledge?",
+    "options": [
+      "Distance Vector protocols have complete knowledge of the entire network topology, while Link State protocols only know about their neighbors.",
+      "Link State protocols have complete knowledge of the entire network topology, while Distance Vector protocols only know the distance and direction to their neighbors.",
+      "Both protocols have the same level of network knowledge.",
+      "Distance Vector protocols converge faster than Link State protocols."
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "Which command is used to display the routing table on a Cisco router?",
+    "options": [
+      "show ip route",
+      "display route table",
+      "show routing",
+      "route print"
+    ],
+    "correct_option_index": 0,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the function of port security in a switch?",
+    "options": [
+      "To encrypt data transmitted over the port",
+      "To limit the number of MAC addresses allowed on a port",
+      "To increase the bandwidth of the port",
+      "To prevent physical access to the port"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What does the term 'Split Horizon' mean in routing protocols?",
+    "options": [
+      "Routing updates are sent to all neighbors, regardless of the source.",
+      "Routing updates are not sent back out the interface they were received on.",
+      "Routing updates are split into smaller packets for faster transmission.",
+      "Routing updates are only sent during off-peak hours."
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the main purpose of using access control lists (ACLs) on a router?",
+    "options": [
+      "To increase routing speed",
+      "To filter network traffic based on specified criteria",
+      "To encrypt network traffic",
+      "To perform network address translation"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the role of a Layer 3 switch?",
+    "options": [
+      "To only perform Layer 2 switching",
+      "To perform both Layer 2 switching and Layer 3 routing",
+      "To only perform Layer 3 routing",
+      "To encrypt network traffic"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the purpose of the 'passive interface' command in routing protocol configuration?",
+    "options": [
+      "To disable the routing protocol on an interface",
+      "To prevent the routing protocol from sending updates out an interface but still listen for updates",
+      "To increase the bandwidth of an interface",
+      "To encrypt traffic on an interface"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the default administrative distance of External BGP (eBGP)?",
+    "options": [
+      "0",
+      "20",
+      "115",
+      "255"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the significance of the MED (Multi Exit Discriminator) attribute in BGP when selecting a path?",
+    "options": [
+      "It prefers the path with the longest AS_PATH",
+      "It's used to signal congestion along a path, not directly for path selection.",
+      "It indicates the geographical location of the AS.",
+      "It is a hint to neighboring ASes about which path to the local AS is preferred. Lower MED values are preferred."
+    ],
+    "correct_option_index": 3,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the purpose of Bidirectional Forwarding Detection (BFD)?",
+    "options": [
+      "To encrypt routing updates",
+      "To provide fast failure detection for routing protocols",
+      "To perform network address translation",
+      "To prioritize network traffic"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the significance of route dampening in BGP?",
+    "options": [
+      "To encrypt BGP updates",
+      "To suppress flapping routes from being advertised",
+      "To increase the bandwidth of BGP connections",
+      "To perform load balancing for BGP traffic"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "Which switching technique offers the lowest latency?",
+    "options": [
+      "Store-and-forward",
+      "Fragment-free",
+      "Cut-through",
+      "All offer the same latency"
+    ],
+    "correct_option_index": 2,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "A router receives two advertisements for the same destination network, one from eBGP and one from iBGP. Which route will the router prefer by default?",
+    "options": [
+      "The eBGP route",
+      "The iBGP route",
+      "The route with the higher MED value",
+      "The route with the shortest AS_PATH"
+    ],
+    "correct_option_index": 0,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the purpose of using route reflectors in BGP?",
+    "options": [
+      "To eliminate the need for a full mesh iBGP topology",
+      "To encrypt BGP updates",
+      "To increase the bandwidth of BGP connections",
+      "To perform load balancing for BGP traffic"
+    ],
+    "correct_option_index": 0,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the main challenge associated with using a purely hierarchical routing protocol in a large, complex network?",
+    "options": [
+      "Reduced scalability",
+      "Increased security risks",
+      "Higher bandwidth consumption",
+      "Slower convergence times"
+    ],
+    "correct_option_index": 0,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the purpose of the 'local preference' attribute in BGP?",
+    "options": [
+      "To indicate the physical distance to a destination",
+      "To influence outbound traffic from an AS",
+      "To filter incoming BGP routes",
+      "To control the advertisement of routes to external peers"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "In the context of VXLAN, what does the term VTEP refer to?",
+    "options": [
+      "Virtual Tunnel Endpoint",
+      "Virtual Transport Encryption Protocol",
+      "Virtualized Transport Extension Protocol",
+      "Virtual Traffic Engineering Point"
+    ],
+    "correct_option_index": 0,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the primary advantage of using policy-based routing (PBR) over traditional destination-based routing?",
+    "options": [
+      "PBR is faster",
+      "PBR allows for more granular control over traffic forwarding",
+      "PBR is more secure",
+      "PBR requires less configuration"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of a reliable routing protocol?",
+    "options": [
+      "Loop-free routing",
+      "Fast convergence",
+      "High overhead",
+      "Optimal path selection"
+    ],
+    "correct_option_index": 2,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "Which switching mode uses error checking only on the first 64 bytes?",
+    "options": [
+      "Store-and-forward switching",
+      "Fragment-free switching",
+      "Cut-through switching",
+      "Adaptive switching"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "In a multi-area OSPF network, what type of router connects an area to the backbone area (Area 0)?",
+    "options": [
+      "Internal Router",
+      "Area Border Router (ABR)",
+      "Autonomous System Boundary Router (ASBR)",
+      "Designated Router (DR)"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "Which of the following is a potential drawback of using a very large MTU (Maximum Transmission Unit) size in a network?",
+    "options": [
+      "Increased CPU overhead for fragmentation",
+      "Improved network security",
+      "Reduced network latency",
+      "Decreased bandwidth utilization"
+    ],
+    "correct_option_index": 0,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "Which of the following is the key benefit of using a Layer 3 switch with hardware-based routing?",
+    "options": [
+      "Lower cost",
+      "Improved flexibility",
+      "Increased throughput and reduced latency",
+      "Simplified configuration"
+    ],
+    "correct_option_index": 2,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "A network administrator is troubleshooting a BGP peering issue. What is the FIRST step they should take to diagnose the problem?",
+    "options": [
+      "Clear the BGP neighbor relationship.",
+      "Check the BGP configuration on both peers.",
+      "Increase the BGP hold time.",
+      "Analyze the routing table for conflicting routes."
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "Which mechanism is commonly used to prevent ARP (Address Resolution Protocol) spoofing attacks on a network?",
+    "options": [
+      "DHCP snooping",
+      "Dynamic ARP Inspection (DAI)",
+      "Spanning Tree Protocol (STP)",
+      "Virtual LANs (VLANs)"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "In the context of network design, what is the purpose of creating a DMZ (Demilitarized Zone)?",
+    "options": [
+      "To provide a secure area for internal servers",
+      "To isolate public-facing servers from the internal network",
+      "To improve network performance by caching frequently accessed content",
+      "To simplify network management by centralizing all network devices"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "In OSPF, what does the term 'area stub' signify?",
+    "options": [
+      "An area that only allows intra-area routing.",
+      "An area with no directly connected networks",
+      "An area that receives a default route from the ABR and doesn't accept external routes.",
+      "An area with no external routers"
+    ],
+    "correct_option_index": 2,
+    "category": "Switching & Routing in CN"
+  },
+  {
+    "question": "What is the main advantage of using ECMP (Equal-Cost Multi-Path) routing?",
+    "options": [
+      "Improved network security",
+      "Increased redundancy and load balancing",
+      "Simplified network configuration",
+      "Reduced network latency"
+    ],
+    "correct_option_index": 1,
+    "category": "Switching & Routing in CN"
+  }
+]

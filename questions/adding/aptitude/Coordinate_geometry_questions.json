@@ -1,0 +1,717 @@
+[
+  {
+    "question": "The distance between points A(2, -3) and B(x, 2) is 13 units. Find the value(s) of x.",
+    "options": [
+      "-3, 7",
+      "3, -7",
+      "-7, -3",
+      "7, 3"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "What is the equation of a line passing through (1, 2) and perpendicular to the line 2x + y - 5 = 0?",
+    "options": [
+      "x - 2y + 3 = 0",
+      "x + 2y - 5 = 0",
+      "2x - y = 0",
+      "2x + y - 4 = 0"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Find the area of the triangle formed by the points A(1, 2), B(3, 4), and C(5, 0).",
+    "options": [
+      "2 sq. units",
+      "4 sq. units",
+      "6 sq. units",
+      "8 sq. units"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "A line segment joins the points A(2, 1) and B(5, -8). The point P on AB such that AP/AB = 1/3 lies on the line 2x - y + k = 0. Find the value of k.",
+    "options": [
+      "-8",
+      "8",
+      "3",
+      "-3"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Determine the coordinates of the point which divides the line segment joining the points (4, -3) and (8, 5) in the ratio 3:1 internally.",
+    "options": [
+      "(7, 3)",
+      "(7, 2)",
+      "(1, 1)",
+      "(2, 2)"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Find the equation of the locus of a point which moves such that its distance from the x-axis is twice its distance from the y-axis.",
+    "options": [
+      "y = 2x",
+      "x = 2y",
+      "y = x/2",
+      "x = y/2"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The vertices of a triangle are A(1, 1), B(4, -2), and C(5, 5). Find the equation of the median through vertex A.",
+    "options": [
+      "4x - 3y - 1 = 0",
+      "3x - 4y + 1 = 0",
+      "3x + 4y - 7 = 0",
+      "4x + 3y - 7 = 0"
+    ],
+    "correct_option_index": 3,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "If the lines 2x + y - 3 = 0, 5x + ky - 3 = 0, and 3x - y - 2 = 0 are concurrent, find the value of k.",
+    "options": [
+      "-8",
+      "8",
+      "-5",
+      "5"
+    ],
+    "correct_option_index": 3,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "What is the reflection of the point (3, -2) across the line y = x?",
+    "options": [
+      "(-2, 3)",
+      "(3, 2)",
+      "(-3, 2)",
+      "(2, -3)"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Find the equation of the circle whose diameter has endpoints A(2, -3) and B(4, 5).",
+    "options": [
+      "x² + y² - 6x - 2y + 17 = 0",
+      "x² + y² - 6x - 2y + 5 = 0",
+      "x² + y² + 6x - 2y - 17 = 0",
+      "x² + y² - 6x + 2y - 5 = 0"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The slope of a line is 2/3. What is the slope of a line perpendicular to it?",
+    "options": [
+      "-3/2",
+      "2/3",
+      "3/2",
+      "-2/3"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Find the midpoint of the line segment joining the points (5, -2) and (-1, 8).",
+    "options": [
+      "(2, 3)",
+      "(3, 2)",
+      "(4, 5)",
+      "(-3, -5)"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "What is the distance between the points (1, 2) and (4, 6)?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The equation of a line is y = 3x + 5. What is the y-intercept?",
+    "options": [
+      "3",
+      "5",
+      "0",
+      "-5/3"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "What is the equation of a line with slope -2 and passing through the point (1, 4)?",
+    "options": [
+      "y = -2x + 6",
+      "y = -2x + 2",
+      "y = 2x + 2",
+      "y = 2x - 6"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Find the area of a triangle with vertices at (0,0), (2,3), and (4,1).",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The centroid of a triangle is at (2,1). Two vertices are (1,4) and (3,-2). Find the third vertex.",
+    "options": [
+      "(2, -1)",
+      "(4, -1)",
+      "(2, 1)",
+      "(4, 1)"
+    ],
+    "correct_option_index": 2,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "What is the equation of the circle with center (3, -2) and radius 4?",
+    "options": [
+      "(x-3)^2 + (y+2)^2 = 16",
+      "(x+3)^2 + (y-2)^2 = 16",
+      "(x-3)^2 + (y+2)^2 = 4",
+      "(x+3)^2 + (y-2)^2 = 4"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "A line passes through (2,3) and (5,8). What is its equation?",
+    "options": [
+      "5x - 3y + 1 = 0",
+      "3x - 5y + 1 = 0",
+      "5x - 3y - 1 = 0",
+      "3x - 5y - 1 = 0"
+    ],
+    "correct_option_index": 2,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "What is the distance from the point (3,4) to the line 3x + 4y = 25?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The points A(6,3), B(-3,5), C(4,-2), and D(x,y) are the vertices of a parallelogram. Find the coordinates of D.",
+    "options": [
+      "(13, 0)",
+      "(13, -1)",
+      "(12, 0)",
+      "(12, -1)"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Find the orthocenter of the triangle with vertices (0,0), (1,0), and (0,1).",
+    "options": [
+      "(0,0)",
+      "(1,0)",
+      "(0,1)",
+      "(1,1)"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "A circle passes through the points (0,0), (1,0), and (0,1). Find the equation of the circle.",
+    "options": [
+      "x^2 + y^2 -x - y = 0",
+      "x^2 + y^2 + x + y = 0",
+      "x^2 + y^2 -x + y = 0",
+      "x^2 + y^2 + x - y = 0"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Find the coordinates of the foot of the perpendicular from the point (1,2) to the line x + y - 5 = 0.",
+    "options": [
+      "(2,3)",
+      "(3,2)",
+      "(1,4)",
+      "(4,1)"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The line y = mx + c passes through the points (1, 4) and (3, 10). Find the values of m and c.",
+    "options": [
+      "m=3, c=1",
+      "m=1, c=3",
+      "m=2, c=2",
+      "m=4, c=0"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Determine the type of triangle formed by the points A(3, 2), B(6, -2), and C(2, -5).",
+    "options": [
+      "Equilateral",
+      "Isosceles",
+      "Right-angled",
+      "Scalene"
+    ],
+    "correct_option_index": 2,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Find the equation of the line that bisects the line segment joining the points (1, 2) and (3, 4) and is perpendicular to it.",
+    "options": [
+      "x + y = 5",
+      "x - y = 0",
+      "x + y = 0",
+      "x - y = 5"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The area of a parallelogram with vertices (0,0), (a,0), (a,b), and (c,b) is 10. Find the value of 'b'.",
+    "options": [
+      "10/a",
+      "10a",
+      "a/10",
+      "-10/a"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "A point moves such that its distance from the point (2, 0) is always equal to its distance from the y-axis. Find the equation of its locus.",
+    "options": [
+      "y^2 = 4x",
+      "x^2 = 4y",
+      "y^2 = -4x",
+      "x^2 = -4y"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "If the equation of a line is given by ax + by + c = 0, what is the condition for the line to pass through the origin?",
+    "options": [
+      "a = 0",
+      "b = 0",
+      "c = 0",
+      "a + b = 0"
+    ],
+    "correct_option_index": 2,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Two lines are given by the equations ax + by + c = 0 and px + qy + r = 0. What is the condition for these lines to be parallel?",
+    "options": [
+      "ap = bq",
+      "aq = bp",
+      "ar = cp",
+      "br = cq"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "A line segment AB has endpoints A(2, -3) and B(x, 2). If the length of AB is 13 units, find the possible values of x.",
+    "options": [
+      "-3, 7",
+      "7, -3",
+      "3, -7",
+      "-7, -3"
+    ],
+    "correct_option_index": 2,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Determine the equation of the line passing through the point (1, 2) and perpendicular to the line 2x + y - 5 = 0.",
+    "options": [
+      "x - 2y + 3 = 0",
+      "x + 2y - 5 = 0",
+      "2x - y = 0",
+      "2x + y - 4 = 0"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Find the area of the triangle formed by the points A(1, 2), B(3, 4), and C(5, 0).",
+    "options": [
+      "2 sq. units",
+      "4 sq. units",
+      "6 sq. units",
+      "8 sq. units"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "A line segment joins the points A(2, 1) and B(5, -8). The point P on AB such that AP/AB = 1/3 lies on the line 2x - y + k = 0. Find the value of k.",
+    "options": [
+      "-8",
+      "8",
+      "-3",
+      "3"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "What are the coordinates of the point which divides the line segment joining the points (4, -3) and (8, 5) in the ratio 3:1 internally?",
+    "options": [
+      "(7, 2)",
+      "(7, -2)",
+      "(2, 7)",
+      "(-2, 7)"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Determine the equation of the locus of a point which moves such that its distance from the x-axis is twice its distance from the y-axis.",
+    "options": [
+      "y = 2x",
+      "x = 2y",
+      "y = x/2",
+      "x = y/2"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The vertices of a triangle are A(1, 1), B(4, -2), and C(5, 5). Find the equation of the median through vertex A.",
+    "options": [
+      "4x - 3y - 1 = 0",
+      "3x - 4y + 1 = 0",
+      "3x + 4y - 7 = 0",
+      "4x + 3y - 7 = 0"
+    ],
+    "correct_option_index": 3,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "If the lines 2x + y - 3 = 0, 5x + ky - 3 = 0, and 3x - y - 2 = 0 are concurrent, find the value of k.",
+    "options": [
+      "-8",
+      "8",
+      "-5",
+      "5"
+    ],
+    "correct_option_index": 3,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "What is the reflection of the point (3, -2) across the line y = x?",
+    "options": [
+      "(-2, 3)",
+      "(3, 2)",
+      "(-3, 2)",
+      "(2, -3)"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Find the equation of the circle whose diameter has endpoints A(2, -3) and B(4, 5).",
+    "options": [
+      "x² + y² - 6x - 2y + 17 = 0",
+      "x² + y² - 6x - 2y + 5 = 0",
+      "x² + y² + 6x - 2y - 17 = 0",
+      "x² + y² - 6x + 2y - 5 = 0"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Find the equation of the ellipse with foci at (±3, 0) and vertices at (±5, 0).",
+    "options": [
+      "x²/25 + y²/16 = 1",
+      "x²/16 + y²/25 = 1",
+      "x²/9 + y²/25 = 1",
+      "x²/25 + y²/9 = 1"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Find the equation of the hyperbola with foci at (0, ±5) and vertices at (0, ±3).",
+    "options": [
+      "y²/9 - x²/16 = 1",
+      "y²/25 - x²/9 = 1",
+      "y²/16 - x²/9 = 1",
+      "y²/9 - x²/25 = 1"
+    ],
+    "correct_option_index": 2,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "If the centroid of a triangle is (1, 1) and two vertices are (3, -5) and (-4, 7), find the coordinates of the third vertex.",
+    "options": [
+      "(4, -1)",
+      "(4, 1)",
+      "(-4, -1)",
+      "(-4, 1)"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The line x/a + y/b = 1 cuts the coordinate axes at A and B respectively. Find the equation of the line passing through the midpoint of AB and perpendicular to AB.",
+    "options": [
+      "2bx - 2ay = a² - b²",
+      "2ax - 2by = a² - b²",
+      "2bx + 2ay = a² + b²",
+      "2ax + 2by = a² + b²"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Determine the point on the line x + y = 4 that is equidistant from the points (-1, 3) and (5, 7).",
+    "options": [
+      "(2, 2)",
+      "(1, 3)",
+      "(3, 1)",
+      "(0, 4)"
+    ],
+    "correct_option_index": 2,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The vertices of a triangle are A(1, 1), B(4, -2) and C(5, 5). Find the length of the altitude from vertex B to side AC.",
+    "options": [
+      "3√2",
+      "2√2",
+      "√2",
+      "4√2"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Find the equation of the circle passing through the points (5, 7), (6, 6) and (2, -2).",
+    "options": [
+      "x² + y² - 8x - 6y - 20 = 0",
+      "x² + y² + 8x + 6y + 20 = 0",
+      "x² + y² - 8x - 6y + 20 = 0",
+      "x² + y² + 8x + 6y - 20 = 0"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Find the area of the quadrilateral formed by the lines 2x - y + 1 = 0, x - 2y + 1 = 0, 2x - y + 3 = 0 and x - 2y + 3 = 0.",
+    "options": [
+      "8/3 sq. units",
+      "4/3 sq. units",
+      "2/3 sq. units",
+      "1/3 sq. units"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "If the sum of the distances of a point from two perpendicular lines in a plane is 1, then its locus is?",
+    "options": [
+      "A square",
+      "A circle",
+      "A straight line",
+      "Two intersecting lines"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The equation of the bisector of the acute angle between the lines 3x - 4y + 7 = 0 and 12x + 5y - 2 = 0 is?",
+    "options": [
+      "21x + 77y - 101 = 0",
+      "99x - 77y + 101 = 0",
+      "21x - 77y - 101 = 0",
+      "99x - 27y + 101 = 0"
+    ],
+    "correct_option_index": 2,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The area of a triangle is 5. Two of its vertices are A(2,1) and B(3,-2). The third vertex lies on y = x + 3. Then the third vertex is?",
+    "options": [
+      "(7/2, 13/2)",
+      "(-7/2, 13/2)",
+      "(-3/2, 3/2)",
+      "(7/2, -13/2)"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The points (1,1), (-1,5) and (7,9) are vertices of?",
+    "options": [
+      "An equilateral triangle",
+      "An isosceles triangle",
+      "A right-angled triangle",
+      "A rhombus"
+    ],
+    "correct_option_index": 3,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Let P = (-1,0), Q = (0,0) and R = (3,3√3) be three points. Then the equation of the bisector of the angle PQR is?",
+    "options": [
+      "√3x + y = 0",
+      "x + √3y = 0",
+      "√3x - y = 0",
+      "x - √3y = 0"
+    ],
+    "correct_option_index": 3,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "If the distance of any point (x, y) from the origin is defined as d(x, y) = |x| + |y|, then the locus of the point at a distance of 1 from the origin is",
+    "options": [
+      "A circle",
+      "A square",
+      "A rhombus",
+      "A triangle"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "A straight line through the point A(3, 4) is such that its intercept between the axes is bisected at A. Its equation is",
+    "options": [
+      "3x - 4y + 7 = 0",
+      "4x + 3y = 24",
+      "3x + 4y = 25",
+      "5x - 4y = 1"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The area of the parallelogram formed by the lines y = mx, y = mx + 1, y = nx and y = nx + 1 equals",
+    "options": [
+      "|m + n|/(m - n)^2",
+      "1/|m + n|",
+      "2/|m - n|",
+      "1/|m - n|"
+    ],
+    "correct_option_index": 3,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "A variable line passes through the fixed point (a,b). The locus of the foot of the perpendicular from the origin on the line is?",
+    "options": [
+      "x^2 + y^2 - ax - by = 0",
+      "x^2 + y^2 + ax + by = 0",
+      "ax + by = 0",
+      "x^2 + y^2 - a = 0"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "Consider the points A(0,0) B(0,4),C(6,0). Let P be a moving point such that the area of triangle PAB is three times the area of triangle PAC. The locus of P is?",
+    "options": [
+      "3x + y =0 ",
+      "x + 3y =0",
+      "2x - y = 0",
+      "None"
+    ],
+    "correct_option_index": 3,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The equation of the straight line which passes through the point (3,2) and bisects the angle between the lines x + 2y -11 = 0 and x - 2y + 3 = 0 is",
+    "options": [
+      "x - 2 = 0",
+      "x - y = 1",
+      "x + 2 = 0",
+      "x + y = 5"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "A line passing through the point (2,2) cuts the coordinate axes at A and B. If OA + OB = k, then the equation of the locus of the midpoint of AB is",
+    "options": [
+      "x + y = k",
+      "x + y = k/2",
+      "x + y = kxy",
+      "x + y = xy/k"
+    ],
+    "correct_option_index": 3,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The points (a, 2a), (–2, 6) and (3, 1) are collinear then a=?",
+    "options": [
+      "-11",
+      "22",
+      "11/2",
+      "-22"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "If the lines 2x + 3y = 5 and y = mx + c are perpendicular, then?",
+    "options": [
+      "3m = 2",
+      "2m = -3",
+      "2m = 3",
+      "m= 1"
+    ],
+    "correct_option_index": 1,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "The equation of the straight line passing through (1, 2) and perpendicular to x + y + 7 = 0 is?",
+    "options": [
+      "y - x - 1 = 0",
+      "y + x - 3 = 0",
+      "y - x + 1 = 0",
+      "x + y = 3"
+    ],
+    "correct_option_index": 0,
+    "category": "Coordinate geometry"
+  },
+  {
+    "question": "If a vertex of a square is at (1, 1) and one of its sides lies along the line 3x + 4y = 19, then the area of the square is?",
+    "options": [
+      "16 sq. units",
+      "9 sq. units",
+      "4 sq. units",
+      "25 sq. units"
+    ],
+    "correct_option_index": 3,
+    "category": "Coordinate geometry"
+  }
+]

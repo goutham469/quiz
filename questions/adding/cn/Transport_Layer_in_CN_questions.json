@@ -1,0 +1,519 @@
+[
+  {
+    "question": "Which of the following is NOT a primary function of the Transport Layer?",
+    "options": [
+      "Segmentation and Reassembly",
+      "Flow Control",
+      "Error Control",
+      "Routing"
+    ],
+    "correct_option_index": 3,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What protocol is typically used for reliable, connection-oriented communication at the Transport Layer?",
+    "options": [
+      "UDP",
+      "IP",
+      "TCP",
+      "ICMP"
+    ],
+    "correct_option_index": 2,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Which header field in a TCP segment is used for flow control, indicating the amount of data the receiver is willing to accept?",
+    "options": [
+      "Source Port",
+      "Destination Port",
+      "Sequence Number",
+      "Window Size"
+    ],
+    "correct_option_index": 3,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Which of the following is true about UDP?",
+    "options": [
+      "It guarantees delivery of packets.",
+      "It provides reliable, connection-oriented service.",
+      "It is a connectionless protocol.",
+      "It uses a three-way handshake."
+    ],
+    "correct_option_index": 2,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the purpose of the TCP three-way handshake?",
+    "options": [
+      "To establish a secure connection.",
+      "To negotiate the maximum segment size.",
+      "To synchronize sequence numbers.",
+      "To initiate the flow control mechanism."
+    ],
+    "correct_option_index": 2,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Which mechanism is used by TCP to ensure reliable data transfer in the presence of packet loss?",
+    "options": [
+      "Forward Error Correction",
+      "Retransmission Timeout",
+      "Cyclic Redundancy Check",
+      "Parity Bits"
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What happens when a TCP sender receives three duplicate ACKs?",
+    "options": [
+      "It ignores them.",
+      "It immediately reduces its congestion window.",
+      "It enters the slow start phase.",
+      "It performs fast retransmit."
+    ],
+    "correct_option_index": 3,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Which algorithm is commonly used by TCP to avoid network congestion?",
+    "options": [
+      "Dijkstra's Algorithm",
+      "Bellman-Ford Algorithm",
+      "Congestion Avoidance Algorithm",
+      "Shortest Path First"
+    ],
+    "correct_option_index": 2,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the role of the Urgent Pointer field in a TCP header?",
+    "options": [
+      "To indicate the priority of the segment.",
+      "To specify the sequence number of the urgent data.",
+      "To point to the end of the urgent data.",
+      "To signal the need for immediate processing of the data."
+    ],
+    "correct_option_index": 2,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the maximum segment size (MSS) in TCP?",
+    "options": [
+      "The largest amount of data that can be sent in a single TCP segment.",
+      "The total size of the TCP header.",
+      "The minimum amount of data that must be sent in a TCP segment.",
+      "The size of the IP header."
+    ],
+    "correct_option_index": 0,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Which of the following is a characteristic of TCP congestion control?",
+    "options": [
+      "Additive Increase, Additive Decrease",
+      "Multiplicative Increase, Additive Decrease",
+      "Additive Increase, Multiplicative Decrease",
+      "Multiplicative Increase, Multiplicative Decrease"
+    ],
+    "correct_option_index": 2,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the purpose of the 'netstat' command?",
+    "options": [
+      "To configure network interfaces.",
+      "To display network connections, routing tables, and interface statistics.",
+      "To ping a remote host.",
+      "To trace the route to a remote host."
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "The TCP header contains which field used to acknowledge received segments?",
+    "options": [
+      "Sequence Number",
+      "Acknowledgment Number",
+      "Checksum",
+      "Window Size"
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Which of the following describes a 'SYN flood' attack?",
+    "options": [
+      "A denial-of-service attack that exploits the TCP handshake process.",
+      "An attack that exploits vulnerabilities in the UDP protocol.",
+      "An attack that spoofs IP addresses to redirect traffic.",
+      "An attack that attempts to guess passwords."
+    ],
+    "correct_option_index": 0,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the significance of the TIME_WAIT state in TCP?",
+    "options": [
+      "It ensures that all packets have been delivered before closing the connection.",
+      "It prevents old duplicate segments from interfering with new connections.",
+      "It optimizes the bandwidth usage.",
+      "It reduces the CPU overhead on the server."
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Which of the following is a multiplexing/demultiplexing function performed at the transport layer?",
+    "options": [
+      "Routing packets across different networks.",
+      "Ensuring reliable delivery of data.",
+      "Distributing data streams to correct application sockets.",
+      "Encrypting data for secure transmission."
+    ],
+    "correct_option_index": 2,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "A network application requires a guaranteed maximum delay. Which transport protocol is most suitable?",
+    "options": [
+      "TCP",
+      "UDP",
+      "SCTP",
+      "RSVP"
+    ],
+    "correct_option_index": 3,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the primary reason for using NAT (Network Address Translation) in conjunction with TCP/IP?",
+    "options": [
+      "To encrypt network traffic.",
+      "To hide internal network addresses.",
+      "To improve network performance.",
+      "To simplify network routing."
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Consider a TCP connection where the receiver's advertised window size is 1000 bytes, and the sender has sent 600 bytes of unacknowledged data. How many more bytes can the sender send without waiting for an ACK?",
+    "options": [
+      "400 bytes",
+      "600 bytes",
+      "1000 bytes",
+      "1600 bytes"
+    ],
+    "correct_option_index": 0,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the primary function of SCTP (Stream Control Transmission Protocol)?",
+    "options": [
+      "Reliable, connection-oriented, multi-homed stream transport.",
+      "Unreliable, connectionless datagram transport.",
+      "Secure, encrypted data transfer.",
+      "Real-time video streaming."
+    ],
+    "correct_option_index": 0,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the purpose of Nagle's algorithm in TCP?",
+    "options": [
+      "To improve security by encrypting data.",
+      "To reduce the number of small packets sent over the network.",
+      "To increase the maximum segment size (MSS).",
+      "To provide flow control."
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is meant by 'head-of-line blocking' in the context of TCP?",
+    "options": [
+      "A situation where a single lost packet delays the delivery of subsequent packets in the same connection.",
+      "A denial-of-service attack that overwhelms the server's TCP stack.",
+      "A mechanism to prioritize certain TCP connections over others.",
+      "A technique to improve the efficiency of TCP flow control."
+    ],
+    "correct_option_index": 0,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Which TCP option can be used to mitigate the effects of head-of-line blocking?",
+    "options": [
+      "Selective Acknowledgment (SACK)",
+      "Timestamp Option",
+      "Maximum Segment Size (MSS)",
+      "Window Scale Option"
+    ],
+    "correct_option_index": 0,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "In TCP, what is the significance of the Round Trip Time (RTT)?",
+    "options": [
+      "It measures the time it takes for a signal to travel from the sender to the receiver.",
+      "It estimates the time it takes for a packet to travel from the sender to the receiver and back.",
+      "It determines the optimal buffer size for the connection.",
+      "It is used to calculate the initial congestion window size."
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Which of the following is NOT a method for mitigating TCP's susceptibility to bufferbloat?",
+    "options": [
+      "FQ-CoDel",
+      "RED",
+      "ECN",
+      "Nagle's Algorithm"
+    ],
+    "correct_option_index": 3,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Which type of attack exploits vulnerabilities in TCP sequence number prediction?",
+    "options": [
+      "SYN Flood",
+      "TCP Hijacking",
+      "DNS Spoofing",
+      "ARP Poisoning"
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the primary benefit of using TCP Fast Open (TFO)?",
+    "options": [
+      "Reduced latency for subsequent connections after the initial handshake.",
+      "Increased security through encryption.",
+      "Improved reliability by reducing packet loss.",
+      "Enhanced flow control mechanisms."
+    ],
+    "correct_option_index": 0,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "How does TCP handle out-of-order packets?",
+    "options": [
+      "It discards them immediately.",
+      "It requests retransmission of the missing packets.",
+      "It buffers them until the missing packets arrive.",
+      "It reorders them based on the IP address."
+    ],
+    "correct_option_index": 2,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the purpose of the Explicit Congestion Notification (ECN) mechanism?",
+    "options": [
+      "To encrypt network traffic.",
+      "To enable routers to signal congestion to end hosts without dropping packets.",
+      "To improve the accuracy of TCP's RTT estimation.",
+      "To prioritize certain types of network traffic."
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "In TCP, what is the purpose of the FIN flag?",
+    "options": [
+      "To initiate the connection.",
+      "To acknowledge a received segment.",
+      "To signal the end of data transmission.",
+      "To reset the connection."
+    ],
+    "correct_option_index": 2,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the key difference between TCP and UDP when handling packet loss?",
+    "options": [
+      "TCP retransmits lost packets, while UDP does not.",
+      "UDP retransmits lost packets, while TCP does not.",
+      "TCP encrypts data to prevent packet loss, while UDP does not.",
+      "UDP uses forward error correction, while TCP uses retransmission."
+    ],
+    "correct_option_index": 0,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "A client sends a SYN packet to a server. The server responds with a SYN-ACK packet. What is the next step in the TCP handshake?",
+    "options": [
+      "The client sends another SYN packet.",
+      "The client sends an ACK packet.",
+      "The server sends a FIN packet.",
+      "The server closes the connection."
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Which of the following TCP flags is used to indicate that the connection should be reset?",
+    "options": [
+      "SYN",
+      "ACK",
+      "FIN",
+      "RST"
+    ],
+    "correct_option_index": 3,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Consider a TCP connection with a sequence number of 1000 and a data size of 500 bytes. What is the expected acknowledgment number from the receiver?",
+    "options": [
+      "500",
+      "1000",
+      "1500",
+      "2000"
+    ],
+    "correct_option_index": 2,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the purpose of the TCP Window Scale option?",
+    "options": [
+      "To encrypt the data stream.",
+      "To allow for larger window sizes, improving throughput on high-bandwidth networks.",
+      "To compress the TCP header.",
+      "To provide error correction."
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What problem does Path MTU Discovery (PMTUD) solve in the context of the Transport Layer?",
+    "options": [
+      "Finding the shortest path between two hosts.",
+      "Determining the maximum transmission unit (MTU) along a network path.",
+      "Encrypting data packets for secure transmission.",
+      "Preventing network congestion."
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Which protocol is often used in conjunction with UDP to provide reliable data transfer?",
+    "options": [
+      "TCP",
+      "RTP",
+      "QUIC",
+      "HTTP"
+    ],
+    "correct_option_index": 2,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the primary difference between slow start and congestion avoidance in TCP?",
+    "options": [
+      "Slow start increases the congestion window exponentially, while congestion avoidance increases it linearly.",
+      "Slow start increases the congestion window linearly, while congestion avoidance increases it exponentially.",
+      "Slow start is used only during the initial connection, while congestion avoidance is used throughout the connection.",
+      "There is no difference; they are the same algorithm."
+    ],
+    "correct_option_index": 0,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the purpose of the TCP Keep-Alive mechanism?",
+    "options": [
+      "To keep the connection alive by periodically sending packets.",
+      "To encrypt the data being transmitted.",
+      "To ensure reliable data transfer.",
+      "To prevent SYN flood attacks."
+    ],
+    "correct_option_index": 0,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Which of the following is the most accurate description of the 'Bufferbloat' problem?",
+    "options": [
+      "Excessive buffering in network devices leading to increased latency.",
+      "Insufficient buffer space causing packet loss.",
+      "A denial-of-service attack targeting network buffers.",
+      "Encryption algorithms causing increased buffer usage."
+    ],
+    "correct_option_index": 0,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the role of ports in Transport Layer protocols?",
+    "options": [
+      "To encrypt data transmitted between applications.",
+      "To identify the specific application or process on a host that should receive the data.",
+      "To specify the routing path for packets.",
+      "To control the flow of data between sender and receiver."
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the purpose of the UDP checksum field?",
+    "options": [
+      "To encrypt the UDP header.",
+      "To detect errors in the UDP header and data.",
+      "To ensure reliable delivery of UDP datagrams.",
+      "To specify the destination port number."
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "How does SCTP handle multi-homing?",
+    "options": [
+      "It uses only one IP address per endpoint.",
+      "It supports multiple IP addresses per endpoint for redundancy.",
+      "It encrypts data across multiple networks.",
+      "It dynamically changes IP addresses to avoid congestion."
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the primary advantage of using Stream Control Transmission Protocol (SCTP) over TCP in certain applications?",
+    "options": [
+      "SCTP guarantees faster data transfer rates than TCP.",
+      "SCTP offers multi-homing capabilities for increased reliability, unlike TCP.",
+      "SCTP provides stronger encryption mechanisms than TCP.",
+      "SCTP is less susceptible to congestion compared to TCP."
+    ],
+    "correct_option_index": 1,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "What is the function of Forward Error Correction (FEC) in UDP-based transport protocols?",
+    "options": [
+      "To guarantee 100% reliable data delivery.",
+      "To reduce the overhead of UDP headers.",
+      "To recover from packet loss without retransmission.",
+      "To encrypt UDP data for secure communication."
+    ],
+    "correct_option_index": 2,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "Which of the following techniques can be used to improve TCP performance over high-bandwidth, high-latency networks (Long Fat Networks)?",
+    "options": [
+      "Reducing the TCP window size.",
+      "Disabling Selective Acknowledgement (SACK).",
+      "Using TCP Window Scaling.",
+      "Implementing Nagle's Algorithm aggressively."
+    ],
+    "correct_option_index": 2,
+    "category": "Transport Layer in CN"
+  },
+  {
+    "question": "In the context of transport layer security (TLS), what is a cipher suite?",
+    "options": [
+      "A set of cryptographic algorithms used for encryption, authentication, and key exchange.",
+      "A hardware device used to accelerate encryption processes.",
+      "A software tool used to analyze network traffic.",
+      "A security protocol used to prevent denial-of-service attacks."
+    ],
+    "correct_option_index": 0,
+    "category": "Transport Layer in CN"
+  }
+]

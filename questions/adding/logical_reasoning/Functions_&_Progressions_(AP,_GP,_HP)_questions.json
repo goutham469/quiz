@@ -1,0 +1,552 @@
+[
+  {
+    "question": "If f(x) = x^2 + 3x - 5, find f(a+1).",
+    "options": [
+      "a^2 + 5a - 1",
+      "a^2 + 5a - 2",
+      "a^2 + 5a - 3",
+      "a^2 + 5a - 4"
+    ],
+    "correct_option_index": 2,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If the nth term of an AP is 3n + 7, then what is the sum of its first 20 terms?",
+    "options": [
+      "710",
+      "720",
+      "730",
+      "740"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "The sum of the first three terms of a GP is 39/10 and their product is 1. Find the common ratio.",
+    "options": [
+      "2/5, 5/2",
+      "3/5, 5/3",
+      "1/5, 5/1",
+      "4/5, 5/4"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If a, b, c are in HP, which of the following is true?",
+    "options": [
+      "b = (a+c)/2",
+      "b^2 = ac",
+      "b = 2ac/(a+c)",
+      "b = √(ac)"
+    ],
+    "correct_option_index": 2,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "The domain of the function f(x) = √(9 - x^2) is:",
+    "options": [
+      "(-3, 3)",
+      "[-3, 3]",
+      "(-∞, -3] ∪ [3, ∞)",
+      "(-∞, -3) ∪ (3, ∞)"
+    ],
+    "correct_option_index": 1,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If f(x) = (x + 1)/(x - 1), then f(f(x)) equals:",
+    "options": [
+      "x",
+      "1/x",
+      "-x",
+      "-1/x"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "The sum of an infinite GP is 5 and the sum of the squares of these terms is 15.  Find the common ratio.",
+    "options": [
+      "1/3",
+      "2/3",
+      "3/4",
+      "1/4"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If a, b, c are in AP, and b, c, d are in GP, then a, c, e are in HP, find e.",
+    "options": [
+      "bc/a",
+      "b^2/a",
+      "c^2/a",
+      "ab/c"
+    ],
+    "correct_option_index": 2,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "The range of the function f(x) = |x|/x is:",
+    "options": [
+      "{0}",
+      "{-1, 1}",
+      "R",
+      "R - {0}"
+    ],
+    "correct_option_index": 1,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "Find the sum of the series 1 + 2*2 + 3*2^2 + 4*2^3 + ... + 100*2^99.",
+    "options": [
+      "99*2^100 + 2",
+      "98*2^100 + 2",
+      "99*2^99 + 2",
+      "98*2^99 + 2"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If f(x) = x^2, for 0 <= x <= 2, and g(x) = 2x, for 0 <= x <= 1, then which function is f o g.",
+    "options": [
+      "4x^2",
+      "2x^2",
+      "x^4",
+      "4x"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "What is the number of terms of the GP series 3, 6, 12, ... , 384.",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct_option_index": 1,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "The 5th and 8th term of a GP is 80 and 640 respectively, what is the GP.",
+    "options": [
+      "1,4,16,64,....",
+      "2,4,8,16,....",
+      "1,2,4,8,....",
+      "3,6,12,24...."
+    ],
+    "correct_option_index": 1,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "A geometric progression has first term 1 and common ratio r. If the sum of the first five terms is 4 times the sum of the first three terms, find the value of r.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_option_index": 1,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "The function f(x) is defined by f(x) = x^3 + ax^2 + bx + c, where a, b, and c are real numbers. If f(1) = 0, f(2) = 3, and f(3) = 8, find the value of f(4).",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "Find the range of the function f(x) = 1/(x^2 + 2).",
+    "options": [
+      "(0, 1/2]",
+      "[0, 1/2)",
+      "(0, ∞)",
+      "(0, 1]"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If the third term of an HP is 1/7 and the 7th term is 1/15, find the 10th term.",
+    "options": [
+      "1/19",
+      "1/21",
+      "1/23",
+      "1/25"
+    ],
+    "correct_option_index": 1,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If f(x) = (1-x)/(1+x), then f(f(cot(x))) is equal to",
+    "options": [
+      "cot(x)",
+      "tan(x)",
+      "cos(x)",
+      "sin(x)"
+    ],
+    "correct_option_index": 1,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "Let f(x) = x^2 - 4x + 3.  Find the value of x for which f(x) = f(2x).",
+    "options": [
+      "1",
+      "2",
+      "1/3",
+      "2/3"
+    ],
+    "correct_option_index": 2,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If the arithmetic mean of two numbers is 6.5 and their geometric mean is 6, then the numbers are:",
+    "options": [
+      "5, 7",
+      "9, 4",
+      "12, 1",
+      "10, 3"
+    ],
+    "correct_option_index": 1,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "Let f(x) = ax + b and g(x) = cx + d.  If f(g(x)) = g(f(x)) for all x, and a != c, then which of the following must be true?",
+    "options": [
+      "a = c",
+      "b = d",
+      "ad = bc",
+      "a + b = c + d"
+    ],
+    "correct_option_index": 1,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If a^2, b^2, c^2 are in AP, then prove that b + c, c + a, a + b are in:",
+    "options": [
+      "AP",
+      "GP",
+      "HP",
+      "None of these"
+    ],
+    "correct_option_index": 2,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "The function f is defined by f(x) = x^2 + x + 1.  What is the minimum value of f(x)?",
+    "options": [
+      "3/4",
+      "1",
+      "5/4",
+      "2"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "Find the domain of f(x) = 1/log(1 - x) + √(x+2)",
+    "options": [
+      "[-2, 0) U (0, 1)",
+      "[-2, 0)",
+      "(-2, 0) U (0, 1)",
+      "[-2, 1]"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If a, b, and c are positive real numbers such that a + b + c = 1, then find the maximum value of abc.",
+    "options": [
+      "1/3",
+      "1/9",
+      "1/27",
+      "1"
+    ],
+    "correct_option_index": 2,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If f(x) = x^2 - 3x + 2, find the values of x for which f(x) = f(2x - 1).",
+    "options": [
+      "1, 3",
+      "2, -1",
+      "0, 3",
+      "1, -2"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If f(x) = √(x-2) and g(x) = x^2 + 1, find the domain of f(g(x)).",
+    "options": [
+      "R",
+      "x >= 1",
+      "x >= √2",
+      "x <= √2"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "A sequence is defined by a_1 = 1 and a_(n+1) = 3a_n + 2 for n >= 1. Find a_4.",
+    "options": [
+      "41",
+      "40",
+      "39",
+      "38"
+    ],
+    "correct_option_index": 1,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "The first term of an AP is 2 and the last term is 50. The sum of all terms is 442. Find the number of terms.",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correct_option_index": 2,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "The sum of an infinite geometric series is 27, and the sum of the squares of its terms is 243.  Find the first term.",
+    "options": [
+      "9",
+      "18",
+      "24",
+      "27"
+    ],
+    "correct_option_index": 1,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If the roots of the quadratic equation ax^2 + bx + c = 0 are in the ratio 2:3, then which of the following is true?",
+    "options": [
+      "6b^2 = 25ac",
+      "5b^2 = 36ac",
+      "3b^2 = 16ac",
+      "25b^2 = 6ac"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "A function f satisfies f(x + y) = f(x)f(y) for all real numbers x and y. If f(1) = 2, what is f(3)?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "9"
+    ],
+    "correct_option_index": 2,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If f(x) = log((1+x)/(1-x)), then f(2x/(1+x^2)) is equal to",
+    "options": [
+      "2f(x)",
+      "3f(x)",
+      "[f(x)]^2",
+      "[f(x)]^3"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If f(x) = (x^2 - 1)/(x^2 + 1), then f(tan θ) is:",
+    "options": [
+      "cos 2θ",
+      "sin 2θ",
+      "tan 2θ",
+      "cot 2θ"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "The harmonic mean of two numbers is 4.  If one of the numbers is 6, then the other number is:",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "12"
+    ],
+    "correct_option_index": 1,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "The sum of first p, q, and r terms of an AP are a, b, and c, respectively. Then, (a/p)(q-r) + (b/q)(r-p) + (c/r)(p-q) is equal to:",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "None of these"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "The range of f(x) = sin^2(x) - 4sin(x) + 5 is:",
+    "options": [
+      "[2, 10]",
+      "[2, 8]",
+      "[2, 6]",
+      "[1, 10]"
+    ],
+    "correct_option_index": 2,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "Let f(x) = x^2 - 5x + 6. Find the set of values of x for which f(x) < 0.",
+    "options": [
+      "(2, 3)",
+      "(-∞, 2) ∪ (3, ∞)",
+      "[2, 3]",
+      "(-∞, 2] ∪ [3, ∞)"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If f(x) = (x^2 + 1)/(x^2 - 1), find f(f(x)).",
+    "options": [
+      "x^4/((x^2-1)^2)",
+      "x^4",
+      "(x^4 + 2x^2 + 2)/(x^4 + 2x^2)",
+      "(x^4 - 2x^2 - 2)/(x^4 - 2x^2)"
+    ],
+    "correct_option_index": 2,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If the sum of the first n terms of an AP is given by S_n = 3n^2 + 5n and a_m = 164, find the value of m.",
+    "options": [
+      "26",
+      "27",
+      "28",
+      "29"
+    ],
+    "correct_option_index": 2,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If a > 0, b > 0, c > 0, prove that (a/b + b/c + c/a) >= 3 . What is this property related to.",
+    "options": [
+      "AM >= GM",
+      "GM >= HM",
+      "AM >= HM",
+      "None of these"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "The nth term of an AP is given by a_n = 4n + 5. What is the common difference?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "9"
+    ],
+    "correct_option_index": 1,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "Which of the following functions is even?",
+    "options": [
+      "f(x) = x^3",
+      "f(x) = sin(x)",
+      "f(x) = cos(x)",
+      "f(x) = x"
+    ],
+    "correct_option_index": 2,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If a, b, c are in HP, then (b+a)/(b-a) + (b+c)/(b-c) is equal to",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option_index": 2,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "The value of 1/(log_3(12)) + 1/(log_4(12)) is:",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_option_index": 1,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "A person is to count 4500 currency notes. Let a_n denote the number of notes he counts in the nth minute. If a_1 = a_2 = a_3 = ... = a_10 = 150 and a_10, a_11, ... are in AP with common difference -2, then the time taken by him to count all notes is:",
+    "options": [
+      "24 minutes",
+      "34 minutes",
+      "125 minutes",
+      "135 minutes"
+    ],
+    "correct_option_index": 1,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If a, b, c are positive real numbers, then the minimum value of (a/b + b/c + c/a) is:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option_index": 2,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If f(x) = x^2 + ax + b, such that f(1) = 1 and f(2) = 2, find f(3).",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "If a, b, c are in GP, and x, y are arithmetic means between a, b and b, c respectively, then what is the value of a/x + c/y?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_option_index": 2,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  },
+  {
+    "question": "The range of the function f(x) = |x - 1| + |x - 2| is:",
+    "options": [
+      "[1, ∞)",
+      "[2, ∞)",
+      "[0, ∞)",
+      "[3, ∞)"
+    ],
+    "correct_option_index": 0,
+    "category": "Functions & Progressions (AP, GP, HP)"
+  }
+]

@@ -1,0 +1,541 @@
+[
+  {
+    "question": "Which data model is based on representing data as a collection of interconnected nodes and relationships, offering flexibility in representing complex relationships?",
+    "options": [
+      "Hierarchical Model",
+      "Network Model",
+      "Relational Model",
+      "Object-Oriented Model"
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "In a relational data model, what is the term for a column or set of columns that uniquely identifies each row in a table?",
+    "options": [
+      "Foreign Key",
+      "Primary Key",
+      "Composite Key",
+      "Candidate Key"
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "What type of data model organizes data in a tree-like structure with a single root node and parent-child relationships?",
+    "options": [
+      "Relational Model",
+      "Network Model",
+      "Hierarchical Model",
+      "Entity-Relationship Model"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which data model is primarily focused on representing real-world entities as objects with attributes and methods, promoting encapsulation and inheritance?",
+    "options": [
+      "Relational Model",
+      "Object-Oriented Model",
+      "Network Model",
+      "Hierarchical Model"
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "In an Entity-Relationship (ER) model, what does a diamond shape typically represent?",
+    "options": [
+      "Entity",
+      "Attribute",
+      "Relationship",
+      "Weak Entity"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which data model is best suited for representing many-to-many relationships directly, without the need for intermediary tables?",
+    "options": [
+      "Relational Model",
+      "Hierarchical Model",
+      "Network Model",
+      "Object-Relational Model"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "What is the primary advantage of using a star schema in a data warehouse?",
+    "options": [
+      "Reduced data redundancy",
+      "Simplified query processing",
+      "Increased data integrity",
+      "Enhanced data security"
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which of the following is NOT a type of relationship cardinality in an ER model?",
+    "options": [
+      "One-to-one",
+      "One-to-many",
+      "Many-to-many",
+      "Zero-to-one"
+    ],
+    "correct_option_index": 3,
+    "category": "Data Models"
+  },
+  {
+    "question": "What is the purpose of normalization in the relational data model?",
+    "options": [
+      "To improve query performance",
+      "To reduce data redundancy and improve data integrity",
+      "To simplify data retrieval",
+      "To enhance data security"
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which data model is most commonly used in modern database systems for its flexibility and scalability?",
+    "options": [
+      "Hierarchical Model",
+      "Network Model",
+      "Relational Model",
+      "Object-Oriented Model"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "A data model that combines features of both relational and object-oriented data models is called?",
+    "options": [
+      "Hierarchical Model",
+      "Network Model",
+      "Object-Relational Model",
+      "Entity-Relationship Model"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "In a relational database, what is a 'view'?",
+    "options": [
+      "A physical table stored on disk",
+      "A virtual table derived from one or more base tables",
+      "An index used for faster data retrieval",
+      "A constraint to enforce data integrity"
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which normal form is considered the 'gold standard' in relational database design?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "correct_option_index": 3,
+    "category": "Data Models"
+  },
+  {
+    "question": "What is the significance of ACID properties in database transactions?",
+    "options": [
+      "To ensure data security",
+      "To guarantee data consistency, atomicity, isolation, and durability",
+      "To improve query performance",
+      "To simplify database administration"
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which data modeling technique is used to visually represent the relationships between entities and their attributes?",
+    "options": [
+      "Data Flow Diagram (DFD)",
+      "Use Case Diagram",
+      "Entity-Relationship Diagram (ERD)",
+      "State Transition Diagram"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "Consider a scenario where you need to represent a complex social network with users and their connections. Which data model would be most suitable?",
+    "options": [
+      "Relational Model",
+      "Hierarchical Model",
+      "Graph Model",
+      "Document Model"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which NoSQL data model stores data in key-value pairs, offering high scalability and performance?",
+    "options": [
+      "Document Model",
+      "Column-Family Model",
+      "Graph Model",
+      "Key-Value Store"
+    ],
+    "correct_option_index": 3,
+    "category": "Data Models"
+  },
+  {
+    "question": "What is the primary advantage of using a denormalized data model in a data warehouse environment?",
+    "options": [
+      "Reduced data redundancy",
+      "Improved query performance",
+      "Enhanced data integrity",
+      "Simplified data management"
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which data modeling technique is used to represent the flow of data through a system?",
+    "options": [
+      "Entity-Relationship Diagram (ERD)",
+      "Data Flow Diagram (DFD)",
+      "Use Case Diagram",
+      "State Transition Diagram"
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "In a column-family data model, what is a super column?",
+    "options": [
+      "A column that contains only numeric data",
+      "A column that contains a nested set of columns",
+      "A column that is used as a primary key",
+      "A column that stores multimedia data"
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "In a Hospital Management System, patients can have multiple appointments, and doctors can have multiple appointments with different patients.  Which type of relationship exists between Patient and Appointment?",
+    "options": [
+      "One-to-One",
+      "One-to-Many",
+      "Many-to-One",
+      "Many-to-Many"
+    ],
+    "correct_option_index": 3,
+    "category": "Data Models"
+  },
+  {
+    "question": "Consider a database schema where an 'Employee' table has columns like 'EmployeeID', 'Name', 'DepartmentID', and 'Salary'.  The 'Department' table has 'DepartmentID' and 'DepartmentName'. Which column would typically be a foreign key?",
+    "options": [
+      "EmployeeID in Employee table",
+      "Name in Employee table",
+      "DepartmentID in Employee table",
+      "Salary in Employee table"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "A functional dependency X -> Y holds in a relation R if:",
+    "options": [
+      "For every instance of R, the values of X uniquely determine the values of Y.",
+      "For every instance of R, the values of Y uniquely determine the values of X.",
+      "X and Y are always primary keys.",
+      "X and Y are always foreign keys."
+    ],
+    "correct_option_index": 0,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which data modeling approach is best suited for representing complex relationships and data structures found in social networks and recommendation systems?",
+    "options": [
+      "Relational data model",
+      "Hierarchical data model",
+      "Object-oriented data model",
+      "Graph data model"
+    ],
+    "correct_option_index": 3,
+    "category": "Data Models"
+  },
+  {
+    "question": "In the context of data warehousing, what is a fact table?",
+    "options": [
+      "A table containing descriptive attributes of a business entity",
+      "A table storing measurements and metrics of business processes",
+      "A table linking multiple dimension tables",
+      "A table used for indexing and searching data"
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of a good data model?",
+    "options": [
+      "Completeness",
+      "Consistency",
+      "Flexibility",
+      "Redundancy"
+    ],
+    "correct_option_index": 3,
+    "category": "Data Models"
+  },
+  {
+    "question": "What is the purpose of a Data Definition Language (DDL) in database management systems?",
+    "options": [
+      "To manipulate data stored in the database",
+      "To define the structure and schema of the database",
+      "To control access and security of the database",
+      "To perform data analysis and reporting"
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "In a university database, students are enrolled in courses. A student can enroll in multiple courses, and a course can have multiple students enrolled.  Which database design correctly represents this relationship to avoid data redundancy?",
+    "options": [
+      "A single table with StudentID, StudentName, CourseID, CourseName",
+      "Two tables: Student (StudentID, StudentName) and Course (CourseID, CourseName)",
+      "Three tables: Student (StudentID, StudentName), Course (CourseID, CourseName), Enrollment (StudentID, CourseID)",
+      "Two tables: Student (StudentID, StudentName, CourseID) and Course (CourseID, CourseName)"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "Consider a scenario where you want to model a family tree. Which data model would be most appropriate to represent the hierarchical relationships between family members?",
+    "options": [
+      "Relational model",
+      "Hierarchical model",
+      "Network model",
+      "Object-oriented model"
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "What is the key difference between a conceptual data model and a logical data model?",
+    "options": [
+      "A conceptual data model is technology-specific, while a logical data model is technology-independent.",
+      "A conceptual data model focuses on business requirements, while a logical data model focuses on database implementation details.",
+      "A conceptual data model is used for data storage, while a logical data model is used for data analysis.",
+      "A conceptual data model is more detailed than a logical data model."
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "What is the purpose of indexing in a database?",
+    "options": [
+      "To improve data integrity",
+      "To reduce data redundancy",
+      "To speed up data retrieval",
+      "To enhance data security"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which data modeling approach is most suitable for handling unstructured and semi-structured data, such as documents and JSON objects?",
+    "options": [
+      "Relational data model",
+      "Hierarchical data model",
+      "Object-oriented data model",
+      "Document data model"
+    ],
+    "correct_option_index": 3,
+    "category": "Data Models"
+  },
+  {
+    "question": "In a database for an online store, 'CustomerID' in the 'Orders' table references 'CustomerID' in the 'Customers' table. What type of constraint is this?",
+    "options": [
+      "Primary Key Constraint",
+      "Unique Constraint",
+      "Foreign Key Constraint",
+      "Check Constraint"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which normal form addresses transitive dependency?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which of the following data models is best suited for representing spatial data, such as geographic locations and boundaries?",
+    "options": [
+      "Relational data model",
+      "Hierarchical data model",
+      "Object-oriented data model",
+      "Spatial data model"
+    ],
+    "correct_option_index": 3,
+    "category": "Data Models"
+  },
+  {
+    "question": "A table 'Employees' has columns 'EmployeeID', 'Name', 'DateOfBirth', and 'Age'. If 'Age' can be calculated from 'DateOfBirth', what kind of dependency exists?",
+    "options": [
+      "Full Functional Dependency",
+      "Partial Dependency",
+      "Transitive Dependency",
+      "No Dependency"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "A table ‘Orders’ has columns ‘OrderID’, ‘CustomerID’, ‘OrderDate’, and ‘DeliveryAddress’. A change to ‘DeliveryAddress’ requires changes to multiple rows. What type of data anomaly is this?",
+    "options": [
+      "Insertion Anomaly",
+      "Deletion Anomaly",
+      "Update Anomaly",
+      "No Anomaly"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which of the following is NOT a common type of data model used in data warehousing?",
+    "options": [
+      "Star schema",
+      "Snowflake schema",
+      "Galaxy schema",
+      "Hierarchical schema"
+    ],
+    "correct_option_index": 3,
+    "category": "Data Models"
+  },
+  {
+    "question": "In object-oriented data modeling, what is the concept of 'inheritance'?",
+    "options": [
+      "The ability of an object to hide its internal state",
+      "The ability of an object to perform different actions based on its type",
+      "The ability of an object to inherit properties and methods from a parent class",
+      "The ability of an object to encapsulate data and methods"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "A relation R(A,B,C,D,E) has functional dependencies A->B, BC->E, and E->D. Which normal form is R in?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "correct_option_index": 0,
+    "category": "Data Models"
+  },
+  {
+    "question": "What is the main goal of data governance in the context of data models?",
+    "options": [
+      "To optimize database performance",
+      "To ensure data quality, consistency, and compliance",
+      "To simplify data integration",
+      "To reduce data storage costs"
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which of the following is an example of a NoSQL database designed for handling graph data?",
+    "options": [
+      "MongoDB",
+      "Cassandra",
+      "Neo4j",
+      "Redis"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "In a relational database, a table has columns A, B, and C. It's found that A -> B and B -> C.  Decomposing the table into two tables (A, B) and (B, C) is done to achieve which normal form?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "What is the primary purpose of the 'WITH ROLLUP' clause in SQL?",
+    "options": [
+      "To display data in a hierarchical format",
+      "To generate summary rows for groups of data",
+      "To filter data based on specific criteria",
+      "To sort data in descending order"
+    ],
+    "correct_option_index": 1,
+    "category": "Data Models"
+  },
+  {
+    "question": "Consider a database with a table ‘Products’ having attributes ProductID (Primary Key), ProductName, CategoryID, and Price.  There's also a table ‘Categories’ with attributes CategoryID (Primary Key) and CategoryName.  If you want to find the names of all products and their corresponding category names, what SQL JOIN operation would you use?",
+    "options": [
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "INNER JOIN",
+      "FULL OUTER JOIN"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which isolation level in a database transaction provides the highest level of data consistency but can also significantly impact performance?",
+    "options": [
+      "Read Uncommitted",
+      "Read Committed",
+      "Repeatable Read",
+      "Serializable"
+    ],
+    "correct_option_index": 3,
+    "category": "Data Models"
+  },
+  {
+    "question": "A large online retail company uses a database to track customer orders.  The database needs to support a high volume of concurrent transactions and maintain data consistency. Which of the following database architecture patterns is most suitable for this scenario?",
+    "options": [
+      "Single-instance database",
+      "Master-slave replication",
+      "Sharding",
+      "Federated database"
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  },
+  {
+    "question": "Which of the following is NOT a standard way to handle null values in SQL?",
+    "options": [
+      "Using IS NULL operator",
+      "Using IS NOT NULL operator",
+      "Using COALESCE() function",
+      "Using ASSIGN NULL operator"
+    ],
+    "correct_option_index": 3,
+    "category": "Data Models"
+  },
+  {
+    "question": "In the context of NoSQL databases, what is eventual consistency?",
+    "options": [
+      "Data is always immediately consistent across all nodes.",
+      "Data is guaranteed to be consistent within a single transaction.",
+      "Data will become consistent across all nodes eventually, but there may be a delay.",
+      "Data consistency is not a concern in NoSQL databases."
+    ],
+    "correct_option_index": 2,
+    "category": "Data Models"
+  }
+]

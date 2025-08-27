@@ -1,0 +1,519 @@
+[
+  {
+    "question": "Which of the following is NOT a core principle of API Design System design?",
+    "options": [
+      "Consistency",
+      "Reusability",
+      "Discoverability",
+      "Implementation Details"
+    ],
+    "correct_option_index": 3,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is the primary benefit of using a design token system in API Design System?",
+    "options": [
+      "Improved performance",
+      "Centralized style management",
+      "Reduced code complexity",
+      "Enhanced security"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is the key difference between an API Design System and a UI component library?",
+    "options": [
+      "API Design Systems only focus on code",
+      "UI component libraries are framework-specific",
+      "API Design Systems are concerned with the user experience",
+      "There is no difference"
+    ],
+    "correct_option_index": 2,
+    "category": "API Design System design"
+  },
+  {
+    "question": "Which of the following is a common method for versioning APIs in a Design System?",
+    "options": [
+      "Semantic Versioning",
+      "Random Versioning",
+      "Alphabetical Versioning",
+      "Date-based Versioning"
+    ],
+    "correct_option_index": 0,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is the purpose of defining API contracts (e.g., OpenAPI Specification) in an API Design System?",
+    "options": [
+      "To improve API performance",
+      "To automate API documentation",
+      "To enforce security policies",
+      "All of the above"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "Consider an API endpoint that retrieves user data. Which HTTP method is most appropriate for this operation?",
+    "options": [
+      "POST",
+      "GET",
+      "PUT",
+      "DELETE"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "You are designing an API for handling file uploads. Which HTTP method is commonly used for this purpose?",
+    "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "PATCH"
+    ],
+    "correct_option_index": 0,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What HTTP status code indicates that a request was successfully processed and a new resource was created?",
+    "options": [
+      "200 OK",
+      "201 Created",
+      "400 Bad Request",
+      "500 Internal Server Error"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "Which of the following is NOT a recommended practice for API security?",
+    "options": [
+      "Using HTTPS",
+      "Implementing rate limiting",
+      "Exposing sensitive information in URLs",
+      "Validating input data"
+    ],
+    "correct_option_index": 2,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is the primary benefit of using API gateways in a microservices architecture?",
+    "options": [
+      "Increased database performance",
+      "Simplified routing and security",
+      "Reduced network latency",
+      "Enhanced code reusability"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What does HATEOAS stand for in the context of RESTful APIs?",
+    "options": [
+      "Hypertext As The Engine Of Software",
+      "Hypermedia As The Engine Of Application State",
+      "Highly Automated Test Environment Of Systems",
+      "Hierarchical API Testing and Execution Over Systems"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "Which of the following is a characteristic of an idempotent API operation?",
+    "options": [
+      "It always returns the same result",
+      "It can be safely retried multiple times",
+      "It requires user authentication",
+      "It can only be executed once"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is the purpose of API rate limiting?",
+    "options": [
+      "To improve API performance",
+      "To prevent abuse and denial-of-service attacks",
+      "To simplify API documentation",
+      "To enforce API usage quotas"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "Which API design pattern is useful for handling long-running operations?",
+    "options": [
+      "Command Query Responsibility Segregation (CQRS)",
+      "Asynchronous API pattern",
+      "RESTful API pattern",
+      "GraphQL API pattern"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is the primary advantage of using gRPC over REST for inter-service communication?",
+    "options": [
+      "Simplified caching",
+      "Improved performance and efficiency",
+      "Enhanced security features",
+      "Better support for web browsers"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "In the context of API versioning, what does 'sunsetting' an API refer to?",
+    "options": [
+      "Introducing a new API feature",
+      "Deprecating and removing an old API version",
+      "Improving API documentation",
+      "Optimizing API performance"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "Which of the following is a common strategy for API key management?",
+    "options": [
+      "Storing API keys in plain text",
+      "Embedding API keys in client-side code",
+      "Using environment variables and secrets management",
+      "Sharing API keys publicly"
+    ],
+    "correct_option_index": 2,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is the purpose of implementing API mocking during development?",
+    "options": [
+      "To improve API performance",
+      "To simulate API behavior and dependencies",
+      "To simplify API documentation",
+      "To enhance API security"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What are the main advantages of using GraphQL over REST?",
+    "options": [
+      "Automatic code generation, caching, and rate limiting.",
+      "Ability to request specific data, reduced over-fetching, schema validation.",
+      "Simplified routing, improved security, better browser support.",
+      "Enhanced security, better performance, simpler API documentation."
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is the purpose of the 'Content-Type' header in an HTTP request?",
+    "options": [
+      "To specify the encoding of the request body",
+      "To specify the format of the request body",
+      "To specify the language of the request",
+      "To specify the cache policy for the request"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "An API endpoint returns a large dataset. Which pagination technique is most efficient for the client?",
+    "options": [
+      "Offset-based pagination",
+      "Cursor-based pagination",
+      "Page-based pagination",
+      "Random sampling"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "You need to design an API that supports real-time communication. Which technology is most suitable?",
+    "options": [
+      "REST",
+      "GraphQL",
+      "WebSockets",
+      "SOAP"
+    ],
+    "correct_option_index": 2,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is the purpose of API versioning using URI path segments (e.g., /v1/users)?",
+    "options": [
+      "To improve API performance",
+      "To allow clients to choose a specific API version",
+      "To simplify API documentation",
+      "To enhance API security"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "Which security mechanism is commonly used to delegate authorization to a third-party application?",
+    "options": [
+      "Basic Authentication",
+      "API Keys",
+      "OAuth 2.0",
+      "JWT"
+    ],
+    "correct_option_index": 2,
+    "category": "API Design System design"
+  },
+  {
+    "question": "In the context of API design, what is the principle of 'least privilege'?",
+    "options": [
+      "Giving all users full access to all API endpoints",
+      "Limiting API access to only the necessary resources",
+      "Making API documentation publicly available",
+      "Implementing strict rate limiting"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is the main challenge of using API-first approach to Design Systems?",
+    "options": [
+      "It is difficult to implement",
+      "Requires more coordination upfront",
+      "Does not handle front end requirements well",
+      "All the above"
+    ],
+    "correct_option_index": 3,
+    "category": "API Design System design"
+  },
+  {
+    "question": "When designing API documentation, which of the following is most important?",
+    "options": [
+      "Technical jargon",
+      "Code examples",
+      "Extensive text descriptions",
+      "Visual appeal"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "Which of the following is NOT a common cause of API security vulnerabilities?",
+    "options": [
+      "Injection attacks",
+      "Cross-site scripting",
+      "Secure authentication",
+      "Broken authentication"
+    ],
+    "correct_option_index": 2,
+    "category": "API Design System design"
+  },
+  {
+    "question": "Which is the best method to handle breaking changes in the API design",
+    "options": [
+      "Increment version",
+      "Notify the users",
+      "Migrate users silently",
+      "Both A and B"
+    ],
+    "correct_option_index": 3,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is the 'Retry-After' header used for in HTTP responses?",
+    "options": [
+      "Specifying the cache duration",
+      "Indicating when the client should retry a failed request",
+      "Providing API usage statistics",
+      "Requiring client authentication"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is a common pattern for evolving an existing API without breaking compatibility?",
+    "options": [
+      "Adding new parameters",
+      "Changing the return type of a field",
+      "Removing an existing parameter",
+      "Renaming an existing endpoint"
+    ],
+    "correct_option_index": 0,
+    "category": "API Design System design"
+  },
+  {
+    "question": "When to use OpenAPI Specifications (fka Swagger) for API Design?",
+    "options": [
+      "After all API's are built",
+      "During initial designing for defining schema and contracts",
+      "As a tool for version control",
+      "As a final step for API documentation"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is a common use case for API mocking and simulation?",
+    "options": [
+      "Testing an integration before dependent API is ready",
+      "Load testing an API",
+      "Documenting an API",
+      "Generating client code"
+    ],
+    "correct_option_index": 0,
+    "category": "API Design System design"
+  },
+  {
+    "question": "In a microservices architecture, which API design pattern is crucial for handling inter-service communication and data consistency?",
+    "options": [
+      "Saga Pattern",
+      "Circuit Breaker Pattern",
+      "Strangler Fig Pattern",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "API Design System design"
+  },
+  {
+    "question": "Which API design pattern is useful for handling asynchronous operations and eventual consistency?",
+    "options": [
+      "Command Query Responsibility Segregation (CQRS)",
+      "Event-Driven Architecture",
+      "RESTful API pattern",
+      "GraphQL API pattern"
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is an API Design System?",
+    "options": [
+      "A system for designing user interfaces.",
+      "A collection of reusable API components and patterns.",
+      "A system for managing API documentation.",
+      "A software development methodology."
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "Which factor is the most important in API design system",
+    "options": [
+      "Scalability",
+      "Security",
+      "Reliability",
+      "Usability"
+    ],
+    "correct_option_index": 3,
+    "category": "API Design System design"
+  },
+  {
+    "question": "For an e-commerce platform, what is the main purpose of API for product management?",
+    "options": [
+      "To manage customer data",
+      "To handle payment processing",
+      "To enable inventory management and updates",
+      "To provide customer support"
+    ],
+    "correct_option_index": 2,
+    "category": "API Design System design"
+  },
+  {
+    "question": "Consider a microservices architecture where one service is overwhelmed with requests. Which API design pattern would prevent cascading failures?",
+    "options": [
+      "Circuit Breaker Pattern",
+      "Bulkhead Pattern",
+      "Rate Limiting",
+      "API Gateway Pattern"
+    ],
+    "correct_option_index": 0,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is the key role of the API gateway pattern in a microservices architecture?",
+    "options": [
+      "Handling inter-service communication directly.",
+      "Providing a single entry point and managing security, routing, and composition.",
+      "Managing data persistence across services.",
+      "Implementing business logic across services."
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is the primary purpose of rate limiting on an API?",
+    "options": [
+      "To improve API performance.",
+      "To control and manage the rate of requests to prevent abuse or overload.",
+      "To enhance API security.",
+      "To simplify API documentation."
+    ],
+    "correct_option_index": 1,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What is a good practice to do with API keys?",
+    "options": [
+      "Embed directly in the source code.",
+      "Store in a .env file.",
+      "Stored encrypted at a centralized location.",
+      "Commit directly to github repo"
+    ],
+    "correct_option_index": 2,
+    "category": "API Design System design"
+  },
+  {
+    "question": "An API Design System includes",
+    "options": [
+      "Only documentation",
+      "Just code samples",
+      "Set of Rules, guidelines and reusable components",
+      "All the above"
+    ],
+    "correct_option_index": 2,
+    "category": "API Design System design"
+  },
+  {
+    "question": "Which is the best way to handle errors in api design?",
+    "options": [
+      "Return generic error messages",
+      "Log the errors without providing useful information",
+      "Give detailed debugging information with stack traces",
+      "Returning standarized error codes and messages"
+    ],
+    "correct_option_index": 3,
+    "category": "API Design System design"
+  },
+  {
+    "question": "Which one is not a component of API Design System",
+    "options": [
+      "Style guides",
+      "Code Libraries",
+      "Authentication Method",
+      "IDE (Integrated Development Environment)"
+    ],
+    "correct_option_index": 3,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What does API stability means in API Design Systems?",
+    "options": [
+      "The server on which the api is deployed is secure and stable",
+      "That once the API is designed is stable and cannot change",
+      "The API doesn't return unexpected results",
+      "The ability of API to resist changes"
+    ],
+    "correct_option_index": 3,
+    "category": "API Design System design"
+  },
+  {
+    "question": "What does 'API-first design' principle entails?",
+    "options": [
+      "Prioritizing API design before any other components",
+      "Having all APIs in a central place",
+      "The API's are created by an API designer and the rest of teams follow",
+      "Ensure the API's are documented before any deployment"
+    ],
+    "correct_option_index": 0,
+    "category": "API Design System design"
+  }
+]

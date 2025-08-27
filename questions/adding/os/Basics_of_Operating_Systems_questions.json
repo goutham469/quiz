@@ -1,0 +1,530 @@
+[
+  {
+    "question": "Which of the following is NOT a primary function of an operating system?",
+    "options": [
+      "Resource Management",
+      "Process Management",
+      "Hardware Abstraction",
+      "Database Administration"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the purpose of the kernel in an operating system?",
+    "options": [
+      "User Interface",
+      "Central component that manages system resources",
+      "Application execution",
+      "File Management"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Which of the following scheduling algorithms can lead to starvation?",
+    "options": [
+      "First-Come, First-Served (FCFS)",
+      "Shortest Job First (SJF)",
+      "Round Robin",
+      "Priority Scheduling (non-preemptive)"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is thrashing in the context of operating systems?",
+    "options": [
+      "Excessive swapping between main memory and secondary storage",
+      "Rapid CPU context switching",
+      "Disk fragmentation",
+      "Network congestion"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Which memory management technique suffers from external fragmentation?",
+    "options": [
+      "Paging",
+      "Segmentation",
+      "Virtual Memory",
+      "Demand Paging"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is a semaphore used for in operating systems?",
+    "options": [
+      "Memory allocation",
+      "Process synchronization",
+      "File storage",
+      "CPU scheduling"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Which of the following is a disadvantage of using a microkernel architecture?",
+    "options": [
+      "Increased security",
+      "Better modularity",
+      "Performance overhead due to inter-process communication",
+      "Simplified kernel design"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the purpose of a device driver?",
+    "options": [
+      "To translate high-level code into machine code",
+      "To manage network connections",
+      "To enable communication between the operating system and hardware devices",
+      "To optimize CPU performance"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Which file system is commonly used in Linux operating systems?",
+    "options": [
+      "FAT32",
+      "NTFS",
+      "ext4",
+      "HFS+"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is a virtual machine?",
+    "options": [
+      "A physical computer",
+      "A software-based emulation of a computer system",
+      "A network server",
+      "A type of file system"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the main difference between preemptive and non-preemptive scheduling?",
+    "options": [
+      "Preemptive allows a process to run until completion, non-preemptive does not.",
+      "Non-preemptive allows a process to run until completion, preemptive does not.",
+      "Preemptive involves a timer interrupt, non-preemptive does not.",
+      "Non-preemptive involves a timer interrupt, preemptive does not."
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "A system uses 32-bit virtual addresses and a single-level page table. Each page table entry requires 4 bytes. If the page size is 4KB, what is the size of the page table in bytes?",
+    "options": [
+      "4MB",
+      "16MB",
+      "32MB",
+      "64MB"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Which technique is used to prevent the 'circular wait' condition in deadlock prevention?",
+    "options": [
+      "Resource Ordering",
+      "Resource Allocation Graph",
+      "Banker's Algorithm",
+      "Deadlock Detection"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the purpose of the 'inode' in a Unix-like file system?",
+    "options": [
+      "To store the file content",
+      "To store the file name",
+      "To store metadata about the file (permissions, size, etc.)",
+      "To manage disk space"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the difference between a process and a thread?",
+    "options": [
+      "A process is a lightweight unit of execution, while a thread is a heavyweight unit.",
+      "A process is a heavyweight unit of execution, while a thread is a lightweight unit.",
+      "Processes share the same memory space, while threads have their own separate memory spaces.",
+      "Threads can exist independently of a process."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the primary function of a Memory Management Unit (MMU)?",
+    "options": [
+      "To perform arithmetic calculations",
+      "To manage the CPU cache",
+      "To translate virtual addresses to physical addresses",
+      "To control I/O devices"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Which disk scheduling algorithm minimizes the total head movement but may cause starvation for some requests?",
+    "options": [
+      "FCFS (First-Come, First-Served)",
+      "SSTF (Shortest Seek Time First)",
+      "SCAN",
+      "C-SCAN"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "In the context of inter-process communication (IPC), what is a 'message queue'?",
+    "options": [
+      "A data structure used for sorting messages",
+      "A buffer for storing messages between processes",
+      "A signal sent to a process",
+      "A shared memory segment"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the role of a system call in an operating system?",
+    "options": [
+      "To directly access hardware resources",
+      "To provide a protected interface for user programs to request services from the kernel",
+      "To execute user-level code",
+      "To manage the file system"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Which operating system concept allows multiple processes to share the CPU by rapidly switching between them?",
+    "options": [
+      "Multiprocessing",
+      "Multitasking",
+      "Batch Processing",
+      "Real-time Processing"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Consider a system with 3 processes competing for 4 instances of a resource.  The maximum needs and current allocation are: P1 (max=3, alloc=1), P2 (max=2, alloc=1), P3 (max=4, alloc=1). Is the system in a safe state?",
+    "options": [
+      "Yes, the system is in a safe state.",
+      "No, the system is not in a safe state.",
+      "The system is in a deadlock.",
+      "The system has insufficient resources."
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the purpose of the Translation Lookaside Buffer (TLB)?",
+    "options": [
+      "To store frequently used data for quick access",
+      "To cache recent virtual-to-physical address translations",
+      "To manage the disk cache",
+      "To store the operating system kernel"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Which of the following is NOT a necessary condition for deadlock to occur?",
+    "options": [
+      "Mutual Exclusion",
+      "Hold and Wait",
+      "No Preemption",
+      "Process Starvation"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "A system uses a segmented memory management scheme with 16-bit segments. The segment table has 8 entries. What is the maximum segment size?",
+    "options": [
+      "64KB",
+      "32KB",
+      "1MB",
+      "8KB"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "In a distributed operating system, what is 'Transparency'?",
+    "options": [
+      "The ability of the system to hide its distributed nature from users and applications",
+      "The ability of the system to communicate securely",
+      "The ability of the system to allocate resources fairly",
+      "The ability of the system to recover from failures"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Which RAID level provides mirroring and striping for redundancy and performance?",
+    "options": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 5",
+      "RAID 10 (1+0)"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the purpose of copy-on-write (COW) in virtual memory?",
+    "options": [
+      "To reduce memory fragmentation",
+      "To delay writing to disk until necessary, improving performance",
+      "To allow multiple processes to share memory pages until one of them modifies the page",
+      "To improve disk caching"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Consider a system using the Banker's Algorithm for deadlock avoidance. There are 5 processes (P0-P4) and 3 resource types (A, B, C). Available: (3,3,2). Max Need: P0(7,5,3), P1(3,2,2), P2(9,0,2), P3(2,2,2), P4(4,3,3). Allocation: P0(0,1,0), P1(2,0,0), P2(3,0,2), P3(2,1,1), P4(0,0,2). Is the system in a safe state, and if so, what is a safe sequence?",
+    "options": [
+      "Safe; <P1, P3, P4, P0, P2>",
+      "Unsafe",
+      "Safe; <P1, P0, P3, P4, P2>",
+      "Safe; <P4, P3, P0, P1, P2>"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is a 'race condition' in concurrent programming?",
+    "options": [
+      "A condition where multiple processes are waiting for each other indefinitely",
+      "A condition where the output of a program depends on the unpredictable order of execution of threads",
+      "A condition where a process tries to access memory it is not allowed to",
+      "A condition where a process is starved of resources"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the primary purpose of a Distributed File System (DFS)?",
+    "options": [
+      "To provide local file access only",
+      "To provide a single, consistent view of files stored on multiple machines",
+      "To manage system processes",
+      "To encrypt file data"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Which scheduling algorithm guarantees that each process gets a fair share of the CPU, but can have high overhead?",
+    "options": [
+      "FCFS",
+      "SJF",
+      "Priority Scheduling",
+      "Guaranteed Scheduling"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Which of the following is a key advantage of using RAID 6 over RAID 5?",
+    "options": [
+      "Higher storage capacity",
+      "Faster read speeds",
+      "Ability to withstand two simultaneous drive failures",
+      "Simpler implementation"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is a hypervisor?",
+    "options": [
+      "A type of CPU",
+      "A program that runs on a hard drive to improve speed",
+      "A program that allows multiple operating systems to share a single hardware host",
+      "A type of compiler"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the difference between a Type 1 and Type 2 hypervisor?",
+    "options": [
+      "Type 1 runs directly on the hardware, Type 2 runs on an OS",
+      "Type 2 runs directly on the hardware, Type 1 runs on an OS",
+      "Type 1 is faster than Type 2",
+      "Type 2 is faster than Type 1"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the function of the zombie process in an OS?",
+    "options": [
+      "The process is running in the background",
+      "The process is ready to execute",
+      "The process is completed, but its process table entry is still held for the parent process to read its exit code",
+      "The process is waiting for I/O"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the difference between hard link and soft link in Linux?",
+    "options": [
+      "A hard link is a pointer to a file; a soft link is a new copy of the file.",
+      "A soft link is a pointer to a file; a hard link is a new copy of the file.",
+      "A hard link shares the same inode as the original file, while a soft link has its own inode.",
+      "Both hard links and soft links have their own inodes."
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "How does a Monolithic kernel differ from a Microkernel?",
+    "options": [
+      "Monolithic kernels have all OS services in the kernel space, while microkernels have only essential services in kernel space.",
+      "Microkernels have all OS services in the kernel space, while monolithic kernels have only essential services in kernel space.",
+      "Monolithic kernels are more secure, while microkernels are faster.",
+      "Microkernels are more secure, while monolithic kernels are faster."
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "In the context of memory management, what is the working set model?",
+    "options": [
+      "A model for predicting CPU burst times.",
+      "A model for managing disk space.",
+      "A model that defines the set of pages a process is actively using.",
+      "A model for managing network connections."
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "A system has a memory access time of 100 ns and a TLB access time of 20 ns. The TLB hit ratio is 90%. What is the effective memory access time?",
+    "options": [
+      "110 ns",
+      "120 ns",
+      "122 ns",
+      "102 ns"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Which of the following is a type of real-time operating system (RTOS)?",
+    "options": [
+      "Linux",
+      "Windows",
+      "VxWorks",
+      "MacOS"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the purpose of 'swapping' in memory management?",
+    "options": [
+      "To increase the CPU's clock speed.",
+      "To store data on the cloud.",
+      "To move a process from main memory to secondary storage to free up space.",
+      "To manage network connections."
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the difference between user mode and kernel mode?",
+    "options": [
+      "User mode allows direct hardware access, kernel mode does not",
+      "Kernel mode allows direct hardware access, user mode does not",
+      "There is no difference, both have same level of access",
+      "Kernel mode is for running application software, User mode is for running OS"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is a context switch?",
+    "options": [
+      "The process of switching the CPU from one process or thread to another",
+      "The process of changing the IP address of a computer on a network",
+      "The process of changing the screen resolution on a computer",
+      "The process of changing the programming language used in a software project"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "An operating system uses a multi-level page table scheme. Virtual addresses are 64 bits, page size is 4KB, and each page table entry is 8 bytes. How many levels of page tables are needed if the OS uses a 48-bit physical address space?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Which interrupt is non maskable?",
+    "options": [
+      "Software Interrupt",
+      "Hardware Interrupt",
+      "Trap",
+      "All of the mentioned"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "Where does the system stores the PCB?",
+    "options": [
+      "Cache Memory",
+      "RAM",
+      "Hard Disk",
+      "ROM"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What will happen, when process requests a page not available in RAM?",
+    "options": [
+      "Abort",
+      "Interrupt",
+      "Trap",
+      "Exception"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Operating Systems"
+  },
+  {
+    "question": "What is the main advantage of using a thread pool?",
+    "options": [
+      "Increased security",
+      "Reduced overhead of creating and destroying threads",
+      "Simplified code structure",
+      "Improved disk performance"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Operating Systems"
+  }
+]

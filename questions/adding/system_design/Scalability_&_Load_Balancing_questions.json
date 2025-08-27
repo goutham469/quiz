@@ -1,0 +1,519 @@
+[
+  {
+    "question": "Which of the following is NOT a key characteristic of a scalable system?",
+    "options": [
+      "Horizontal scalability",
+      "Vertical scalability",
+      "High availability",
+      "Singular dependency"
+    ],
+    "correct_option_index": 3,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "What is the primary benefit of horizontal scaling?",
+    "options": [
+      "Reduced cost per server",
+      "Increased fault tolerance",
+      "Simplified code deployment",
+      "Improved single-thread performance"
+    ],
+    "correct_option_index": 1,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "In load balancing, what does 'least connections' algorithm prioritize?",
+    "options": [
+      "Server with lowest current CPU utilization",
+      "Server with fewest active connections",
+      "Server with the fastest response time",
+      "Server with the most memory available"
+    ],
+    "correct_option_index": 1,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Which load balancing technique distributes requests based on a consistent hashing function?",
+    "options": [
+      "Round Robin",
+      "IP Hash",
+      "Least Connections",
+      "Weighted Round Robin"
+    ],
+    "correct_option_index": 1,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "What is a key advantage of using a Content Delivery Network (CDN) for scalability?",
+    "options": [
+      "Reduced server-side processing",
+      "Lower infrastructure costs",
+      "Improved application security",
+      "Reduced latency for geographically diverse users"
+    ],
+    "correct_option_index": 3,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Which of these architectures is most suitable for a highly scalable e-commerce platform?",
+    "options": [
+      "Monolithic Architecture",
+      "Microservices Architecture",
+      "Layered Architecture",
+      "Service-Oriented Architecture (SOA)"
+    ],
+    "correct_option_index": 1,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "What is the primary purpose of a circuit breaker pattern in a microservices architecture?",
+    "options": [
+      "To improve code readability",
+      "To prevent cascading failures",
+      "To enhance security",
+      "To reduce network bandwidth"
+    ],
+    "correct_option_index": 1,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Which is an anti-pattern related to scalability where a database becomes a single point of failure?",
+    "options": [
+      "Database Sharding",
+      "Database Replication",
+      "Data Cache",
+      "God Class"
+    ],
+    "correct_option_index": 3,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "What is the CAP theorem state regarding a distributed system?",
+    "options": [
+      "Consistency, Availability, Partition Tolerance - Choose two",
+      "Consistency, Accuracy, Performance - All three must be guaranteed",
+      "Concurrency, Atomicity, Persistence - ACID properties",
+      "Caching, Aggregation, Pagination - Best practices for web APIs"
+    ],
+    "correct_option_index": 0,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Which factor contributes to the effectiveness of load balancing?",
+    "options": [
+      "Server location",
+      "Network Latency",
+      "Server processing speed",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "What is the impact of poorly designed database schema on Scalability?",
+    "options": [
+      "Improved Query Performance",
+      "Reduced Database Size",
+      "Increased Complexity of Queries",
+      "Faster Application Development"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "If a system experiences a sudden spike in traffic, which scalability strategy is best to respond quickly?",
+    "options": [
+      "Vertical Scaling",
+      "Horizontal Scaling",
+      "Caching",
+      "Database Optimization"
+    ],
+    "correct_option_index": 1,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Which metric is most crucial for determining the success of load balancing in a web application?",
+    "options": [
+      "CPU Utilization",
+      "Memory Usage",
+      "Response Time",
+      "Disk I/O"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Which technique is essential for scaling read-heavy applications using multiple database instances?",
+    "options": [
+      "Database Sharding",
+      "Database Replication",
+      "CAP Theorem",
+      "Consistent Hashing"
+    ],
+    "correct_option_index": 1,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "How does adding more cache servers impact the scalability of a system?",
+    "options": [
+      "Reduces read latency and server load",
+      "Increases write latency and database load",
+      "Improves data consistency",
+      "Simplifies code deployment"
+    ],
+    "correct_option_index": 0,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "What is the 'thundering herd' problem in the context of load balancing and caching?",
+    "options": [
+      "Sudden server crash",
+      "Simultaneous request to servers after cache expires",
+      "Network congestion issue",
+      "Database deadlock"
+    ],
+    "correct_option_index": 1,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Which architectural pattern decouples services and allows for independent scaling and deployment?",
+    "options": [
+      "Monolithic Architecture",
+      "Microservices Architecture",
+      "Layered Architecture",
+      "Client-Server Architecture"
+    ],
+    "correct_option_index": 1,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Which approach is suitable for load balancing where application requires session persistence?",
+    "options": [
+      "Round Robin",
+      "Least Connections",
+      "Sticky Sessions",
+      "Random Distribution"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "What is the main advantage of using asynchronous messaging queues for scalability?",
+    "options": [
+      "Reduce CPU Usage",
+      "Improve data consistency",
+      "Decouple services and handle burst traffic",
+      "Enhance security"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Which technique is used to distribute data across multiple database servers for increased scalability?",
+    "options": [
+      "Data Backup",
+      "Data Mirroring",
+      "Data Sharding",
+      "Data Encryption"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Consider a system where the load balancer uses a 'weighted round robin' algorithm. Server A has a weight of 3, Server B has a weight of 2, and Server C has a weight of 1. Out of 600 requests, how many requests would ideally be routed to Server A?",
+    "options": [
+      "100",
+      "200",
+      "300",
+      "360"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "A critical service experiences frequent downtime due to high traffic. Implementing which pattern can prevent cascading failures and improve resilience?",
+    "options": [
+      "Singleton",
+      "Factory",
+      "Circuit Breaker",
+      "Observer"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "In a distributed system with eventually consistent data, what is the main challenge?",
+    "options": [
+      "Ensuring immediate data consistency across all nodes",
+      "Minimizing network latency",
+      "Handling conflicting updates to the same data",
+      "Reducing server costs"
+    ],
+    "correct_option_index": 3,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Which queuing pattern is best suited for handling large volumes of asynchronous tasks while ensuring they are processed in the order they were received?",
+    "options": [
+      "Priority Queue",
+      "Dead Letter Queue",
+      "FIFO Queue",
+      "Retry Queue"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "A database is being sharded based on user ID. Which sharding approach ensures that all data for a single user resides on the same shard?",
+    "options": [
+      "Range-Based Sharding",
+      "Hash-Based Sharding",
+      "Directory-Based Sharding",
+      "Consistent Hashing"
+    ],
+    "correct_option_index": 1,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "You're designing a system that requires high availability and strong consistency. According to the CAP theorem, what must you sacrifice?",
+    "options": [
+      "Accuracy",
+      "Performance",
+      "Partition Tolerance",
+      "Durability"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "What is the primary benefit of using a message broker like RabbitMQ or Kafka in a distributed system?",
+    "options": [
+      "Real-time data synchronization",
+      "Improved data encryption",
+      "Asynchronous communication and decoupling",
+      "Faster database queries"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "How does auto-scaling help in managing sudden spikes in traffic?",
+    "options": [
+      "By increasing server capacity dynamically",
+      "By reducing the number of active users",
+      "By throttling incoming requests",
+      "By redirecting traffic to a backup server"
+    ],
+    "correct_option_index": 0,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "What is the role of a reverse proxy in improving scalability and security?",
+    "options": [
+      "Caching static content and hiding server details",
+      "Encrypting data in transit",
+      "Load balancing database connections",
+      "Monitoring server health"
+    ],
+    "correct_option_index": 0,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "What is the concept of 'backpressure' in the context of asynchronous data streams?",
+    "options": [
+      "Applying pressure to increase network bandwidth",
+      "Controlling the rate of data production to prevent overwhelming consumers",
+      "Compressing data to reduce size",
+      "Encrypting data to improve security"
+    ],
+    "correct_option_index": 1,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "You have a web application experiencing performance issues due to database queries. Which caching strategy would be most effective for frequently accessed data?",
+    "options": [
+      "Write-through cache",
+      "Write-back cache",
+      "Read-through cache",
+      "Cache-aside"
+    ],
+    "correct_option_index": 3,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "How does the use of 'Bloom filters' improve the scalability of a cache system?",
+    "options": [
+      "By improving cache hit rate",
+      "By reducing memory usage",
+      "By quickly determining if an item is definitely not in the cache",
+      "By compressing cached data"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "In a microservices architecture, how do you ensure data consistency across multiple services when an order is placed?",
+    "options": [
+      "Two-phase commit (2PC)",
+      "Eventual consistency with saga pattern",
+      "Distributed transactions",
+      "Immediate data replication"
+    ],
+    "correct_option_index": 1,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Which of the following is NOT a common use case for load balancing?",
+    "options": [
+      "Distributing traffic across multiple servers",
+      "Preventing denial-of-service (DoS) attacks",
+      "Increasing server memory",
+      "Ensuring high availability"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Which is not an advantage of Microservices",
+    "options": [
+      "Fault Isolation",
+      "Independent Scaling",
+      "Complex Deployment",
+      "Technology Diversity"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "A system utilizes Consistent Hashing for data distribution across nodes. If a node is added or removed, what is the approximate percentage of keys that need to be remapped?",
+    "options": [
+      "0%",
+      "50%",
+      "1/N where N is the number of nodes",
+      "100%"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Which of the following is a key benefit of using stateless services in a scalable system?",
+    "options": [
+      "Simplified session management",
+      "Improved data consistency",
+      "Reduced network latency",
+      "Increased server costs"
+    ],
+    "correct_option_index": 0,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "A service is experiencing high latency due to excessive database reads. What optimization technique would best address this issue?",
+    "options": [
+      "Database sharding",
+      "Connection pooling",
+      "Caching frequently accessed data",
+      "Increasing server memory"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "What is the purpose of a 'Dead Letter Queue' in an asynchronous messaging system?",
+    "options": [
+      "To store messages that have failed processing multiple times",
+      "To prioritize urgent messages",
+      "To store messages temporarily for later processing",
+      "To discard unprocessed messages"
+    ],
+    "correct_option_index": 0,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "How can you prevent a single large user from consuming excessive resources and impacting other users in a multi-tenant system?",
+    "options": [
+      "Rate limiting",
+      "Increasing server capacity",
+      "Database sharding",
+      "Caching frequently accessed data"
+    ],
+    "correct_option_index": 0,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "What is the key difference between 'scaling up' and 'scaling out' a system?",
+    "options": [
+      "Scaling up involves adding more features; scaling out involves improving performance",
+      "Scaling up involves increasing server capacity; scaling out involves adding more servers",
+      "Scaling up involves improving security; scaling out involves reducing costs",
+      "Scaling up involves reducing latency; scaling out involves increasing reliability"
+    ],
+    "correct_option_index": 1,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "A load balancer is configured with 'session affinity'. Which of the following is a potential drawback of this configuration?",
+    "options": [
+      "Uneven distribution of traffic",
+      "Increased server costs",
+      "Reduced security",
+      "Simplified monitoring"
+    ],
+    "correct_option_index": 0,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Which of the following strategies is most effective in mitigating the impact of a 'flash crowd' on a web application?",
+    "options": [
+      "Vertical scaling",
+      "Horizontal scaling with auto-scaling",
+      "Database optimization",
+      "Caching static content"
+    ],
+    "correct_option_index": 1,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "What is the role of a 'service registry' in a microservices architecture?",
+    "options": [
+      "To store application logs",
+      "To manage database connections",
+      "To provide service discovery and registration",
+      "To handle authentication and authorization"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "In the context of eventual consistency, what does the term 'read repair' refer to?",
+    "options": [
+      "Correcting errors in user input",
+      "Ensuring data is immediately consistent after a write",
+      "Fixing data inconsistencies during a read operation",
+      "Optimizing database query performance"
+    ],
+    "correct_option_index": 2,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "Which metric is LEAST relevant when assessing the scalability of a web application?",
+    "options": [
+      "Requests per second (RPS)",
+      "Average response time",
+      "CPU utilization",
+      "Code complexity"
+    ],
+    "correct_option_index": 3,
+    "category": "Scalability & Load Balancing"
+  },
+  {
+    "question": "What is the main challenge in scaling a stateful application compared to a stateless application?",
+    "options": [
+      "Managing session data across multiple instances",
+      "Optimizing database queries",
+      "Reducing network latency",
+      "Improving security"
+    ],
+    "correct_option_index": 0,
+    "category": "Scalability & Load Balancing"
+  }
+]

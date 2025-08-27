@@ -1,0 +1,651 @@
+[
+  {
+    "question": "Which multiple access technique is most suitable for bursty data transmission in mobile networks?",
+    "options": [
+      "FDMA",
+      "TDMA",
+      "CDMA",
+      "OFDMA"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the primary function of the Home Location Register (HLR) in a GSM network?",
+    "options": [
+      "Routing calls",
+      "Storing subscriber information",
+      "Handling billing",
+      "Managing radio resources"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "In 4G LTE, what is the purpose of the PSS (Primary Synchronization Signal) and SSS (Secondary Synchronization Signal)?",
+    "options": [
+      "Encryption",
+      "Timing synchronization and cell ID acquisition",
+      "Power control",
+      "Handover management"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the role of the Serving Gateway (S-GW) in the evolved packet core (EPC) of a 4G LTE network?",
+    "options": [
+      "Mobility management",
+      "Packet routing and forwarding",
+      "Security authentication",
+      "Radio resource allocation"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Which modulation scheme is commonly used in 5G NR for high data rates?",
+    "options": [
+      "QPSK",
+      "16-QAM",
+      "64-QAM",
+      "256-QAM"
+    ],
+    "correct_option_index": 3,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is network slicing in 5G and what benefit does it offer?",
+    "options": [
+      "Dividing the network into geographic zones for better coverage",
+      "Creating virtualized end-to-end networks tailored to specific service requirements",
+      "Compressing data packets to reduce latency",
+      "Encrypting network traffic for security"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the function of the gNodeB in 5G NR architecture?",
+    "options": [
+      "Core network gateway",
+      "Base station",
+      "Subscriber authentication server",
+      "Mobility management entity"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the purpose of beamforming in 5G?",
+    "options": [
+      "Reducing signal interference",
+      "Focusing radio signals to specific users",
+      "Increasing signal bandwidth",
+      "Improving security"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the role of the Mobility Management Entity (MME) in 4G LTE?",
+    "options": [
+      "Radio resource allocation",
+      "Packet routing",
+      "Security authentication",
+      "Mobility management and session management"
+    ],
+    "correct_option_index": 3,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is CoMP (Coordinated Multipoint) in wireless networks?",
+    "options": [
+      "A method for encrypting data transmissions",
+      "A technique for coordinating transmissions from multiple base stations",
+      "A protocol for handover management",
+      "A power saving mechanism for mobile devices"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "In the context of cellular networks, what does 'handover' refer to?",
+    "options": [
+      "The process of setting up a new cell tower",
+      "Transferring a call from one cell to another",
+      "A security procedure for authenticating users",
+      "The process of allocating bandwidth to a user"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the main purpose of MIMO (Multiple-Input Multiple-Output) technology in wireless communication?",
+    "options": [
+      "To reduce signal interference",
+      "To increase data throughput and spectral efficiency",
+      "To improve security",
+      "To extend battery life of mobile devices"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Which of the following is a characteristic of millimeter wave (mmWave) communication in 5G?",
+    "options": [
+      "Longer range",
+      "Lower frequency",
+      "Susceptibility to atmospheric absorption",
+      "Better penetration through walls"
+    ],
+    "correct_option_index": 2,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the difference between frequency division duplexing (FDD) and time division duplexing (TDD)?",
+    "options": [
+      "FDD uses different frequencies for uplink and downlink, while TDD uses the same frequency for different time slots",
+      "FDD is only used in 2G networks, while TDD is used in 3G and 4G",
+      "FDD is more susceptible to interference than TDD",
+      "FDD requires more complex hardware than TDD"
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Which of the following is a key characteristic of Software-Defined Networking (SDN) as it relates to wireless networks?",
+    "options": [
+      "Centralized control plane",
+      "Distributed control plane",
+      "Increased hardware dependency",
+      "Fixed network architecture"
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the primary advantage of using Massive MIMO in 5G networks?",
+    "options": [
+      "Reduced power consumption",
+      "Enhanced security",
+      "Improved spectrum efficiency and increased capacity",
+      "Simpler network management"
+    ],
+    "correct_option_index": 2,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the purpose of the Physical Downlink Shared Channel (PDSCH) in LTE?",
+    "options": [
+      "Broadcasting system information",
+      "Transmitting user data",
+      "Transmitting control information",
+      "Synchronization"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Which technology allows for better indoor coverage in LTE networks?",
+    "options": [
+      "Femtocells",
+      "Macrocells",
+      "Microcells",
+      "Picocells"
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the role of the RAN (Radio Access Network) in a cellular network?",
+    "options": [
+      "Handles core network functions",
+      "Manages user authentication",
+      "Connects mobile devices to the core network",
+      "Provides billing services"
+    ],
+    "correct_option_index": 2,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the function of the Authentication Center (AuC) in GSM networks?",
+    "options": [
+      "Managing call routing",
+      "Storing encryption keys and authenticating subscribers",
+      "Handling billing and accounting",
+      "Managing radio resources"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the role of the Backhaul network in a cellular network?",
+    "options": [
+      "Connecting base stations to the core network",
+      "Providing power to the base stations",
+      "Managing user authentication",
+      "Handling call routing"
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the purpose of Carrier Aggregation in LTE-Advanced?",
+    "options": [
+      "To reduce interference between cells",
+      "To increase bandwidth and data rates by combining multiple carriers",
+      "To improve security",
+      "To reduce power consumption"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the function of the Session Management Function (SMF) in 5G architecture?",
+    "options": [
+      "Radio Resource Management",
+      "Mobility Management",
+      "Session Establishment and Management",
+      "Security and Authentication"
+    ],
+    "correct_option_index": 2,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the main goal of edge computing in the context of 5G networks?",
+    "options": [
+      "To centralize data processing in the core network",
+      "To reduce latency by processing data closer to the user",
+      "To increase network security",
+      "To simplify network management"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of 802.11ax (Wi-Fi 6)?",
+    "options": [
+      "OFDMA",
+      "MU-MIMO",
+      "Higher data rates",
+      "Lower power consumption"
+    ],
+    "correct_option_index": 3,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the purpose of the Physical Uplink Shared Channel (PUSCH) in LTE?",
+    "options": [
+      "Broadcasting system information",
+      "Transmitting user data from the user equipment (UE) to the base station",
+      "Transmitting control information",
+      "Synchronization"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the role of the User Plane Function (UPF) in 5G core network architecture?",
+    "options": [
+      "Managing subscriber authentication",
+      "Controlling radio resources",
+      "Handling user data traffic forwarding and routing",
+      "Managing mobility"
+    ],
+    "correct_option_index": 2,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the main advantage of using non-standalone (NSA) mode in early 5G deployments?",
+    "options": [
+      "Faster deployment by leveraging existing 4G infrastructure",
+      "Higher data rates compared to standalone mode",
+      "Lower latency compared to standalone mode",
+      "Improved security"
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the concept of 'zero-touch' network management in the context of 5G and future networks?",
+    "options": [
+      "Manual network configuration and management",
+      "Automated network configuration, management, and optimization",
+      "Networks without any human intervention at all",
+      "A network only accessible by authorized personnel"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Which channel coding technique is primarily used in 5G NR for control channels?",
+    "options": [
+      "Convolutional Codes",
+      "Turbo Codes",
+      "Low-Density Parity-Check (LDPC) Codes",
+      "Reed-Solomon Codes"
+    ],
+    "correct_option_index": 2,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the approximate cell range of a typical macrocell in an urban 4G LTE deployment?",
+    "options": [
+      "100 meters",
+      "500 meters",
+      "1-5 kilometers",
+      "10-20 kilometers"
+    ],
+    "correct_option_index": 2,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "A mobile user is moving from one cell to another. The received signal strength from the current cell is decreasing, while the signal strength from a neighboring cell is increasing. At what point does a hard handover typically occur?",
+    "options": [
+      "When the signal strength from the neighboring cell is slightly greater than the current cell.",
+      "When the signal strength from the current cell drops below a predefined threshold.",
+      "When the mobile device loses connection with the current cell.",
+      "At a predefined time, irrespective of the signal strengths."
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "In the context of Quality of Service (QoS) in mobile networks, what is 'jitter'?",
+    "options": [
+      "The average delay of data packets",
+      "The variation in delay of data packets",
+      "The total number of packets lost during transmission",
+      "The maximum achievable throughput of a connection"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Which type of interference is most prevalent in cellular networks due to frequency reuse?",
+    "options": [
+      "Adjacent channel interference",
+      "Co-channel interference",
+      "Intermodulation distortion",
+      "Impulse noise"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "A network operator is planning to deploy a new 5G network. They want to minimize latency for applications like virtual reality and autonomous vehicles. Which of the following network architectures would be most suitable?",
+    "options": [
+      "Centralized cloud architecture",
+      "Distributed cloud architecture",
+      "Edge computing architecture",
+      "Traditional cellular architecture"
+    ],
+    "correct_option_index": 2,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Which of the following techniques is used to mitigate the effects of multipath fading in wireless communication?",
+    "options": [
+      "Frequency hopping spread spectrum",
+      "Direct-sequence spread spectrum",
+      "Equalization",
+      "Encryption"
+    ],
+    "correct_option_index": 2,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "A mobile device is connected to a 4G LTE network and experiences frequent handovers between cells. This leads to dropped connections and degraded performance. Which of the following strategies could be used to mitigate this issue?",
+    "options": [
+      "Increasing the transmit power of the mobile device.",
+      "Reducing the handover threshold.",
+      "Optimizing the cell planning and coverage to minimize overlapping cell regions.",
+      "Disabling handover functionality."
+    ],
+    "correct_option_index": 2,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the Shannon-Hartley theorem primarily used for in wireless communications?",
+    "options": [
+      "Determining the maximum data rate of a communication channel",
+      "Calculating the signal-to-noise ratio (SNR)",
+      "Designing optimal modulation schemes",
+      "Minimizing interference between cells"
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "In 5G networks, what is the key role of the Network Exposure Function (NEF)?",
+    "options": [
+      "Controlling access to network capabilities and services for third-party applications",
+      "Managing user mobility and handovers",
+      "Handling data routing and forwarding",
+      "Providing security and authentication for user devices"
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Which of the following describes the concept of a 'cell-free' mobile network?",
+    "options": [
+      "A network without any base stations",
+      "A network where the user equipment (UE) connects directly to the core network",
+      "A network where multiple access points cooperate to serve a user, eliminating cell boundaries",
+      "A network that uses only millimeter wave frequencies"
+    ],
+    "correct_option_index": 2,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the purpose of the Time Advance (TA) parameter in GSM networks?",
+    "options": [
+      "To synchronize the downlink transmission",
+      "To compensate for the propagation delay between the mobile station and the base station",
+      "To adjust the power level of the mobile station",
+      "To manage handover procedures"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the impact of increasing the modulation order (e.g., from QPSK to 64-QAM) on the robustness of a wireless communication system?",
+    "options": [
+      "Increases robustness and reduces the bit error rate",
+      "Decreases robustness and increases the bit error rate",
+      "Has no impact on robustness",
+      "Only affects the data rate, not the bit error rate"
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "In a cellular network, what is the primary function of the Pilot Pollution problem and how can it be minimized?",
+    "options": [
+      "A technique for improving spectrum efficiency.",
+      "A problem where a mobile device receives strong pilot signals from multiple base stations, leading to interference; can be minimized by adjusting pilot power levels and cell planning.",
+      "A security vulnerability in cellular networks.",
+      "A problem with the core network architecture."
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Explain the trade-offs involved in increasing cell density (deploying more small cells) in a mobile network.",
+    "options": [
+      "Increased capacity, reduced coverage, higher infrastructure costs",
+      "Reduced capacity, increased coverage, lower infrastructure costs",
+      "Increased capacity, increased coverage, lower infrastructure costs",
+      "Reduced capacity, reduced coverage, higher infrastructure costs"
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "A wireless network is experiencing significant interference from a nearby radar system operating in the same frequency band. What techniques could be used to mitigate this interference?",
+    "options": [
+      "Frequency hopping, dynamic frequency selection, interference cancellation",
+      "Increasing transmit power, reducing cell size, disabling handover",
+      "Enabling encryption, implementing firewalls, using stronger authentication protocols",
+      "Ignoring the interference, using a different modulation scheme, changing the antenna polarization"
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Explain the concept of 'massive connectivity' in the context of 5G and the technologies that enable it.",
+    "options": [
+      "The ability to support a very large number of connected devices simultaneously, enabled by technologies like narrowband IoT (NB-IoT) and enhanced Machine Type Communication (eMTC).",
+      "The ability to provide extremely high data rates to a small number of users.",
+      "The ability to provide seamless connectivity across different types of networks (e.g., cellular, Wi-Fi, satellite).",
+      "The ability to automatically configure and manage network devices."
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What are the key challenges in deploying millimeter wave (mmWave) technology for 5G mobile networks?",
+    "options": [
+      "High path loss, limited range, sensitivity to blockage",
+      "Low bandwidth, high latency, high power consumption",
+      "Security vulnerabilities, lack of standardization, complex network management",
+      "Interference from other systems, limited availability of spectrum, high equipment costs"
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What is the role of the Access and Mobility Management Function (AMF) in the 5G core network architecture?",
+    "options": [
+      "Managing user authentication and authorization",
+      "Handling user data traffic forwarding and routing",
+      "Controlling radio resources and scheduling",
+      "Providing security and encryption for user data"
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Explain how dynamic spectrum sharing (DSS) works in 5G and the benefits it provides.",
+    "options": [
+      "A technique for sharing spectrum between different network operators.",
+      "A technique for dynamically allocating spectrum between 4G LTE and 5G NR based on traffic demand, maximizing spectrum utilization.",
+      "A technique for increasing the bandwidth of a single carrier by aggregating multiple smaller carriers.",
+      "A technique for reducing interference between cells by coordinating their transmissions."
+    ],
+    "correct_option_index": 1,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What are the primary considerations when designing a wireless network for a dense urban environment?",
+    "options": [
+      "Minimizing interference, maximizing capacity, ensuring reliable coverage, managing mobility",
+      "Maximizing range, minimizing power consumption, reducing infrastructure costs, simplifying network management",
+      "Ensuring security, complying with regulatory requirements, providing high quality of service, supporting legacy devices",
+      "Maximizing bandwidth, minimizing latency, supporting a large number of users, providing seamless handover"
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Discuss the challenges and potential solutions for providing reliable wireless connectivity in rural or remote areas.",
+    "options": [
+      "Limited infrastructure, sparse population, long distances, high costs; potential solutions include satellite connectivity, mesh networks, TV white space, and rural broadband initiatives.",
+      "High traffic demand, limited bandwidth, high latency, security vulnerabilities; potential solutions include carrier aggregation, edge computing, network slicing, and advanced encryption.",
+      "Severe interference, limited spectrum, high power consumption, complex network management; potential solutions include interference cancellation, dynamic spectrum sharing, energy harvesting, and software-defined networking.",
+      "Lack of skilled personnel, regulatory barriers, environmental constraints, limited funding; potential solutions include remote network management, streamlined permitting processes, renewable energy sources, and public-private partnerships."
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Explain the security implications of using open Wi-Fi networks and the measures that can be taken to mitigate those risks.",
+    "options": [
+      "Data interception, man-in-the-middle attacks, malware distribution; mitigation measures include using a VPN, HTTPS, and avoiding sensitive transactions on public Wi-Fi.",
+      "Denial-of-service attacks, botnet infections, unauthorized access to network resources; mitigation measures include firewalls, intrusion detection systems, and access control lists.",
+      "Password cracking, social engineering, phishing scams; mitigation measures include strong passwords, multi-factor authentication, and employee training.",
+      "Data breaches, data loss, data corruption; mitigation measures include data encryption, data backups, and disaster recovery plans."
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "A wireless network is experiencing high latency. Identify the possible causes and outline the troubleshooting steps.",
+    "options": [
+      "Network congestion, long distances, slow processing, protocol overhead; troubleshooting steps include checking network utilization, measuring round-trip time, analyzing protocol headers, and optimizing network configuration.",
+      "Interference, signal fading, hardware failures, software bugs; troubleshooting steps include checking signal strength, measuring bit error rate, running diagnostic tests, and updating firmware.",
+      "Security breaches, malware infections, unauthorized access, denial-of-service attacks; troubleshooting steps include scanning for vulnerabilities, detecting intrusions, blocking malicious traffic, and isolating infected devices.",
+      "Power outages, environmental conditions, regulatory restrictions, user errors; troubleshooting steps include checking power supply, monitoring temperature and humidity, complying with regulations, and providing user support."
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What are the technical challenges of realizing ultra-reliable low-latency communications (URLLC) in 5G networks?",
+    "options": [
+      "Minimizing latency, ensuring reliability, managing interference, allocating resources efficiently.",
+      "Maximizing bandwidth, increasing capacity, reducing power consumption, simplifying network management.",
+      "Ensuring security, complying with regulatory requirements, supporting legacy devices, providing high quality of service.",
+      "Reducing cost, improving coverage, supporting a large number of users, providing seamless handover."
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Describe the potential of AI and machine learning to revolutionize wireless network management.",
+    "options": [
+      "Automated network optimization, predictive maintenance, intelligent resource allocation, enhanced security, personalized user experience.",
+      "Simplified network configuration, reduced operational costs, improved scalability, increased flexibility, enhanced interoperability.",
+      "Enhanced data analytics, improved decision-making, predictive modeling, pattern recognition, anomaly detection.",
+      "Enhanced cybersecurity, data privacy, compliance, regulatory reporting, risk management."
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "A wireless sensor network is deployed in a harsh environment with limited power. Which routing protocol would be most energy-efficient?",
+    "options": [
+      "Distance Vector Routing",
+      "Link State Routing",
+      "LEACH (Low-Energy Adaptive Clustering Hierarchy)",
+      "OSPF (Open Shortest Path First)"
+    ],
+    "correct_option_index": 2,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What are the major advantages and disadvantages of using satellite communication for internet access?",
+    "options": [
+      "Wide coverage, high latency; high cost, weather sensitivity",
+      "High bandwidth, low latency; limited coverage, high power consumption",
+      "Secure communication, global reach; complex infrastructure, limited capacity",
+      "Low cost, easy deployment; interference issues, limited bandwidth"
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "Describe the potential benefits and risks of using blockchain technology in wireless and mobile networks.",
+    "options": [
+      "Enhanced security, decentralized resource management, secure roaming; scalability challenges, computational overhead, regulatory hurdles",
+      "Increased bandwidth, reduced latency, improved coverage; security vulnerabilities, privacy concerns, complex integration",
+      "Simplified network management, reduced operational costs, enhanced interoperability; high implementation costs, lack of standardization, complex governance",
+      "Improved quality of service, enhanced user experience, increased network efficiency; security threats, privacy breaches, performance bottlenecks"
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  },
+  {
+    "question": "What are the key challenges in deploying wireless communication technologies in underwater environments?",
+    "options": [
+      "Signal attenuation, multipath fading, limited bandwidth, high power consumption",
+      "Interference, noise, security vulnerabilities, regulatory restrictions",
+      "Infrastructure costs, deployment complexity, maintenance difficulties, environmental impact",
+      "Lack of standardization, interoperability issues, complex network management, limited user adoption"
+    ],
+    "correct_option_index": 0,
+    "category": "Wireless & Mobile Networks in CN"
+  }
+]

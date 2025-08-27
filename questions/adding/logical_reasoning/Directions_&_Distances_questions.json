@@ -1,0 +1,673 @@
+[
+  {
+    "question": "A man walks 5 km towards South and then turns to the right. After walking 3 km, he turns to the left and walks 5 km. Now in which direction is he from the starting place?",
+    "options": [
+      "West",
+      "South",
+      "North-East",
+      "South-West"
+    ],
+    "correct_option_index": 3,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A person starts from point A and walks 10 km East, then turns North and walks 5 km, then turns West and walks 10 km, and finally turns South and walks 5 km. Where is he now with respect to the starting point?",
+    "options": [
+      "At the starting point",
+      "10 km East of the starting point",
+      "10 km West of the starting point",
+      "5 km North of the starting point"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "If South-East becomes North, North-East becomes West and so on, what will West become?",
+    "options": [
+      "North-East",
+      "North-West",
+      "South-East",
+      "South-West"
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "One morning after sunrise, Suresh was standing facing a pole. The shadow of the pole fell exactly to his right. Which direction was he facing?",
+    "options": [
+      "East",
+      "West",
+      "South",
+      "North"
+    ],
+    "correct_option_index": 3,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A direction pole was situated on the crossing. Due to an accident, the pole was turned in such a way that the pointer which was showing East, started showing South. One traveller went to the wrong direction thinking it to be West. In what direction, actually he was travelling?",
+    "options": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "Amit started walking positioning his back towards the sun. After some time, he turned left, then turned right and towards the end again turned left. In which direction is he going now?",
+    "options": [
+      "East",
+      "West",
+      "North",
+      "South"
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "If A x B means A is to the south of B; A + B means A is to the north of B; A % B means A is to the east of B; A - B means A is to the west of B; then in P % Q + R - S, S is in which direction with respect to Q?",
+    "options": [
+      "South-West",
+      "South-East",
+      "North-West",
+      "North-East"
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A is to the south-east of C, B is to the east of A and north-east of C. If D is to the north of C and in line with B, then in which direction of A is D located?",
+    "options": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "Two cars start from the same point. Car A travels 12 km North, then turns right and travels 18 km. Car B travels 8 km South, then turns right and travels 26 km. What is the distance between the two cars?",
+    "options": [
+      "20 km",
+      "38 km",
+      "Approximately 44.7 km",
+      "Approximately 52 km"
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "Radha moves towards South-East a distance of 7 m, then she moves towards West and travels a distance of 14 m. From here, she moves towards North-West a distance of 7 m and finally she moves a distance of 4 m towards East. How far is she now from the starting point?",
+    "options": [
+      "3 m",
+      "4 m",
+      "5 m",
+      "10 m"
+    ],
+    "correct_option_index": 3,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A taxi driver commenced his journey from a point and drove 10 km toward north. He turned to his left and drove another 5 km. After waiting for sometime, he took a right turn and continued to drive for another 20 km. He had covered a distance of 45 km so far, but in what direction would he be now?",
+    "options": [
+      "North",
+      "East",
+      "South",
+      "West"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "From point A, I walk 20 meters towards North, then turning to my right I walk 30 meters. Then turning to my right I walk 35 meters, then turning to my left I walk 15 meters. Then turning to my right I walk 15 meters. In which direction am I from the starting point?",
+    "options": [
+      "North",
+      "East",
+      "South",
+      "West"
+    ],
+    "correct_option_index": 1,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A person starts walking from a point P and walks 10 meters towards East. He then turns to his left and walks 20 meters. Again, he turns to his left and walks 10 meters. Finally, he turns to his left and walks 20 meters. How far is he now from point P?",
+    "options": [
+      "0 meters",
+      "10 meters",
+      "20 meters",
+      "30 meters"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "Village Q is to the North of village P. Village R is in the East of village Q. Village S is to the left of village R. Which direction is village S in with respect to village P?",
+    "options": [
+      "North-East",
+      "North-West",
+      "South-East",
+      "South-West"
+    ],
+    "correct_option_index": 1,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "One evening, Raju started walking straight towards the sun. After walking a while, he turned to his right and again to his right. After walking a while, he turned right again. Which direction is he facing now?",
+    "options": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "If 'South-east' is called 'East', 'North-west' is called 'West', 'South-west' is called 'South' and so on, what will 'North' be called?",
+    "options": [
+      "East",
+      "North-East",
+      "North-West",
+      "West"
+    ],
+    "correct_option_index": 1,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "P is 10 km to the east of Q. R is 5 km to the north of Q. S is 10 km to the west of R. T is 5 km to the south of S. Which direction is T from Q?",
+    "options": [
+      "East",
+      "West",
+      "North",
+      "South"
+    ],
+    "correct_option_index": 1,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A man is facing west. He turns 45 degrees in the clockwise direction and then another 180 degrees in the same direction and then 270 degrees in the anticlockwise direction. Which direction is he facing now?",
+    "options": [
+      "South-West",
+      "South",
+      "South-East",
+      "West"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A and B start from the same point. A cycles 10 km South, then turns to her right and cycles 5 km. B cycles 10 km North, then turns left and cycles 10 km. Where is B with respect to A now?",
+    "options": [
+      "North-East",
+      "North-West",
+      "South-East",
+      "South-West"
+    ],
+    "correct_option_index": 1,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "Two friends start walking from two different points A and B towards each other. After meeting each other they reach their destinations in 2 hours and 3 hours respectively. If the first person is walking at a speed of 4 km/hr, then what is the speed of the second person?",
+    "options": [
+      "2 km/hr",
+      "3 km/hr",
+      "6 km/hr",
+      "8 km/hr"
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A person walks 10 meters in front and 10 meters to the right. Then every time turning to his left, he walks 5, 15 and 15 meters respectively. How far is he now from the starting point?",
+    "options": [
+      "5 meters",
+      "10 meters",
+      "15 meters",
+      "20 meters"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "From a point, Rajat started walking towards the east. After moving a distance of 30 meters, he turned to his left and walked 10 meters. He then turned to his right and moved a distance of 20 meters. After this, he turned to his right and walked 40 meters. How far is he now from the starting point?",
+    "options": [
+      "Zero",
+      "50 meters",
+      "100 meters",
+      "Cannot be determined"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A clock is so placed that at 12 noon its minute hand points towards the north-east. In which direction does its hour hand point at 1.30 pm?",
+    "options": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "correct_option_index": 3,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A man walks 2 km towards North, then turns to East and walks 10 km, Again he turns to North and walks 3 km. Again he turns to East and walks 2 km. How far is he from the starting point?",
+    "options": [
+      "8 km",
+      "12 km",
+      "13 km",
+      "15 km"
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A runner runs 2 km north, then turns right and runs 5 km, then turns right and runs 8 km, then turns left and runs 3 km, and then turns left and runs 4 km. What is the direction he is facing now?",
+    "options": [
+      "North",
+      "East",
+      "West",
+      "South"
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "Two aeroplanes start from the same point. Aeroplane A flies 20 km north, then turns right and flies 30 km. Aeroplane B flies 30 km south, then turns left and flies 20 km. What is the distance between them?",
+    "options": [
+      "50 km",
+      "10 km",
+      "54 km (approx)",
+      "76 km (approx)"
+    ],
+    "correct_option_index": 3,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "If I stand on my head facing north, in what direction will my left hand point?",
+    "options": [
+      "East",
+      "West",
+      "North",
+      "South"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A watch reads 4:30. If the minute hand points East, in what direction will the hour hand point?",
+    "options": [
+      "North-East",
+      "North",
+      "South-East",
+      "South"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A person is walking towards North. He turns 90 degrees clockwise, then 180 degrees anticlockwise, and then another 90 degrees clockwise. What direction is he facing now?",
+    "options": [
+      "East",
+      "West",
+      "North",
+      "South"
+    ],
+    "correct_option_index": 3,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "John travels 10 km East, turns right and travels 5 km, then turns right again and travels 12 km. How far and in what direction is he from the starting point?",
+    "options": [
+      "2 km South",
+      "3 km North",
+      "√29 km South-East",
+      "√29 km South-West"
+    ],
+    "correct_option_index": 3,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A compass shows a direction as 14° clockwise from the true North. A person walks 36 km in this direction. He then turns right, according to the compass, and walks 48 km. In reality, how far is he from the starting point?",
+    "options": [
+      "60 km",
+      "84 km",
+      "86 km",
+      "92 km"
+    ],
+    "correct_option_index": 1,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "Cities A and B are 360 km apart. A car starts from A at 8 a.m. traveling towards B at 40 km/hr. Another car starts from B at 9 a.m. traveling towards A at 60 km/hr. At what time will they meet?",
+    "options": [
+      "11:00 a.m.",
+      "11:30 a.m.",
+      "12:00 noon",
+      "12:30 p.m."
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A man is performing yoga with his head down and legs up. He is facing west. In which direction will his left hand be?",
+    "options": [
+      "East",
+      "West",
+      "North",
+      "South"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A boy is looking for his father. He went 90 meters in the east before turning to his right. He went 20 meters before turning to his right again to look for his father at his uncle’s place 30 meters from this point. His father was not there. From here he went 100 meters to the north before meeting his father in a street. How far did the son meet his father from the starting point?",
+    "options": [
+      "80 meters",
+      "100 meters",
+      "140 meters",
+      "260 meters"
+    ],
+    "correct_option_index": 1,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "If a pole 12 meters high casts a shadow of 4√3 meters long on the ground, then the sun's elevation is:",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "75°"
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "From a point, A starts walking towards east and after travelling 5 km, turns to his left and walks 3 km. Then he again turns to his left and walks 4 km, then he takes rest for 5 minutes. After this he again turns to his left and walks 3 km. How far is he from his starting point?",
+    "options": [
+      "3 km",
+      "4 km",
+      "5 km",
+      "6 km"
+    ],
+    "correct_option_index": 1,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A car travels from city A to city B at a speed of 40 km/hr and returns at a speed of 60 km/hr. What is the average speed of the car during the entire journey?",
+    "options": [
+      "48 km/hr",
+      "50 km/hr",
+      "52 km/hr",
+      "54 km/hr"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "Two trains are moving in opposite directions at speeds of 120 km/hr and 80 km/hr respectively. The length of the first train is 250 meters and the length of the second train is 350 meters. What is the time taken for the trains to cross each other completely?",
+    "options": [
+      "10.8 seconds",
+      "12 seconds",
+      "14.4 seconds",
+      "18 seconds"
+    ],
+    "correct_option_index": 1,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "If the letters in the word 'DIRECTION' are rearranged such that the order of the vowels remains the same, what is the new arrangement of the word?",
+    "options": [
+      "DRCTINOIE",
+      "DRCTINEOI",
+      "DRCTNOIEI",
+      "None of these"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A ship sails 15 km towards east, then turns towards north and sails 12 km. How far is it from the starting point?",
+    "options": [
+      "27 km",
+      "3 km",
+      "18 km",
+      "19 km"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "Two cars start from the same place at the same time. One travels north at 10 kmph and the other travels south at 15 kmph. After 6 hours, how far apart will they be?",
+    "options": [
+      "30 km",
+      "90 km",
+      "120 km",
+      "150 km"
+    ],
+    "correct_option_index": 3,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "Ravi is walking towards East. After moving a distance of 20 meters, he turned to his left and moved 10 meters. He then turned to his right and moved 10 meters. Again, after moving a distance of 20 meters, he turned to his right and moved 10 meters. Finally, he turned to his right and moved 30 meters. How far and in which direction is he from his starting point?",
+    "options": [
+      "5 meters, East",
+      "10 meters, East",
+      "5 meters, North",
+      "10 meters, North"
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A man leaves for his office from his house. He walks towards East for 2 km and then turns South and walks 2 km. He then walks towards West for 6 km, then he turns to his right and walks 2 km. How far is he from his starting point?",
+    "options": [
+      "4 km",
+      "6 km",
+      "8 km",
+      "10 km"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A person travels 6 km towards west, then turns to his right and travels 4 km, then again turns to his right and travels 5 km. After this, he turns to his left and travels 3 km. What is the shortest distance from his starting point?",
+    "options": [
+      "1 km",
+      "2 km",
+      "5 km",
+      "10 km"
+    ],
+    "correct_option_index": 3,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "Amit walks 10 m east, then 10 m to his right, then every time turning to his left, he walks 5, 15 and 15 meters respectively. How far is he now from his starting point?",
+    "options": [
+      "5 m",
+      "10 m",
+      "15 m",
+      "20 m"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A walks 10 meters towards east and B walks 10 meters towards north. Then A turns to his left and walks 3 meters and B turns to his right and walks 3 meters. What is the distance between them now?",
+    "options": [
+      "10 m",
+      "26 m",
+      "16 m",
+      "20 m"
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "From a point 'X', Sudhir walked 20 m towards west. He then turned left and walked 20 m. He then turned right and walked 15 m. After this he turned right and walked 20 m. How far and in which direction is he now from 'X'?",
+    "options": [
+      "35 m, East",
+      "35 m, West",
+      "20 m, East",
+      "20 m, West"
+    ],
+    "correct_option_index": 1,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "One morning after sunrise, Reeta and Kavita were talking to each other face to face at a crossing. If Kavita's shadow was exactly to the left of Reeta, which direction was Reeta facing?",
+    "options": [
+      "East",
+      "West",
+      "North",
+      "South"
+    ],
+    "correct_option_index": 3,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A clock is placed such that at 12 noon its minute hand points towards north-east. In which direction does its hour hand point at 1:30 pm?",
+    "options": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "correct_option_index": 3,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "If point A is 20 m to the south of point B, which is 10 m to the west of point C, then what is the direction of point A with respect to point C?",
+    "options": [
+      "North-East",
+      "North-West",
+      "South-East",
+      "South-West"
+    ],
+    "correct_option_index": 3,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A man is facing north-west. He turns 90° in the clockwise direction and then 135° in the anticlockwise direction. Which direction is he facing now?",
+    "options": [
+      "East",
+      "West",
+      "North",
+      "South"
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "X is to the South-East of Y. Z is to the East of Y and North-East of X. If P is to the North of Z and in line with Y, in which direction of Y is P located?",
+    "options": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "Two cars start from the same point. One travels 12 km North and another 8 km South, then the first turns to its right and travels 18 km and the second travels 26 km west. What is the distance between the two?",
+    "options": [
+      "10 km",
+      "38 km",
+      "44.72 km",
+      "50 km"
+    ],
+    "correct_option_index": 3,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A train leaves Delhi at 8:00 am and reaches Agra at 10:00 am. Another train leaves Agra at 8:00 am and reaches Delhi at 11:00 am. What time do the two trains meet?",
+    "options": [
+      "9:16 am",
+      "9:20 am",
+      "9:26 am",
+      "9:30 am"
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A man walks 3 km towards the North. Then turns left and walks 2 km. He again turns left and walks 3 km. At this point he turns to his left and walks 3 km. How far is he from the starting point?",
+    "options": [
+      "1 km",
+      "2 km",
+      "3 km",
+      "4 km"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A ship is sailing towards north. It covers a distance of 45 km in 1.5 hours. Find the distance covered by it in 3 hours if it travels at the same speed.",
+    "options": [
+      "90 km",
+      "100 km",
+      "110 km",
+      "120 km"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A man walks 5 km toward south and then turns to the right. After walking 3 km, he turns to the left and walks 5 km. Now in which direction is he from the starting place?",
+    "options": [
+      "West",
+      "South",
+      "North-east",
+      "South-west"
+    ],
+    "correct_option_index": 3,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "P is to the north of Q. R is to the east of P. S is to the west of Q. Which direction is Q with respect to R?",
+    "options": [
+      "North-East",
+      "South-West",
+      "North-West",
+      "South-East"
+    ],
+    "correct_option_index": 1,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "Two cars start from the same point. Car A travels 12 km North, then turns right and travels 18 km. Car B travels 8 km South, then turns right and travels 26 km. What is the distance between the two cars?",
+    "options": [
+      "20 km",
+      "38 km",
+      "44.72 km",
+      "52 km"
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "If A × B means A is to the south of B; A + B means A is to the north of B; A % B means A is to the east of B; A - B means A is to the west of B; then in P % Q + R - S, S is in which direction with respect to Q?",
+    "options": [
+      "South-West",
+      "South-East",
+      "North-West",
+      "North-East"
+    ],
+    "correct_option_index": 2,
+    "category": "Directions & Distances"
+  },
+  {
+    "question": "A car travels from city A to city B at a speed of 40 km/hr and returns at a speed of 60 km/hr. What is the average speed of the car during the entire journey?",
+    "options": [
+      "48 km/hr",
+      "50 km/hr",
+      "52 km/hr",
+      "54 km/hr"
+    ],
+    "correct_option_index": 0,
+    "category": "Directions & Distances"
+  }
+]

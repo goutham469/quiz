@@ -1,0 +1,728 @@
+[
+  {
+    "question": "If A can do a piece of work in 10 days and B can do it in 15 days, how long will they take to complete it together?",
+    "options": [
+      "5 days",
+      "6 days",
+      "8 days",
+      "12.5 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can do a work in 12 days. B is 60% more efficient than A. How many days will B take to do the same work?",
+    "options": [
+      "6 days",
+      "7.5 days",
+      "8 days",
+      "10 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A and B together can do a piece of work in 8 days. If A alone can do it in 12 days, how long will B alone take to do the same work?",
+    "options": [
+      "16 days",
+      "20 days",
+      "24 days",
+      "30 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "P can complete a work in 12 days working 8 hours a day. Q can complete the same work in 8 days working 10 hours a day. If P and Q work together, working 8 hours a day, in how many days can they complete the work?",
+    "options": [
+      "4.8 days",
+      "5 days",
+      "5.5 days",
+      "6 days"
+    ],
+    "correct_option_index": 0,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A, B and C can complete a piece of work in 6, 12 and 24 days respectively. In what time will they together complete the work?",
+    "options": [
+      "3 3/7 days",
+      "4 days",
+      "5 days",
+      "8 days"
+    ],
+    "correct_option_index": 0,
+    "category": "Time and Work"
+  },
+  {
+    "question": "If 12 men can do a piece of work in 20 days, how many men would be required to complete the same work in 15 days?",
+    "options": [
+      "15",
+      "16",
+      "18",
+      "20"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can build a wall in 30 days, while B can build it in 40 days. If they build it together and earn ₹7000, what is B's share?",
+    "options": [
+      "₹2000",
+      "₹3000",
+      "₹4000",
+      "₹5000"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A and B can do a piece of work in 18 days; B and C can do it in 24 days; A and C can do it in 36 days. In what time can A, B and C do it all working together?",
+    "options": [
+      "10 days",
+      "12 days",
+      "16 days",
+      "20 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can do a piece of work in 4 hours; B and C together can do it in 3 hours, while A and C together can do it in 2 hours. How long will B alone take to do it?",
+    "options": [
+      "8 hours",
+      "10 hours",
+      "12 hours",
+      "24 hours"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "Some persons can do a piece of work in 12 days. Two times the number of these persons will complete half of the same work in how many days?",
+    "options": [
+      "3 days",
+      "4 days",
+      "6 days",
+      "12 days"
+    ],
+    "correct_option_index": 0,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A contractor undertakes to do a piece of work in 40 days. He engages 20 men to work. But after 30 days, he finds that only half of the work has been done. How many more men are to be engaged to complete the work in time?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can do a piece of work in 20 days and B in 30 days. They work at it together for 5 days, then A leaves. In how many days will B finish the remaining work?",
+    "options": [
+      "12 days",
+      "15 days",
+      "18 days",
+      "20 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A, B and C can complete a piece of work in 24, 6 and 12 days respectively. Working together, they will complete the same work in:",
+    "options": [
+      "1/24 day",
+      "1/7 day",
+      "3 3/7 days",
+      "4 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "Ravi can do a piece of work in 30 days. Sunil can do the same work in 20 days. Ravi starts the work and Sunil joins him after 10 days. In how many days will the work be completed?",
+    "options": [
+      "18 days",
+      "20 days",
+      "22 days",
+      "24 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A and B undertake to do a piece of work for ₹600. A alone can do it in 6 days while B alone can do it in 8 days. With the help of C, they finish it in 3 days. Find the share of C.",
+    "options": [
+      "₹75",
+      "₹100",
+      "₹150",
+      "₹225"
+    ],
+    "correct_option_index": 0,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A tank can be filled by one tap in 10 minutes and by another in 15 minutes. How long will it take to fill the tank if both taps are opened together?",
+    "options": [
+      "5 minutes",
+      "6 minutes",
+      "8 minutes",
+      "12.5 minutes"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "Two pipes A and B can fill a tank in 20 minutes and 30 minutes respectively. If both the pipes are opened simultaneously, then the tank will be filled in:",
+    "options": [
+      "10 minutes",
+      "12 minutes",
+      "15 minutes",
+      "25 minutes"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A tap can fill a tank in 6 hours. After half the tank is filled, three more similar taps are opened. What is the total time taken to fill the tank completely?",
+    "options": [
+      "3 hours",
+      "3 hours 15 minutes",
+      "3 hours 45 minutes",
+      "4 hours 15 minutes"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "Two pipes can fill a tank in 15 and 12 hours respectively and a third pipe can empty it in 4 hours. If the pipes be opened in order at 8, 9 and 11 a.m. respectively, the tank will be emptied at:",
+    "options": [
+      "11:40 a.m.",
+      "12:40 p.m.",
+      "1:40 p.m.",
+      "2:40 p.m."
+    ],
+    "correct_option_index": 3,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A tank is filled in 5 hours by three pipes A, B and C. The pipe C is twice as fast as B and B is twice as fast as A. How much time will pipe A alone take to fill the tank?",
+    "options": [
+      "15 hours",
+      "25 hours",
+      "30 hours",
+      "35 hours"
+    ],
+    "correct_option_index": 3,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A does 20% less work than B. If A can complete a piece of work in 7.5 hours, then B can do it in:",
+    "options": [
+      "6 hours",
+      "5 hours",
+      "8 hours",
+      "7 hours"
+    ],
+    "correct_option_index": 0,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A and B can complete a work in 15 days and 10 days respectively. They started doing the work together but after 2 days B had to leave and A alone completed the remaining work. The whole work was completed in :",
+    "options": [
+      "8 days",
+      "10 days",
+      "12 days",
+      "15 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can do a certain work in 12 days. B is 60% more efficient than A. How many days does B alone take to do the same job?",
+    "options": [
+      "6 days",
+      "7 1/2 days",
+      "8 days",
+      "10 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can finish a work in 24 days, B in 9 days and C in 12 days. B and C start the work but are forced to leave after 3 days. The remaining work was done by A in :",
+    "options": [
+      "5 days",
+      "6 days",
+      "10 days",
+      "10 1/2 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "4 men and 6 women can complete a work in 8 days, while 3 men and 7 women can complete it in 10 days. In how many days will 10 women complete it?",
+    "options": [
+      "35 days",
+      "40 days",
+      "45 days",
+      "50 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A alone can do a piece of work in 6 days and B alone in 8 days. A and B undertook to do it for ₹3200. With the help of C, they completed the work in 3 days. How much is to be paid to C?",
+    "options": [
+      "₹375",
+      "₹400",
+      "₹600",
+      "₹800"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can do a piece of work in 10 days and B in 15 days. They work together for 2 days and then B leaves. A finishes the remaining work in:",
+    "options": [
+      "8 days",
+      "6 days",
+      "10 days",
+      "12 days"
+    ],
+    "correct_option_index": 0,
+    "category": "Time and Work"
+  },
+  {
+    "question": "P can complete a piece of work in 18 days, Q in 20 days and R in 30 days. Q and R start the work and are forced to leave after 2 days. The time taken by P alone to complete the remaining work is:",
+    "options": [
+      "10 days",
+      "12 days",
+      "15 days",
+      "16 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A and B can do a job together in 7 days. A is 1 3/4 times as efficient as B. The same job can be done by A alone in:",
+    "options": [
+      "9 1/3 days",
+      "11 days",
+      "12 1/4 days",
+      "16 1/3 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can do a work in 15 days and B in 20 days. If they work on it together for 4 days, then the fraction of the work that is left is :",
+    "options": [
+      "1/20",
+      "1/4",
+      "7/15",
+      "8/15"
+    ],
+    "correct_option_index": 3,
+    "category": "Time and Work"
+  },
+  {
+    "question": "12 men can complete a piece of work in 4 days, while 15 women can complete the same work in 4 days. 6 men and 8 women can complete the same work in:",
+    "options": [
+      "6 days",
+      "3 days",
+      "4 days",
+      "5 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can do a piece of work in 4 hours; B and C together can do it in 3 hours, while A and C together can do it in 2 hours. How long will B alone take to do it?",
+    "options": [
+      "8 hours",
+      "10 hours",
+      "12 hours",
+      "24 hours"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A, B and C can do a piece of work in 20, 30 and 60 days respectively. How many days does A take to do the work if he is assisted by B and C on every third day?",
+    "options": [
+      "12 days",
+      "15 days",
+      "16 days",
+      "18 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A and B can complete a work in 15 days and 10 days respectively. They started doing the work together but after 2 days B had to leave and A alone completed the remaining work. The whole work was completed in :",
+    "options": [
+      "8 days",
+      "10 days",
+      "12 days",
+      "15 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A is twice as good a workman as B and together they finish a piece of work in 14 days. The number of days taken by A alone to finish the work is:",
+    "options": [
+      "11 days",
+      "21 days",
+      "28 days",
+      "42 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A and B together can complete a piece of work in 12 days while B alone can complete it in 30 days. A alone can complete the work in :",
+    "options": [
+      "18 days",
+      "20 days",
+      "25 days",
+      "30 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can do a piece of work in 10 days and B can do it in 15 days, how long will they take to complete it together?",
+    "options": [
+      "5 days",
+      "6 days",
+      "8 days",
+      "12.5 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can do a work in 12 days. B is 60% more efficient than A. How many days will B take to do the same work?",
+    "options": [
+      "6 days",
+      "7.5 days",
+      "8 days",
+      "10 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A and B together can do a piece of work in 8 days. If A alone can do it in 12 days, how long will B alone take to do the same work?",
+    "options": [
+      "16 days",
+      "20 days",
+      "24 days",
+      "30 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "P can complete a work in 12 days working 8 hours a day. Q can complete the same work in 8 days working 10 hours a day. If P and Q work together, working 8 hours a day, in how many days can they complete the work?",
+    "options": [
+      "4.8 days",
+      "5 days",
+      "5.5 days",
+      "6 days"
+    ],
+    "correct_option_index": 0,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A, B and C can complete a piece of work in 6, 12 and 24 days respectively. In what time will they together complete the work?",
+    "options": [
+      "3 3/7 days",
+      "4 days",
+      "5 days",
+      "8 days"
+    ],
+    "correct_option_index": 0,
+    "category": "Time and Work"
+  },
+  {
+    "question": "If 12 men can do a piece of work in 20 days, how many men would be required to complete the same work in 15 days?",
+    "options": [
+      "15",
+      "16",
+      "18",
+      "20"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can build a wall in 30 days, while B can build it in 40 days. If they build it together and earn ₹7000, what is B's share?",
+    "options": [
+      "₹2000",
+      "₹3000",
+      "₹4000",
+      "₹5000"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A and B can do a piece of work in 18 days; B and C can do it in 24 days; A and C can do it in 36 days. In what time can A, B and C do it all working together?",
+    "options": [
+      "10 days",
+      "12 days",
+      "16 days",
+      "20 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can do a piece of work in 4 hours; B and C together can do it in 3 hours, while A and C together can do it in 2 hours. How long will B alone take to do it?",
+    "options": [
+      "8 hours",
+      "10 hours",
+      "12 hours",
+      "24 hours"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "Some persons can do a piece of work in 12 days. Two times the number of these persons will complete half of the same work in how many days?",
+    "options": [
+      "3 days",
+      "4 days",
+      "6 days",
+      "12 days"
+    ],
+    "correct_option_index": 0,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A contractor undertakes to do a piece of work in 40 days. He engages 20 men to work. But after 30 days, he finds that only half of the work has been done. How many more men are to be engaged to complete the work in time?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can do a piece of work in 20 days and B in 30 days. They work at it together for 5 days, then A leaves. In how many days will B finish the remaining work?",
+    "options": [
+      "12 days",
+      "15 days",
+      "18 days",
+      "20 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A, B and C can complete a piece of work in 24, 6 and 12 days respectively. Working together, they will complete the same work in:",
+    "options": [
+      "1/24 day",
+      "1/7 day",
+      "3 3/7 days",
+      "4 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "Ravi can do a piece of work in 30 days. Sunil can do the same work in 20 days. Ravi starts the work and Sunil joins him after 10 days. In how many days will the work be completed?",
+    "options": [
+      "18 days",
+      "20 days",
+      "22 days",
+      "24 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A and B undertake to do a piece of work for ₹600. A alone can do it in 6 days while B alone can do it in 8 days. With the help of C, they finish it in 3 days. Find the share of C.",
+    "options": [
+      "₹75",
+      "₹100",
+      "₹150",
+      "₹225"
+    ],
+    "correct_option_index": 0,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A does 20% less work than B. If A can complete a piece of work in 7.5 hours, then B can do it in:",
+    "options": [
+      "6 hours",
+      "5 hours",
+      "8 hours",
+      "7 hours"
+    ],
+    "correct_option_index": 0,
+    "category": "Time and Work"
+  },
+  {
+    "question": "4 men and 6 women can complete a work in 8 days, while 3 men and 7 women can complete it in 10 days. In how many days will 10 women complete it?",
+    "options": [
+      "35 days",
+      "40 days",
+      "45 days",
+      "50 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A alone can do a piece of work in 6 days and B alone in 8 days. A and B undertook to do it for ₹3200. With the help of C, they completed the work in 3 days. How much is to be paid to C?",
+    "options": [
+      "₹375",
+      "₹400",
+      "₹600",
+      "₹800"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can do a piece of work in 10 days and B in 15 days. They work together for 2 days and then B leaves. A finishes the remaining work in:",
+    "options": [
+      "8 days",
+      "6 days",
+      "10 days",
+      "12 days"
+    ],
+    "correct_option_index": 0,
+    "category": "Time and Work"
+  },
+  {
+    "question": "P can complete a piece of work in 18 days, Q in 20 days and R in 30 days. Q and R start the work and are forced to leave after 2 days. The time taken by P alone to complete the remaining work is:",
+    "options": [
+      "10 days",
+      "12 days",
+      "15 days",
+      "16 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A and B can do a job together in 7 days. A is 1 3/4 times as efficient as B. The same job can be done by A alone in:",
+    "options": [
+      "9 1/3 days",
+      "11 days",
+      "12 1/4 days",
+      "16 1/3 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A can do a work in 15 days and B in 20 days. If they work on it together for 4 days, then the fraction of the work that is left is :",
+    "options": [
+      "1/20",
+      "1/4",
+      "7/15",
+      "8/15"
+    ],
+    "correct_option_index": 3,
+    "category": "Time and Work"
+  },
+  {
+    "question": "12 men can complete a piece of work in 4 days, while 15 women can complete the same work in 4 days. 6 men and 8 women can complete the same work in:",
+    "options": [
+      "6 days",
+      "3 days",
+      "4 days",
+      "5 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A, B and C can do a piece of work in 20, 30 and 60 days respectively. How many days does A take to do the work if he is assisted by B and C on every third day?",
+    "options": [
+      "12 days",
+      "15 days",
+      "16 days",
+      "18 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A alone can do a piece of work in 10 days and B alone can do it in 15 days. In how many days will A and B together complete the same work?",
+    "options": [
+      "5 days",
+      "6 days",
+      "8 days",
+      "12 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "P can do a piece of work in 9 days, Q can do it in 15 days. If they work together for 5 days, then the part of the work which is left is:",
+    "options": [
+      "1/15",
+      "1/10",
+      "2/9",
+      "11/45"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A and B can do a piece of work in 18 days. B and C can do it in 24 days and C and A can do it in 36 days. In what time can they do it all working together?",
+    "options": [
+      "25 days",
+      "16 days",
+      "28 days",
+      "30 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A is thrice as efficient as B and therefore able to finish a job in 60 days less than B. Find the time in which they can complete the job by working together.",
+    "options": [
+      "22 1/2 days",
+      "25 days",
+      "27 days",
+      "30 days"
+    ],
+    "correct_option_index": 0,
+    "category": "Time and Work"
+  },
+  {
+    "question": "If A can do 1/4 of work in 3 days and B can do 1/6 of same work in 4 days then in how many days both will complete the work together?",
+    "options": [
+      "24/5",
+      "10",
+      "12",
+      "24/7"
+    ],
+    "correct_option_index": 0,
+    "category": "Time and Work"
+  },
+  {
+    "question": "A and B can do a piece of work in 72 days; B and C can do it in 120 days; A and C can do it in 90 days; then A alone can do the work in?",
+    "options": [
+      "80 days",
+      "100 days",
+      "120 days",
+      "150 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Time and Work"
+  }
+]

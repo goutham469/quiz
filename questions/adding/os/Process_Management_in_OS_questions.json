@@ -1,0 +1,531 @@
+[
+  {
+    "question": "Which scheduling algorithm minimizes the average waiting time?",
+    "options": [
+      "First-Come, First-Served (FCFS)",
+      "Shortest Job First (SJF)",
+      "Priority Scheduling",
+      "Round Robin"
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is the primary purpose of process synchronization?",
+    "options": [
+      "To increase CPU utilization",
+      "To prevent race conditions",
+      "To reduce memory fragmentation",
+      "To improve I/O performance"
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Which of the following is NOT a necessary condition for deadlock?",
+    "options": [
+      "Mutual Exclusion",
+      "Hold and Wait",
+      "No Preemption",
+      "Starvation"
+    ],
+    "correct_option_index": 3,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is the difference between a process and a thread?",
+    "options": [
+      "A process is lightweight; a thread is heavyweight.",
+      "A process has its own address space; threads share an address space.",
+      "A process can only have one thread; a thread can have multiple processes.",
+      "A process is used for I/O operations; a thread is used for CPU-bound tasks."
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Which inter-process communication (IPC) mechanism is typically used for transferring large amounts of data?",
+    "options": [
+      "Message Queues",
+      "Shared Memory",
+      "Pipes",
+      "Signals"
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is the role of the Process Control Block (PCB)?",
+    "options": [
+      "To store the code of a process",
+      "To store the data of a process",
+      "To store the process's state and other metadata",
+      "To manage the file system"
+    ],
+    "correct_option_index": 2,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Which scheduling algorithm can lead to starvation?",
+    "options": [
+      "Round Robin",
+      "First-Come, First-Served (FCFS)",
+      "Priority Scheduling",
+      "Shortest Job First (SJF)"
+    ],
+    "correct_option_index": 2,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is a semaphore used for?",
+    "options": [
+      "Memory allocation",
+      "Process synchronization",
+      "File system management",
+      "Network communication"
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Which of the following techniques can be used to prevent deadlock?",
+    "options": [
+      "Resource allocation graph",
+      "Banker's algorithm",
+      "Deadlock detection",
+      "Process termination"
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is the purpose of context switching?",
+    "options": [
+      "To save the current process state and load the state of another process",
+      "To allocate memory to a process",
+      "To create a new process",
+      "To delete a process"
+    ],
+    "correct_option_index": 0,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Consider three processes P1, P2, and P3 needing 7, 4, and 5 units of resource R, respectively. If R has 10 instances, what is the safe sequence using Banker's algorithm?",
+    "options": [
+      "P1, P2, P3",
+      "P2, P3, P1",
+      "P3, P1, P2",
+      "No safe sequence exists"
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Which of the following describes the 'aging' technique in scheduling?",
+    "options": [
+      "Prioritizing older processes",
+      "Reducing the priority of processes that have been running for a long time",
+      "Increasing the priority of processes that have been waiting for a long time",
+      "Deleting processes that are too old"
+    ],
+    "correct_option_index": 2,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "A system has 3 processes sharing 4 instances of the same resource. What is the maximum need of each process to guarantee deadlock-free operation using Banker's algorithm (worst-case scenario)?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is a monitor in the context of concurrency?",
+    "options": [
+      "A hardware device that monitors system performance",
+      "A synchronization construct that provides mutual exclusion and condition variables",
+      "A type of file system",
+      "A process scheduling algorithm"
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Which of the following is NOT a typical process state?",
+    "options": [
+      "Running",
+      "Ready",
+      "Blocked",
+      "Suspended",
+      "Compiling"
+    ],
+    "correct_option_index": 4,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is the purpose of the 'kill' command in Unix-like operating systems?",
+    "options": [
+      "To terminate a process",
+      "To create a new process",
+      "To rename a process",
+      "To suspend a process"
+    ],
+    "correct_option_index": 0,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "How does the Shortest Remaining Time (SRT) scheduling algorithm work?",
+    "options": [
+      "It selects the process with the shortest burst time.",
+      "It selects the process that has been waiting the longest.",
+      "It selects the process with the shortest remaining time until completion.",
+      "It selects processes randomly."
+    ],
+    "correct_option_index": 2,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is a race condition?",
+    "options": [
+      "A situation where multiple processes try to access and modify shared data concurrently.",
+      "A situation where a process is waiting indefinitely for a resource.",
+      "A situation where a process is terminated unexpectedly.",
+      "A situation where a process is given higher priority than others."
+    ],
+    "correct_option_index": 0,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Which of the following is an advantage of using threads over processes?",
+    "options": [
+      "Increased security",
+      "Reduced context switching overhead",
+      "Improved memory utilization with separate address spaces",
+      "Simplified inter-process communication"
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is the purpose of the 'fork()' system call?",
+    "options": [
+      "To create a new thread",
+      "To terminate a process",
+      "To create a new process that is a copy of the calling process",
+      "To allocate memory to a process"
+    ],
+    "correct_option_index": 2,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Consider the following set of processes with their arrival times and burst times (in ms): P1(0, 8), P2(1, 4), P3(2, 9), P4(3, 5). What is the average waiting time using the Shortest Job First (SJF) algorithm?",
+    "options": [
+      "5 ms",
+      "6 ms",
+      "7 ms",
+      "8 ms"
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Suppose a system uses the Banker's algorithm to allocate resources.  There are 5 processes (P0 through P4) and 3 resource types (A, B, C). The current allocation matrix is: Allocation:  A B C   P0 0 1 0   P1 2 0 0   P2 3 0 2   P3 2 1 1   P4 0 0 2.  The Max matrix is: Max:  A B C   P0 7 5 3   P1 3 2 2   P2 9 0 2   P3 2 2 2   P4 4 3 3.  The available resources are: Available: A B C  3 3 2. Is the system in a safe state?",
+    "options": [
+      "Yes, the safe sequence is P1, P3, P4, P0, P2",
+      "Yes, the safe sequence is P1, P3, P0, P2, P4",
+      "No, the system is not in a safe state",
+      "Yes, the safe sequence is P0, P1, P2, P3, P4"
+    ],
+    "correct_option_index": 0,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Which statement is most accurate regarding preemptive vs. non-preemptive scheduling?",
+    "options": [
+      "Preemptive scheduling always results in lower average waiting times.",
+      "Non-preemptive scheduling always prevents starvation.",
+      "Preemptive scheduling allows a running process to be interrupted, while non-preemptive does not.",
+      "Non-preemptive scheduling is generally preferred in real-time operating systems."
+    ],
+    "correct_option_index": 2,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is a spinlock and when is it most appropriate to use?",
+    "options": [
+      "A lock that causes a process to block and wait on a queue. Best for long critical sections.",
+      "A lock that causes a process to repeatedly check for availability. Best for short critical sections with low contention.",
+      "A lock that prevents context switching. Best for I/O-bound processes.",
+      "A lock used for managing memory allocation. Best for preventing memory leaks."
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "In the context of process management, what is thrashing and what is its primary cause?",
+    "options": [
+      "Excessive disk I/O due to page faults, caused by insufficient memory allocated to processes.",
+      "A deadlock situation caused by resource contention between processes.",
+      "A situation where the CPU is constantly switching between processes, leading to high overhead.",
+      "A memory leak caused by improper memory management in user-level programs."
+    ],
+    "correct_option_index": 0,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Explain the difference between strong and weak semaphores. Which one guarantees FIFO order of access?",
+    "options": [
+      "Strong semaphores guarantee FIFO order, while weak semaphores do not. Strong semaphores are generally more efficient.",
+      "Weak semaphores guarantee FIFO order, while strong semaphores do not. Weak semaphores are simpler to implement.",
+      "Strong semaphores guarantee mutual exclusion, while weak semaphores only provide synchronization. Strong semaphores are preferred in multi-processor systems.",
+      "There is no difference between strong and weak semaphores; the terms are interchangeable."
+    ],
+    "correct_option_index": 0,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "A system has two processes, P1 and P2, and two resources, R1 and R2. P1 holds R1 and requests R2, while P2 holds R2 and requests R1. What technique is commonly used to recover from this specific type of deadlock?",
+    "options": [
+      "Process termination of P1",
+      "Resource preemption from P2",
+      "Rollback to a safe state",
+      "Deadlock prevention by resource ordering"
+    ],
+    "correct_option_index": 3,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is the purpose of the 'nice' command in Unix-like operating systems, and how does it relate to process priority?",
+    "options": [
+      "It terminates a process immediately; it doesn't relate to priority.",
+      "It sets the real-time priority of a process; higher nice value means higher priority.",
+      "It adjusts the process's scheduling priority; higher nice value generally means lower priority.",
+      "It allocates more memory to a process; it indirectly affects priority."
+    ],
+    "correct_option_index": 2,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Describe the Readers-Writers problem in concurrent programming.  What are the common solutions and challenges associated with this problem?",
+    "options": [
+      "It's about managing the priority of processes based on their resource needs; solutions involve priority queues.",
+      "It's about synchronizing read and write access to shared data to avoid data corruption; solutions involve semaphores or mutexes but can lead to starvation of readers or writers.",
+      "It's about preventing race conditions when multiple processes access the file system; solutions involve file locking mechanisms.",
+      "It's about managing memory allocation for multiple processes; solutions involve memory managers and garbage collectors."
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Consider a system with 3 resource types: A, B, and C. There are 7 instances of A, 2 of B, and 6 of C. Suppose we have the following resource allocation state (using Banker's Algorithm notation):  Max  Allocation Need  Available A B C A B C A B C A B C P0 3 2 2 1 0 0 2 2 2  P1 6 1 3 5 1 1 1 0 2  P2 3 1 4 2 1 1 1 0 3.  Determine if the system is in a safe state. If safe, provide the safe sequence.",
+    "options": [
+      "Safe; Sequence: P0, P1, P2",
+      "Safe; Sequence: P1, P0, P2",
+      "Safe; Sequence: P2, P1, P0",
+      "Unsafe; the system is in a deadlock state."
+    ],
+    "correct_option_index": 0,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is the purpose of the 'wait()' system call in the context of process creation and management?",
+    "options": [
+      "To create a new process",
+      "To terminate a process",
+      "To suspend the calling process until one of its child processes terminates",
+      "To allocate memory to a process"
+    ],
+    "correct_option_index": 2,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "A system uses a multi-level feedback queue scheduling algorithm. Explain how processes move between the different queues, and the typical criteria used for this movement.",
+    "options": [
+      "Processes always stay in the same queue they were initially assigned to based on priority.",
+      "Processes move to higher-priority queues if they consume more CPU time than allotted.",
+      "Processes move to lower-priority queues if they consume more CPU time than allotted; this prevents CPU-bound processes from monopolizing the CPU.",
+      "Processes move randomly between queues to ensure fairness."
+    ],
+    "correct_option_index": 2,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Explain the concept of a 'critical section' and why it's important to protect it in concurrent programming.",
+    "options": [
+      "A section of code that performs I/O operations; protecting it prevents I/O errors.",
+      "A section of code that accesses shared resources; protecting it ensures data integrity and prevents race conditions.",
+      "A section of code that allocates memory; protecting it prevents memory leaks.",
+      "A section of code that handles user input; protecting it prevents security vulnerabilities."
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is the key difference between a mutex and a binary semaphore, even though both can be used for mutual exclusion?",
+    "options": [
+      "A mutex can be released by any thread, while a binary semaphore can only be released by the thread that acquired it.",
+      "A mutex can only be released by the thread that acquired it, while a binary semaphore can be released by any thread.",
+      "A mutex is used for signaling events, while a binary semaphore is used for protecting critical sections.",
+      "There is no practical difference between a mutex and a binary semaphore; the terms are interchangeable."
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "In a system using the Banker's algorithm, what happens if a process requests resources that, if granted, would leave the system in an unsafe state?",
+    "options": [
+      "The resources are immediately allocated to the process.",
+      "The process is terminated to avoid deadlock.",
+      "The request is delayed until a safe state can be reached, ensuring deadlock avoidance.",
+      "A deadlock detection algorithm is run to check for potential deadlocks."
+    ],
+    "correct_option_index": 2,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is the difference between a process context switch and a thread context switch, in terms of the overhead involved?",
+    "options": [
+      "Process context switches are generally faster than thread context switches because processes share the same address space.",
+      "Thread context switches are generally faster than process context switches because threads share the same address space and many system resources.",
+      "There is no difference in the overhead between process and thread context switches.",
+      "Process context switches are faster when virtual memory is not used."
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Describe the concept of priority inversion in real-time operating systems (RTOS) and explain how priority inheritance can address this problem.",
+    "options": [
+      "Priority inversion occurs when a higher-priority task is blocked by a lower-priority task; priority inheritance allows the lower-priority task to temporarily inherit the priority of the higher-priority task to minimize the blocking time.",
+      "Priority inversion occurs when a lower-priority task preempts a higher-priority task; priority inheritance prevents preemption altogether.",
+      "Priority inversion is a deadlock situation caused by resource contention; priority inheritance resolves this by terminating the lower-priority task.",
+      "Priority inversion is a scheduling anomaly; priority inheritance prevents it by assigning static priorities to all tasks."
+    ],
+    "correct_option_index": 0,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Explain the concept of 'livelock' and how it differs from 'deadlock'.",
+    "options": [
+      "Livelock is a state where processes are constantly changing their state in response to other processes, but no process makes progress, while deadlock is a state where processes are blocked indefinitely, waiting for each other.",
+      "Livelock is a memory leak caused by improper memory management, while deadlock is a resource leak caused by unreleased resources.",
+      "Livelock is a situation where a process is terminated unexpectedly, while deadlock is a situation where a process is waiting for user input.",
+      "There is no difference between livelock and deadlock; the terms are interchangeable."
+    ],
+    "correct_option_index": 0,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is the function of a Dispatcher in an Operating System?",
+    "options": [
+      "Allocates CPU to the process selected by short-term scheduler",
+      "It is a backup for file data",
+      "Allocates memory to the process",
+      "It handles user requests"
+    ],
+    "correct_option_index": 0,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What are the main differences between user-level threads and kernel-level threads? What are the advantages and disadvantages of each?",
+    "options": [
+      "User-level threads are managed by the OS kernel, while kernel-level threads are managed by a user-level library.",
+      "User-level threads are managed by a user-level library, while kernel-level threads are managed by the OS kernel. User-level threads are faster to create but can block the entire process if one thread blocks. Kernel-level threads offer better concurrency but have higher overhead.",
+      "User-level threads can only be used in single-processor systems, while kernel-level threads can be used in multi-processor systems.",
+      "There is no practical difference between user-level threads and kernel-level threads."
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "In the context of inter-process communication (IPC), what are message queues and what are their advantages and disadvantages?",
+    "options": [
+      "Message queues are a mechanism for shared memory access; they offer fast data transfer but are prone to race conditions.",
+      "Message queues are a mechanism for exchanging data between processes using a queue-like structure; they provide asynchronous communication but can have overhead related to message copying and buffering.",
+      "Message queues are a mechanism for signaling events between processes; they are efficient for synchronization but not suitable for data transfer.",
+      "Message queues are a type of file system; they offer persistent storage for inter-process communication."
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Explain the concept of a 'zombie process' and how it arises in Unix-like systems. How can you prevent processes from becoming zombies?",
+    "options": [
+      "A zombie process is a process that is still running in the background; it arises when a process is terminated unexpectedly.",
+      "A zombie process is a process that has completed execution but whose entry in the process table has not been removed; it arises when the parent process does not call 'wait()' to collect the child's exit status. Preventing zombies requires proper parent process management and calling 'wait()' on child processes.",
+      "A zombie process is a process that is waiting for user input; it arises when the user does not provide input in a timely manner.",
+      "A zombie process is a process that is consuming excessive CPU resources; it arises when the process has a bug or is performing computationally intensive tasks."
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is the copy-on-write (COW) technique and how does it improve efficiency in process creation (e.g., when using 'fork()')?",
+    "options": [
+      "COW is a memory allocation technique that allocates all memory at the time of process creation.",
+      "COW is a technique where the parent process is suspended while the child process is created.",
+      "COW is a technique where the parent and child processes initially share the same memory pages; actual copying of pages occurs only when one of the processes modifies a page, reducing the overhead of process creation.",
+      "COW is a disk caching technique used to improve file I/O performance."
+    ],
+    "correct_option_index": 2,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Explain the concept of 'event-driven programming' and how it is used in operating systems to manage process execution.",
+    "options": [
+      "Event-driven programming is a paradigm where processes are scheduled based on their priority levels; higher-priority processes are executed first.",
+      "Event-driven programming is a paradigm where processes are executed in a predefined sequence; this ensures predictable behavior.",
+      "Event-driven programming is a paradigm where the flow of control is determined by events (e.g., user input, signals); processes wait for events to occur and then execute corresponding handlers, allowing for asynchronous and non-blocking operations.",
+      "Event-driven programming is a technique used to prevent deadlocks; processes are assigned unique event IDs to avoid resource contention."
+    ],
+    "correct_option_index": 2,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "A system implements a Rate Monotonic Scheduling (RMS) algorithm for real-time tasks. Three periodic tasks have periods of 50ms, 100ms, and 200ms, and computation times of 20ms, 30ms, and 40ms, respectively. Determine if this task set is schedulable under RMS.",
+    "options": [
+      "Schedulable, because the utilization bound is not exceeded.",
+      "Not schedulable, because the utilization bound is exceeded.",
+      "Schedulable, because RMS always guarantees schedulability.",
+      "Not schedulable, because the task with the shortest period has the longest computation time."
+    ],
+    "correct_option_index": 0,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is the primary difference between a hard real-time system and a soft real-time system?",
+    "options": [
+      "Hard real-time systems guarantee that critical tasks will always meet their deadlines, while soft real-time systems allow occasional deadline misses.",
+      "Soft real-time systems guarantee that critical tasks will always meet their deadlines, while hard real-time systems allow occasional deadline misses.",
+      "Hard real-time systems use more complex scheduling algorithms than soft real-time systems.",
+      "There is no significant difference between hard and soft real-time systems."
+    ],
+    "correct_option_index": 0,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "Explain the potential issues with using shared memory for inter-process communication and describe common techniques to mitigate these issues.",
+    "options": [
+      "Shared memory is inherently secure and doesn't require any special protection mechanisms.",
+      "Shared memory is only suitable for single-processor systems and cannot be used in multi-processor systems.",
+      "Shared memory requires careful synchronization mechanisms (e.g., mutexes, semaphores) to prevent race conditions and data corruption; improper synchronization can lead to unpredictable behavior and system crashes.",
+      "Shared memory is only used for transferring small amounts of data and is not suitable for large data transfers."
+    ],
+    "correct_option_index": 2,
+    "category": "Process Management in OS"
+  },
+  {
+    "question": "What is the purpose of the Address Space Layout Randomization (ASLR) technique and how does it enhance system security?",
+    "options": [
+      "ASLR is a technique used to optimize memory allocation; it does not directly enhance security.",
+      "ASLR is a technique that randomly arranges the positions of key data areas (e.g., base of the executable, libraries, heap, stack) in a process's address space, making it more difficult for attackers to exploit memory corruption vulnerabilities.",
+      "ASLR is a technique used to detect and prevent deadlocks; it ensures that resources are allocated in a random order.",
+      "ASLR is a technique used to improve CPU scheduling; it randomly assigns priorities to processes."
+    ],
+    "correct_option_index": 1,
+    "category": "Process Management in OS"
+  }
+]

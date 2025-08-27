@@ -1,0 +1,519 @@
+[
+  {
+    "question": "Which of the following is NOT a primary goal of ensuring consistency in a distributed system?",
+    "options": [
+      "Data accuracy",
+      "System availability",
+      "Fault tolerance",
+      "Low latency"
+    ],
+    "correct_option_index": 3,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "What does the acronym ACID stand for in the context of database transactions?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Accuracy, Consistency, Integrity, Data",
+      "Availability, Coherence, Isolation, Distribution",
+      "Atomicity, Concurrency, Integrity, Distribution"
+    ],
+    "correct_option_index": 0,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "Which consistency model guarantees that if a process reads the value of a data item, any successive read operation on that data item will always return that same value or a more recent value?",
+    "options": [
+      "Eventual Consistency",
+      "Causal Consistency",
+      "Sequential Consistency",
+      "Strict Consistency"
+    ],
+    "correct_option_index": 2,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "A system uses two-phase commit (2PC) to ensure atomicity across multiple nodes. What happens if the coordinator fails after sending the prepare message but before sending the commit message?",
+    "options": [
+      "All nodes commit the transaction.",
+      "All nodes rollback the transaction.",
+      "Some nodes might commit, and some might rollback, leading to inconsistency.",
+      "The nodes wait indefinitely until the coordinator recovers."
+    ],
+    "correct_option_index": 2,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "Which of the following is a common technique for handling write conflicts in a distributed data store with optimistic concurrency control?",
+    "options": [
+      "Two-phase locking",
+      "Vector clocks",
+      "Paxos",
+      "Timestamp ordering"
+    ],
+    "correct_option_index": 1,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "What is the primary purpose of a heartbeat mechanism in a distributed system?",
+    "options": [
+      "To synchronize clocks across nodes",
+      "To detect node failures",
+      "To ensure data consistency",
+      "To optimize network bandwidth"
+    ],
+    "correct_option_index": 1,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "Which consensus algorithm tolerates Byzantine faults?",
+    "options": [
+      "Raft",
+      "Paxos",
+      "Zab",
+      "Practical Byzantine Fault Tolerance (PBFT)"
+    ],
+    "correct_option_index": 3,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "What is the CAP theorem, and which two properties can a distributed system typically guarantee simultaneously?",
+    "options": [
+      "Consistency, Availability, Partition Tolerance; Choose any two",
+      "Consistency, Accuracy, Performance; Choose any two",
+      "Capacity, Availability, Performance; Choose any two",
+      "Correctness, Availability, Partition Tolerance; Choose any two"
+    ],
+    "correct_option_index": 0,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "In the context of eventual consistency, what is 'read-your-writes' consistency?",
+    "options": [
+      "A guarantee that a read operation will always return the most recent write.",
+      "A guarantee that a read operation performed by the same process will always return the result of its own previous write operation.",
+      "A guarantee that all writes are immediately propagated to all replicas.",
+      "A guarantee that all reads are performed on the primary replica."
+    ],
+    "correct_option_index": 1,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "Which technique is used to maintain data consistency across geographically distributed databases in active-active replication?",
+    "options": [
+      "Synchronous replication",
+      "Asynchronous replication",
+      "Snapshot replication",
+      "Two-phase commit"
+    ],
+    "correct_option_index": 1,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "What is the role of a quorum in distributed systems?",
+    "options": [
+      "To elect a leader",
+      "To ensure data consistency by requiring a minimum number of nodes to agree on a write or read",
+      "To optimize network routing",
+      "To encrypt data in transit"
+    ],
+    "correct_option_index": 1,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "In the context of microservices, how can you ensure data consistency across multiple services when a single business transaction spans across them?",
+    "options": [
+      "By using distributed transactions (2PC)",
+      "By using the Saga pattern or eventual consistency",
+      "By using a single, shared database",
+      "By using a message queue for all inter-service communication"
+    ],
+    "correct_option_index": 1,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "What is idempotency, and why is it important for reliable distributed systems?",
+    "options": [
+      "The property of an operation that can be executed multiple times without changing the result beyond the initial application",
+      "The property of an operation that always returns the same result given the same input",
+      "The property of an operation that is guaranteed to complete within a finite amount of time",
+      "The property of an operation that can be rolled back if it fails"
+    ],
+    "correct_option_index": 0,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "Which of the following is NOT a common strategy for handling failures in a distributed system?",
+    "options": [
+      "Replication",
+      "Redundancy",
+      "Failover",
+      "Ignoring the failure and hoping it resolves itself"
+    ],
+    "correct_option_index": 3,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous replication?",
+    "options": [
+      "Synchronous replication guarantees data consistency but can impact performance; asynchronous replication prioritizes performance but may lead to data loss.",
+      "Asynchronous replication guarantees data consistency but can impact performance; synchronous replication prioritizes performance but may lead to data loss.",
+      "Synchronous replication is only used for read operations; asynchronous replication is only used for write operations.",
+      "There is no difference; the terms are interchangeable."
+    ],
+    "correct_option_index": 0,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "What is the purpose of vector clocks in distributed systems?",
+    "options": [
+      "To synchronize physical clocks across nodes",
+      "To detect causal relationships between events and resolve conflicts",
+      "To encrypt data during transmission",
+      "To optimize network routing"
+    ],
+    "correct_option_index": 1,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "Which of the following is a common technique to handle network partitioning in a distributed system?",
+    "options": [
+      "Ignoring the partition and hoping it resolves itself",
+      "Shutting down the entire system",
+      "Using a 'split-brain' resolver to determine which partition should continue operating",
+      "Using a centralized authority to redirect traffic"
+    ],
+    "correct_option_index": 2,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "What is the difference between strong consistency and eventual consistency in the context of data replication?",
+    "options": [
+      "Strong consistency guarantees that all replicas have the same data at all times; eventual consistency allows for temporary inconsistencies.",
+      "Eventual consistency guarantees that all replicas have the same data at all times; strong consistency allows for temporary inconsistencies.",
+      "Strong consistency is faster than eventual consistency.",
+      "Eventual consistency is only suitable for read-heavy workloads."
+    ],
+    "correct_option_index": 0,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "What is a Byzantine fault, and why is it difficult to handle in distributed systems?",
+    "options": [
+      "A fault caused by a network interruption",
+      "A fault caused by a power outage",
+      "A fault where a node exhibits arbitrary behavior, including sending conflicting information to different nodes",
+      "A fault caused by a software bug"
+    ],
+    "correct_option_index": 3,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "Which technique is commonly used to ensure high availability in a system?",
+    "options": [
+      "Data compression",
+      "Load balancing",
+      "Data encryption",
+      "Regular backups"
+    ],
+    "correct_option_index": 1,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "Consider a scenario where a distributed system uses a leader-based consensus algorithm. What happens if the leader fails?",
+    "options": [
+      "The system becomes unavailable until the leader recovers",
+      "A new leader is elected using a leader election process",
+      "The system continues operating without a leader",
+      "All nodes rollback to the previous state"
+    ],
+    "correct_option_index": 1,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "What is the primary advantage of using a distributed consensus algorithm like Raft or Paxos?",
+    "options": [
+      "Improved performance compared to centralized systems",
+      "Automatic scaling of the system",
+      "Tolerance of node failures and ensuring data consistency",
+      "Reduced network latency"
+    ],
+    "correct_option_index": 2,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "Which of the following is a characteristic of a highly reliable system?",
+    "options": [
+      "It is always available",
+      "It can tolerate failures gracefully and continue to operate",
+      "It is never subject to failures",
+      "It is inexpensive to maintain"
+    ],
+    "correct_option_index": 2,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "You have a distributed system that needs to guarantee strong consistency. Which of the following strategies would be most appropriate?",
+    "options": [
+      "Eventual Consistency",
+      "Causal Consistency",
+      "Quorum-based replication with synchronous writes",
+      "Asynchronous replication with conflict resolution"
+    ],
+    "correct_option_index": 2,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "A system is designed to handle a large number of concurrent requests. Which architectural pattern is most likely to improve the system's scalability and reliability?",
+    "options": [
+      "Monolithic Architecture",
+      "Client-Server Architecture",
+      "Microservices Architecture",
+      "Layered Architecture"
+    ],
+    "correct_option_index": 2,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "In the context of caching, what is cache invalidation, and why is it important for data consistency?",
+    "options": [
+      "The process of removing entries from the cache to free up memory",
+      "The process of updating entries in the cache to reflect changes in the underlying data",
+      "The process of distributing the cache across multiple nodes",
+      "The process of measuring the performance of the cache"
+    ],
+    "correct_option_index": 1,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "What is the purpose of using circuit breakers in a microservices architecture?",
+    "options": [
+      "To protect against electrical surges",
+      "To automatically scale services based on traffic",
+      "To prevent cascading failures by stopping requests to failing services",
+      "To encrypt communication between services"
+    ],
+    "correct_option_index": 2,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "Which type of testing is MOST critical for ensuring the reliability of a distributed system?",
+    "options": [
+      "Unit testing",
+      "Integration testing",
+      "Load testing",
+      "Fault injection testing"
+    ],
+    "correct_option_index": 3,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "What is the meaning of split-brain in Distributed systems",
+    "options": [
+      "Every node considers itself the leader.",
+      "Leader does not replicate data to the followers",
+      "Followers are disconnected from the leader",
+      "All followers are corrupted"
+    ],
+    "correct_option_index": 0,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "Consider a distributed key-value store where data is replicated across multiple nodes. A client writes a value to the primary node, but the replication to the secondary nodes fails. Later, another client reads the value from one of the secondary nodes. Which consistency model is most likely to be in use if the client reads an older version of the data?",
+    "options": [
+      "Strict Consistency",
+      "Sequential Consistency",
+      "Eventual Consistency",
+      "Linearizability"
+    ],
+    "correct_option_index": 2,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "A distributed system uses Paxos for consensus. In a scenario where a majority of the nodes agree on a value but one node experiences a long garbage collection pause and misses the commit message, what will happen to that node when it recovers?",
+    "options": [
+      "It will automatically commit the value after the garbage collection pause ends.",
+      "It will be permanently out of sync with the other nodes.",
+      "It will need to participate in a new consensus round to learn the committed value.",
+      "It will crash the entire system due to inconsistency."
+    ],
+    "correct_option_index": 2,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "In a system using two-phase commit (2PC), the coordinator crashes after sending the PREPARE message but before receiving responses from all participants. How can the system recover from this situation, assuming no other failures?",
+    "options": [
+      "The participants automatically commit the transaction after a timeout.",
+      "The participants automatically rollback the transaction after a timeout.",
+      "A new coordinator is elected, and it queries the participants for their prepared state to determine the outcome.",
+      "The system remains in a blocked state indefinitely until the original coordinator recovers."
+    ],
+    "correct_option_index": 3,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "A distributed database uses optimistic concurrency control with versioning. Two transactions, T1 and T2, read the same data item with version 5. T1 updates the data item and commits, incrementing the version to 6. T2 then attempts to update the same data item based on its original read (version 5). What will happen?",
+    "options": [
+      "T2's update will succeed, overwriting T1's changes.",
+      "T2's update will fail because its version is outdated, and it will need to retry.",
+      "The database will automatically merge the changes from T1 and T2.",
+      "The database will crash due to a concurrency conflict."
+    ],
+    "correct_option_index": 1,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "A system implements a causal consistency model. Transaction T1 writes value 'A' to data item X, and transaction T2 reads 'A' from X and then writes value 'B' to data item Y. If transaction T3 reads 'B' from Y, what values are guaranteed to be seen by T3 when it subsequently reads X?",
+    "options": [
+      "T3 will always see the value 'A' for X.",
+      "T3 will always see the original value of X before T1's write.",
+      "T3 will see either 'A' or the original value of X, but not a later value.",
+      "T3 will always see 'A' for X because T2's write to Y causally depends on T1's write to X."
+    ],
+    "correct_option_index": 3,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "A distributed system needs to handle network partitions gracefully while maintaining some level of data consistency. Which of the following design choices would be most appropriate?",
+    "options": [
+      "Prioritize Consistency over Availability (CA system)",
+      "Prioritize Availability over Consistency (AP system)",
+      "Attempt to maintain both Consistency and Availability (CP system)",
+      "Ignore network partitions and rely on network stability."
+    ],
+    "correct_option_index": 1,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "A service uses a retry mechanism to handle transient failures when calling other services. However, after multiple retries, the service continues to fail. What strategy can be implemented to prevent the failing service from overwhelming the calling service?",
+    "options": [
+      "Exponential Backoff with Jitter",
+      "Constant Retry Interval",
+      "Immediate Retry",
+      "Random Delay Retry"
+    ],
+    "correct_option_index": 0,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "In a microservices architecture, you need to ensure that data changes across multiple services are eventually consistent. Which pattern is commonly used to manage these distributed transactions?",
+    "options": [
+      "Two-Phase Commit (2PC)",
+      "XA Transactions",
+      "Saga Pattern",
+      "Distributed Locking"
+    ],
+    "correct_option_index": 2,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "Consider a system that uses a heartbeat mechanism to detect node failures. If the heartbeat interval is set too short, what is the potential downside?",
+    "options": [
+      "Increased network latency",
+      "False positive failure detections due to transient network issues",
+      "Delayed failure detection",
+      "Increased CPU utilization on the monitored nodes"
+    ],
+    "correct_option_index": 1,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "A distributed system allows clients to perform read and write operations on data. To ensure data consistency, the system employs a quorum-based approach. What is the relationship between the read quorum (R) and the write quorum (W) necessary to guarantee strong consistency?",
+    "options": [
+      "R + W > N (where N is the total number of nodes)",
+      "R + W < N",
+      "R = W",
+      "R > W"
+    ],
+    "correct_option_index": 0,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "A distributed system utilizes a lease mechanism to grant exclusive access to a shared resource. What happens when a node holding a lease crashes before releasing it?",
+    "options": [
+      "The resource becomes permanently unavailable",
+      "Another node can immediately acquire the lease",
+      "The system waits for the lease to expire before granting it to another node",
+      "The resource is automatically rolled back to its previous state"
+    ],
+    "correct_option_index": 2,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "Which of the following is the most effective strategy to prevent cascading failures in a distributed system when one service is experiencing high latency?",
+    "options": [
+      "Increase the number of replicas for the failing service",
+      "Implement rate limiting on incoming requests to the failing service",
+      "Implement circuit breakers on the calling services",
+      "Increase the timeout value for requests to the failing service"
+    ],
+    "correct_option_index": 2,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "A company is building a globally distributed application that requires low latency for read operations and can tolerate eventual consistency for writes. Which database architecture would be most suitable?",
+    "options": [
+      "A single, centralized database",
+      "A multi-master database with synchronous replication",
+      "A multi-master database with asynchronous replication",
+      "A database with a single master and multiple read replicas"
+    ],
+    "correct_option_index": 3,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "In the context of database transactions, what does the isolation property ensure?",
+    "options": [
+      "That a transaction is treated as a single, indivisible unit of work",
+      "That a transaction brings the database from one consistent state to another",
+      "That concurrent transactions do not interfere with each other",
+      "That the changes made by a committed transaction are permanent"
+    ],
+    "correct_option_index": 2,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "A system uses a two-phase commit protocol to update data across multiple nodes. During the commit phase, one of the nodes becomes unreachable. How should the system handle this situation?",
+    "options": [
+      "Rollback the transaction on all nodes",
+      "Commit the transaction on all available nodes",
+      "Wait for the unreachable node to recover and then proceed with the commit",
+      "Block indefinitely until the unreachable node recovers"
+    ],
+    "correct_option_index": 0,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "What is a common use case for optimistic locking?",
+    "options": [
+      "Preventing deadlocks in database transactions",
+      "Ensuring data consistency in high-concurrency environments",
+      "Optimizing query performance",
+      "Simplifying data modeling"
+    ],
+    "correct_option_index": 1,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "Which is most useful to quickly rollback to the previous stable instance to meet reliability goals?",
+    "options": [
+      "Blue-Green Deployment",
+      "Rolling Deployment",
+      "Canary Deployment",
+      "Shadow Deployment"
+    ],
+    "correct_option_index": 0,
+    "category": "Consistency & Reliability in System design"
+  },
+  {
+    "question": "What is the consequence of underestimating latency in a distributed system?",
+    "options": [
+      "Optimistic performance that is not achieved.",
+      "False-positive rate will increase",
+      "Higher hardware costs.",
+      "Unnecessary software complexity."
+    ],
+    "correct_option_index": 1,
+    "category": "Consistency & Reliability in System design"
+  }
+]

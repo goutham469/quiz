@@ -1,0 +1,541 @@
+[
+  {
+    "question": "Which consistency model guarantees that a read operation will return the most recent write, or a later write?",
+    "options": [
+      "Eventual Consistency",
+      "Read-Your-Writes Consistency",
+      "Causal Consistency",
+      "Session Consistency"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "What is the primary benefit of using a Content Delivery Network (CDN) in a system design involving large static assets?",
+    "options": [
+      "Increased data security",
+      "Reduced network latency for users",
+      "Simplified database management",
+      "Improved server-side processing speed"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "Which data partitioning technique is best suited for evenly distributing data across nodes when the query workload involves range-based queries?",
+    "options": [
+      "Hash-based partitioning",
+      "Range-based partitioning",
+      "Directory-based partitioning",
+      "Consistent Hashing"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "A system requires ACID properties for transactional operations. Which type of database is generally the most appropriate choice?",
+    "options": [
+      "NoSQL database",
+      "Relational database (SQL)",
+      "Graph database",
+      "Document database"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "What is the main advantage of using a message queue like Kafka or RabbitMQ in a distributed system?",
+    "options": [
+      "Direct database access",
+      "Asynchronous communication and decoupling",
+      "Real-time data analytics",
+      "Centralized data storage"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "Which caching strategy involves storing data close to the user and invalidating it based on a Time-To-Live (TTL) value?",
+    "options": [
+      "Write-through cache",
+      "Write-back cache",
+      "Cache-aside",
+      "Distributed cache"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "In a microservices architecture, which database pattern is commonly used to ensure data consistency across services?",
+    "options": [
+      "Shared database",
+      "Database per service",
+      "Two-phase commit (2PC)",
+      "Distributed transaction"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "Which CAP theorem principle is prioritized by systems designed for high availability even at the cost of some data consistency?",
+    "options": [
+      "Consistency",
+      "Availability",
+      "Partition Tolerance",
+      "Durability"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "What is the key benefit of using sharding in a large database system?",
+    "options": [
+      "Improved data security",
+      "Increased data redundancy",
+      "Horizontal scalability",
+      "Reduced data complexity"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "What is the purpose of using Bloom filters in database systems?",
+    "options": [
+      "Data encryption",
+      "Fast membership testing",
+      "Data compression",
+      "Data validation"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "Which of the following is NOT a typical reason to choose a NoSQL database over a relational database?",
+    "options": [
+      "Flexible schema requirements",
+      "High read/write throughput",
+      "Strong ACID guarantees",
+      "Handling unstructured data"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "What is the main disadvantage of eventual consistency?",
+    "options": [
+      "High latency",
+      "Data conflicts may occur",
+      "Limited scalability",
+      "Difficult to implement"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "Which data replication strategy provides the highest level of fault tolerance?",
+    "options": [
+      "Single-master replication",
+      "Multi-master replication",
+      "Chain replication",
+      "Asynchronous replication"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "In the context of database indexing, what is a B-tree primarily used for?",
+    "options": [
+      "Full-text search",
+      "Range queries",
+      "Graph traversal",
+      "Spatial data indexing"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "Which database scaling approach involves increasing the resources (CPU, RAM) of a single server?",
+    "options": [
+      "Horizontal scaling",
+      "Vertical scaling",
+      "Sharding",
+      "Replication"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "Consider a scenario where you need to store social network relationships (e.g., friends, followers). Which database type is most suitable?",
+    "options": [
+      "Relational database",
+      "Document database",
+      "Graph database",
+      "Key-value store"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "What is the purpose of the Write-Ahead Logging (WAL) technique in databases?",
+    "options": [
+      "Data compression",
+      "Data encryption",
+      "Durability and recovery",
+      "Improved query performance"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "Which of the following is a common technique for optimizing read performance in a database?",
+    "options": [
+      "Data encryption",
+      "Data compression",
+      "Indexing",
+      "Replication"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "A system experiences high write load. Which caching strategy is least likely to negatively impact write performance?",
+    "options": [
+      "Write-through cache",
+      "Write-back cache",
+      "Cache-aside",
+      "All caching strategies impact writes equally"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "Which data consistency model offers the strongest guarantee?",
+    "options": [
+      "Eventual Consistency",
+      "Causal Consistency",
+      "Read-Your-Writes Consistency",
+      "Linearizability"
+    ],
+    "correct_option_index": 3,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "In designing a system for storing frequently accessed user session data, which storage option provides the fastest access times?",
+    "options": [
+      "SSD Storage",
+      "HDD Storage",
+      "In-Memory Cache (e.g., Redis)",
+      "Cloud Storage (e.g., AWS S3)"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "What is the key function of a database connection pool in a system with frequent database interactions?",
+    "options": [
+      "Reducing disk space usage",
+      "Improving network security",
+      "Reducing the overhead of establishing new database connections",
+      "Enhancing data encryption"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "In a multi-tenant SaaS application, what is a major challenge in database design?",
+    "options": [
+      "Ensuring low data volume",
+      "Isolating tenants' data for privacy and security",
+      "Reducing server costs",
+      "Minimizing the number of database connections"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "When designing a system for high availability, what strategy involves automatically shifting database operations to a standby server in case of failure?",
+    "options": [
+      "Data partitioning",
+      "Load balancing",
+      "Database failover",
+      "Data compression"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "What is the main role of a primary key in database design?",
+    "options": [
+      "To provide faster query results",
+      "To enforce uniqueness of records",
+      "To reduce storage space",
+      "To improve network throughput"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "Consider a system where financial transactions must be processed with strict ACID properties. Which of the following is LEAST likely to be an acceptable strategy?",
+    "options": [
+      "Using a relational database with transaction support",
+      "Implementing optimistic locking",
+      "Employing eventual consistency",
+      "Utilizing two-phase commit (2PC) across multiple databases"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "A distributed system uses Paxos for consensus. A node fails during the proposal phase. What is the most likely outcome?",
+    "options": [
+      "The system immediately halts",
+      "The system automatically elects a new leader and continues",
+      "The proposal is aborted, and a new proposal is initiated",
+      "The system enters a state of permanent inconsistency"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "Which of the following techniques is LEAST effective for mitigating the impact of a hot partition in a sharded database?",
+    "options": [
+      "Key salting",
+      "Consistent hashing",
+      "Range-based partitioning",
+      "Dynamic re-sharding"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "What is the CAP theorem and why is it significant in designing distributed database systems?",
+    "options": [
+      "A theorem defining the maximum number of users a system can handle, significant for capacity planning",
+      "A theorem stating that only two of Consistency, Availability, and Partition Tolerance can be guaranteed simultaneously, crucial for trade-off decisions",
+      "A theorem ensuring data security and encryption in databases",
+      "A theorem that guarantees optimal query performance in distributed systems"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "In designing a recommendation system, which type of NoSQL database is most suitable for storing and analyzing relationships between users and items?",
+    "options": [
+      "Document database",
+      "Key-value store",
+      "Graph database",
+      "Column-family store"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "A large e-commerce site uses microservices. The order service needs to update both the order details and the inventory service. What pattern addresses the potential inconsistency?",
+    "options": [
+      "Direct database access",
+      "Two-phase commit (2PC)",
+      "Saga pattern",
+      "Read replicas"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "In a system with high write throughput and eventual consistency, how can you minimize the risk of read operations returning stale data?",
+    "options": [
+      "Reduce the replication factor",
+      "Increase the data expiration time",
+      "Implement read repair",
+      "Disable caching"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "You're designing a real-time analytics dashboard that needs to process millions of events per second. Which storage solution is most suitable?",
+    "options": [
+      "Relational database (SQL)",
+      "Hadoop Distributed File System (HDFS)",
+      "Time-series database",
+      "Key-value store"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "Consider a scenario where you need to store and analyze large volumes of unstructured data, such as log files. Which database or storage system is most appropriate?",
+    "options": [
+      "Relational database",
+      "Object storage (e.g., AWS S3)",
+      "Graph database",
+      "Time-series database"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "What is the primary disadvantage of using a distributed transaction protocol like Two-Phase Commit (2PC)?",
+    "options": [
+      "Reduced data security",
+      "Performance overhead and blocking",
+      "Limited scalability",
+      "Increased data redundancy"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "What is the main purpose of using a Consistent Hashing algorithm in distributed caching?",
+    "options": [
+      "To ensure data consistency",
+      "To minimize the impact of node failures on cache hit rate",
+      "To improve data encryption",
+      "To reduce data storage costs"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "Which of the following is NOT a typical use case for a Column-Family database?",
+    "options": [
+      "Storing time-series data",
+      "Managing social network connections",
+      "Handling high-volume writes",
+      "Performing complex joins"
+    ],
+    "correct_option_index": 3,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "A distributed system needs to maintain a global, monotonically increasing counter. Which approach is LEAST suitable?",
+    "options": [
+      "Using a single central server for counter updates",
+      "Employing a distributed consensus algorithm like Raft",
+      "Using a timestamp-based approach",
+      "Generating UUIDs"
+    ],
+    "correct_option_index": 3,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "Which database design pattern helps to reduce latency by pre-computing and storing aggregated data?",
+    "options": [
+      "Sharding",
+      "Denormalization",
+      "Normalization",
+      "Indexing"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "You need to store geographic data (e.g., coordinates, polygons) and perform spatial queries (e.g., find all restaurants within a radius). Which database type is most suitable?",
+    "options": [
+      "Relational database",
+      "Document database",
+      "Graph database",
+      "Spatial database"
+    ],
+    "correct_option_index": 3,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "You are designing a highly scalable e-commerce platform that requires handling a massive volume of product catalogs and user profiles. Which storage solution is best suited?",
+    "options": [
+      "A single monolithic relational database",
+      "A NoSQL database with sharding and replication",
+      "A local file system on each server",
+      "A centralized in-memory cache"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "In a system with high read and write operations, which technique is most effective in reducing database load and improving response times?",
+    "options": [
+      "Increasing the database server's RAM",
+      "Implementing a caching layer with strategies like cache-aside",
+      "Optimizing database query performance",
+      "Using a faster storage device like SSD"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "In designing a system for high data availability, what is the primary advantage of using RAID (Redundant Array of Independent Disks)?",
+    "options": [
+      "Increased storage capacity",
+      "Faster data access speeds",
+      "Protection against data loss due to disk failure",
+      "Improved network security"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "What is the significance of database normalization in system design?",
+    "options": [
+      "To increase data redundancy",
+      "To reduce data inconsistencies and improve data integrity",
+      "To speed up data processing",
+      "To simplify database administration"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "What is the main benefit of using distributed file systems like Hadoop Distributed File System (HDFS) in big data processing?",
+    "options": [
+      "Low storage capacity",
+      "High single-point-of-failure risk",
+      "Scalability and fault tolerance for large data sets",
+      "Limited compatibility with different data formats"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "You have a legacy application relying on a relational database. New features require a NoSQL database for scalability. What architecture is LEAST suitable?",
+    "options": [
+      "Strangler Fig pattern (gradual replacement)",
+      "Sidecar pattern (co-existing databases)",
+      "Data replication between databases",
+      "Directly migrating ALL data at once"
+    ],
+    "correct_option_index": 3,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "Consider a system where data volume grows rapidly. Which long-term storage solution provides the most cost-effective scalability?",
+    "options": [
+      "Solid-state drives (SSDs)",
+      "Hard disk drives (HDDs)",
+      "Cloud object storage (e.g., AWS S3)",
+      "In-memory database"
+    ],
+    "correct_option_index": 2,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "A system requires both real-time analytics and batch processing. How can you best structure the data pipeline to support both?",
+    "options": [
+      "Use the same database for both real-time and batch processing",
+      "Create separate data pipelines for real-time and batch processing, potentially using different storage solutions",
+      "Prioritize real-time analytics and delay batch processing",
+      "Eliminate real-time analytics and focus on batch processing"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  },
+  {
+    "question": "In designing a system with high write throughput and eventual consistency, how can conflicts arising from concurrent updates be effectively managed?",
+    "options": [
+      "By enforcing strong consistency",
+      "By implementing conflict resolution strategies such as Last Write Wins or versioning",
+      "By reducing the number of replicas",
+      "By disabling write operations during peak hours"
+    ],
+    "correct_option_index": 1,
+    "category": "Databases & Storage in System design"
+  }
+]

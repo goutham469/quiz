@@ -1,0 +1,530 @@
+[
+  {
+    "question": "Which of the following is NOT a characteristic of a relational database?",
+    "options": [
+      "Data integrity",
+      "Data redundancy",
+      "Data consistency",
+      "Data independence"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the primary key in a database table?",
+    "options": [
+      "A key to unlock the database",
+      "A column that uniquely identifies each row",
+      "A foreign key referencing another table",
+      "A column used for sorting data"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Which DML command is used to retrieve data from a database?",
+    "options": [
+      "UPDATE",
+      "INSERT",
+      "SELECT",
+      "DELETE"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What does ACID stand for in database transactions?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Accuracy, Completeness, Integrity, Dependability",
+      "Availability, Consistency, Integrity, Durability",
+      "Atomicity, Completeness, Isolation, Dependability"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is normalization in the context of databases?",
+    "options": [
+      "The process of making data more uniform",
+      "The process of organizing data to reduce redundancy and improve data integrity",
+      "The process of backing up data",
+      "The process of encrypting data"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is a foreign key?",
+    "options": [
+      "A key to access external databases",
+      "A column in a table that refers to the primary key of another table",
+      "A special type of index",
+      "A key used for encryption"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Which of the following is NOT a type of database relationship?",
+    "options": [
+      "One-to-one",
+      "One-to-many",
+      "Many-to-many",
+      "One-to-none"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is SQL?",
+    "options": [
+      "Structured Question Language",
+      "Standard Query Language",
+      "Structured Query Language",
+      "System Query Language"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Which SQL command is used to add new data to a table?",
+    "options": [
+      "ADD",
+      "CREATE",
+      "INSERT",
+      "UPDATE"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is a view in SQL?",
+    "options": [
+      "A physical table stored on disk",
+      "A virtual table based on the result-set of an SQL statement",
+      "A way to visualize data",
+      "A type of index"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the purpose of the WHERE clause in a SELECT statement?",
+    "options": [
+      "To specify which columns to retrieve",
+      "To specify which table to retrieve data from",
+      "To filter the rows based on a condition",
+      "To sort the results"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Which of the following is an example of a DDL command?",
+    "options": [
+      "SELECT",
+      "UPDATE",
+      "CREATE TABLE",
+      "INSERT"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is a transaction in DBMS?",
+    "options": [
+      "A single SQL statement",
+      "A logical unit of work that consists of one or more SQL statements",
+      "A backup of the database",
+      "A report generated from the database"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the purpose of an index in a database?",
+    "options": [
+      "To store data",
+      "To speed up data retrieval",
+      "To enforce data integrity",
+      "To encrypt data"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is data redundancy?",
+    "options": [
+      "Having multiple copies of the same data",
+      "Having missing data",
+      "Having inconsistent data",
+      "Having encrypted data"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the difference between DELETE and TRUNCATE?",
+    "options": [
+      "DELETE removes specific rows based on a condition, TRUNCATE removes all rows and resets the identity",
+      "DELETE removes all rows, TRUNCATE removes specific rows based on a condition",
+      "DELETE is faster than TRUNCATE",
+      "There is no difference"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Which normal form is considered the most ideal for relational databases (generally)?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is a composite key?",
+    "options": [
+      "A key made of multiple data types",
+      "A key made up of more than one attribute to uniquely identify a row",
+      "A key used for cryptography",
+      "A key that references multiple tables"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the purpose of the GROUP BY clause in SQL?",
+    "options": [
+      "To sort the data",
+      "To filter the data",
+      "To group rows with the same values in specified columns",
+      "To join multiple tables"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is a subquery in SQL?",
+    "options": [
+      "A query that is nested inside another query",
+      "A query used for debugging",
+      "A query that is executed before the main query",
+      "A query that is executed after the main query"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Consider tables 'Customers' (CustomerID, Name) and 'Orders' (OrderID, CustomerID, OrderDate). Which SQL statement correctly retrieves the names of all customers who placed an order on '2023-01-01'?",
+    "options": [
+      "SELECT Name FROM Customers WHERE CustomerID IN (SELECT CustomerID FROM Orders WHERE OrderDate = '2023-01-01')",
+      "SELECT Name FROM Customers JOIN Orders ON Customers.CustomerID = Orders.CustomerID WHERE OrderDate = '2023-01-01'",
+      "SELECT Name FROM Customers WHERE EXISTS (SELECT * FROM Orders WHERE Customers.CustomerID = Orders.CustomerID AND OrderDate = '2023-01-01')",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Which of the following concurrency control techniques ensures serializability by assigning timestamps to transactions and aborting/restarting older transactions that conflict with newer ones?",
+    "options": [
+      "Two-Phase Locking (2PL)",
+      "Timestamp Ordering",
+      "Optimistic Concurrency Control",
+      "Multi-version Concurrency Control (MVCC)"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the CAP theorem in distributed database systems?",
+    "options": [
+      "Consistency, Availability, Partition Tolerance: you can choose only two",
+      "Capacity, Availability, Performance: you can choose only two",
+      "Consistency, Accuracy, Partition Tolerance: you can choose all three",
+      "Capacity, Accuracy, Performance: you can choose all three"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "In database recovery, what does the 'ARIES' algorithm primarily aim to achieve?",
+    "options": [
+      "Faster crash recovery by using write-ahead logging",
+      "Simplified transaction management by avoiding complex locking protocols",
+      "Enhanced data security by encrypting all database operations",
+      "Improved query performance by optimizing access paths"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the main advantage of using a clustered index over a non-clustered index?",
+    "options": [
+      "Clustered indexes are smaller in size.",
+      "Clustered indexes are automatically created by the database.",
+      "Clustered indexes determine the physical order of data in the table.",
+      "Clustered indexes can be created on multiple columns."
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Which of the following is NOT a type of data integrity constraint?",
+    "options": [
+      "Entity Integrity",
+      "Referential Integrity",
+      "Domain Integrity",
+      "Performance Integrity"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the purpose of denormalization?",
+    "options": [
+      "To reduce data redundancy",
+      "To improve query performance by adding redundancy",
+      "To enforce data integrity",
+      "To simplify the database schema"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the 'lost update' problem in concurrent transactions?",
+    "options": [
+      "When a transaction fails to commit",
+      "When a transaction reads inconsistent data",
+      "When two transactions update the same data item without proper synchronization, leading to one update being lost",
+      "When a transaction is rolled back due to a conflict"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is a trigger in SQL?",
+    "options": [
+      "A stored procedure that is executed on demand",
+      "A special type of index",
+      "A stored procedure that is automatically executed in response to certain events on a table",
+      "A user-defined function"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "In the context of NoSQL databases, what does the term 'eventual consistency' refer to?",
+    "options": [
+      "Data is always consistent across all nodes immediately after an update.",
+      "Data consistency is never guaranteed.",
+      "Data will eventually become consistent across all nodes, but there might be a delay.",
+      "Data consistency is enforced by a central authority."
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the main difference between OLTP and OLAP systems?",
+    "options": [
+      "OLTP is for transaction processing, OLAP is for data analysis",
+      "OLTP is for data analysis, OLAP is for transaction processing",
+      "OLTP uses SQL, OLAP uses NoSQL",
+      "OLTP is for small databases, OLAP is for large databases"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Consider a relation schema R(A, B, C, D, E) with the following functional dependencies: A -> B, BC -> E, ED -> A, D -> C. Which of the following is a candidate key for R?",
+    "options": [
+      "A",
+      "D",
+      "ED",
+      "BC"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the difference between a correlated subquery and a non-correlated subquery?",
+    "options": [
+      "Correlated subqueries are faster than non-correlated subqueries.",
+      "Correlated subqueries depend on the outer query, while non-correlated subqueries do not.",
+      "Correlated subqueries can only be used in SELECT statements.",
+      "There is no difference."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Which isolation level in SQL databases is most susceptible to the 'phantom read' problem?",
+    "options": [
+      "Read Uncommitted",
+      "Read Committed",
+      "Repeatable Read",
+      "Serializable"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the purpose of a 'cursor' in SQL?",
+    "options": [
+      "To define a table structure.",
+      "To hold the result set of a query and allow row-by-row processing.",
+      "To create a database backup.",
+      "To optimize query execution plan."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "A database system uses the following lock modes: Shared (S), Exclusive (X), and Increment (I). Which of the following lock compatibility matrix is correct (Y = compatible, N = incompatible)?",
+    "options": [
+      "S | Y Y N\nX | Y N N\nI | N N N",
+      "S | Y N Y\nX | N N N\nI | Y N Y",
+      "S | Y N N\nX | N N Y\nI | N Y Y",
+      "S | Y Y Y\nX | Y N N\nI | Y N Y"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Which RAID level provides the best balance of performance, redundancy, and cost for general-purpose server applications?",
+    "options": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 5",
+      "RAID 10"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Consider a B-tree index with order 'm'. What is the maximum number of keys that a non-root node can contain?",
+    "options": [
+      "m - 1",
+      "m",
+      "2m - 1",
+      "2m"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the purpose of the 'EXPLAIN' command in SQL?",
+    "options": [
+      "To display the data dictionary information.",
+      "To show the query execution plan generated by the database optimizer.",
+      "To encrypt the SQL statement.",
+      "To export the data into a CSV file."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Which of the following is a characteristic of the 'optimistic concurrency control' method?",
+    "options": [
+      "Transactions acquire locks before accessing data.",
+      "Transactions are rolled back if conflicts are detected during the commit phase.",
+      "Transactions are serialized based on timestamps.",
+      "Deadlocks are avoided by strict locking protocols."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "In a three-tier architecture, what is the primary function of the 'application tier'?",
+    "options": [
+      "Storing the database.",
+      "Handling user interface and presentation.",
+      "Processing business logic and data validation.",
+      "Managing network communication."
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the primary purpose of data warehousing?",
+    "options": [
+      "To facilitate real-time transaction processing.",
+      "To support analytical reporting and decision making.",
+      "To store operational data.",
+      "To replace relational databases."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Which NoSQL database type is best suited for storing graph data and relationships?",
+    "options": [
+      "Key-Value Store",
+      "Document Store",
+      "Column-Family Store",
+      "Graph Database"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the purpose of the 'WITH RECURSIVE' clause in SQL?",
+    "options": [
+      "To create temporary tables.",
+      "To perform recursive queries, such as traversing hierarchical data.",
+      "To define stored procedures.",
+      "To implement triggers."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "What is the main advantage of using a star schema in data warehousing?",
+    "options": [
+      "Reduced data redundancy.",
+      "Simplified query design and improved query performance.",
+      "Support for complex data relationships.",
+      "Optimized for transaction processing."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Which of the following statements about distributed databases is TRUE?",
+    "options": [
+      "Distributed databases are always faster than centralized databases.",
+      "Distributed databases offer higher availability and fault tolerance compared to centralized databases.",
+      "Distributed databases are easier to manage than centralized databases.",
+      "Distributed databases eliminate the need for data replication."
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Which of the following is a technique used to handle large datasets by dividing them into smaller, more manageable pieces?",
+    "options": [
+      "Normalization",
+      "Denormalization",
+      "Sharding",
+      "Indexing"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of DBMS"
+  },
+  {
+    "question": "Consider a database with tables 'Products' (ProductID, Name, Price) and 'Orders' (OrderID, ProductID, Quantity). Write an SQL query to find the top 5 most expensive products (based on Price) that have been ordered at least once.",
+    "options": [
+      "SELECT p.Name FROM Products p JOIN Orders o ON p.ProductID = o.ProductID GROUP BY p.ProductID ORDER BY p.Price DESC LIMIT 5",
+      "SELECT p.Name FROM Products p WHERE p.ProductID IN (SELECT ProductID FROM Orders) ORDER BY p.Price DESC LIMIT 5",
+      "SELECT p.Name FROM Products p WHERE EXISTS (SELECT 1 FROM Orders o WHERE p.ProductID = o.ProductID) ORDER BY p.Price DESC LIMIT 5",
+      "All of the above. "
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of DBMS"
+  }
+]

@@ -1,0 +1,816 @@
+[
+  {
+    "question": "Statements: All cats are dogs. Some dogs are animals. Conclusions: I. Some cats are animals. II. All animals are dogs. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 3,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All pens are books. No book is a copy. Conclusions: I. No pen is a copy. II. Some books are pens. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some actors are singers. All singers are dancers. Conclusions: I. Some actors are dancers. II. No singer is an actor. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All flowers are trees. Some trees are fruits. Conclusions: I. Some flowers are fruits. II. Some fruits are trees. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some cups are plates. All plates are knives. Conclusions: I. Some cups are knives. II. No knife is a cup. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some A are B. All B are C. No C is D. Conclusions: I. Some A are not D. II. All A being C is a possibility.  Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All apples are bananas. All bananas are cherries. Some cherries are dates. Conclusions: I. Some dates are bananas. II. All apples are cherries. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: No dog is a cat. All cats are animals. Conclusions: I. No animal is a dog. II. Some animals are cats. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some books are pens. All pens are pencils. Conclusions: I. Some books are pencils. II. All pencils are pens. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All chairs are tables. Some tables are desks. Conclusions: I. Some chairs are desks. II. Some desks are chairs. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 3,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some doctors are teachers. All teachers are engineers. Conclusions: I. Some doctors are engineers. II. All engineers are teachers. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All birds are animals. No animal is a plant. Conclusions: I. No bird is a plant. II. Some animals are birds. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some cars are buses. All buses are trucks. Conclusions: I. Some cars are trucks. II. All trucks are buses. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All shirts are pants. Some pants are socks. Conclusions: I. Some shirts are socks. II. Some socks are pants. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some lions are tigers. All tigers are animals. Conclusions: I. Some lions are animals. II. All animals are tigers. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: No mobile is a laptop. All laptops are computers. Conclusions: I. No computer is a mobile. II. Some computers are laptops. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some fruits are vegetables. All vegetables are plants. Conclusions: I. Some fruits are plants. II. All plants are vegetables. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All stars are planets. No planet is a satellite. Conclusions: I. Some stars are satellites. II. No satellite is a star. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some doctors are rich. All rich are honest. Conclusions: I. Some doctors are honest. II. Some honest are doctors. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some trains are cars. All cars are buses. Conclusions: I. Some trains are buses. II. All buses are trains. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All houses are buildings. Some buildings are apartments. Conclusions: I. Some houses are apartments. II. Some apartments are buildings. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some students are players. All players are athletes. Conclusions: I. Some students are athletes. II. All athletes are players. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All books are papers. No paper is a pencil. Conclusions: I. No book is a pencil. II. Some papers are books. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some roses are red. All red are flowers. Conclusions: I. Some roses are flowers. II. All flowers are roses. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All shirts are cotton. Some cotton are soft. Conclusions: I. Some shirts are soft. II. Some soft are shirts. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 3,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some keys are locks. All locks are doors. Conclusions: I. Some keys are doors. II. All doors are locks. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All pens are pencils. Some pencils are erasers. Conclusions: I. Some pens are erasers. II. Some erasers are pencils. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some teachers are intelligent. All intelligent are experienced. Conclusions: I. Some teachers are experienced. II. All experienced are intelligent. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: No star is moon. All moon are planet. Conclusions: I. Some planet are moon. II. No planet is star. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All sky are blue. Some blue are ocean. Conclusions: I. Some sky are ocean. II. Some ocean are blue. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All books are novels. Some novels are poems. Conclusions: I. Some books are poems. II. Some poems are novels. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some chairs are wooden. All wooden are furniture. Conclusions: I. Some chairs are furniture. II. All furniture are wooden. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some birds are crows. All crows are black. Conclusions: I. Some birds are black. II. All black are crows. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All cars are vehicles. No vehicle is a bicycle. Conclusions: I. No car is a bicycle. II. Some vehicles are cars. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All stars are bright. Some bright are light. Conclusions: I. Some stars are light. II. Some light are bright. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some buildings are tall. All tall are skyscrapers. Conclusions: I. Some buildings are skyscrapers. II. All skyscrapers are tall. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All phones are expensive. Some expensive are valuable. Conclusions: I. Some phones are valuable. II. Some valuable are expensive. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All tables are wooden. No wooden is plastic. Conclusions: I. No table is plastic. II. Some wooden are tables. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some buses are crowded. All crowded are uncomfortable. Conclusions: I. Some buses are uncomfortable. II. All uncomfortable are crowded. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some rivers are deep. All deep are blue. Conclusions: I. Some rivers are blue. II. All blue are deep. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All grapes are fruits. No fruit is vegetable. Conclusions: I. Some grapes are vegetable. II. No grape is vegetable. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some computers are smart. All smart are devices. Conclusions: I. Some computers are devices. II. All devices are smart. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All trains are fast. Some fast are express. Conclusions: I. Some trains are express. II. Some express are fast. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: No tree is grass. All grass are green. Conclusions: I. Some green are grass. II. No green is tree. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All paper are white. No white is black. Conclusions: I. No paper is black. II. Some white are paper. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some scientists are engineers. All engineers are doctors. Conclusions: I. Some scientists are doctors. II. All doctors are engineers. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All fruits are healthy. Some healthy are tasty. Conclusions: I. Some fruits are tasty. II. Some tasty are healthy. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some pens are pencils. All pencils are erasers. Some erasers are sharpeners. Conclusions: I. Some pens are erasers. II. Some sharpeners are pencils. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 3,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All A are B. No B is C. Some C are D. Conclusions: I. Some D are not B. II. All A are D. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All teachers are intelligent. Some intelligent people are kind. Conclusions: I. Some teachers are kind. II. Some kind people are intelligent. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some books are pens. All pens are sharp. Conclusions: I. Some books are sharp. II. Some sharp are books. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some actors are singers. No singer is a dancer. Conclusions: I. Some actors are not dancers. II. All dancers are actors. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All cars are vehicles. No vehicle is a bicycle. Some bicycles are old. Conclusions: I. Some cars are old. II. No car is a bicycle. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All cats are mammals. Some mammals are pets. No pet is wild. Conclusions: I. Some cats are pets. II. No cat is wild. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 3,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some students are intelligent. All intelligent are hardworking. No hardworking is lazy. Conclusions: I. Some students are hardworking. II. No intelligent is lazy. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All flowers are plants. No plant is animal. Some animals are dangerous. Conclusions: I. No flower is animal. II. Some flowers are dangerous. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some houses are big. All big houses are expensive. No expensive house is cheap. Conclusions: I. Some houses are expensive. II. No big house is cheap. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some books are novels. All novels are interesting. Some interesting are long. Conclusions: I. Some books are interesting. II. Some long are novels. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All X are Y. No Y is Z. Some Z are W. Conclusions: I. Some W are not Y. II. No X is W. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All dogs are animals. All animals are mammals. No mammals are birds. Conclusions: I. Some dogs are not birds. II. No birds are mammals. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some A are B. All B are C. No C is D. Conclusions: I. Some A are not D. II. All D being A is a possibility. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some apples are red. All red things are sweet. No sweet thing is sour. Conclusions: I. Some apples are sweet. II. No apple is sour. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All doors are windows. Some windows are curtains. All curtains are soft. Conclusions: I. Some doors are soft. II. Some windows are soft. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some pens are pencils. All pencils are erasers. No eraser is a ruler. Conclusions: I. Some pens are not rulers. II. Some rulers are not pens. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All roads are streets. Some streets are lanes. No lane is a highway. Conclusions: I. Some roads are highways. II. Some streets are not highways. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some M are N. All N are O. No O is P. Conclusions: I. Some M are not P. II. All P being M is a possibility. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some A are B. All B are C. No C is D. Conclusions: I. No A is D. II. Some A are D. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Either I or II follows"
+    ],
+    "correct_option_index": 3,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some fruits are vegetables. All vegetables are healthy. No healthy food is junk. Conclusions: I. Some fruits are not junk. II. Some vegetables are not junk. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All teachers are dedicated. Some dedicated people are strict. No strict person is lenient. Conclusions: I. Some teachers are not lenient. II. Some dedicated are not lenient. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some cars are fast. All fast things are expensive. No expensive thing is cheap. Conclusions: I. Some cars are not cheap. II. Some fast cars are not cheap. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some pens are pencils. All pencils are erasers. All erasers are stationary. Conclusions: I. Some pens are not stationary. II. Some stationary are pens. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All rivers are oceans. Some oceans are lakes. No lake is a pond. Conclusions: I. Some rivers are ponds. II. Some oceans are not ponds. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 1,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: Some P are Q. All Q are R. No R is S. Conclusions: I. Some P are not S. II. All S being P is a possibility. Which conclusion logically follows?",
+    "options": [
+      "Only I follows",
+      "Only II follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 2,
+    "category": "Statements & Conclusions"
+  },
+  {
+    "question": "Statements: All A are B. No B is C. Some C are D. Conclusions: I. Some D are not B. II. All C being A is a possibility. Which conclusion logically follows?",
+    "options": [
+      "Only II follows",
+      "Only I follows",
+      "Both I and II follow",
+      "Neither I nor II follows"
+    ],
+    "correct_option_index": 0,
+    "category": "Statements & Conclusions"
+  }
+]

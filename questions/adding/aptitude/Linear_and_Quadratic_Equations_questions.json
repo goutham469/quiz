@@ -1,0 +1,728 @@
+[
+  {
+    "question": "Solve the linear equation: 3x + 5 = 14",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Find the roots of the quadratic equation: x² - 5x + 6 = 0",
+    "options": [
+      "2, 3",
+      "1, 6",
+      "2, 4",
+      "3, 4"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "What is the discriminant of the quadratic equation ax² + bx + c = 0?",
+    "options": [
+      "b² - 4ac",
+      "b² + 4ac",
+      "a² - 4bc",
+      "a² + 4bc"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If the discriminant is positive, the quadratic equation has:",
+    "options": [
+      "Two distinct real roots",
+      "One real root",
+      "No real roots",
+      "Two equal real roots"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "The sum of the roots of the quadratic equation ax² + bx + c = 0 is:",
+    "options": [
+      "-b/a",
+      "b/a",
+      "-c/a",
+      "c/a"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "The product of the roots of the quadratic equation ax² + bx + c = 0 is:",
+    "options": [
+      "c/a",
+      "-c/a",
+      "b/a",
+      "-b/a"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "What is the value of 'x' in the following system of equations? x + y = 5, x - y = 1",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "1"
+    ],
+    "correct_option_index": 1,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If one root of the equation x² + kx + 12 = 0 is 4, then the other root is:",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "6"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Solve for x: 2(x + 3) - 5 = 3(x - 1)",
+    "options": [
+      "x = 4",
+      "x = 2",
+      "x = 10",
+      "x = 8"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "The quadratic equation whose roots are 2 and 3 is:",
+    "options": [
+      "x² - 5x + 6 = 0",
+      "x² + 5x + 6 = 0",
+      "x² - 5x - 6 = 0",
+      "x² + 5x - 6 = 0"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Find the value of k for which the quadratic equation x² - kx + 4 = 0 has equal roots.",
+    "options": [
+      "k = 4",
+      "k = -4",
+      "k = ±4",
+      "k = ±2"
+    ],
+    "correct_option_index": 2,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "A man is twice as old as his son. Five years ago, he was three times as old as his son. Find the man's current age.",
+    "options": [
+      "40 years",
+      "50 years",
+      "35 years",
+      "30 years"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If α and β are the roots of the equation 2x² - 5x + 3 = 0, find the value of α² + β².",
+    "options": [
+      "6.25",
+      "2.5",
+      "3.25",
+      "1.75"
+    ],
+    "correct_option_index": 2,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "The sum of a number and its reciprocal is 5/2. What is the number?",
+    "options": [
+      "2",
+      "1/2",
+      "Both 2 and 1/2",
+      "None of these"
+    ],
+    "correct_option_index": 2,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Solve for x: √(x + 5) = x - 1",
+    "options": [
+      "4",
+      "6",
+      "4, -1",
+      "Does not Exist"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "A boat travels 16 km upstream and 24 km downstream in 6 hours. The same boat travels 36 km upstream and 48 km downstream in 13 hours. The speed of the water current is?",
+    "options": [
+      "1 km/hr",
+      "2 km/hr",
+      "1.5 km/hr",
+      "2.5 km/hr"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Solve for x and y: x/2 + 2y/3 = -1, x - y/3 = 3",
+    "options": [
+      "x=2, y=-3",
+      "x=1, y=-1",
+      "x=2, y=-1",
+      "x=3, y=-3"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "For what value of 'p' does the equation px² + 6x + 9 = 0 have real and equal roots?",
+    "options": [
+      "p = 1",
+      "p < 1",
+      "p = -1",
+      "p > 1"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "A two-digit number is such that the product of the digits is 8. When 18 is added to the number, the digits are reversed. The number is:",
+    "options": [
+      "18",
+      "81",
+      "24",
+      "42"
+    ],
+    "correct_option_index": 3,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If α, β are the roots of the equation x² - px + q = 0, then what is the value of (α² + β²)?",
+    "options": [
+      "p² - 2q",
+      "p² + 2q",
+      "p² - q",
+      "p² + q"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "A fraction becomes 4/5 if 1 is added to both the numerator and the denominator. However, if 5 is subtracted from both the numerator and the denominator, the fraction becomes 1/2. What is the fraction?",
+    "options": [
+      "7/9",
+      "11/13",
+      "15/17",
+      "19/21"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "A train travels a certain distance at a uniform speed. If the train had been 6 km/hr faster, it would have taken 4 hours less than the scheduled time. And, if the train were slower by 6 km/hr, it would have taken 6 hours more than the scheduled time. The length of the journey is:",
+    "options": [
+      "720 km",
+      "840 km",
+      "600 km",
+      "480 km"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Solve: (x-a)(x-b) + (x-b)(x-c) + (x-c)(x-a) = 0",
+    "options": [
+      "(a+b+c)/3",
+      "a+b+c",
+      "ab+bc+ca",
+      "0"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If the roots of the quadratic equation x² + px + 12 = 0 are in the ratio 1:3, then p is equal to:",
+    "options": [
+      "±8",
+      "±7",
+      "±6",
+      "±5"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "The sum of the squares of two consecutive positive integers is 365. Find the integers.",
+    "options": [
+      "13 and 14",
+      "12 and 13",
+      "14 and 15",
+      "15 and 16"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If the equation (a² + b²)x² + 2(ac + bd)x + (c² + d²) = 0 has no real roots, then:",
+    "options": [
+      "a/b = c/d",
+      "a/c = b/d",
+      "a/d = b/c",
+      "ad = bc"
+    ],
+    "correct_option_index": 1,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Solve the inequality: |2x - 3| ≤ 5",
+    "options": [
+      "-1 ≤ x ≤ 4",
+      "x ≤ -1 or x ≥ 4",
+      "x ≤ 4",
+      "x ≥ -1"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Find the value of x: 1/(x-2) + 2/(x-1) = 6/x",
+    "options": [
+      "4/3",
+      "3/4",
+      "5/6",
+      "6/5"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If p and q are the roots of the equation x² - 6x + 4 = 0, find the value of p³ + q³.",
+    "options": [
+      "144",
+      "152",
+      "160",
+      "168"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "A takes 6 days less than the time taken by B to finish a piece of work. If both A and B together can finish it in 4 days, find the time that B would take to finish the work.",
+    "options": [
+      "6 days",
+      "10 days",
+      "12 days",
+      "15 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If the roots of the equation x² - 2ax + (a² + b²) = 0 are imaginary, then:",
+    "options": [
+      "a = b",
+      "a < b",
+      "a > b",
+      "a <= b"
+    ],
+    "correct_option_index": 2,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If x + 1/x = 3, find the value of x² + 1/x².",
+    "options": [
+      "7",
+      "9",
+      "11",
+      "13"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "The area of a rectangle is (x² + 7x + 12) sq. units. If its breadth is (x + 3) units, then its length is:",
+    "options": [
+      "x + 4",
+      "x + 5",
+      "x + 6",
+      "x + 7"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Solve for x: √(x+4) + √(x-1) = 5",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Find the values of k for which the quadratic equation (k+1)x² + 2(k+3)x + (k+8) = 0 has real and equal roots.",
+    "options": [
+      "1, 5",
+      "-1, 2",
+      "-2, 1",
+      "2, 7"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "A train covers a distance of 90 km at a uniform speed. Had the speed been 15 km/hour more, it would have taken 30 minutes less for the journey. Find the original speed of the train.",
+    "options": [
+      "45 km/hr",
+      "60 km/hr",
+      "75 km/hr",
+      "90 km/hr"
+    ],
+    "correct_option_index": 1,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Find the sum of the squares of the roots of x^2 - 5x + 3 = 0",
+    "options": [
+      "19",
+      "25",
+      "16",
+      "13"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "For what value of 'a' does the system of equations ax + y = a^2 and x + ay = 1 have no solution?",
+    "options": [
+      "1",
+      "-1",
+      "Both 1 and -1",
+      "0"
+    ],
+    "correct_option_index": 1,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If the difference between the roots of the equation x² - px + 8 = 0 is 2, then find p.",
+    "options": [
+      "±2√3",
+      "±6",
+      "±2√2",
+      "±4"
+    ],
+    "correct_option_index": 1,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Solve the following equation for x: (x+2)/(x-2) + (x-2)/(x+2) = 5/2",
+    "options": [
+      "6",
+      "-6",
+      "±6",
+      "±3"
+    ],
+    "correct_option_index": 2,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If the roots of the equation x² + px + q = 0 are each decreased by 2, the resulting equation is x² + rx + s = 0. Then, what is s?",
+    "options": [
+      "p + 2q",
+      "p + q + 2",
+      "p + 2",
+      "q - 2p + 4"
+    ],
+    "correct_option_index": 3,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If x = (√5 + √3) / (√5 - √3), find the value of x² + 1/x²",
+    "options": [
+      "64",
+      "62",
+      "60",
+      "58"
+    ],
+    "correct_option_index": 1,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "A person on tour has ₹ 360 for his expenses. If he extends his tour for 4 days, he has to cut down his daily expenses by ₹ 3. Find the original duration of the tour.",
+    "options": [
+      "15 days",
+      "20 days",
+      "25 days",
+      "30 days"
+    ],
+    "correct_option_index": 1,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If the roots of the equation x² + 2cx + ab = 0 are real and unequal, then which of the following is true?",
+    "options": [
+      "c² > ab",
+      "c² < ab",
+      "c² = ab",
+      "c² <= ab"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Solve for x: √(x² + 12) = x + 2",
+    "options": [
+      "2",
+      "-2",
+      "4",
+      "-4"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "The quadratic equation (a - b)x² + (b - c)x + (c - a) = 0 always has:",
+    "options": [
+      "Real roots",
+      "Imaginary roots",
+      "Equal roots",
+      "One root real, one imaginary"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Solve for x: |x - 3| + |x - 1| = 4",
+    "options": [
+      "[-1, 3]",
+      "[-3, 1]",
+      "(-∞, -1] ∪ [3, ∞)",
+      "(-∞, 1] ∪ [3, ∞)"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If α, β are the roots of the equation x² - 5x + 6 = 0, then find the value of α/β + β/α",
+    "options": [
+      "13/6",
+      "6/13",
+      "5/6",
+      "6/5"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Two pipes A and B can fill a tank in 36 minutes and 45 minutes respectively. Another pipe C can empty the tank in 30 minutes. First A and B are opened. After 7 minutes, C is also opened. The tank is filled up in:",
+    "options": [
+      "39 minutes",
+      "46 minutes",
+      "45 minutes",
+      "48 minutes"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If one root of the equation 5x² + 13x + k = 0 is the reciprocal of the other root, then what is the value of k?",
+    "options": [
+      "0",
+      "5",
+      "6",
+      "1/5"
+    ],
+    "correct_option_index": 1,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Find the quadratic equation whose roots are the reciprocals of the roots of the equation ax² + bx + c = 0.",
+    "options": [
+      "cx² + bx + a = 0",
+      "ax² - bx + c = 0",
+      "cx² - bx + a = 0",
+      "ax² + bx - c = 0"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Solve: √(x + 3) + √(x) = 3",
+    "options": [
+      "1",
+      "4",
+      "9/16",
+      "3"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "A rectangular lawn 60m x 40m has two roads each 5m wide running in the middle of it, one parallel to length and other parallel to breadth. Find the area of the roads.",
+    "options": [
+      "450 m²",
+      "500 m²",
+      "550 m²",
+      "600 m²"
+    ],
+    "correct_option_index": 1,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "What is the sum of the solutions to the equation |x^2 - 5| = 4?",
+    "options": [
+      "0",
+      "3",
+      "-3",
+      "6"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If 2x + y = 7 and x + 2y = 5, what is the value of x - y?",
+    "options": [
+      "2",
+      "-1",
+      "1",
+      "-2"
+    ],
+    "correct_option_index": 2,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "A number consists of two digits. The digit in the ten’s place is twice the digit in the unit’s place. If 18 is subtracted from the number, the digits are reversed. Find the number.",
+    "options": [
+      "21",
+      "42",
+      "63",
+      "84"
+    ],
+    "correct_option_index": 3,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If the equation x² - (2 + m)x + (m² - 4m + 4) = 0 has coincident roots, then what are the values of m?",
+    "options": [
+      "0, 1",
+      "0, 2",
+      "-2, 6",
+      "6, -1"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "The area of a right triangle is 600 cm². If the base exceeds the altitude by 10 cm, find the dimensions of the triangle.",
+    "options": [
+      "40cm, 30cm",
+      "50cm, 40cm",
+      "60cm, 50cm",
+      "30cm, 20cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Solve for x: √(5x+3) + √(x-2) = 5",
+    "options": [
+      "6",
+      "3",
+      "1",
+      "12"
+    ],
+    "correct_option_index": 1,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If one root of the quadratic equation ax² + bx + c = 0 is three times the other, then which of the following is a true statement?",
+    "options": [
+      "3b² = 16ac",
+      "b² = 3ac",
+      "3b² = ac",
+      "b² = 16ac"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Solve the system of equations: x + y + z = 6, x - y + z = 2, 2x - y + 3z = 5",
+    "options": [
+      "(1, 2, 3)",
+      "(2, 1, 3)",
+      "(1, 3, 2)",
+      "(3, 2, 1)"
+    ],
+    "correct_option_index": 0,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Find the value of k for which the lines (k-3)x + 3y = k and kx + ky = 12 have infinitely many solutions.",
+    "options": [
+      "6",
+      "3",
+      "-6",
+      "0"
+    ],
+    "correct_option_index": 1,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If the product of the roots of the equation mx² + 6x + 2 = 0 is 1, then the value of m is:",
+    "options": [
+      "2",
+      "-3",
+      "3",
+      "-2"
+    ],
+    "correct_option_index": 2,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "Solve the following equation for x: 1/(a+b+x) = 1/a + 1/b + 1/x",
+    "options": [
+      "-a",
+      "-b",
+      "a+b",
+      "-(a+b)"
+    ],
+    "correct_option_index": 3,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "In a two-digit number, the digit at the unit's place is 1 less than twice the digit at the ten's place. If the digits are interchanged, the difference between the new and the original number is less than the original number by 20. What is the original number?",
+    "options": [
+      "35",
+      "47",
+      "59",
+      "23"
+    ],
+    "correct_option_index": 3,
+    "category": "Linear and Quadratic Equations"
+  },
+  {
+    "question": "If a and b are the roots of equation x² - ax + b = 0, then find a and b?",
+    "options": [
+      "1 and 0",
+      "2 and 0",
+      "1 and 2",
+      "2 and 1"
+    ],
+    "correct_option_index": 2,
+    "category": "Linear and Quadratic Equations"
+  }
+]

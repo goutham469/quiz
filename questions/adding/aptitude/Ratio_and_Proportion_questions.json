@@ -1,0 +1,827 @@
+[
+  {
+    "question": "If a:b = 2:3 and b:c = 4:5, then find a:b:c.",
+    "options": [
+      "8:12:15",
+      "2:3:5",
+      "8:12:10",
+      "4:6:5"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The ratio of two numbers is 3:4 and their LCM is 60.  Find the sum of the numbers.",
+    "options": [
+      "70",
+      "35",
+      "28",
+      "42"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Divide Rs. 680 among A, B, and C such that A gets 2/3 of what B gets and B gets 1/4 of what C gets. Find C's share.",
+    "options": [
+      "Rs. 480",
+      "Rs. 120",
+      "Rs. 80",
+      "Rs. 560"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Two numbers are in the ratio 5:6. If 8 is subtracted from each of the numbers, the ratio becomes 4:5.  Find the numbers.",
+    "options": [
+      "40, 48",
+      "25, 30",
+      "10, 12",
+      "20, 24"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The incomes of A and B are in the ratio 3:2 and their expenditures are in the ratio 5:3. If each saves Rs. 1000, then A's income is:",
+    "options": [
+      "Rs. 3000",
+      "Rs. 6000",
+      "Rs. 4000",
+      "Rs. 9000"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "If x:y = 3:4, then (4x+5y) : (5x-2y) = ?",
+    "options": [
+      "1:1",
+      "32:7",
+      "15:2",
+      "11:3"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "What number should be added to each of the numbers 6, 14, 18, and 38 so that the resulting numbers are in proportion?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A bag contains Rs. 1, 50p, and 25p coins in the ratio 5:6:8. If the total amount is Rs. 210, find the number of 50p coins.",
+    "options": [
+      "252",
+      "240",
+      "180",
+      "144"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Two vessels contain milk and water in the ratio 3:2 and 7:3 respectively. In what ratio should the contents of the two vessels be mixed so as to obtain a mixture containing milk and water in the ratio 2:1?",
+    "options": [
+      "2:1",
+      "1:2",
+      "4:1",
+      "3:2"
+    ],
+    "correct_option_index": 3,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "If a sum of money is divided among A, B, and C in the ratio 2:3:5 and A's share is Rs. 16, then the total sum of money is:",
+    "options": [
+      "Rs. 80",
+      "Rs. 40",
+      "Rs. 160",
+      "Rs. 64"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A mixture contains milk and water in the ratio 5:1. On adding 5 liters of water, the ratio of milk to water becomes 5:2. The quantity of milk in the original mixture is:",
+    "options": [
+      "25 liters",
+      "32.5 liters",
+      "16 liters",
+      "22.75 liters"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The ratio of the number of boys and girls in a school is 7:5. If 8 new boys join and 6 girls leave, the ratio becomes 9:5. Find the original number of boys.",
+    "options": [
+      "16",
+      "112",
+      "224",
+      "96"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A and B have amounts in the ratio 3:2. After A spends Rs. 500 and B spends Rs. 300, the ratio of their amounts is 5:3. What was the initial amount with A?",
+    "options": [
+      "Rs. 2000",
+      "Rs. 3000",
+      "Rs. 1500",
+      "Rs. 2500"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Two numbers are in the ratio 2:3. If 5 is added to each number, the ratio becomes 3:4. Find the larger number.",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The ratio of the ages of a father and son is 5:2. If the product of their ages is 1000, then the father's age is:",
+    "options": [
+      "50 years",
+      "20 years",
+      "25 years",
+      "40 years"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A sum of money is to be divided among A, B, and C in the ratio 3:4:5. If B receives Rs. 400 more than A, then C's share is:",
+    "options": [
+      "Rs. 1200",
+      "Rs. 1000",
+      "Rs. 2000",
+      "Rs. 800"
+    ],
+    "correct_option_index": 3,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "What must be added to each term of the ratio 7:11 so as to make it equal to 3:4?",
+    "options": [
+      "5",
+      "8",
+      "12",
+      "20"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The weights of two friends are in the ratio 2:3. If the weight of one friend is 30kg, then the weight of the other friend is:",
+    "options": [
+      "45kg",
+      "20kg",
+      "60kg",
+      "15kg"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "If a:b = 3:4 and b:c = 8:9, then a:c is equal to:",
+    "options": [
+      "1:3",
+      "3:2",
+      "2:3",
+      "1:2"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Two numbers are in the ratio 7:8. If the sum of their squares is 4500, the numbers are:",
+    "options": [
+      "35, 40",
+      "14, 16",
+      "70, 80",
+      "21, 24"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Rs. 366 are divided among A, B and C so that A receives one half as much as B and C together receive; B receives two thirds as much as A and C together receive. What is the share of A?",
+    "options": [
+      "Rs. 112",
+      "Rs. 122",
+      "Rs. 120",
+      "Rs. 132"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The ratio of two numbers is 4:5. If each number is increased by 25%, then the ratio becomes:",
+    "options": [
+      "1:1",
+      "7:8",
+      "4:5",
+      "5:4"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The salaries of A, B and C are in the ratio 2:3:5. If the increments of 15%, 10% and 20% are allowed respectively in their salaries, then what will be the new ratio of their salaries?",
+    "options": [
+      "3:3:10",
+      "10:11:20",
+      "23:33:60",
+      "Cannot be determined"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A container contains two liquids A and B in the ratio 7:5. When 9 liters of the mixture are drawn off and the container is filled with B, the ratio of A and B becomes 7:9. How many liters of liquid A was contained in the container initially?",
+    "options": [
+      "10",
+      "21",
+      "20",
+      "25"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Seats for Mathematics, Physics and Biology in a school are in the ratio 5:7:8. There is a proposal to increase these seats by 40%, 50% and 75% respectively. What will be the ratio of increased seats?",
+    "options": [
+      "2:3:3",
+      "6:7:8",
+      "6:8:9",
+      "None of these"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The speeds of three cars are in the ratio 2:3:4. The ratio between the times taken by these cars to travel the same distance is:",
+    "options": [
+      "2:3:4",
+      "4:3:2",
+      "4:3:6",
+      "6:4:3"
+    ],
+    "correct_option_index": 3,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "If 0.75 : x :: 5 : 8, then x is equal to:",
+    "options": [
+      "1.12",
+      "1.2",
+      "1.25",
+      "1.30"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The ratio of the number of students studying in schools A, B and C is 5:6:8. If the number of students in each of the schools is increased by 30%, 25% and 25% respectively, what will be the new ratio of the number of students in schools A, B and C?",
+    "options": [
+      "13:15:20",
+      "26:30:33",
+      "26:30:40",
+      "Cannot be determined"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "If a:b = c:d, then (ma + nc) : (mb + nd) is equal to:",
+    "options": [
+      "a:b",
+      "b:a",
+      "a:d",
+      "c:b"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The ratio of incomes of A and B is 5:3. The ratio of their expenditures is 9:5. If A's income is twice B's expenditure, what is the ratio of savings of A and B?",
+    "options": [
+      "1:1",
+      "2:1",
+      "3:2",
+      "4:3"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The ratio of A's salary to B's salary is 4:5.  If A's salary is increased by 10% and B's salary is decreased by 20%, then what is the ratio of their salaries?",
+    "options": [
+      "11:10",
+      "22:25",
+      "44:45",
+      "8:5"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "If a:b = 7:9 and a:c = 2:3, then a:b:c is:",
+    "options": [
+      "14:18:27",
+      "6:7:9",
+      "2:3:3",
+      "14:18:21"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The ratio of the ages of Ram and Shyam 5 years ago was 2:3. If the sum of their ages is 50 years now, what is the ratio of their present ages?",
+    "options": [
+      "5:7",
+      "4:5",
+      "12:13",
+      "Cannot be determined"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "In a school, the ratio of boys to girls is 4:3. When 50 new girls join the school, the ratio becomes 9:7. How many boys are there in the school?",
+    "options": [
+      "450",
+      "500",
+      "600",
+      "300"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "What must be subtracted from each term of the ratio 15:19 so as to make it equal to 3:4?",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "If x/y = 1/3, then (x^2 + y^2) / (x^2 - y^2) is equal to:",
+    "options": [
+      "-5/4",
+      "5/4",
+      "10/8",
+      "-10/8"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A jar contains a mixture of two liquids A and B in the ratio 3:2. When 10 liters of the mixture are replaced with 10 liters of liquid B, the ratio becomes 2:3. How many liters of liquid A was present in the jar initially?",
+    "options": [
+      "12 liters",
+      "18 liters",
+      "20 liters",
+      "25 liters"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Two numbers are in the ratio 3:5. If each number is increased by 10, the ratio becomes 5:7. The numbers are:",
+    "options": [
+      "3,5",
+      "13,25",
+      "15,25",
+      "None"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "If (a+b):(b+c):(c+a) = 6:7:8 and a+b+c = 14, then the value of c is:",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "14"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A sum of money is divided among P, Q and R such that the ratios of shares of P and Q is 3:2 and that of Q and R is 4:5. If R receives Rs. 2000 more than P, what is the total sum of money divided?",
+    "options": [
+      "Rs. 11600",
+      "Rs. 12000",
+      "Rs. 14000",
+      "Rs. 10600"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A and B have monthly incomes in the ratio 5:6 and monthly expenditures in the ratio 3:4. If they save Rs. 1800 and Rs. 1600 respectively per month, find the monthly income of B.",
+    "options": [
+      "Rs. 3400",
+      "Rs. 2700",
+      "Rs. 17200",
+      "Rs. 7200"
+    ],
+    "correct_option_index": 4,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A sum of Rs. 2600 is lent out in two parts in such a way that the interest on one part at 10% per annum for 5 years is equal to that on another part at 9% per annum for 6 years. The sum lent out at 10% is:",
+    "options": [
+      "Rs. 680",
+      "Rs. 1200",
+      "Rs. 1440",
+      "Rs. 1350"
+    ],
+    "correct_option_index": 3,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The ratio of male and female students in a class is 3:2. If 20% of the males and 25% of the females are adults, the percentage of students who are not adults is:",
+    "options": [
+      "58%",
+      "67.5%",
+      "78%",
+      "82.5%"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Two numbers are in the ratio 5:7. On diminishing each of them by 40, the ratio becomes 17:27. The difference of the numbers is:",
+    "options": [
+      "18",
+      "52",
+      "137",
+      "None of these"
+    ],
+    "correct_option_index": 3,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "What number should be subtracted from each of the numbers 54, 71, 75 and 99 so that the remainders may be proportional?",
+    "options": [
+      "1",
+      "5",
+      "15",
+      "None of these"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A goldsmith has two qualities of gold, one of 12 carats and another of 16 carats purity. In what proportion should he mix both to make an ornament of 15 carats purity?",
+    "options": [
+      "1:3",
+      "3:1",
+      "1:2",
+      "3:5"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A mixture contains alcohol and water in the ratio 4:3. If 5 liters of water is added to the mixture, the ratio becomes 4:5. The quantity of alcohol in the given mixture is:",
+    "options": [
+      "3 liters",
+      "4 liters",
+      "10 liters",
+      "12 liters"
+    ],
+    "correct_option_index": 3,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Two containers of equal capacity are filled with a mixture of milk and water. The ratio of milk and water in the first container is 3:1 and in the second container is 5:2. If both the mixtures are mixed together, the ratio of milk and water in the new mixture will be:",
+    "options": [
+      "28:41",
+      "28:61",
+      "41:28",
+      "31:28"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "In a bag, there are coins of 25p, 10p and 5p in the ratio of 1:2:3. If there is Rs. 30 in all, how many 5p coins are there?",
+    "options": [
+      "50",
+      "100",
+      "150",
+      "200"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "If 10% of A's income = 15% of B's income = 20% of C's income, then A:B:C is equal to:",
+    "options": [
+      "2:3:4",
+      "3:2:1",
+      "4:3:2",
+      "6:4:3"
+    ],
+    "correct_option_index": 3,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The ratio of two numbers is 5:8 and their difference is 48. The smaller of the two numbers is:",
+    "options": [
+      "80",
+      "128",
+      "40",
+      "None of these"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The income of A and B are in the ratio 3:2 and their expenditures are in the ratio 5:3. If each saves Rs 200, then income of A is:",
+    "options": [
+      "Rs 800",
+      "Rs 1200",
+      "Rs 1600",
+      "Rs 2000"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "If p:q=r:s=t:u=2:3, then (mp+nr+ot):(mq+ns+ou) is equal to:",
+    "options": [
+      "1:3",
+      "1:2",
+      "2:3",
+      "3:2"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "If A = 1/4 B and B = 1/2 C, then A:B:C is equal to:",
+    "options": [
+      "1:2:8",
+      "1:2:4",
+      "1:4:8",
+      "1:4:2"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Salaries of Ravi and Sumit are in the ratio 2:3. If the salary of each is increased by Rs. 4000, the new ratio becomes 40:57. What is Sumit's salary?",
+    "options": [
+      "Rs. 17000",
+      "Rs. 20000",
+      "Rs. 25500",
+      "Rs. 38000"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The fourth proportional to 5, 8, 15 is:",
+    "options": [
+      "18",
+      "24",
+      "19",
+      "20"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Two numbers are respectively 20% and 50% more than a third number. The ratio of the two numbers is:",
+    "options": [
+      "2:5",
+      "3:5",
+      "4:5",
+      "6:7"
+    ],
+    "correct_option_index": 3,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "If Rs. 782 be divided into three parts, proportional to 1/2:2/3:3/4, then the first part is:",
+    "options": [
+      "Rs. 182",
+      "Rs. 190",
+      "Rs. 192",
+      "Rs. 200"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A bag contains Rs 90 in coins of denominations Rs 1, 50 p and 25 p. If the ratio of 25 35 the number of 50 p, 25 p and Rs 1 coins is 2:3:4, then the number of 50 p coins is:",
+    "options": [
+      "60",
+      "90",
+      "120",
+      "180"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The ratio of the number of boys and girls in a college is 7:8. If the percentage increase in the number of boys and girls be 20% and 10% respectively, what will be the new ratio?",
+    "options": [
+      "8:9",
+      "17:18",
+      "21:22",
+      "Cannot be determined"
+    ],
+    "correct_option_index": 3,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A person divides his property between his three sons in the ratio 3:4:5.  If the son with the largest share receives Rs. 10,000 more than the son with the smallest share, what was the total value of the property?",
+    "options": [
+      "Rs. 30,000",
+      "Rs. 60,000",
+      "Rs. 120,000",
+      "Rs. 150,000"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Find the mean proportional between 0.08 and 0.18.",
+    "options": [
+      "0.12",
+      "0.13",
+      "0.14",
+      "0.15"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Divide 875 into three parts in such a way that the ratio of the first to the second is 4:5 and that of the second to the third is 6:7.",
+    "options": [
+      "300, 375, 400",
+      "250, 400, 225",
+      "280, 350, 245",
+      "280, 350, 410"
+    ],
+    "correct_option_index": 3,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A mixture of 40 liters of milk and water contains 10% water. How much water should be added to the mixture to make the water 20% in the mixture?",
+    "options": [
+      "4 liters",
+      "5 liters",
+      "6 liters",
+      "6.5 liters"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A can contains a mixture of two liquids A and B in the ratio 7:5. When 9 liters of the mixture are drawn off and the can is filled with B, the ratio of A and B becomes 7:9. How many liters of liquid A was contained by the can initially?",
+    "options": [
+      "10 liters",
+      "21 liters",
+      "20 liters",
+      "25 liters"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The ratio of zinc and copper in an alloy is 7:9. If the weight of the copper in the alloy is 11.7 kg, then the weight of zinc in the alloy is:",
+    "options": [
+      "6.3 kg",
+      "9.1 kg",
+      "8.4 kg",
+      "None of these"
+    ],
+    "correct_option_index": 2,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "If 40% of a number is equal to two-thirds of another number, what is the ratio of first number to the second number?",
+    "options": [
+      "5:3",
+      "3:5",
+      "10:3",
+      "3:10"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A sum of money is to be distributed among A, B, C, and D in the proportion of 5:2:4:3. If C gets Rs. 1000 more than D, what is B's share?",
+    "options": [
+      "Rs. 500",
+      "Rs. 1500",
+      "Rs. 2000",
+      "Rs. 2500"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Two whole numbers, whose sum is 64, cannot be in the ratio:",
+    "options": [
+      "3:5",
+      "5:3",
+      "1:7",
+      "None of these"
+    ],
+    "correct_option_index": 3,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Divide Rs. 1250 among A, B, C so that A gets 2/9 of B's share and C gets 3/4 of A's share.",
+    "options": [
+      "Rs. 200, Rs. 800, Rs. 250",
+      "Rs. 200, Rs. 900, Rs. 150",
+      "Rs. 150, Rs. 800, Rs. 300",
+      "Rs. 200, Rs. 800, Rs. 350"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "The ratio between two numbers is 3:4 and their LCM is 120. The numbers are:",
+    "options": [
+      "20,30",
+      "30,40",
+      "40,50",
+      "50,60"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "A mixture contains alcohol and water in the ratio 4:3. If 6 liters of water is added to the mixture, the ratio becomes 8:7. Find the quantity of alcohol in the mixture:",
+    "options": [
+      "36 liters",
+      "48 liters",
+      "72 liters",
+      "96 liters"
+    ],
+    "correct_option_index": 1,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "If 15% of x = 20% of y, then x:y is:",
+    "options": [
+      "4:3",
+      "5:4",
+      "6:5",
+      "3:4"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "Two numbers are in the ratio 2:3. If 4 is added to each, their ratio becomes 5:7. The numbers are:",
+    "options": [
+      "16,24",
+      "24,36",
+      "28,42",
+      "32,48"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  },
+  {
+    "question": "If A:B=2:3 and B:C=4:5, then C:A=?",
+    "options": [
+      "15:8",
+      "8:15",
+      "12:10",
+      "10:12"
+    ],
+    "correct_option_index": 0,
+    "category": "Ratio and Proportion"
+  }
+]

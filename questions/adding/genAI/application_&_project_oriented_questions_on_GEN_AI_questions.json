@@ -1,0 +1,585 @@
+[
+  {
+    "question": "Which of the following is NOT a common application of Generative AI in project management?",
+    "options": [
+      "Risk Prediction and Mitigation",
+      "Automated Code Generation",
+      "Resource Allocation Optimization",
+      "Sentiment Analysis of Team Communications"
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "Consider a project using GenAI to create marketing content. Which metric is MOST crucial for evaluating the success of the generated content?",
+    "options": [
+      "Model Training Time",
+      "Content Generation Speed",
+      "Click-Through Rate (CTR)",
+      "Model Parameter Count"
+    ],
+    "correct_option_index": 2,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "In a GenAI-driven project for fraud detection, a high false positive rate can lead to which of the following negative consequences?",
+    "options": [
+      "Increased detection accuracy",
+      "Reduced operational costs",
+      "Erosion of customer trust",
+      "Improved model interpretability"
+    ],
+    "correct_option_index": 2,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You're leading a project to develop a GenAI model for personalized medicine. What ethical consideration is paramount?",
+    "options": [
+      "Minimizing computational cost",
+      "Maximizing model accuracy on benchmark datasets",
+      "Ensuring data privacy and security",
+      "Using the latest deep learning architecture"
+    ],
+    "correct_option_index": 2,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "A GenAI project aims to automate report generation. What is the MOST important factor to consider when defining the prompt engineering strategy?",
+    "options": [
+      "Number of tokens in the prompt",
+      "Creativity of the generated output",
+      "Clarity and specificity of the instructions",
+      "Training dataset size"
+    ],
+    "correct_option_index": 2,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "Which GenAI technique is most suitable for generating realistic simulations of financial markets for risk assessment?",
+    "options": [
+      "Variational Autoencoders (VAEs)",
+      "Recurrent Neural Networks (RNNs)",
+      "Generative Adversarial Networks (GANs)",
+      "Transformer Networks"
+    ],
+    "correct_option_index": 2,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "Consider a project that uses GenAI to generate code snippets for software development. What is a primary challenge in ensuring the reliability of the generated code?",
+    "options": [
+      "Model training time",
+      "Computational cost of inference",
+      "Code compilation speed",
+      "Handling edge cases and potential bugs"
+    ],
+    "correct_option_index": 3,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You are building a GenAI system to summarize legal documents. Which evaluation metric is MOST relevant to ensure the system preserves the critical information?",
+    "options": [
+      "Perplexity",
+      "BLEU score",
+      "ROUGE score",
+      "Cosine similarity"
+    ],
+    "correct_option_index": 2,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "A GenAI model is deployed to predict customer churn. If the model exhibits bias against a specific demographic, what is the MOST effective mitigation strategy?",
+    "options": [
+      "Increasing the model's complexity",
+      "Collecting more data from the biased demographic",
+      "Using a different machine learning algorithm",
+      "Applying fairness-aware regularization techniques"
+    ],
+    "correct_option_index": 3,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "Which project management methodology is BEST suited for a GenAI development project with high uncertainty and evolving requirements?",
+    "options": [
+      "Waterfall",
+      "Scrum",
+      "Prince2",
+      "Six Sigma"
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "In the context of project planning for GenAI applications, what is the MOST significant difference compared to traditional software projects?",
+    "options": [
+      "Increased emphasis on hardware requirements",
+      "The need for specialized data annotation expertise",
+      "A higher degree of uncertainty in development timelines",
+      "The decreased importance of testing and validation"
+    ],
+    "correct_option_index": 2,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "Which of the following is a key risk associated with using GenAI to automate decision-making processes in financial lending?",
+    "options": [
+      "Reduced computational costs",
+      "Potential for algorithmic bias leading to discriminatory outcomes",
+      "Improved transparency and accountability",
+      "Faster loan approval times"
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You are leading a project to implement a GenAI-powered chatbot for customer service. Which key performance indicator (KPI) would be MOST important to track?",
+    "options": [
+      "Model size in gigabytes",
+      "Number of lines of code",
+      "Customer satisfaction score and resolution rate",
+      "Training data volume"
+    ],
+    "correct_option_index": 2,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "When deploying a GenAI model in a production environment, what strategy is crucial for continuous improvement and adaptation to changing data patterns?",
+    "options": [
+      "One-time model training and deployment",
+      "Periodic model retraining with fixed hyperparameters",
+      "Continuous monitoring, feedback loops, and active learning",
+      "Ignoring performance degradation due to concept drift"
+    ],
+    "correct_option_index": 2,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "In a GenAI project for drug discovery, what is the primary benefit of using generative models to design novel molecules?",
+    "options": [
+      "Reduced experimental validation costs",
+      "Ability to generate molecules with desired properties without relying solely on existing data",
+      "Faster computational simulation speeds",
+      "Elimination of ethical concerns related to animal testing"
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You are tasked with evaluating different GenAI models for generating realistic images. Which metric is MOST appropriate for assessing the perceptual quality of the generated images?",
+    "options": [
+      "Inception Score (IS)",
+      "Floating Point Operations Per Second (FLOPS)",
+      "Training time",
+      "Number of parameters"
+    ],
+    "correct_option_index": 0,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "In a project using GenAI for code generation, what strategy can effectively mitigate the risk of the model producing vulnerable or insecure code?",
+    "options": [
+      "Increasing the model size",
+      "Training on a larger dataset of secure code examples and incorporating static analysis tools",
+      "Removing comments from the training data",
+      "Reducing the model's complexity"
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "A project involves using GenAI to create synthetic data for training autonomous vehicles. What is the MOST critical aspect of generating realistic synthetic data?",
+    "options": [
+      "Minimizing computational cost",
+      "Matching the distribution of real-world data and simulating diverse environmental conditions",
+      "Maximizing the data volume",
+      "Using the simplest possible generative model"
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You are designing a GenAI system to personalize learning experiences for students. What is the MOST important consideration for ensuring the system provides equitable access to education?",
+    "options": [
+      "Using the latest deep learning techniques",
+      "Ensuring the system is unbiased and caters to diverse learning styles and backgrounds",
+      "Optimizing the system for speed and efficiency",
+      "Maximizing the amount of content generated"
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "Which of the following strategies is LEAST effective in reducing the computational cost of deploying large GenAI models in resource-constrained environments?",
+    "options": [
+      "Model quantization",
+      "Knowledge distillation",
+      "Model pruning",
+      "Increasing the batch size during inference"
+    ],
+    "correct_option_index": 3,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "A company aims to use GenAI to automate content creation for social media. What is a critical factor to consider when evaluating the generated content's alignment with the brand's identity?",
+    "options": [
+      "Model training time",
+      "The content's ability to evoke specific emotions and resonate with the target audience",
+      "The length of the generated text",
+      "The number of images used"
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "What is a primary challenge when using GenAI models for time series forecasting, such as predicting stock prices or weather patterns?",
+    "options": [
+      "Lack of large datasets",
+      "Difficulty in capturing long-term dependencies and non-linear relationships",
+      "High computational cost of training",
+      "Ethical concerns related to privacy"
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "Which technique is most suitable for ensuring the outputs of a GenAI model are consistent and adhere to specific stylistic guidelines?",
+    "options": [
+      "Data augmentation",
+      "Fine-tuning with constrained decoding or reinforcement learning",
+      "Increasing the model's depth",
+      "Using a larger training dataset"
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You are deploying a GenAI model for generating personalized recommendations. What is an effective strategy for preventing the model from creating echo chambers or filter bubbles?",
+    "options": [
+      "Increasing the model's complexity",
+      "Introducing diversity in the training data and incorporating exploration-exploitation strategies",
+      "Reducing the number of recommendations",
+      "Ignoring user feedback"
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "In a GenAI project focused on generating realistic 3D models for virtual reality environments, what is a key consideration for optimizing the models for real-time rendering?",
+    "options": [
+      "Maximizing the model's complexity",
+      "Reducing the polygon count and optimizing the mesh topology",
+      "Increasing the texture resolution",
+      "Ignoring memory constraints"
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "A GenAI project is creating synthetic medical images for training diagnostic models. What is the MOST important aspect to ensure about the synthetic data?",
+    "options": [
+      "That it is visually appealing.",
+      "That it accurately reflects the statistical properties and clinical characteristics of real medical images.",
+      "That it is generated quickly.",
+      "That it is easily distinguishable from real medical images."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You're using GenAI to augment a dataset of handwritten documents for OCR training. What is the potential pitfall if the generated handwriting is too perfect?",
+    "options": [
+      "Improved OCR accuracy.",
+      "Reduced OCR accuracy on real-world, imperfect handwriting.",
+      "Faster training times.",
+      "Increased computational cost."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "In a GenAI project for automated content moderation, what is the MOST effective way to handle ambiguous or borderline cases?",
+    "options": [
+      "Always flag the content to be safe.",
+      "Always allow the content to avoid censorship.",
+      "Implement a human-in-the-loop system to review and make the final decision.",
+      "Randomly flag or allow the content."
+    ],
+    "correct_option_index": 2,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "Which of these techniques is MOST effective for preventing a GenAI model from generating harmful or offensive content?",
+    "options": [
+      "Increasing the model size.",
+      "Filtering training data for toxic language and implementing content filtering mechanisms.",
+      "Removing all creativity from the model.",
+      "Training the model on a smaller dataset."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You're leading a project to use GenAI to design new types of packaging. Which constraint is MOST important to consider for manufacturability?",
+    "options": [
+      "Aesthetics.",
+      "The limitations of existing manufacturing processes and materials.",
+      "Novelty.",
+      "Cost of design software."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You're developing a GenAI model to generate music. What technique helps the model create longer, more coherent musical pieces?",
+    "options": [
+      "Using a smaller model.",
+      "Truncated backpropagation through time or attention mechanisms.",
+      "Removing all repetition.",
+      "Focusing only on short musical phrases."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You're using GenAI to generate diverse ideas for architectural designs. How do you ensure the generated designs are structurally sound?",
+    "options": [
+      "Ignoring structural considerations for creativity.",
+      "Integrating structural analysis software into the design process to validate the generated concepts.",
+      "Assuming the AI will automatically generate safe designs.",
+      "Only generating designs similar to existing buildings."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You're building a GenAI model to generate code, and it consistently produces code with syntax errors. Which technique would be MOST helpful?",
+    "options": [
+      "Increasing the learning rate.",
+      "Training on a dataset of syntactically correct code and using techniques like abstract syntax trees.",
+      "Ignoring the errors and hoping they disappear.",
+      "Reducing the model size."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "When using GenAI for creative tasks like writing or art, what's a key challenge in evaluating the quality of the output?",
+    "options": [
+      "Computational cost.",
+      "The subjective nature of creativity and the difficulty in defining objective metrics.",
+      "Training data size.",
+      "The speed of generation."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "A GenAI system is designed to generate personalized news articles. How can you best prevent it from reinforcing existing biases in news coverage?",
+    "options": [
+      "Training on a dataset of biased articles to reflect reality.",
+      "Incorporating diverse perspectives and sources into the training data and using fairness-aware algorithms.",
+      "Ignoring biases and focusing on generating engaging content.",
+      "Personalizing only based on user preferences."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You're using GenAI to create virtual try-on experiences for clothing. What is MOST important for ensuring a realistic experience?",
+    "options": [
+      "Using low-resolution images for speed.",
+      "Accurately modeling the physics of clothing and how it drapes on different body types.",
+      "Ignoring body shape and size.",
+      "Focusing only on the color of the clothing."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "In a GenAI project for generating realistic speech, what is the biggest challenge in making the speech sound natural and human-like?",
+    "options": [
+      "Computational cost.",
+      "Modeling prosody (rhythm, stress, and intonation) and capturing the nuances of human speech.",
+      "Generating grammatically correct sentences.",
+      "Using a large vocabulary."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "What is the MOST significant challenge in deploying GenAI models on edge devices (like smartphones or embedded systems)?",
+    "options": [
+      "Finding enough data.",
+      "The limited computational resources and memory on these devices.",
+      "Writing the code.",
+      "Charging the devices."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You're using GenAI to generate training data for a self-driving car. Which is the MOST critical aspect of this synthetic data?",
+    "options": [
+      "Generating data that perfectly matches real-world data in every detail.",
+      "Creating a distribution of data that covers a wide range of scenarios, including rare and dangerous ones.",
+      "Generating data quickly and cheaply.",
+      "Ignoring the laws of physics."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "A GenAI model is used to generate job descriptions. Which strategy is MOST important to prevent the model from perpetuating gender or other biases?",
+    "options": [
+      "Use gendered language to attract specific candidates.",
+      "Curate the training data to eliminate biased language and promote inclusive wording.",
+      "Focus on efficiency, not inclusivity.",
+      "Ignore potential biases."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "What is the MOST difficult aspect of creating a GenAI model that can generate convincing dialogue between characters in a story?",
+    "options": [
+      "Generating grammatically correct sentences.",
+      "Capturing the personalities, motivations, and relationships between the characters.",
+      "Using a large vocabulary.",
+      "Making the dialogue sound like real-world conversation."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "Which technique is most effective for enabling a GenAI model to generate images or text with a consistent style (e.g., a particular artist's style or a specific writing tone)?",
+    "options": [
+      "Using a larger dataset.",
+      "Fine-tuning the model on a dataset that embodies the desired style.",
+      "Increasing the model size.",
+      "Training the model from scratch."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "What is the MOST important ethical consideration when using GenAI to create deepfakes (realistic but fabricated videos or audio recordings)?",
+    "options": [
+      "Making deepfakes as realistic as possible.",
+      "Obtaining informed consent from all individuals involved and clearly labeling the content as a deepfake.",
+      "Creating deepfakes for entertainment purposes.",
+      "Avoiding all ethical considerations."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You're building a GenAI model to translate languages. How can you best address the challenge of translating idioms and culturally specific expressions?",
+    "options": [
+      "Ignoring idioms and translating literally.",
+      "Training the model on a large dataset of parallel texts that includes idioms and cultural context, and using attention mechanisms.",
+      "Removing all idioms from the training data.",
+      "Focusing only on translating simple sentences."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "A GenAI model is deployed for automated essay scoring. Which is the most critical aspect to prevent unfair or biased evaluations?",
+    "options": [
+      "Focusing solely on grammar and spelling.",
+      "Ensuring the model is trained on a diverse set of essays and does not penalize students for different writing styles or backgrounds.",
+      "Only scoring essays on factual accuracy.",
+      "Ignoring biases and focusing on efficiency."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "When using GenAI to generate code for critical systems (e.g., medical devices or aviation software), what is the most important concern?",
+    "options": [
+      "Generating code quickly.",
+      "Ensuring the code is thoroughly tested, verified, and validated to meet stringent safety and reliability requirements.",
+      "Making the code easy to understand.",
+      "Ignoring safety concerns."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You are building a GenAI application for generating investment strategies. What is the MOST important consideration for preventing the model from providing harmful or misleading financial advice?",
+    "options": [
+      "Ignoring regulatory requirements.",
+      "Disclosing the limitations of the model and providing a disclaimer that it is not financial advice.",
+      "Making the model as complex as possible.",
+      "Promising high returns on investment."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "A GenAI model is being used to generate scientific hypotheses. What is the most important consideration to ensure the generated hypotheses are valuable?",
+    "options": [
+      "Generating hypotheses that are already well-known.",
+      "The hypotheses should be novel, testable, and grounded in existing scientific knowledge.",
+      "Generating as many hypotheses as possible.",
+      "Ignoring existing scientific knowledge."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You are using GenAI to create virtual assistants. How do you ensure the virtual assistants are helpful and don't provide incorrect or dangerous information?",
+    "options": [
+      "Making the assistants as human-like as possible.",
+      "Grounding the assistants' responses in reliable knowledge sources and implementing mechanisms to verify information.",
+      "Giving the assistants complete freedom to answer questions.",
+      "Ignoring the potential for incorrect information."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "You're leading a GenAI project to generate personalized educational content. Which of the following is the LEAST important factor for success?",
+    "options": [
+      "Adapting content to individual learning styles and paces.",
+      "Ensuring content is accurate, up-to-date, and aligns with educational standards.",
+      "Maximizing the quantity of content generated, regardless of quality.",
+      "Providing opportunities for student interaction and feedback."
+    ],
+    "correct_option_index": 2,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "A large language model-based GenAI system generates answers to physics problems. It performs very well on textbook questions but fails on real-world scenarios. What is the MOST likely reason?",
+    "options": [
+      "The model is too small.",
+      "The training data lacks the complexity and nuances of real-world physics problems.",
+      "Physics is inherently too complex for AI.",
+      "The model needs more parameters."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "Your team is using GenAI to generate marketing copy for a new product. The copy is consistently creative and engaging, but it frequently contains factual inaccuracies. What is the MOST effective way to address this issue?",
+    "options": [
+      "Increase the model's creativity setting.",
+      "Implement a fact-checking mechanism to verify the generated content before publishing.",
+      "Reduce the model's training data.",
+      "Fire the marketing team."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  },
+  {
+    "question": "A GenAI model for generating customer service emails is exhibiting a pattern of escalating customer frustration by using overly formal and impersonal language. What is the BEST approach to improve the model's performance?",
+    "options": [
+      "Increase the model's vocabulary.",
+      "Fine-tune the model on a dataset of empathetic and helpful customer service interactions.",
+      "Reduce the model's complexity.",
+      "Disable the model and revert to human agents."
+    ],
+    "correct_option_index": 1,
+    "category": "application & project oriented questions on GEN AI"
+  }
+]

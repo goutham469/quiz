@@ -1,0 +1,662 @@
+[
+  {
+    "question": "If 'MASTER' is coded as '612549' then how will 'CARPET' be coded?",
+    "options": [
+      "123956",
+      "129563",
+      "124956",
+      "129653"
+    ],
+    "correct_option_index": 2,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'LATE' is coded as '38' and 'HATE' is coded as '31' then how will 'LOVE' be coded?",
+    "options": [
+      "40",
+      "39",
+      "41",
+      "42"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'SYSTEM' is coded as '131625' and 'NEARER' is coded as '451969' then what is the code for 'TERMITE'?",
+    "options": [
+      "629106",
+      "629196",
+      "621960",
+      "629916"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'UNITED' is coded as 'SLGRCB', then 'DISOWN' will be coded as?",
+    "options": [
+      "BGPMUL",
+      "BIPWMQ",
+      "BHTVML",
+      "BHVPML"
+    ],
+    "correct_option_index": 3,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'EAT' is coded as 318 and 'CHAIR' is coded as 24156, what will be the code for 'TEACHER'?",
+    "options": [
+      "6182456",
+      "3142566",
+      "3124568",
+      "3125468"
+    ],
+    "correct_option_index": 3,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "In a certain code, 'CERTAIN' is coded as 'QDBVOJS'. How is 'MUNDANE' coded in that code?",
+    "options": [
+      "NVOFCOF",
+      "LWMCZOD",
+      "NVOFMOC",
+      "LWNCZOF"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'SURE' is coded as 'RTSD', then 'GONE' would be coded as:",
+    "options": [
+      "FPMD",
+      "HPMD",
+      "FNMD",
+      "FMHD"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'MADRAS' is coded as 'NBESBT', then how will 'BOMBAY' be coded?",
+    "options": [
+      "CPNCBZ",
+      "CPOCBZ",
+      "CQOCBZ",
+      "CPNCBX"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'DECODE' is coded as '453845', then how is 'CODED' coded?",
+    "options": [
+      "38454",
+      "35454",
+      "34545",
+      "35445"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'EFGHL' is coded as 'WUTSQ', then 'IJOPQ' would be coded as:",
+    "options": [
+      "LMVZB",
+      "VTZML",
+      "BVZML",
+      "BZVML"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'ENGINE' is coded as '123145' and 'PAINTER' is coded as '6734859', then 'NATURE' will be coded as:",
+    "options": [
+      "418521",
+      "412859",
+      "423815",
+      "413852"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'RAMAN' is written as '12325' and 'DINESH' as '675849', then how is 'HAMAM' written?",
+    "options": [
+      "92233",
+      "93323",
+      "92323",
+      "92332"
+    ],
+    "correct_option_index": 2,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'FRIEND' is coded as 'HUMJNF', then how can 'CANDLE' be written in that code?",
+    "options": [
+      "DEQJQM",
+      "EDRIRL",
+      "ESJFME",
+      "GMESDJ"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'REASON' is coded as '543210' and 'SING' as '8207', then what is the code for 'SONG'?",
+    "options": [
+      "8027",
+      "8702",
+      "2780",
+      "7280"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'RAJASTHAN' is coded as '12J2ST172O', then what is the code for 'MAHARASHTRA'?",
+    "options": [
+      "132H2ST172",
+      "132H2T172",
+      "13H2ST172",
+      "132H2ST271"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'PURPOSE' is coded as 'VPURPOS', then 'WATER' will be coded as:",
+    "options": [
+      "ATREV",
+      "AWRET",
+      "WATRE",
+      "REWAT"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If in a certain language, 'MADRAS' is coded as 'JXAORH', then how is 'BOMBAY' coded in that code?",
+    "options": [
+      "AMALVS",
+      "YLZMXV",
+      "AMAMXU",
+      "VTZNYV"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'GLOSSORY' is coded as '97533826', and 'GEOGRAPHY' is coded as '915904682', then how will 'GEOLOGY' be coded?",
+    "options": [
+      "9155392",
+      "9153392",
+      "9153382",
+      "9155382"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'PRABA' is coded as '12324' and 'THILAK' is coded as '536847', how can 'BHARATHI' be coded?",
+    "options": [
+      "2342535",
+      "2534536",
+      "2435364",
+      "2454353"
+    ],
+    "correct_option_index": 2,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'PAPER' is coded as 'OCTPD', then how is 'PENCIL' coded?",
+    "options": [
+      "OFOBHM",
+      "ODOBHM",
+      "OFOBKJ",
+      "OFOBJM"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'CORPORATION' is coded as 'PROPORNOITC', then how is 'JUDICIAL' coded?",
+    "options": [
+      "AIIDICUJ",
+      "LAICIDUJ",
+      "JIDICAIUL",
+      "IDUJAIUC"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'ORANGE' is coded as 'PNGROF', then how is 'APPLE' coded?",
+    "options": [
+      "BQQMF",
+      "MQQBF",
+      "QMBOF",
+      "OBFQM"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'EJOYT' is coded as 'DLWVR', then 'BORING' will be coded as:",
+    "options": [
+      "APQHOF",
+      "CNSPHO",
+      "CPQJOH",
+      "ANQHOF"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'MASTER' is coded as 'SASMRT', then how is 'CARROT' coded?",
+    "options": [
+      "ACRRTO",
+      "RCAROT",
+      "RACRTO",
+      "ACRROT"
+    ],
+    "correct_option_index": 3,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'REFRIGERATOR' is coded as 'ROTAREGIRFER', then no how is 'CONSIDERATION' coded?",
+    "options": [
+      "NOITAREBIDER",
+      "NOITADRISEBC",
+      "NOITARDSIENOC",
+      "RATIONCONSIDE"
+    ],
+    "correct_option_index": 2,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'PUBLIC' is coded as 'DSBUFM', then how is 'CHARGE' coded?",
+    "options": [
+      "DISBGE",
+      "BIDBHF",
+      "DIDBGE",
+      "DIDBGF"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'NUMBER' is coded as 'OWOAFQ', then how is 'SECOND' coded?",
+    "options": [
+      "TFDPME",
+      "RFDMOC",
+      "RFEPME",
+      "TEFPNF"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'DELHI' is coded as 'CDKGH', then what will be the code for 'BOMBAY'?",
+    "options": [
+      "ANLAZX",
+      "AMJXVS",
+      "AMJXXV",
+      "WXYZAX"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'KNOWLEDGE' is coded as '256535475', then how is 'GENERAL' coded?",
+    "options": [
+      "7454913",
+      "7565913",
+      "7555913",
+      "1555913"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'EQUAL' is coded as 'JVDUF', then 'DREAM' would be coded as:",
+    "options": [
+      "FSDMR",
+      "HTGJQ",
+      "HSTGM",
+      "HSTRM"
+    ],
+    "correct_option_index": 2,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'LUCKNOW' is coded as 'MTDLXPV', then 'PATNA' will be coded as:",
+    "options": [
+      "QBUOB",
+      "QBMVO",
+      "OASMZ",
+      "QBZOB"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'REASON' is coded as 'SFTBPO', then how is 'THINKING' coded?",
+    "options": [
+      "UJJOIHOJ",
+      "UJJOHJOH",
+      "UIJOHJOH",
+      "SGHMJHLJ"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'SPECIAL' is coded as '652341', then how is 'LAPSE' coded?",
+    "options": [
+      "23651",
+      "21356",
+      "12365",
+      "13652"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'TEACHER' is coded as 'VGCEJGT', then how will 'CHILDREN' be coded?",
+    "options": [
+      "EJKNFTGP",
+      "DJMMESFO",
+      "EJKNFGPU",
+      "EJKNFGTU"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'FINGER' is coded as 'GGMDIO', then how is 'OBJECT' coded?",
+    "options": [
+      "PCJEUD",
+      "OBKFDU",
+      "PCJEUS",
+      "PCKETD"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'A = 1', 'BAT = 23', then 'CAT' will be?",
+    "options": [
+      "24",
+      "25",
+      "26",
+      "27"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'ONE' is coded as '325' and 'TWO' is coded as '783', then 'WON' is coded as",
+    "options": [
+      "352",
+      "353",
+      "835",
+      "825"
+    ],
+    "correct_option_index": 3,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "In a certain code, 'JUNE' is written as 'PQRS' and 'AUGUST' is written as 'WQJQXY'. How is 'GUEST' written in that code?",
+    "options": [
+      "WJXSY",
+      "WJXYQ",
+      "WGXSY",
+      "WGXYQ"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'DZOO' is coded as 'AWOV', then 'HOW' is coded as ?",
+    "options": [
+      "KRY",
+      "GRV",
+      "GRY",
+      "None of these"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'COULD' is coded as 'BNTKC', then 'MORNING' will be coded as:",
+    "options": [
+      "LPQMHMH",
+      "NPPSOII",
+      "LPTLHMH",
+      "None of these"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'ZEBRA' can be written as '2652181', then how can 'COBRA' be written?",
+    "options": [
+      "302181",
+      "3152181",
+      "3182251",
+      "1182153"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'EVERY' is coded as 'FWFSZ', then how will 'GOOD' be coded?",
+    "options": [
+      "HPPE",
+      "HNNC",
+      "HPPC",
+      "HPPN"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'SPARK' is coded as 'TQBSL', what will be the code for 'FLAME'?",
+    "options": [
+      "GMBNF",
+      "GNBNF",
+      "GMBMF",
+      "GMAMF"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'C = 3' and 'FARE = 21', then what is the value of 'HAIR'?",
+    "options": [
+      "36",
+      "39",
+      "30",
+      "34"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'PAINT' is coded as '74128' and 'EXCEL' is coded as '93596', then how would you encode 'ACCEPT'?",
+    "options": [
+      "455978",
+      "547978",
+      "455976",
+      "455798"
+    ],
+    "correct_option_index": 3,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'BROTHER' is coded as '2456784', 'SISTER' is coded as '919684', then what is the code for 'ROBBERS'?",
+    "options": [
+      "1533479",
+      "4522479",
+      "4522849",
+      "4522789"
+    ],
+    "correct_option_index": 2,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'TEACHER' is coded as 'QDGBHDO', how is 'STUDENT' coded in that code?",
+    "options": [
+      "RSEDOFS",
+      "RTECNFS",
+      "RTCDOFS",
+      "RTEDOFS"
+    ],
+    "correct_option_index": 2,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'MACHINE' is coded as '19-7-9-14-15-20-11', how will you code 'DANGER'?",
+    "options": [
+      "10-7-20-13-11-24",
+      "11-7-20-16-11-24",
+      "13-7-20-9-11-25",
+      "10-7-20-13-11-25"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'EHFNRV' is the code for 'BEGINS', which word has the code 'ASIAP?' (Letters may repeat, ? means you need to guess)",
+    "options": [
+      "AROMA",
+      "AROLA",
+      "AROAR",
+      "ARORA"
+    ],
+    "correct_option_index": 3,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If in a certain code, 'INTELLIGENCE' is written as 'ETNIGILLECNE', then how can 'MATHEMATICAL' be written in that code?",
+    "options": [
+      "HTAMTAMELACI",
+      "HTAMTEAMILAC",
+      "HTAMATEMILAC",
+      "LACIHTAMATEM"
+    ],
+    "correct_option_index": 2,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "In a coded language, the word 'AMERICAN' is written as 'CNELIRSBM'. Following the same rule, which of the following will represent the word 'POPULAR'?",
+    "options": [
+      "SSTUVJT",
+      "QPMVMBS",
+      "QOQVMBS",
+      "SSTVMBS"
+    ],
+    "correct_option_index": 2,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'PHOTOGRAPH' is coded as 'OHOTGPARH', then how is 'TELEPHONE' coded ?",
+    "options": [
+      "ELETPEHON",
+      "ELEHTOPNE",
+      "ELEPHONET",
+      "ELETOPHEN"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If in a certain code, 'COVALENT' is coded as 'LCOVENTA', then 'PURITAN' can be written as ?",
+    "options": [
+      "RUPITAN",
+      "NRUPITA",
+      "URPNTIA",
+      "URPITA"
+    ],
+    "correct_option_index": 3,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'FRUIT' is coded as '46289', then 'UNITY' is coded as",
+    "options": [
+      "56289",
+      "35289",
+      "89653",
+      "98653"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'MADRAS' can be written as 'SARDAK', then how can 'MUMBAI' be written ?",
+    "options": [
+      "IBMUM",
+      "IUBMU",
+      "IBUMU",
+      "BAIOM"
+    ],
+    "correct_option_index": 2,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'GIVE' is coded as '5137' and 'BAT' is coded as '924', how is 'GATE' coded?",
+    "options": [
+      "5427",
+      "5247",
+      "5724",
+      "2547"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'BASIC' is coded as 'DLVLF', then how is 'LEADER' coded?",
+    "options": [
+      "ORDEHU",
+      "OHDGHU",
+      "OREDHU",
+      "KDBBFQ"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'AMBITION' is written as 'MZISITMB', then how can 'PRECIOUS' be written?",
+    "options": [
+      "KIVXLMHL",
+      "OIECJOSM",
+      "ORTDJSO",
+      "MHLSLMW"
+    ],
+    "correct_option_index": 0,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'CIGAR' is coded as 'AFGES', then 'BOARD' is coded as",
+    "options": [
+      "ZMPRD",
+      "ZNPYC",
+      "ZLNRF",
+      "ZMPCQ"
+    ],
+    "correct_option_index": 1,
+    "category": "Coding-Decoding"
+  },
+  {
+    "question": "If 'REASON' is coded as 'OESASNR', then 'TEACHER' will be coded as:",
+    "options": [
+      "AESNRT",
+      "HTEACRE",
+      "HTAEGRE",
+      "HEAERTG"
+    ],
+    "correct_option_index": 2,
+    "category": "Coding-Decoding"
+  }
+]

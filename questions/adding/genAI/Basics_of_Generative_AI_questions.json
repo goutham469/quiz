@@ -1,0 +1,805 @@
+[
+  {
+    "question": "Which of the following is NOT a core component of a Generative Adversarial Network (GAN)?",
+    "options": [
+      "Generator",
+      "Discriminator",
+      "Encoder",
+      "Loss Function"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which type of neural network architecture is commonly used for sequence-to-sequence tasks in Generative AI, such as text generation?",
+    "options": [
+      "Convolutional Neural Network (CNN)",
+      "Recurrent Neural Network (RNN)",
+      "Feedforward Neural Network",
+      "Self-Organizing Map (SOM)"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the primary purpose of the 'latent space' in generative models like Variational Autoencoders (VAEs)?",
+    "options": [
+      "To store the original input data",
+      "To represent a compressed and structured encoding of the input data",
+      "To perform image classification",
+      "To calculate the loss function"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which loss function is typically used to train the generator in a GAN?",
+    "options": [
+      "Mean Squared Error (MSE)",
+      "Cross-Entropy Loss",
+      "Perceptual Loss",
+      "Wasserstein Loss"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is 'mode collapse' in the context of GANs?",
+    "options": [
+      "When the generator produces diverse and realistic outputs",
+      "When the discriminator consistently outperforms the generator",
+      "When the generator produces a limited variety of outputs, often focusing on a few specific modes of the data distribution",
+      "When the training process converges quickly"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which technique is used to stabilize GAN training by penalizing the norm of the discriminator's gradient?",
+    "options": [
+      "Dropout",
+      "Batch Normalization",
+      "Gradient Clipping",
+      "Weight Decay"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the role of 'temperature' in text generation using models like GPT?",
+    "options": [
+      "It controls the computational cost of the model",
+      "It determines the size of the vocabulary",
+      "It influences the randomness of the generated text",
+      "It defines the learning rate during training"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following is a key challenge in training generative models for high-resolution image generation?",
+    "options": [
+      "Vanishing gradients",
+      "The curse of dimensionality",
+      "Computational cost and memory requirements",
+      "Overfitting to the training data (all of the above)"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the concept of 'transfer learning' in the context of Generative AI?",
+    "options": [
+      "Training a model from scratch on a new dataset",
+      "Using a pre-trained model on a different task or dataset",
+      "Transferring data between different storage devices",
+      "A method for data augmentation"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which evaluation metric is commonly used to assess the quality and diversity of generated images?",
+    "options": [
+      "Accuracy",
+      "Precision",
+      "Recall",
+      "Fréchet Inception Distance (FID)"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the primary function of an 'attention mechanism' in sequence-to-sequence models used for Generative AI?",
+    "options": [
+      "To speed up the training process",
+      "To reduce memory consumption",
+      "To allow the model to focus on relevant parts of the input sequence when generating the output",
+      "To prevent overfitting"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which type of generative model is particularly well-suited for generating sequential data with long-range dependencies?",
+    "options": [
+      "Variational Autoencoder (VAE)",
+      "Generative Adversarial Network (GAN)",
+      "Transformer Model",
+      "Boltzmann Machine"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "In the realm of Generative AI, what is the 'Bias-Variance Tradeoff'?",
+    "options": [
+      "A method for compressing data.",
+      "The balance between a model's tendency to overfit (high variance) and underfit (high bias).",
+      "A technique for optimizing the learning rate.",
+      "A specific type of activation function."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the primary role of the discriminator in a Conditional GAN (cGAN)?",
+    "options": [
+      "To generate new images",
+      "To classify images",
+      "To distinguish between real and fake images, conditioned on a specific label or input",
+      "To encode images into a latent space"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following is a technique used to improve the stability of GAN training by using a moving average of the generator's weights?",
+    "options": [
+      "Dropout",
+      "Batch Normalization",
+      "Exponential Moving Average (EMA)",
+      "Learning Rate Decay"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the primary goal of Generative AI?",
+    "options": [
+      "To classify data accurately.",
+      "To generate new, realistic data samples that resemble the training data.",
+      "To analyze existing datasets.",
+      "To compress data for efficient storage."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the purpose of 'truncation trick' or 'truncation strategy' in generative models? ",
+    "options": [
+      "To prevent the model from learning certain features",
+      "To control the diversity and quality of the generated outputs by limiting the range of values sampled from the latent space",
+      "To speed up the training process",
+      "To reduce the memory footprint of the model"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "In the context of Generative AI, what does 'zero-shot learning' refer to?",
+    "options": [
+      "Training a model with no data",
+      "Generating outputs that are always perfect",
+      "The ability of a model to perform a task on unseen data categories, without any explicit training on those categories",
+      "A technique for compressing the model size to zero"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is a common issue when training GANs, where both the generator and discriminator get stuck in a state of equilibrium without producing useful results?",
+    "options": [
+      "Overfitting",
+      "Vanishing Gradients",
+      "Mode Collapse",
+      "Non-Convergence"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which generative model is known for its ability to capture complex dependencies in sequential data using a self-attention mechanism?",
+    "options": [
+      "VAE (Variational Autoencoder)",
+      "GAN (Generative Adversarial Network)",
+      "LSTM (Long Short-Term Memory)",
+      "Transformer"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following is a common architecture for Generative AI models?",
+    "options": [
+      "Support Vector Machine (SVM)",
+      "Decision Tree",
+      "Recurrent Neural Network (RNN)",
+      "K-Means Clustering"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the purpose of a 'decoder' in a Variational Autoencoder (VAE)?",
+    "options": [
+      "To encode the input data into a lower-dimensional latent space",
+      "To reconstruct the original input data from the latent space representation",
+      "To classify the input data into different categories",
+      "To generate random noise"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which technique can be used to prevent overfitting in generative models by adding noise to the input data during training?",
+    "options": [
+      "Weight decay",
+      "Dropout",
+      "Data augmentation",
+      "Early stopping"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the main advantage of using generative models over traditional machine learning models in certain applications?",
+    "options": [
+      "Generative models are always more accurate",
+      "Generative models require less training data",
+      "Generative models can generate new content, while traditional models primarily analyze or classify existing data",
+      "Generative models are easier to interpret"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "In the context of GANs, what does 'Nash equilibrium' refer to?",
+    "options": [
+      "A state where the generator always fools the discriminator",
+      "A state where the discriminator always correctly identifies fake images",
+      "A stable state where neither the generator nor the discriminator can improve their performance by unilaterally changing their strategy",
+      "A state where the generator and discriminator cooperate to produce realistic images"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is a Variational Autoencoder (VAE)?",
+    "options": [
+      "A type of clustering algorithm.",
+      "A neural network that generates images from text descriptions.",
+      "A generative model that learns a probabilistic latent space representation of data.",
+      "A model used for time series forecasting."
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which loss function is often used in VAEs to encourage the latent space to follow a normal distribution?",
+    "options": [
+      "Mean Squared Error (MSE)",
+      "Cross-Entropy Loss",
+      "Kullback-Leibler (KL) Divergence",
+      "Hinge Loss"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the role of 'upsampling' layers in a generative model used for image generation?",
+    "options": [
+      "To reduce the resolution of the image",
+      "To increase the resolution of the image",
+      "To extract features from the image",
+      "To classify the image into different categories"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following is a technique used to prevent mode collapse in GANs by encouraging the generator to produce diverse outputs?",
+    "options": [
+      "Dropout",
+      "Batch Normalization",
+      "Minibatch Discrimination",
+      "Weight Decay"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the 'reparameterization trick' used for in VAEs?",
+    "options": [
+      "To speed up the training process",
+      "To allow backpropagation through the sampling process",
+      "To reduce the memory footprint of the model",
+      "To improve the quality of generated images"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following is an application of Generative AI?",
+    "options": [
+      "Spam detection.",
+      "Machine translation.",
+      "Predicting stock prices.",
+      "All of the above."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the difference between explicit density models and implicit density models in Generative AI?",
+    "options": [
+      "Explicit density models directly model the probability distribution of the data, while implicit density models learn to generate samples without explicitly modeling the distribution",
+      "Explicit density models are always more accurate than implicit density models",
+      "Explicit density models are easier to train than implicit density models",
+      "There is no difference between the two types of models"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following techniques can be used to improve the quality of generated images by incorporating perceptual information?",
+    "options": [
+      "Adversarial loss",
+      "Content loss",
+      "Style loss",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "In the context of Generative AI, what is 'few-shot learning'?",
+    "options": [
+      "Training a model with only a few parameters",
+      "Generating outputs that are always perfect",
+      "The ability of a model to learn from a small amount of labeled data",
+      "A technique for compressing the model size"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the main advantage of using a Transformer model for text generation compared to traditional RNNs?",
+    "options": [
+      "Transformers are easier to train",
+      "Transformers can capture long-range dependencies more effectively",
+      "Transformers require less training data",
+      "Transformers are more interpretable"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "In Generative AI, what is 'sampling' referring to?",
+    "options": [
+      "The process of dividing data into training and testing sets.",
+      "The method of selecting data points to train the model.",
+      "The process of generating new data points from a learned distribution.",
+      "A technique to prevent overfitting."
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "In the context of GANs, which of the following is NOT a common technique for improving training stability?",
+    "options": [
+      "Feature matching",
+      "Label smoothing",
+      "Adversarial training",
+      "Weight Normalization"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the main idea behind using conditional generative models (like cGANs or CVAEs)?",
+    "options": [
+      "To make the model unsupervised",
+      "To control the generation process by providing additional input information",
+      "To reduce the computational cost of training",
+      "To prevent overfitting"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following techniques is often used to improve the quality of generated images by combining multiple GANs?",
+    "options": [
+      "Ensemble learning",
+      "StackGAN",
+      "Transfer learning",
+      "Meta-learning"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "In the context of generative models, what is the purpose of 'data augmentation'?",
+    "options": [
+      "To compress the data",
+      "To increase the size and diversity of the training dataset by applying transformations to existing data",
+      "To improve the interpretability of the model",
+      "To reduce the computational cost of training"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the significance of the 'Kernel Trick' in Generative AI models?",
+    "options": [
+      "It allows models to perform non-linear transformations on the input data.",
+      "It enhances the model's ability to handle sparse data.",
+      "It optimizes the model's memory usage.",
+      "The Kernel Trick is not applicable to Generative AI."
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which problem is addressed by 'Generative Adversarial Networks (GANs)'?",
+    "options": [
+      "Overfitting in classification tasks.",
+      "The need for large labeled datasets.",
+      "Generating realistic data samples.",
+      "Training models with limited computational resources."
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the main objective of 'Text-to-Image Generative Models'?",
+    "options": [
+      "To generate text from images.",
+      "To classify images based on text descriptions.",
+      "To create images from textual descriptions.",
+      "To analyze text for sentiment."
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which evaluation metric is commonly used to assess the quality of generated text?",
+    "options": [
+      "F1-score",
+      "BLEU (Bilingual Evaluation Understudy)",
+      "AUC-ROC",
+      "Precision"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "In Generative AI, what is 'Latent Space Interpolation'?",
+    "options": [
+      "A method to reduce the dimensionality of data.",
+      "A technique to enhance the model's ability to handle missing data.",
+      "A way to create new data points by combining latent representations of existing data.",
+      "A process to optimize the learning rate during training."
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What does 'Generative' refer to in 'Generative AI'?",
+    "options": [
+      "The ability to classify existing data.",
+      "The capacity to analyze large datasets.",
+      "The skill to create new data that resembles training data.",
+      "The efficiency of compressing data."
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of using Generative AI?",
+    "options": [
+      "Data augmentation",
+      "Content creation",
+      "Pattern recognition",
+      "All of the above are benefits"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following is a key component of a Variational Autoencoder (VAE)?",
+    "options": [
+      "Discriminator",
+      "Encoder",
+      "Critic",
+      "Generator"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "In Generative AI, what is the role of the 'latent space'?",
+    "options": [
+      "To store the original data",
+      "To represent a compressed encoding of the input data",
+      "To perform image classification",
+      "To calculate the loss function"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following is a type of generative model?",
+    "options": [
+      "SVM",
+      "Decision Tree",
+      "GAN",
+      "Logistic Regression"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following is NOT a standard loss function used in training GANs?",
+    "options": [
+      "Binary Cross Entropy Loss",
+      "Hinge Loss",
+      "Wasserstein Loss",
+      "Euclidean Loss"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the function of the discriminator in a GAN?",
+    "options": [
+      "To generate realistic samples",
+      "To encode the input data",
+      "To distinguish between real and generated samples",
+      "To optimize the training process"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following is an advantage of using GANs?",
+    "options": [
+      "They always generate perfect outputs",
+      "They are easy to train and stabilize",
+      "They can generate novel and realistic samples",
+      "They require minimal computational resources"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What does 'Adversarial' refer to in 'Generative Adversarial Networks'?",
+    "options": [
+      "The network's ability to compete with other models.",
+      "The network's capacity to generate diverse outputs.",
+      "The competitive relationship between two neural networks.",
+      "The model's resistance to adversarial attacks."
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the significance of the 'Encoder' in VAEs?",
+    "options": [
+      "It generates new data samples.",
+      "It maps input data to a latent space representation.",
+      "It classifies input data into categories.",
+      "It performs feature extraction from images."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following models uses a latent space?",
+    "options": [
+      "Support Vector Machine",
+      "Decision Tree",
+      "Variational Autoencoder",
+      "Linear Regression"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "In generative models, what is the purpose of 'sampling'?",
+    "options": [
+      "Selecting a subset of the training data.",
+      "Generating new data points from a learned distribution.",
+      "Dividing data into training and testing sets.",
+      "Optimizing the model's learning rate."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following is an application of Generative AI in healthcare?",
+    "options": [
+      "Spam detection.",
+      "Drug discovery.",
+      "Stock price prediction.",
+      "All of the above."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What are some of the ethical concerns related to Generative AI?",
+    "options": [
+      "Data privacy",
+      "Bias and fairness",
+      "Misinformation",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is a potential security risk associated with Generative AI?",
+    "options": [
+      "Data breaches",
+      "Deepfakes",
+      "Phishing attacks",
+      "All of the above"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is a limitation of GANs?",
+    "options": [
+      "They are computationally efficient",
+      "They are easy to train",
+      "They always generate high-quality data",
+      "They can be difficult to train and may suffer from mode collapse"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is a characteristic of Generative AI?",
+    "options": [
+      "Ability to classify data",
+      "Capacity to analyze datasets",
+      "Capability to create new data",
+      "Efficiency in compressing data"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the purpose of using Generative AI?",
+    "options": [
+      "Classifying data more accurately",
+      "Analyzing existing datasets efficiently",
+      "Generating realistic data samples",
+      "Compressing data effectively"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is an advantage of using Variational Autoencoders (VAEs)?",
+    "options": [
+      "They generate sharper images than GANs",
+      "They are simpler to train compared to GANs",
+      "They require less computational power than GANs",
+      "They always generate diverse data"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following is a primary use case for Generative AI?",
+    "options": [
+      "Detecting spam emails",
+      "Predicting stock market trends",
+      "Generating new music compositions",
+      "Analyzing customer reviews"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "In the context of Generative AI, what does the term 'Style Transfer' refer to?",
+    "options": [
+      "Transferring data between storage devices",
+      "Adopting a specific coding style",
+      "Modifying an image to resemble the style of another image",
+      "Converting data into a different format"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "In Generative AI, what does 'Interpolation' refer to?",
+    "options": [
+      "A mathematical operation for data compression.",
+      "A method of combining two generative models.",
+      "A technique for generating intermediate data points.",
+      "A type of data augmentation."
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which generative AI technique is best suited for generating high-resolution images?",
+    "options": [
+      "Variational Autoencoders (VAEs)",
+      "Restricted Boltzmann Machines (RBMs)",
+      "Diffusion Models",
+      "Self-Organizing Maps (SOMs)"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following is a type of diffusion model used in generative AI?",
+    "options": [
+      "Long Short-Term Memory (LSTM)",
+      "Convolutional Neural Network (CNN)",
+      "Denoising Diffusion Probabilistic Models (DDPM)",
+      "K-Nearest Neighbors (KNN)"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "Which of the following statements is true about diffusion models?",
+    "options": [
+      "They directly generate realistic data samples in one step.",
+      "They are prone to mode collapse.",
+      "They learn to reverse a gradual noising process to generate samples.",
+      "They require minimal computational resources."
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the main idea behind diffusion models?",
+    "options": [
+      "To generate samples by training a model to produce images directly.",
+      "To iteratively refine a noisy input into a realistic sample.",
+      "To combine multiple GANs to improve the quality of generated images.",
+      "To map input data to a latent space and then generate samples from it."
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "What is the role of the 'forward process' in diffusion models?",
+    "options": [
+      "To train a model to classify real and generated images.",
+      "To progressively add noise to the input data until it becomes pure noise.",
+      "To map the input data to a lower-dimensional latent space.",
+      "To generate new data samples from a learned probability distribution."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  },
+  {
+    "question": "In the context of Generative AI, what is the 'reverse diffusion process' used for?",
+    "options": [
+      "Adding noise to the original image to create variations.",
+      "Reversing the noising process to generate realistic images from noise.",
+      "Encoding the image into a latent space representation.",
+      "Classifying the image into different categories."
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of Generative AI"
+  }
+]

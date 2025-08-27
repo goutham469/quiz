@@ -1,0 +1,519 @@
+[
+  {
+    "question": "Which of the following is NOT a typical function of a file system?",
+    "options": [
+      "Naming files",
+      "Managing disk space",
+      "Process Scheduling",
+      "Controlling access to files"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is the purpose of a file allocation table (FAT)?",
+    "options": [
+      "To store file attributes",
+      "To map logical addresses to physical addresses",
+      "To track free and allocated clusters on a disk",
+      "To provide security features for files"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Which of the following file system allocation methods suffers from external fragmentation?",
+    "options": [
+      "Contiguous allocation",
+      "Linked allocation",
+      "Indexed allocation",
+      "All of the above"
+    ],
+    "correct_option_index": 0,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is the main advantage of linked allocation over contiguous allocation?",
+    "options": [
+      "Better disk space utilization",
+      "Faster random access",
+      "Simpler implementation",
+      "Reduced overhead"
+    ],
+    "correct_option_index": 0,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is an inode?",
+    "options": [
+      "A data structure that stores metadata about a file",
+      "A program that manages input/output devices",
+      "A command-line interpreter",
+      "A type of file extension"
+    ],
+    "correct_option_index": 0,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Which file system uses inodes extensively?",
+    "options": [
+      "FAT32",
+      "NTFS",
+      "ext4",
+      "exFAT"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is journaling in a file system?",
+    "options": [
+      "A method of backing up files",
+      "A technique to improve file access speed",
+      "A log of file system operations to ensure consistency after a crash",
+      "A way to encrypt files"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Which file system supports journaling?",
+    "options": [
+      "FAT16",
+      "FAT32",
+      "NTFS",
+      "All of the above"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is the purpose of a directory in a file system?",
+    "options": [
+      "To store file data",
+      "To organize files into a hierarchical structure",
+      "To manage memory allocation",
+      "To encrypt files"
+    ],
+    "correct_option_index": 1,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is the root directory?",
+    "options": [
+      "The first sector of a disk",
+      "The top-level directory in a file system hierarchy",
+      "The directory containing system files",
+      "The directory for temporary files"
+    ],
+    "correct_option_index": 1,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is the difference between absolute and relative pathnames?",
+    "options": [
+      "Absolute pathnames start from the current directory, while relative pathnames start from the root directory.",
+      "Absolute pathnames start from the root directory, while relative pathnames start from the current directory.",
+      "Absolute pathnames are shorter than relative pathnames.",
+      "There is no difference."
+    ],
+    "correct_option_index": 1,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is the 'mount' operation in a file system?",
+    "options": [
+      "Attaching a file system to a directory in the existing file system hierarchy",
+      "Creating a new file system",
+      "Deleting a file system",
+      "Copying files from one file system to another"
+    ],
+    "correct_option_index": 0,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Which of the following file systems is commonly used on Linux systems?",
+    "options": [
+      "FAT32",
+      "NTFS",
+      "ext4",
+      "HFS+"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is the main advantage of using a hierarchical file system?",
+    "options": [
+      "Faster file access",
+      "Better organization and management of files",
+      "Reduced disk space usage",
+      "Improved security"
+    ],
+    "correct_option_index": 1,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Which file system is primarily used by Windows operating systems?",
+    "options": [
+      "ext4",
+      "HFS+",
+      "NTFS",
+      "FAT32"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Consider a file system that uses a linked allocation scheme with a 4KB block size. If a file is 10KB, how many blocks will it occupy?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "In a two-level directory structure, what is the maximum number of files a user can create?",
+    "options": [
+      "Limited by the size of the disk",
+      "Limited by the number of entries in the master file directory (MFD)",
+      "Limited by the operating system",
+      "Unlimited"
+    ],
+    "correct_option_index": 1,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is the purpose of a 'superblock' in a file system?",
+    "options": [
+      "To store user data",
+      "To store file permissions",
+      "To store metadata about the file system itself",
+      "To act as a backup of important system files"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is the difference between hard links and symbolic links?",
+    "options": [
+      "Hard links point to the inode, while symbolic links point to the filename.",
+      "Hard links point to the filename, while symbolic links point to the inode.",
+      "Hard links can cross file system boundaries, while symbolic links cannot.",
+      "Hard links can be created for directories, while symbolic links cannot."
+    ],
+    "correct_option_index": 0,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Which of the following is most likely to improve file system performance when accessing small files frequently?",
+    "options": [
+      "Defragmentation",
+      "Increasing block size",
+      "Caching",
+      "Using a different file system"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "A disk has 1000 blocks numbered 0 to 999. The file allocation table (FAT) is stored in block 0 and the root directory is stored in block 1.  File A occupies blocks 2, 5, and 8. File B occupies blocks 3, 6, and 9. If block 5 develops a read error and is marked as bad, what is the impact on File A and File B?",
+    "options": [
+      "File A is inaccessible, File B is unaffected",
+      "File B is inaccessible, File A is unaffected",
+      "Both File A and File B are inaccessible",
+      "Both File A and File B are partially accessible"
+    ],
+    "correct_option_index": 0,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "A system uses a bit vector to track free blocks.  The disk has 2^20 blocks and the bit vector is stored in main memory. How many bits are required for the bit vector?",
+    "options": [
+      "2^10",
+      "2^20",
+      "2^30",
+      "2^40"
+    ],
+    "correct_option_index": 1,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Consider a file system implementing a hierarchical directory structure.  A user attempts to delete a directory 'A' that contains a subdirectory 'B', which in turn contains a file 'C'. The user only has write permission on directory 'A' and no permissions on 'B' or 'C'. Will the delete operation succeed?",
+    "options": [
+      "Yes, the directory will be deleted along with its contents.",
+      "No, the operation will fail due to lack of permissions on subdirectory 'B'.",
+      "The directory 'A' will be deleted, but the subdirectory 'B' and file 'C' will remain.",
+      "The operating system will prompt the user for administrator credentials."
+    ],
+    "correct_option_index": 1,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "A file system uses a three-level index allocation scheme. The disk block size is 512 bytes, and each disk address requires 4 bytes. What is the maximum file size that can be supported by this file system if the index blocks can also be disk blocks?",
+    "options": [
+      "(512/4)^3 * 512 bytes",
+      "(512/4)^2 * 512 bytes",
+      "(512/4) * 512 bytes",
+      "Unlimited"
+    ],
+    "correct_option_index": 0,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Which of the following techniques is primarily used to improve the reliability of file systems in the event of a system crash?",
+    "options": [
+      "File compression",
+      "Disk defragmentation",
+      "Journaling",
+      "Data encryption"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "A file system uses a contiguous allocation method. A file of size 15KB needs to be stored on a disk. The disk has several free blocks of sizes 5KB, 8KB, 10KB, 12KB, 18KB and 20KB. Which of the First-Fit, Best-Fit and Worst-Fit allocation strategies will be able to allocate space for the file?",
+    "options": [
+      "First-Fit and Best-Fit only",
+      "Best-Fit and Worst-Fit only",
+      "First-Fit and Worst-Fit only",
+      "All of First-Fit, Best-Fit, and Worst-Fit"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Consider a system with 500 free blocks, where the best fit algorithm for dynamic allocation is used. A process of size 200 blocks is requested, then a process of size 100 blocks, and then a process of size 250 blocks. Then the 200 block process terminates. Which block(s) will be allocated when a new request for 150 blocks comes in?",
+    "options": [
+      "The 200-block space",
+      "The 100-block space",
+      "A new contiguous space of 150 blocks",
+      "The 250 block space"
+    ],
+    "correct_option_index": 0,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "A file system allows linking. Consider File A is hard-linked to File B. If file A is deleted, what happens to File B?",
+    "options": [
+      "File B is also deleted",
+      "File B remains accessible",
+      "File B becomes corrupted",
+      "File B is moved to the recycle bin"
+    ],
+    "correct_option_index": 1,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "A file system uses inodes. Each inode contains 12 direct block pointers, 1 single indirect block pointer, 1 double indirect block pointer, and 1 triple indirect block pointer. If each block pointer is 4 bytes, and the block size is 4KB, what is the maximum file size this file system can support (approximately)?",
+    "options": [
+      "16 GB",
+      "4 GB",
+      "1 GB",
+      "128 MB"
+    ],
+    "correct_option_index": 0,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "A system implements a file system with a block size of 1KB. The inodes are stored on the same disk as the data blocks. The disk has a capacity of 1TB. What is the likely bottleneck in this file system design?",
+    "options": [
+      "CPU usage",
+      "Network bandwidth",
+      "Inode storage capacity",
+      "RAM usage"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is the primary purpose of using a Volume Shadow Copy Service (VSS) in Windows?",
+    "options": [
+      "Encrypting files",
+      "Creating point-in-time backups of volumes",
+      "Defragmenting hard drives",
+      "Managing disk quotas"
+    ],
+    "correct_option_index": 1,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Which of the following techniques is used in RAID (Redundant Array of Independent Disks) to provide fault tolerance by distributing data and parity information across multiple disks?",
+    "options": [
+      "File compression",
+      "Disk defragmentation",
+      "Striping with parity",
+      "Data encryption"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is the primary difference between a file system's 'fsck' utility and a disk defragmenter?",
+    "options": [
+      "'fsck' optimizes file placement, while a defragmenter checks file system consistency.",
+      "'fsck' checks file system consistency, while a defragmenter optimizes file placement.",
+      "'fsck' encrypts files, while a defragmenter decrypts them.",
+      "'fsck' compresses files, while a defragmenter uncompresses them."
+    ],
+    "correct_option_index": 1,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Which of the following file system operations is most likely to cause significant fragmentation over time?",
+    "options": [
+      "Creating new files",
+      "Deleting existing files",
+      "Appending data to existing files",
+      "Randomly overwriting data within existing files"
+    ],
+    "correct_option_index": 3,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "In the context of file systems, what is a 'sparse file'?",
+    "options": [
+      "A file that is heavily compressed",
+      "A file that contains a large number of symbolic links",
+      "A file that contains large sections of zero-filled data that are not physically stored on disk",
+      "A file that has been encrypted using a strong encryption algorithm"
+    ],
+    "correct_option_index": 3,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Which data structure is commonly used to implement file system directory structures?",
+    "options": [
+      "Linked List",
+      "Hash Table",
+      "Tree",
+      "Graph"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is Copy-on-Write (CoW) in file systems?",
+    "options": [
+      "A technique for compressing files",
+      "A data integrity strategy where the new data is written in old location itself.",
+      "A technique where the new data is written to a new location, and the old data is only overwritten after the write is complete",
+      "A data integrity strategy where copies of file contents are stored for recovery purposes"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Which one of the following is not a file access method?",
+    "options": [
+      "Direct Access",
+      "Sequential Access",
+      "Indexed Sequential Access",
+      "Relative Access"
+    ],
+    "correct_option_index": 3,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is the disadvantage of having very large block size?",
+    "options": [
+      "Leads to internal fragmentation",
+      "Increases disk I/O time",
+      "Reduces the number of files that can be stored",
+      "Complex implementation"
+    ],
+    "correct_option_index": 0,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "A file system implements a Least Recently Used (LRU) page replacement policy for its buffer cache.  If the cache is full and a page is requested that is not in the cache, which page will be replaced?",
+    "options": [
+      "The page that has been in the cache the longest time",
+      "The page that has been used most frequently",
+      "The page that has been used least recently",
+      "A random page"
+    ],
+    "correct_option_index": 2,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "In the context of distributed file systems (like NFS), what is 'statelessness' and why is it desirable?",
+    "options": [
+      "The server maintains information about each client connection; it allows the server to recover from crashes more easily.",
+      "The server doesn't maintain information about client connections; it simplifies server crash recovery and allows for easier scaling.",
+      "The server encrypts all data transmitted to the client; it enhances security.",
+      "The server caches client data; it improves performance."
+    ],
+    "correct_option_index": 1,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "A disk drive has 1000 cylinders, numbered 0 to 999. The drive is currently serving a request at cylinder 450, and the previous request was at cylinder 300. The queue of pending requests, in FIFO order, is: 80, 900, 100, 700, 850, 500. Which of the following disk scheduling algorithms would result in the least amount of head movement?",
+    "options": [
+      "First-Come, First-Served (FCFS)",
+      "Shortest Seek Time First (SSTF)",
+      "SCAN",
+      "C-SCAN"
+    ],
+    "correct_option_index": 1,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Which of the following is NOT a typical file attribute stored in a file system?",
+    "options": [
+      "File name",
+      "File size",
+      "File creation timestamp",
+      "File content hash"
+    ],
+    "correct_option_index": 3,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "What is the purpose of 'defragmentation'?",
+    "options": [
+      "To compress files to save space",
+      "To encrypt files for security",
+      "To rearrange files on a disk to improve access times",
+      "To back up files for data recovery"
+    ],
+    "correct_option_index": 3,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "Which of the following is a security vulnerability that could potentially affect a file system?",
+    "options": [
+      "Inode exhaustion",
+      "Hard Link exhaustion",
+      "Soft link vulnerability",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "A distributed file system uses a lease-based cache consistency mechanism. A client holds a lease on a file for 60 seconds. If the client modifies the file and does not receive an acknowledgement from the server within 5 seconds, what action should the client take?",
+    "options": [
+      "Continue writing the data assuming the server will eventually acknowledge.",
+      "Invalidate the cached data and request a new lease.",
+      "Immediately abort the write operation.",
+      "Notify the user that the write operation may be unreliable."
+    ],
+    "correct_option_index": 1,
+    "category": "File Systems in OS"
+  },
+  {
+    "question": "A file system supports Access Control Lists (ACLs). A file has the following permissions: User A: Read/Write, Group B: Read, Others: None. If User C, who is NOT User A and is NOT a member of Group B, attempts to write to the file, what will happen?",
+    "options": [
+      "The write operation will succeed because Users can always override group permissions.",
+      "The write operation will fail because User C does not have write permission.",
+      "The file system will prompt User C for administrator credentials.",
+      "The write operation will succeed after prompting User C for authentication."
+    ],
+    "correct_option_index": 1,
+    "category": "File Systems in OS"
+  }
+]

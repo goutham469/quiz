@@ -1,0 +1,530 @@
+[
+  {
+    "question": "Which DCL command is used to grant privileges to users?",
+    "options": [
+      "GRANT",
+      "PERMIT",
+      "ALLOW",
+      "AUTHORIZE"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Which TCL command is used to undo changes to the last commit?",
+    "options": [
+      "ROLLBACK",
+      "UNDO",
+      "REVERT",
+      "CANCEL"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Which SQL constraint ensures that a value in a column must be unique?",
+    "options": [
+      "UNIQUE",
+      "PRIMARY KEY",
+      "FOREIGN KEY",
+      "NOT NULL"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Which of the following is NOT a DCL command?",
+    "options": [
+      "REVOKE",
+      "GRANT",
+      "COMMIT",
+      "DENY"
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "What does the 'WITH GRANT OPTION' clause in a GRANT statement allow?",
+    "options": [
+      "The user to grant privileges to other users.",
+      "The user to execute the stored procedure.",
+      "The user to create tables.",
+      "The user to delete data."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Which TCL command permanently saves all changes since the last COMMIT?",
+    "options": [
+      "SAVE",
+      "COMMIT",
+      "FLUSH",
+      "PERSIST"
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Which SQL constraint prevents duplicate values across multiple columns?",
+    "options": [
+      "Composite Unique Key",
+      "Multi-Column Key",
+      "Super Key",
+      "Combined Key"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "What is the purpose of the CHECK constraint?",
+    "options": [
+      "To limit the range of values that can be entered into a column.",
+      "To ensure a column is not null.",
+      "To link two tables together.",
+      "To uniquely identify each row in a table."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "In SQL, what is the difference between CHAR and VARCHAR?",
+    "options": [
+      "CHAR is fixed-length, VARCHAR is variable-length",
+      "VARCHAR is fixed-length, CHAR is variable-length",
+      "CHAR stores only numbers, VARCHAR stores only strings",
+      "They are interchangeable."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Which of the following SQL constraints can only be defined once per table?",
+    "options": [
+      "PRIMARY KEY",
+      "UNIQUE",
+      "NOT NULL",
+      "CHECK"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "What happens when a transaction violates a foreign key constraint?",
+    "options": [
+      "The transaction is rolled back.",
+      "The database automatically corrects the violation.",
+      "The transaction is committed with a warning.",
+      "The foreign key constraint is temporarily disabled."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Which TCL command creates a point within the transaction to which you can rollback?",
+    "options": [
+      "SAVEPOINT",
+      "SNAPSHOT",
+      "CHECKPOINT",
+      "REVERTPOINT"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "What is the purpose of using a 'NOT NULL' constraint on a column?",
+    "options": [
+      "Ensures that the column cannot contain null values.",
+      "Ensures that the column contains only unique values.",
+      "Ensures that the column is automatically indexed.",
+      "Ensures that the column contains a default value."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "What is the effect of cascading delete in a foreign key constraint?",
+    "options": [
+      "Related records in the child table are automatically deleted.",
+      "The delete operation is prevented.",
+      "Related records in the child table are set to NULL.",
+      "The parent table cannot be deleted."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Which of the following is the correct order of TCL operations to ensure data consistency?",
+    "options": [
+      "START TRANSACTION -> COMMIT -> ROLLBACK",
+      "START TRANSACTION -> ROLLBACK -> COMMIT",
+      "COMMIT -> START TRANSACTION -> ROLLBACK",
+      "START TRANSACTION -> COMMIT or ROLLBACK"
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "What does the SQLSTATE value '42S02' typically indicate?",
+    "options": [
+      "Table or View not found",
+      "Syntax Error or Access Violation",
+      "Invalid Connection String",
+      "Insufficient Privileges"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "How can you grant SELECT privilege on a specific column to a user?",
+    "options": [
+      "GRANT SELECT(column_name) ON table_name TO user_name;",
+      "GRANT SELECT ON column_name FROM table_name TO user_name;",
+      "GRANT column_name ON table_name TO user_name SELECT;",
+      "SELECT GRANT ON table_name(column_name) TO user_name;"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Consider a table 'Employees' with a composite primary key (emp_id, project_id). Which constraint ensures that the combination of these columns is unique?",
+    "options": [
+      "PRIMARY KEY (emp_id, project_id)",
+      "UNIQUE (emp_id, project_id)",
+      "FOREIGN KEY (emp_id, project_id)",
+      "CHECK (emp_id <> project_id)"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "What is the isolation level in SQL that prevents dirty reads, non-repeatable reads, and phantom reads?",
+    "options": [
+      "SERIALIZABLE",
+      "READ COMMITTED",
+      "READ UNCOMMITTED",
+      "REPEATABLE READ"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Which of the following is a potential deadlock situation related to TCL?",
+    "options": [
+      "Two transactions updating the same row in different orders.",
+      "A transaction attempting to read uncommitted data.",
+      "A transaction rolling back after a constraint violation.",
+      "A transaction committing changes to a read-only database."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Given `GRANT SELECT ON employees TO 'user1'@'localhost' IDENTIFIED BY 'password';`, what is wrong with the command?",
+    "options": [
+      "IDENTIFIED BY is not a valid clause for GRANT",
+      "The database name is missing",
+      "The table name should be in uppercase",
+      "localhost should be an IP address"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "How can you revoke the UPDATE privilege on the 'salary' column of the 'employees' table from user 'john'?",
+    "options": [
+      "REVOKE UPDATE(salary) ON employees FROM john;",
+      "DENY UPDATE(salary) ON employees FROM john;",
+      "REMOVE UPDATE salary ON employees FROM john;",
+      "UPDATE REVOKE salary ON employees FROM john;"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "What is the impact of setting `SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED`?",
+    "options": [
+      "It allows dirty reads.",
+      "It prevents phantom reads.",
+      "It guarantees serializable transactions.",
+      "It is the default isolation level."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Which SQL statement best describes implementing a deferred constraint?",
+    "options": [
+      "CONSTRAINT my_constraint CHECK (condition) DEFERRABLE INITIALLY DEFERRED",
+      "CONSTRAINT my_constraint CHECK (condition) INITIALLY DEFERRED DEFERRABLE",
+      "CONSTRAINT my_constraint CHECK (condition) DEFERRED INITIALLY DEFERRABLE",
+      "CONSTRAINT my_constraint CHECK (condition) DEFERRABLE DEFERRED INITIALLY"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Explain the potential issues arising from inadequate use of transaction isolation levels.",
+    "options": [
+      "Data corruption, inconsistent reads, phantom data, lost updates",
+      "Only slow query performance",
+      "Only increased storage costs",
+      "Limited user access control"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "A table `Products` has columns `product_id` (INT, PRIMARY KEY), `name` (VARCHAR), and `price` (DECIMAL).  Which statement correctly adds a constraint that ensures the price is always greater than 0?",
+    "options": [
+      "ALTER TABLE Products ADD CONSTRAINT price_check CHECK (price > 0);",
+      "CREATE CONSTRAINT price_check ON Products WHERE price > 0;",
+      "ALTER TABLE Products ADD CONSTRAINT CHECK price_check (price > 0);",
+      "CREATE CHECK price_check ON Products (price > 0);"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "What is the primary purpose of using stored procedures in the context of DCL?",
+    "options": [
+      "To encapsulate complex security logic and enforce access control.",
+      "To improve query performance by pre-compiling SQL statements.",
+      "To automate data backup and recovery processes.",
+      "To simplify data migration between databases."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Scenario: Two transactions, T1 and T2, both attempt to update the same row in a database.  T1 starts first, updates the row, and then attempts to commit. However, T2 starts after T1, also updates the same row, and commits before T1. What problem might occur?",
+    "options": [
+      "Lost Update",
+      "Dirty Read",
+      "Phantom Read",
+      "Non-Repeatable Read"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "How can you prevent SQL injection vulnerabilities when building dynamic SQL queries?",
+    "options": [
+      "Using parameterized queries or prepared statements",
+      "Escaping special characters in user input",
+      "Limiting the length of user input",
+      "Disabling error messages in production"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "What is a common use case for a 'TRIGGER' in SQL, related to data constraints?",
+    "options": [
+      "Enforcing complex business rules or data validation that cannot be achieved with standard constraints.",
+      "Optimizing query performance by automatically creating indexes.",
+      "Managing user permissions and access control.",
+      "Simplifying database schema migrations."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "You have a 'Users' table with a 'role' column. You want to ensure that only authorized users can update sensitive data.  How can DCL be used to achieve this?",
+    "options": [
+      "GRANT UPDATE ON table TO user WHERE role = 'admin';",
+      "CREATE TRIGGER to check user role before update.",
+      "GRANT UPDATE ON table(sensitive_column) TO user WHERE role = 'admin';",
+      "GRANT UPDATE ON table TO user WITH CHECK OPTION (role = 'admin');"
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "A database administrator wants to audit all DCL operations. Which feature is most suitable for this purpose?",
+    "options": [
+      "SQL Server Audit",
+      "SQL Profiler",
+      "Database Consistency Checker",
+      "Transaction Log Analyzer"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Consider a scenario where multiple concurrent transactions are updating the same data. Which concurrency control mechanism is used to prevent conflicts?",
+    "options": [
+      "Locking",
+      "Versioning",
+      "Timestamping",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "A user has been granted SELECT access to a table but is unintentionally able to modify data. What could be the cause?",
+    "options": [
+      "The user has implicit UPDATE privileges due to table ownership.",
+      "The user also has UPDATE privileges on a related table that cascades changes.",
+      "A trigger is executing updates on behalf of the user.",
+      "The user is exploiting a SQL injection vulnerability."
+    ],
+    "correct_option_index": 2,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "How does the `ROLLBACK TO SAVEPOINT` command affect the current transaction?",
+    "options": [
+      "It undoes all changes made after the specified savepoint.",
+      "It commits all changes made up to the specified savepoint.",
+      "It discards the savepoint and continues the transaction.",
+      "It terminates the transaction and rolls back all changes."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "What are some strategies to mitigate the risk of deadlocks in a high-concurrency environment?",
+    "options": [
+      "Acquire locks in a consistent order.",
+      "Keep transactions short and focused.",
+      "Use lower isolation levels with caution.",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "In a distributed database system, how are transactions typically managed to ensure atomicity and consistency?",
+    "options": [
+      "Two-Phase Commit (2PC)",
+      "One-Phase Commit (1PC)",
+      "Eventual Consistency",
+      "Optimistic Locking"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Given a table 'Orders' with columns 'order_id' (INT, PRIMARY KEY) and 'customer_id' (INT, FOREIGN KEY referencing 'Customers'), and a 'Customers' table with 'customer_id' (INT, PRIMARY KEY) and 'credit_limit' (DECIMAL). How would you ensure an order is rejected if placing it exceeds the customer's credit limit?",
+    "options": [
+      "Using a TRIGGER on the 'Orders' table.",
+      "Using a CHECK constraint on the 'Orders' table.",
+      "Using a FOREIGN KEY constraint with cascading updates.",
+      "Using a stored procedure to validate the order before insertion."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "What is the significance of the ACID properties in the context of database transactions?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Availability, Consistency, Isolation, Durability",
+      "Atomicity, Correctness, Isolation, Durability",
+      "Availability, Correctness, Isolation, Durability"
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "A DBA detects long-running transactions that are blocking other processes. What steps can the DBA take to resolve this?",
+    "options": [
+      "Identify and terminate the blocking transactions.",
+      "Increase the database server's memory.",
+      "Rebuild indexes on the affected tables.",
+      "Restart the database server."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "What are the challenges associated with implementing row-level security in a database?",
+    "options": [
+      "Performance overhead, complexity of managing policies, potential for information leakage.",
+      "Limited functionality compared to table-level security.",
+      "Lack of support in most database systems.",
+      "Incompatibility with stored procedures and triggers."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Which scenario best justifies using the `WITH ADMIN OPTION` clause when granting permissions?",
+    "options": [
+      "When the grantee needs to be able to grant the same permissions to other users.",
+      "When the grantee needs to bypass all security checks.",
+      "When the grantee needs to perform administrative tasks on the database server.",
+      "When the grantee needs to access encrypted data."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "How can you implement a policy that automatically revokes a user's access after a specific date?",
+    "options": [
+      "Using a scheduled job that executes a REVOKE statement.",
+      "Using a database trigger that checks the current date before allowing access.",
+      "Using the 'EXPIRE' clause in the GRANT statement.",
+      "Using a VIEW with a WHERE clause that filters out users based on the date."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "You have a table with millions of rows.  Applying a new NOT NULL constraint to an existing column is taking an extremely long time. What optimization strategies can you consider?",
+    "options": [
+      "Create a covering index on the column before adding the constraint.",
+      "Pre-populate the column with a default non-null value before adding the constraint.",
+      "Increase the database's memory allocation.",
+      "All of the above"
+    ],
+    "correct_option_index": 1,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "You're designing a financial system. How can you best ensure data integrity when transferring funds between accounts, especially in the face of potential system failures?",
+    "options": [
+      "Using distributed transactions with two-phase commit.",
+      "Writing a custom application-level locking mechanism.",
+      "Relying solely on the database's built-in transaction management.",
+      "Disabling database logging to improve performance."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "A malicious user gains access to the database and attempts to escalate their privileges. What security measures can help detect and prevent this?",
+    "options": [
+      "Principle of least privilege, regular security audits, intrusion detection systems",
+      "Disabling database logging to improve performance.",
+      "Granting all users administrative access.",
+      "Using weak passwords."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "Describe the challenges and solutions for managing database schema changes (e.g., adding a new column with a NOT NULL constraint) in a zero-downtime environment.",
+    "options": [
+      "Online schema change tools, blue-green deployments, feature flags",
+      "Taking the database offline during the change.",
+      "Manually updating the schema on each server.",
+      "Ignoring the impact on running applications."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  },
+  {
+    "question": "How would you design a system to automatically detect and mitigate SQL injection attacks in a web application?",
+    "options": [
+      "Input validation and sanitization, parameterized queries, web application firewalls.",
+      "Disabling error messages in production.",
+      "Storing passwords in plain text.",
+      "Granting all users administrative access."
+    ],
+    "correct_option_index": 0,
+    "category": "SQL & Queries on DCL, TCL, SQL Constraints"
+  }
+]

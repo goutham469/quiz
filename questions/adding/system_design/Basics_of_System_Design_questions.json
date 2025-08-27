@@ -1,0 +1,629 @@
+[
+  {
+    "question": "Which of the following is NOT a key consideration in system design?",
+    "options": [
+      "Scalability",
+      "Maintainability",
+      "Color Palette",
+      "Reliability"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What does CAP theorem state?",
+    "options": [
+      "Consistency, Availability, Partition Tolerance - only two can be guaranteed",
+      "Correctness, Accuracy, Performance - all three are always guaranteed",
+      "Concurrency, Asynchronicity, Persistence - all three are required",
+      "Cost, Agility, Productivity - prioritize based on business needs"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Horizontal scaling refers to:",
+    "options": [
+      "Adding more resources to a single machine",
+      "Distributing the load across multiple machines",
+      "Optimizing the code for better performance",
+      "Reducing the system's overall complexity"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What is a CDN (Content Delivery Network)?",
+    "options": [
+      "A network for delivering copyrighted content",
+      "A distributed network of servers that delivers web content to users based on their geographic location",
+      "A network for managing customer data",
+      "A cloud-based database service"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Which design pattern helps in decoupling the client from the concrete implementation of a service?",
+    "options": [
+      "Singleton",
+      "Factory",
+      "Observer",
+      "Strategy"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What is the purpose of a load balancer?",
+    "options": [
+      "To protect the system from DDoS attacks",
+      "To distribute incoming network traffic across multiple servers",
+      "To monitor the system's performance",
+      "To store user session data"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Which of the following is a NoSQL database?",
+    "options": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Oracle"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What is sharding?",
+    "options": [
+      "A technique for encrypting data",
+      "A technique for dividing a large database into smaller, more manageable pieces",
+      "A technique for compressing images",
+      "A technique for optimizing network latency"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What is caching and why is it important?",
+    "options": [
+      "A type of error handling; reduces errors",
+      "A technique for storing frequently accessed data in a faster storage medium; improves performance and reduces latency",
+      "A method for securing data; increases security",
+      "A method for compressing data; reduces storage space"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What is the difference between authentication and authorization?",
+    "options": [
+      "Authentication verifies identity, authorization grants access rights",
+      "Authentication grants access rights, authorization verifies identity",
+      "They are the same thing",
+      "Authentication is for users, authorization is for systems"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Which of the following is NOT a common message queue system?",
+    "options": [
+      "RabbitMQ",
+      "Kafka",
+      "ActiveMQ",
+      "GraphQL"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What is the purpose of API gateways?",
+    "options": [
+      "To protect APIs from unauthorized access, manage traffic, and provide a single entry point",
+      "To store API documentation",
+      "To generate API keys",
+      "To create REST APIs"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous communication?",
+    "options": [
+      "Synchronous requires confirmation, asynchronous does not",
+      "Asynchronous requires confirmation, synchronous does not",
+      "Synchronous is faster, asynchronous is slower",
+      "Asynchronous is faster, synchronous is slower"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Which consistency model guarantees that once a write is completed, all subsequent reads will see that write?",
+    "options": [
+      "Eventual Consistency",
+      "Read-after-write Consistency",
+      "Causal Consistency",
+      "Sequential Consistency"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What is the 'back of the envelope' calculation used for in system design?",
+    "options": [
+      "For precise cost estimation",
+      "For quick estimation of system resources and constraints",
+      "For detailed security analysis",
+      "For creating user interface mockups"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What are the key advantages of microservices architecture over monolithic architecture?",
+    "options": [
+      "Simpler deployment and scaling, independent development teams, technology diversity",
+      "Single codebase, easier debugging, centralized management",
+      "Lower development costs, faster time to market, reduced complexity",
+      "Improved security, enhanced performance, unified monitoring"
+    ],
+    "correct_option_index": 0,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What is the 'single point of failure' and how can it be mitigated?",
+    "options": [
+      "A component that is always reliable; by adding redundancy",
+      "A component whose failure leads to system failure; by adding redundancy and failover mechanisms",
+      "A component that causes performance bottlenecks; by optimizing its code",
+      "A component that handles user authentication; by implementing multi-factor authentication"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "In the context of system design, what does 'rate limiting' achieve?",
+    "options": [
+      "Improves server performance by optimizing database queries",
+      "Protects the system from abuse by limiting the number of requests from a client in a given time frame",
+      "Enhances user experience by prioritizing requests",
+      "Reduces storage costs by compressing data"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What is the purpose of using Bloom filters in system design?",
+    "options": [
+      "To store user sessions",
+      "To encrypt sensitive data",
+      "To efficiently test whether an element is a member of a set (with a possibility of false positives)",
+      "To sort large datasets"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What is the difference between eventual consistency and strong consistency, and where might each be appropriate?",
+    "options": [
+      "Eventual consistency guarantees immediate data updates, strong consistency allows delays; Eventual consistency for banking, strong consistency for social media",
+      "Strong consistency guarantees immediate data updates, eventual consistency allows delays; Strong consistency for banking, eventual consistency for social media",
+      "They are the same thing",
+      "Strong consistency is used only in small systems"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Explain the concept of 'idempotency' in API design and why it's important.",
+    "options": [
+      "An API that can be called only once; reduces security risks",
+      "An API that always returns the same value; simplifies debugging",
+      "An API that has no side effects; improves performance",
+      "An API that can be called multiple times with the same result; prevents unintended consequences from retries"
+    ],
+    "correct_option_index": 3,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Describe the trade-offs between using SQL and NoSQL databases in a system design context.",
+    "options": [
+      "SQL is scalable, NoSQL is not; SQL is faster, NoSQL is slower",
+      "SQL offers structured data, ACID properties, and complex queries; NoSQL offers flexibility, scalability, and schema-less design",
+      "SQL is cheaper, NoSQL is more expensive; SQL is easier to learn, NoSQL is more complex",
+      "They are interchangeable with no significant trade-offs"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Explain the difference between 'push' and 'pull' based architectures in system design and give examples of use cases for each.",
+    "options": [
+      "Push is more efficient, pull is more reliable; Push for database replication, pull for message queues",
+      "Pull is more efficient, push is more reliable; Pull for database replication, push for message queues",
+      "Push pushes data to clients without request, pull requires clients to request data; Push for notifications, pull for data retrieval",
+      "They are the same thing"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "How would you design a system to handle 1 million concurrent users?",
+    "options": [
+      "Use a single powerful server",
+      "Employ load balancing, caching, database sharding, and asynchronous processing",
+      "Use a simple file system for storage",
+      "Rely solely on client-side caching"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What are the key differences between using gRPC and REST APIs, and when might you choose one over the other?",
+    "options": [
+      "gRPC is simpler, REST is more complex; gRPC is faster, REST is slower",
+      "REST is binary, gRPC is text-based; REST is faster, gRPC is slower",
+      "gRPC uses Protocol Buffers, REST uses JSON; gRPC is suitable for high-performance microservices, REST for public-facing APIs",
+      "They are interchangeable with no significant differences"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Explain the concept of 'distributed consensus' and name a popular algorithm used to achieve it.",
+    "options": [
+      "Agreement among distributed processes; Dijkstra's algorithm",
+      "Agreement among distributed processes; Quicksort",
+      "Agreement among distributed processes; Raft",
+      "Agreement among distributed processes; Linear Regression"
+    ],
+    "correct_option_index": 2,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "How does 'backpressure' manifest in a system, and what are some strategies to handle it?",
+    "options": [
+      "Increased server performance; by using more powerful hardware",
+      "System overload due to too many requests; buffering, load shedding, rate limiting",
+      "Improved data consistency; by enforcing stricter ACID properties",
+      "Enhanced security; by implementing stronger authentication"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Describe the concept of 'circuit breakers' and how they improve system resilience.",
+    "options": [
+      "A type of firewall; protects against network intrusions",
+      "A design pattern that prevents cascading failures by stopping requests to failing services; by automatically rerouting traffic",
+      "A data encryption technique; enhances data security",
+      "A network monitoring tool; identifies performance bottlenecks"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Explain the role of 'message brokers' in asynchronous communication and provide examples of popular message brokers.",
+    "options": [
+      "To directly connect two services; HTTP",
+      "To facilitate asynchronous communication by decoupling services; RabbitMQ, Kafka",
+      "To encrypt messages; TLS",
+      "To route network traffic; DNS"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What are the advantages and disadvantages of using 'serverless' architecture?",
+    "options": [
+      "Easy debugging, full control over infrastructure; high operational costs",
+      "Automatic scaling, pay-per-use pricing; vendor lock-in, cold starts",
+      "Improved security, enhanced performance; limited language support",
+      "Low latency, high throughput; complex deployment process"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "How would you design a system to store and retrieve large binary files (e.g., images, videos)?",
+    "options": [
+      "Store files directly in a relational database",
+      "Use a NoSQL database for metadata and a cloud storage service (e.g., AWS S3, Azure Blob Storage) for the files themselves",
+      "Store files on a local file system",
+      "Compress all files using a lossless algorithm"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Explain the concept of 'CAP theorem' and its implications for designing distributed systems. How do different systems make trade-offs between Consistency, Availability, and Partition Tolerance?",
+    "options": [
+      "Choose only 1 of the 3 properties to achieve",
+      "One can only achieve two of the three: Consistency, Availability, and Partition Tolerance. Systems are built to prioritize two of these based on use-case requirements.",
+      "Guaranteed that all systems have all three properties",
+      "Guarantee of two but can randomly get the third"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Describe the design considerations for building a real-time chat application (e.g., WhatsApp, Slack).",
+    "options": [
+      "Use polling for message delivery",
+      "Employ WebSockets for bidirectional communication, message queues for handling large volumes, and caching for frequently accessed data",
+      "Store all messages in local storage",
+      "Use email for message delivery"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Explain the different types of caching strategies (e.g., write-through, write-back, cache-aside) and their trade-offs.",
+    "options": [
+      "Cache-aside is always the best choice",
+      "Write-through: data is written to the cache and the database simultaneously; Write-back: data is written to the cache and later asynchronously to the database; Cache-aside: application checks the cache first, and if data is not found, retrieves it from the database and stores it in the cache",
+      "Write-back is only for read only data",
+      "There is no difference between these types"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "What is the concept of 'Byzantine Fault Tolerance' (BFT) and how is it different from traditional fault tolerance?",
+    "options": [
+      "Fault tolerance due to bad coding practices",
+      "BFT tolerates arbitrary failures, including malicious actors, while traditional fault tolerance assumes benign failures",
+      "Fault tolerance due to electrical problems",
+      "BFT only for local machines"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "How would you design a recommendation system for an e-commerce platform?",
+    "options": [
+      "Suggest random products",
+      "Use collaborative filtering, content-based filtering, and hybrid approaches to provide personalized recommendations based on user behavior and product attributes",
+      "Recommend only the most popular products",
+      "Use a single algorithm for all recommendations"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Describe the challenges and solutions for handling data consistency in a distributed system with multiple data centers.",
+    "options": [
+      "Only possible with one datacenter",
+      "Use techniques like two-phase commit (2PC), Paxos, or Raft to ensure data consistency across multiple data centers",
+      "Assume eventual consistency is always sufficient",
+      "Ignoring data consistency is a valid strategy"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Explain the use of 'Merkle trees' for data synchronization and consistency checking in distributed systems.",
+    "options": [
+      "Data structure to merge code branches",
+      "Merkle trees allow efficient comparison of large datasets by comparing the root hash values; different root hashes indicate data inconsistency",
+      "Tree structures to show data locality",
+      "Data structure to visualize distributed systems"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Design a system to crawl and index the web like Google. What are the key components and challenges?",
+    "options": [
+      "Focus on only one website",
+      "Web crawlers, indexers, search algorithms, and ranking systems. Challenges include handling massive scale, dealing with dynamic content, and preventing spam",
+      "Store all data in a local database",
+      "Only index text-based web pages"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Explain the different types of distributed transaction protocols (e.g., two-phase commit, three-phase commit) and their trade-offs in terms of consistency and performance.",
+    "options": [
+      "One phase commit, two phase and three phase",
+      "Two-Phase Commit (2PC) guarantees atomicity but can be slow and blocking; Three-Phase Commit (3PC) attempts to address blocking but adds complexity and doesn't guarantee atomicity in all failure scenarios",
+      "Always use three phase commit",
+      "Distributed transactions aren't possible"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "How would you design a distributed lock service (e.g., using ZooKeeper or etcd) to coordinate access to shared resources?",
+    "options": [
+      "Use a local file system",
+      "Implement a consensus algorithm to elect a leader and manage locks; ensure fault tolerance and prevent split-brain scenarios",
+      "Ignore fault tolerance",
+      "Use simple file locks"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Explain the concept of 'event sourcing' and its benefits and drawbacks compared to traditional state-based persistence.",
+    "options": [
+      "Writing code to have events occur during application execution",
+      "Event sourcing stores all changes to an application's state as a sequence of events; benefits include auditability and replayability, but drawbacks include complexity and eventual consistency",
+      "Creating and deleting events for applications",
+      "Reading information and printing it"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Design a distributed rate limiter that can handle a high volume of requests across multiple servers. What algorithms and data structures would you use?",
+    "options": [
+      "Allow unlimited requests",
+      "Use a token bucket or leaky bucket algorithm with a shared, distributed data store (e.g., Redis) to track request counts and enforce rate limits",
+      "Only allow one request at a time",
+      "Implement client-side rate limiting"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Discuss the challenges and solutions for building a globally distributed database that provides low latency and high availability.",
+    "options": [
+      "Only possible within one geographical location",
+      "Use techniques like multi-master replication, sharding, and consistent hashing to distribute data and minimize latency; employ conflict resolution mechanisms to handle concurrent writes",
+      "Ignore the challenges",
+      "Use a single database instance"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Explain the concept of 'vector clocks' and their use in tracking causality in distributed systems.",
+    "options": [
+      "Timers used to indicate network speed",
+      "Vector clocks allow tracking of causal relationships between events in a distributed system, enabling detection of concurrency and conflicts",
+      "Timers to track application events",
+      "Used to check file sizes"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "How would you design a system to detect and mitigate DDoS attacks?",
+    "options": [
+      "Ignore the attacks",
+      "Employ rate limiting, traffic filtering, and anomaly detection techniques; use CDNs and load balancers to distribute traffic and absorb attacks",
+      "Use a single server",
+      "Only allow traffic from known sources"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Describe the design considerations for building a robust and scalable data pipeline for processing large volumes of streaming data.",
+    "options": [
+      "Process data manually",
+      "Use message queues (e.g., Kafka), stream processing frameworks (e.g., Apache Flink, Apache Spark Streaming), and distributed storage systems (e.g., HDFS, AWS S3) to build a scalable data pipeline",
+      "Store all data in memory",
+      "Process data in batches"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Explain the challenges and solutions for ensuring data privacy and security in a large-scale distributed system.",
+    "options": [
+      "Ignore the challenges",
+      "Implement encryption, access control, and auditing mechanisms; use techniques like differential privacy and homomorphic encryption to protect sensitive data",
+      "Store all data in plain text",
+      "Assume all users are trustworthy"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "How would you design a system for managing and deploying microservices in a containerized environment (e.g., using Kubernetes)?",
+    "options": [
+      "Deploy all services manually",
+      "Use container orchestration platforms (e.g., Kubernetes, Docker Swarm) to automate deployment, scaling, and management of microservices; implement service discovery, load balancing, and monitoring",
+      "Deploy all services on a single server",
+      "Ignore monitoring and logging"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Explain the concept of 'zero-knowledge proofs' and their potential applications in system design.",
+    "options": [
+      "Proofs with all the information",
+      "Zero-knowledge proofs allow proving the truth of a statement without revealing any information about the statement itself; applications include authentication, privacy-preserving data sharing, and secure computation",
+      "Zero proofs, no actual proofs used.",
+      "Proofs that can be easily faked"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Design a distributed consensus algorithm that is resistant to Byzantine faults and provides strong consistency.",
+    "options": [
+      "Use a non-Byzantine fault-tolerant algorithm",
+      "Implement a BFT consensus algorithm like Practical Byzantine Fault Tolerance (PBFT) or Tendermint to tolerate arbitrary failures and ensure strong consistency",
+      "Assume all nodes are trustworthy",
+      "Ignore consistency requirements"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Explain the trade-offs between using 'optimistic concurrency control' and 'pessimistic concurrency control' in a distributed database system.",
+    "options": [
+      "Optimistic and pessimistic concurrency controls are the same",
+      "Optimistic concurrency control assumes conflicts are rare and checks for conflicts at commit time; pessimistic concurrency control locks resources before access to prevent conflicts",
+      "Optimistic is always preferred",
+      "Pessimistic concurrency control is always preferred"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "How would you design a system to provide fault-tolerant and scalable stream processing using Apache Flink?",
+    "options": [
+      "Use a single Flink instance",
+      "Configure Flink for high availability, use checkpointing to recover from failures, and scale out the Flink cluster to handle increasing data volumes",
+      "Ignore fault tolerance",
+      "Store all state in memory"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Describe the design considerations for building a decentralized storage system like IPFS.",
+    "options": [
+      "Use a centralized server",
+      "Implement content-addressable storage, use a distributed hash table (DHT) for content routing, and ensure data replication for fault tolerance",
+      "Ignore security concerns",
+      "Store all data unencrypted"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Explain the concept of 'Federated Learning' and its applications in system design, particularly in privacy-sensitive scenarios.",
+    "options": [
+      "Learning from one machine only",
+      "Federated learning allows training machine learning models across decentralized devices or servers holding local data samples, without exchanging them; used in privacy-sensitive scenarios",
+      "Ignoring data privacy",
+      "Training a single model on a central server"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "How would you design a system to perform real-time anomaly detection in a large-scale network?",
+    "options": [
+      "Manually inspect network traffic",
+      "Use machine learning algorithms to model normal network behavior and detect deviations from the norm; employ distributed stream processing to handle high data volumes",
+      "Assume no anomalies exist",
+      "Sample random traffic"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  },
+  {
+    "question": "Discuss the challenges and solutions for building a highly available and scalable search engine that supports complex queries and ranking algorithms.",
+    "options": [
+      "Support only basic queries",
+      "Use inverted indexes, distributed search clusters, and ranking algorithms like PageRank or TF-IDF; employ caching and load balancing to handle high query volumes",
+      "Store all data in a single node",
+      "Ignore scalability requirements"
+    ],
+    "correct_option_index": 1,
+    "category": "Basics of System Design"
+  }
+]

@@ -1,0 +1,761 @@
+[
+  {
+    "question": "A cube of side 6 cm is painted blue and then cut into smaller cubes of side 2 cm each. How many cubes will have exactly one face painted?",
+    "options": [
+      "8",
+      "12",
+      "24",
+      "36"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A rectangular block of metal has dimensions 6 cm x 12 cm x 15 cm. It is melted and recast into a cube. What is the length of the edge of the cube?",
+    "options": [
+      "9 cm",
+      "10 cm",
+      "11 cm",
+      "12 cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A sphere of radius r is melted and recast into a cone of height h. If the radius of the base of the cone is also r, then what is the relation between r and h?",
+    "options": [
+      "h = 4r",
+      "h = 2r",
+      "r = 4h",
+      "r = 2h"
+    ],
+    "correct_option_index": 0,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "The ratio of the curved surface area to the total surface area of a cylinder is 1:2. If the total surface area is 616 cm², what is the volume of the cylinder?",
+    "options": [
+      "1078 cm³",
+      "1232 cm³",
+      "1344 cm³",
+      "1456 cm³"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A solid cone of height 12 cm and base radius 6 cm is melted and recast into a sphere. What is the radius of the sphere?",
+    "options": [
+      "3 cm",
+      "4 cm",
+      "5 cm",
+      "6 cm"
+    ],
+    "correct_option_index": 3,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "If each edge of a cube is increased by 50%, then by what percentage does the surface area increase?",
+    "options": [
+      "25%",
+      "50%",
+      "100%",
+      "125%"
+    ],
+    "correct_option_index": 3,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A cylindrical tank has a capacity of 5632 m³. If the diameter of its base is 16 m, find the depth of the tank.",
+    "options": [
+      "22 m",
+      "24 m",
+      "26 m",
+      "28 m"
+    ],
+    "correct_option_index": 4,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "The surface area of a sphere is numerically equal to its volume. What is the diameter of the sphere?",
+    "options": [
+      "3 units",
+      "4 units",
+      "6 units",
+      "8 units"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A solid metallic sphere of radius 9 cm is melted and recast into a wire of radius 3 cm. What is the length of the wire?",
+    "options": [
+      "12 cm",
+      "27 cm",
+      "36 cm",
+      "108 cm"
+    ],
+    "correct_option_index": 3,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A right circular cone is cut by a plane parallel to its base at half its height. What is the ratio of the volume of the smaller cone to the volume of the whole cone?",
+    "options": [
+      "1:2",
+      "1:4",
+      "1:8",
+      "1:16"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A cuboid with dimensions 4 cm x 5 cm x 6 cm is cut into small cubes of 1 cm side. What is the percentage increase in the total surface area?",
+    "options": [
+      "100%",
+      "125%",
+      "150%",
+      "200%"
+    ],
+    "correct_option_index": 3,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "The curved surface area of a right circular cylinder is 88 sq. cm and its volume is 176 cu. cm. Find the diameter of the base.",
+    "options": [
+      "4 cm",
+      "6 cm",
+      "8 cm",
+      "10 cm"
+    ],
+    "correct_option_index": 0,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A solid is composed of a cylinder with a hemispherical cap at one end. If the radius of the base of the cylinder is 7 cm and the height is 10 cm, what is the total surface area of the solid?",
+    "options": [
+      "748 cm²",
+      "1087 cm²",
+      "913 cm²",
+      "854 cm²"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A cone and a cylinder have the same base radius and the same volume. What is the ratio of the height of the cone to the height of the cylinder?",
+    "options": [
+      "1:3",
+      "3:1",
+      "1:2",
+      "2:1"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "If the radius of a sphere is increased by 20%, what is the percentage increase in its volume?",
+    "options": [
+      "20%",
+      "44%",
+      "60%",
+      "72.8%"
+    ],
+    "correct_option_index": 3,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A conical tent is 10 m high and the radius of its base is 24 m. What is the cost of the canvas required to make the tent, if the cost of 1 m² canvas is Rs. 70?",
+    "options": [
+      "Rs. 10880",
+      "Rs. 137280",
+      "Rs. 145200",
+      "Rs. 154000"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A cuboidal block of metal of dimensions 36 cm x 18 cm x 12 cm is melted and recast into cubes of side 6 cm. How many such cubes can be made?",
+    "options": [
+      "12",
+      "24",
+      "36",
+      "48"
+    ],
+    "correct_option_index": 3,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "The volume of a cube is 512 cm³. Find its surface area.",
+    "options": [
+      "64 cm²",
+      "96 cm²",
+      "256 cm²",
+      "384 cm²"
+    ],
+    "correct_option_index": 3,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A rectangular paper of width 14 cm is rolled along its width to form a cylinder of radius 20 cm. Find the volume of the cylinder.",
+    "options": [
+      "2800π cm³",
+      "5600π cm³",
+      "11200π cm³",
+      "22400π cm³"
+    ],
+    "correct_option_index": 0,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "If the heights of two cones are in the ratio 1:4 and the radii of their bases are in the ratio 4:1, then what is the ratio of their volumes?",
+    "options": [
+      "1:1",
+      "4:1",
+      "16:1",
+      "1:16"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A solid cone is melted and recast into a solid cylinder of the same radius. If the height of the cylinder is 5 cm, then what was the height of the cone?",
+    "options": [
+      "10 cm",
+      "15 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "The ratio of the total surface area of a cube to the area of one of its faces is:",
+    "options": [
+      "6:1",
+      "4:1",
+      "3:2",
+      "2:1"
+    ],
+    "correct_option_index": 0,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A hemisphere is cut out from one face of a cubical wooden block such that the diameter of the hemisphere is equal to the edge of the cube. Determine the ratio of the total surface area of the remaining solid to the surface area of the original cube.",
+    "options": [
+      "(24 + π) : 24",
+      "(12 + π) : 12",
+      "(36 + π) : 36",
+      "(18 + π) : 18"
+    ],
+    "correct_option_index": 0,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A cylinder is circumscribed about a sphere. What is the ratio of the volume of the sphere to that of the cylinder?",
+    "options": [
+      "2:3",
+      "1:2",
+      "1:3",
+      "3:4"
+    ],
+    "correct_option_index": 0,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "What is the length of the longest pole that can be put in a room of dimensions 10 m x 10 m x 5 m?",
+    "options": [
+      "15 m",
+      "16 m",
+      "10√2 m",
+      "5√5 m"
+    ],
+    "correct_option_index": 0,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A tank 20 m long, 12 m wide and 8 m deep is filled with water to its full capacity. If 2/5th of the water is pumped out, then how much does the water level go down?",
+    "options": [
+      "3.2 m",
+      "4 m",
+      "4.8 m",
+      "5 m"
+    ],
+    "correct_option_index": 0,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A cone, a hemisphere and a cylinder stand on equal bases and have the same height. Find the ratio of their volumes.",
+    "options": [
+      "1:2:3",
+      "2:1:3",
+      "2:3:1",
+      "3:2:1"
+    ],
+    "correct_option_index": 0,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "If the radius of a sphere is increased by 10%, find the percentage increase in volume.",
+    "options": [
+      "10%",
+      "21%",
+      "30%",
+      "33.1%"
+    ],
+    "correct_option_index": 3,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "The sum of the radius of the base and the height of a solid cylinder is 37 m. If the total surface area of the cylinder is 1628 m², find its volume.",
+    "options": [
+      "2590 m³",
+      "4620 m³",
+      "3420 m³",
+      "5280 m³"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A cube of side 'a' is melted to form a cuboid of dimensions a x a x h. Find h",
+    "options": [
+      "a/2",
+      "a",
+      "2a",
+      "a*a"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A solid sphere of radius 'r' is placed inside a hollow cylinder of radius 'R' (R>r). Find the volume remaining in the cylinder.",
+    "options": [
+      "πR²h - (4/3)πr³",
+      "(4/3)πr³ - πR²h",
+      "πR²h + (4/3)πr³",
+      "πr²h - (4/3)πR³"
+    ],
+    "correct_option_index": 0,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "If the total surface area of a cube is 150 cm², then find the length of its diagonal.",
+    "options": [
+      "5√2 cm",
+      "5√3 cm",
+      "10 cm",
+      "10√2 cm"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A cylinder of height 20 cm and radius 7 cm is melted and recast into smaller spheres of radius 3.5 cm. Find the number of spheres.",
+    "options": [
+      "8",
+      "12",
+      "16",
+      "20"
+    ],
+    "correct_option_index": 0,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "The area of a circle is equal to the total surface area of a cube. Find the ratio of the side of the cube to the radius of the circle.",
+    "options": [
+      "√π:√6",
+      "√6:√π",
+      "π:6",
+      "6:π"
+    ],
+    "correct_option_index": 0,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A solid right circular cone has radius 5cm and height 12cm. It is melted and recast into a solid sphere. What is the radius of the sphere?",
+    "options": [
+      "3 cm",
+      "4 cm",
+      "5 cm",
+      "6 cm"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A hollow cylindrical pipe is made of metal and is 3 cm thick. If its external diameter is 14 cm and height is 20 cm, find the volume of the metal used.",
+    "options": [
+      "3760 cm³",
+      "3520 cm³",
+      "4080 cm³",
+      "4240 cm³"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "The number of small cubes with edges of 10 cm that can be accommodated in a cubical box of edge 1 meter is:",
+    "options": [
+      "10",
+      "100",
+      "1000",
+      "10000"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A swimming pool is 24 m long and 15 m broad. When a number of men dive into the pool, the height of the water rises by 1 cm. If the average displacement of water by one man is 0.1 cubic meter, then how many men are there in the pool?",
+    "options": [
+      "36",
+      "360",
+      "3600",
+      "None of these"
+    ],
+    "correct_option_index": 0,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A tent is in the shape of a cylinder surmounted by a conical top. If the height and diameter of the cylindrical part are 2.1 m and 4 m respectively, and the slant height of the top is 2.8 m, find the area of the canvas used for making the tent.",
+    "options": [
+      "17.6 m²",
+      "26.4 m²",
+      "39.6 m²",
+      "44 m²"
+    ],
+    "correct_option_index": 4,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A cylindrical vessel of radius 5 cm contains some water. A solid sphere of radius 3 cm is dropped into the vessel. Calculate the rise in the water level.",
+    "options": [
+      "1.44 cm",
+      "1.8 cm",
+      "2.16 cm",
+      "2.88 cm"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "Two spheres of radii 6 cm and 8 cm are melted and recast into a single sphere. Find the radius of the new sphere.",
+    "options": [
+      "5 cm",
+      "7 cm",
+      "10 cm",
+      "12 cm"
+    ],
+    "correct_option_index": 3,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A metal cube of side 12 cm is melted and formed into three smaller cubes. If the edges of two smaller cubes are 6 cm and 8 cm, find the edge of the third smaller cube.",
+    "options": [
+      "9 cm",
+      "10 cm",
+      "11 cm",
+      "14 cm"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A right circular cone is cut into two parts by a plane parallel to its base, which divides the height in the ratio 1:1 from the bottom. Find the ratio of the volumes of the two parts.",
+    "options": [
+      "1:1",
+      "1:3",
+      "1:7",
+      "1:8"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A hemispherical bowl of internal radius 9 cm is full of liquid. This liquid is to be filled into cylindrical bottles each of radius 1.5 cm and height 4 cm. How many bottles are needed to empty the bowl?",
+    "options": [
+      "54",
+      "81",
+      "108",
+      "162"
+    ],
+    "correct_option_index": 0,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "How many lead shots, each 0.3 cm in diameter, can be made from a solid cube of lead whose edge measures 6.6 cm?",
+    "options": [
+      "1524",
+      "15240",
+      "1500",
+      "15000"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "The radii of two cylinders are in the ratio 2:3 and their heights are in the ratio 5:3. Calculate the ratio of their volumes.",
+    "options": [
+      "10:9",
+      "20:27",
+      "17:27",
+      "20:37"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A conical vessel, whose internal radius is 12 cm and height is 50 cm, is full of liquid. The contents are emptied into a cylindrical vessel with an internal radius of 10 cm. Find the height to which the liquid rises in the cylindrical vessel.",
+    "options": [
+      "12 cm",
+      "24 cm",
+      "36 cm",
+      "48 cm"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A reservoir is in the shape of a frustum of a right circular cone. It is 8 m across at the top and 4 m across at the bottom. If it is 6 m deep, then what is its volume?",
+    "options": [
+      "176 cu.m",
+      "196 cu.m",
+      "116 cu.m",
+      "None of these"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "If the volumes of two cones are in the ratio of 1 : 4 and their diameters are in the ratio of 4 : 5, then the ratio of their heights, is:",
+    "options": [
+      "25 : 16",
+      "25 : 64",
+      "1 : 4",
+      "5 : 8"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A cube is painted red on two adjacent faces, yellow on the two faces opposite to the red faces and green on the remaining faces. It is then cut into 64 smaller cubes of equal size. How many cubes are there which have no face painted?",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "24"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "Water flows through a cylindrical pipe, whose internal radius is 2 cm, at the rate of 6 metres per second into a cylindrical tank, the radius of whose base is 60 cm. By how much will the level of water rise in the tank in 30 minutes?",
+    "options": [
+      "1 m",
+      "2 m",
+      "3 m",
+      "4 m"
+    ],
+    "correct_option_index": 3,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "The height of a cone is 30 cm. A small cone is cut off at the top by a plane parallel to its base. If its volume be 1/27 of the volume of the given cone, at what height above the base is the section made?",
+    "options": [
+      "10 cm",
+      "15 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A solid cylinder has a total surface area of 462 cm². Its curved surface area is 3/2 of its total surface area. What is the volume of the cylinder?",
+    "options": [
+      "539 cm³",
+      "539√11 cm³",
+      "693 cm³",
+      "693√7 cm³"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A cone and a hemisphere have equal bases and equal volumes. What is the ratio of the height of the cone to the radius of the hemisphere?",
+    "options": [
+      "1:1",
+      "2:1",
+      "3:1",
+      "4:1"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A solid is in the form of a cylinder with hemispherical ends. The total length of the solid is 20 cm. If the diameter of the cylinder is 7 cm, find the volume of the solid.",
+    "options": [
+      "630 cm³",
+      "750 cm³",
+      "811.67 cm³",
+      "850 cm³"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A rectangular water tank is 8 m high, 6 m long and 2.5 m wide. How many liters of water can it hold?",
+    "options": [
+      "120 liters",
+      "1200 liters",
+      "12000 liters",
+      "120000 liters"
+    ],
+    "correct_option_index": 4,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A sphere of radius 3 cm is immersed in water contained in a cylindrical vessel of radius 4 cm. If the sphere is completely submerged, then by how much will the water level rise?",
+    "options": [
+      "2.25 cm",
+      "2.5 cm",
+      "2.75 cm",
+      "3 cm"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "The cost of painting the whole surface area of a cube at the rate of 13 paise per sq cm is Rs 343.98. Then the volume of the cube is:",
+    "options": [
+      "8587.5 cm³",
+      "9261 cm³",
+      "110592 cm³",
+      "None of these"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "The volume of a right circular cone is 100π cm³ and its height is 12 cm. Find its slant height.",
+    "options": [
+      "13 cm",
+      "15 cm",
+      "17 cm",
+      "20 cm"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A solid metal cube of edge 4 cm is recast into a sphere. What is the radius of the sphere?",
+    "options": [
+      "2 cm",
+      "4 cm",
+      "√3(3/4) cm",
+      "3√3(3/4) cm"
+    ],
+    "correct_option_index": 3,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "The ratio between the radius of the base and the height of a cylinder is 2:5. If its volume is 6280 cubic cm, find its total surface area.",
+    "options": [
+      "1648 cm²",
+      "2512 cm²",
+      "3648 cm²",
+      "4216 cm²"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A tent is cylindrical to a height of 4.8 meters and conical above it. The radius of the base is 4.5 meters and the total height of the tent is 10.8 meters. Find the approximate area of the canvas required for the tent in square meters.",
+    "options": [
+      "325",
+      "365",
+      "395",
+      "425"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "If the height of a cone is doubled, then its volume is increased by:",
+    "options": [
+      "25%",
+      "50%",
+      "100%",
+      "200%"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A solid metallic sphere of radius 8 cm is melted and drawn into a cylindrical wire of radius 4 cm. The length of the wire is:",
+    "options": [
+      "8/3 cm",
+      "64/3 cm",
+      "32/3 cm",
+      "16/3 cm"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "Two right circular cones of equal curved surface area have slant heights in the ratio of 4 : 5. Find the ratio of their radii.",
+    "options": [
+      "25 : 16",
+      "16 : 25",
+      "5 : 4",
+      "4 : 5"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A cylindrical tank is 35 m long. If its capacity is 7700 cubic meters, then find its diameter.",
+    "options": [
+      "14 m",
+      "21 m",
+      "28 m",
+      "42 m"
+    ],
+    "correct_option_index": 1,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "Water flows out of a circular pipe whose internal diameter is 2 cm, at the rate of 6 meters per second into a cylindrical tank. What will be the rise in level of water after 30 minutes, if the radius of the tank is 30 cm?",
+    "options": [
+      "4 meters",
+      "8 meters",
+      "12 meters",
+      "16 meters"
+    ],
+    "correct_option_index": 3,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A cone of radius 5 cm and height 12 cm is joined to another cone of equal base but height 16 cm along their bases. Find the surface area of the combination.",
+    "options": [
+      "30π cm²",
+      "65π cm²",
+      "105π cm²",
+      "None of these"
+    ],
+    "correct_option_index": 3,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  },
+  {
+    "question": "A solid right circular cone is cut into two parts by a plane parallel to its base at the middle of its height. What is the ratio of the volume of the smaller cone to that of the whole cone?",
+    "options": [
+      "1:2",
+      "1:4",
+      "1:8",
+      "1:16"
+    ],
+    "correct_option_index": 2,
+    "category": "Surface area, solid shapes (cubes, cuboids, spheres, cylinders, cones, etc.)"
+  }
+]

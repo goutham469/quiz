@@ -1,0 +1,519 @@
+[
+  {
+    "question": "Which of the following is NOT a necessary condition for a deadlock to occur?",
+    "options": [
+      "Mutual Exclusion",
+      "Hold and Wait",
+      "Preemption",
+      "Circular Wait"
+    ],
+    "correct_option_index": 2,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "What is the resource allocation graph used for?",
+    "options": [
+      "Detecting cycles which might indicate a deadlock",
+      "Allocating memory to processes",
+      "Scheduling processes",
+      "Managing file system"
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "A system has 3 processes sharing 4 resources. If each process needs a maximum of 2 resources, what is the state of the system?",
+    "options": [
+      "Deadlocked",
+      "Not Deadlocked",
+      "Potentially Deadlocked",
+      "Starving"
+    ],
+    "correct_option_index": 1,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Which of the following deadlock handling approaches can lead to starvation?",
+    "options": [
+      "Deadlock Prevention",
+      "Deadlock Avoidance",
+      "Deadlock Detection and Recovery",
+      "All of the above"
+    ],
+    "correct_option_index": 2,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "The 'Banker's Algorithm' is used for:",
+    "options": [
+      "Deadlock Prevention",
+      "Deadlock Avoidance",
+      "Deadlock Detection",
+      "Deadlock Recovery"
+    ],
+    "correct_option_index": 1,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "What is the disadvantage of using a 'wait-die' deadlock prevention scheme?",
+    "options": [
+      "Starvation",
+      "High Overhead",
+      "Complexity",
+      "All of the above"
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Which of the following is a technique to prevent the 'hold and wait' condition?",
+    "options": [
+      "Request all resources initially",
+      "Release resources after use",
+      "Preempt resources",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "In a resource allocation graph, a cycle necessarily implies a deadlock:",
+    "options": [
+      "Always",
+      "Only if there is only one instance per resource type",
+      "Never",
+      "Only when number of edges equals number of vertices"
+    ],
+    "correct_option_index": 1,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "What is the primary goal of deadlock avoidance?",
+    "options": [
+      "To eliminate all deadlocks",
+      "To ensure the system is always in a safe state",
+      "To detect deadlocks and recover",
+      "To ignore deadlocks"
+    ],
+    "correct_option_index": 2,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Which of the following is NOT a deadlock recovery method?",
+    "options": [
+      "Process Termination",
+      "Resource Preemption",
+      "Ignoring the Problem",
+      "Process Rollback"
+    ],
+    "correct_option_index": 2,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "A system is in a safe state if:",
+    "options": [
+      "There are no deadlocked processes",
+      "The system can allocate resources to all processes in some order and still avoid a deadlock",
+      "All resources are allocated",
+      "No processes are waiting for resources"
+    ],
+    "correct_option_index": 1,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "What is the effect of preemption on deadlock?",
+    "options": [
+      "It can prevent deadlock",
+      "It can cause deadlock",
+      "It has no effect on deadlock",
+      "It only affects deadlock detection"
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Consider a system with 'n' processes and 'm' resource types.  What is the maximum number of resources of a single type that can be present without guaranteeing deadlock if each process needs at most 'k' instances of each resource?",
+    "options": [
+      "n * (k - 1) + 1",
+      "n * k",
+      "m * (k - 1) + 1",
+      "n * (m - 1) + 1"
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "If processes P1, P2, P3 are holding resources R1, R2, R3 respectively, and P1 is waiting for R2, P2 is waiting for R3, and P3 is waiting for R1. Is this a deadlock?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe, depends on resource availability",
+      "Maybe, depends on process priority"
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "The 'wound-wait' deadlock prevention scheme is preemptive. Which process gets 'wounded' when a younger process requests a resource held by an older process?",
+    "options": [
+      "The older process",
+      "The younger process",
+      "Both processes",
+      "Neither process"
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Which scenario is most likely to benefit from deadlock detection and recovery instead of deadlock prevention or avoidance?",
+    "options": [
+      "Systems where deadlocks are rare and the cost of prevention/avoidance is high",
+      "Systems where deadlocks are frequent",
+      "Real-time systems with strict deadlines",
+      "Safety-critical systems where deadlocks are unacceptable"
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Consider a system using the Banker's Algorithm.  If the 'Need' matrix of a process changes during its execution, what needs to be done?",
+    "options": [
+      "The Banker's Algorithm needs to be re-run to ensure safety",
+      "Nothing, the algorithm handles changes automatically",
+      "The process must be terminated",
+      "The process must release all resources and restart"
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "A system has n resources of the same type. n is greater than 2. These resources are shared by 3 processes A, B, C. Processes A, B, and C have a peak demand of 3, 4, and 5 respectively. For what value of n, deadlock will never occur?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correct_option_index": 2,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "In deadlock detection, what is the primary objective of searching for cycles in the resource allocation graph?",
+    "options": [
+      "To identify processes that are currently executing",
+      "To determine the number of available resources",
+      "To find circular dependencies among processes and resources, indicating potential deadlock",
+      "To optimize resource allocation for maximum throughput"
+    ],
+    "correct_option_index": 2,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "What is a key challenge in implementing resource preemption as a deadlock recovery strategy?",
+    "options": [
+      "Ensuring that preempted resources can be safely returned to the process later",
+      "Determining which process should have its resources preempted",
+      "Minimizing the impact of preemption on system performance",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Suppose a system has 12 tape drives, 3 processes and the maximum requirement for each process is 10 tape drives. Then, the system is:",
+    "options": [
+      "safe",
+      "unsafe",
+      "deadlocked",
+      "none of the above"
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Assume there are 3 processes P1, P2, and P3 sharing 4 identical resource units. If P1 requires a maximum of 2 units, P2 requires a maximum of 3 units, and P3 requires a maximum of 2 units, then:",
+    "options": [
+      "Deadlock can never occur",
+      "Deadlock can occur",
+      "Deadlock has already occurred",
+      "None of these"
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Which is the most appropriate technique for resolving deadlocks?",
+    "options": [
+      "Rollback",
+      "Recovery",
+      "Prevention",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Which of the following condition is required for deadlock to be possible?",
+    "options": [
+      "Mutual exclusion",
+      "A process may hold allocated resources while awaiting assignment of other resources",
+      "No resource can be forcibly removed from a process holding it",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "What is the role of 'Max matrix' in the Banker's Algorithm?",
+    "options": [
+      "Represents the maximum demand of a process for each resource",
+      "Represents the current allocation of resources to each process",
+      "Represents the available resources in the system",
+      "Represents the resources requested by the processes"
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "What is the problem of resource starvation?",
+    "options": [
+      "It is a type of deadlock",
+      "Occurs when a process is perpetually denied the resources it needs",
+      "It is a type of memory leak",
+      "It only happens in real-time systems"
+    ],
+    "correct_option_index": 1,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "In the context of deadlock prevention, what does 'linear ordering' of resource types achieve?",
+    "options": [
+      "Prevents mutual exclusion",
+      "Prevents hold and wait",
+      "Prevents circular wait",
+      "Prevents preemption"
+    ],
+    "correct_option_index": 2,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "What is the primary advantage of using resource ordering to prevent deadlocks?",
+    "options": [
+      "Simplicity and ease of implementation",
+      "No runtime overhead",
+      "Allows for maximum resource utilization",
+      "Always results in optimal performance"
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Which of the following is not a characteristic of deadlock?",
+    "options": [
+      "Mutual Exclusion",
+      "Hold and Wait",
+      "No preemption",
+      "Race Condition"
+    ],
+    "correct_option_index": 3,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "A system has 3 processes that share 4 resource instances. Each process needs a maximum of 2 resource instances. What condition will prevent a deadlock from happening?",
+    "options": [
+      "Request and release resources immediately",
+      "Each process should hold only 1 instance.",
+      "Circular wait should not happen.",
+      "Mutual exclusion should not be allowed"
+    ],
+    "correct_option_index": 1,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "If resources are always preempted from the same process when deadlock is detected, which problem is MOST likely to arise?",
+    "options": [
+      "circular wait",
+      "busy waiting",
+      "starvation",
+      "aging"
+    ],
+    "correct_option_index": 2,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Which of the following is an unsafe state in deadlock avoidance?",
+    "options": [
+      "A state in which no process can complete execution",
+      "A state in which a process has requested for a resource",
+      "A state in which there exists a sequence of processes that can complete their execution",
+      "A state in which deadlock can occur"
+    ],
+    "correct_option_index": 3,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "The disadvantage of dynamic deadlock detection is:",
+    "options": [
+      "It does not prevent deadlock",
+      "It is expensive to implement.",
+      "It requires process and resource relationships to be known in advance.",
+      "It requires complete transaction rollback"
+    ],
+    "correct_option_index": 1,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "A computer has six tape drives, with 'n' processes competing for them. Each process may need two tape drives. For what value of 'n' is the system deadlock free?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option_index": 2,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "If a resource allocation graph has a cycle, which of the following is true?",
+    "options": [
+      "The system is always in a deadlock state",
+      "If each resource has one instance, then there is a deadlock",
+      "The system is not in deadlock state",
+      "Nothing can be said about the state of the system"
+    ],
+    "correct_option_index": 1,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "What is the main idea of the banker's algorithm?",
+    "options": [
+      "To make sure that the system is always in a safe state",
+      "To find all possible deadlocks in the system.",
+      "To recover from a deadlock situation.",
+      "To make the system deadlock free."
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "One way to ensure that the circular wait condition never holds is to:",
+    "options": [
+      "impose a total ordering of all resource types and to require that each process requests resources in increasing order.",
+      "let each process hold only one resource at a time",
+      "use preemptable resources",
+      "employ sophisticated deadlock avoidance algorithms."
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "How can the 'hold and wait' condition, a prerequisite for deadlock, be prevented?",
+    "options": [
+      "By requiring processes to release all held resources before requesting new ones",
+      "By requiring processes to request all needed resources at once",
+      "By allowing resource preemption",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Suppose a system uses the Banker's Algorithm for deadlock avoidance.  What data structure is used to track the remaining resource requirements of each process?",
+    "options": [
+      "Allocation Matrix",
+      "Max Matrix",
+      "Need Matrix",
+      "Available Vector"
+    ],
+    "correct_option_index": 2,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Consider two processes, P1 and P2, needing resources R1 and R2. P1 holds R1 and requests R2; P2 holds R2 and requests R1.  Which deadlock handling strategy would be most suitable IF processes are critical and resource preemption is costly?",
+    "options": [
+      "Deadlock Prevention by resource ordering",
+      "Deadlock Avoidance using Banker's Algorithm",
+      "Deadlock Detection and Recovery through process termination",
+      "Ignoring the deadlock problem"
+    ],
+    "correct_option_index": 1,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Which of the following statements about deadlock recovery is generally true?",
+    "options": [
+      "Process termination is always the best option.",
+      "Resource preemption never leads to data inconsistency.",
+      "Choosing which process to terminate to minimize cost is an NP-hard problem.",
+      "Deadlock recovery is always less expensive than deadlock prevention."
+    ],
+    "correct_option_index": 3,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "What are the four conditions for deadlock to occur",
+    "options": [
+      "Hold and wait, No preemption,Circular wait, Starvation",
+      "Race condition, Mutual exclusion, Hold and wait, Aging",
+      "Mutual exclusion, Hold and wait, No preemption, Circular wait",
+      "Starvation, Aging, Preemption, Mutual exclusion"
+    ],
+    "correct_option_index": 2,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "In the context of distributed systems, how does deadlock detection differ from centralized systems?",
+    "options": [
+      "Deadlock detection is simpler in distributed systems due to centralized control.",
+      "Deadlock detection is more complex due to the lack of shared memory and global clock.",
+      "Deadlock detection is not relevant in distributed systems.",
+      "The same deadlock detection algorithms used in centralized systems can be directly applied to distributed systems."
+    ],
+    "correct_option_index": 1,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "A system has a total of 10 resources. The current allocation is as follows: Process A holds 2 resources, Process B holds 3 resources, and Process C holds 1 resource. What is the maximum number of additional resources Process A can request without risking deadlock, assuming the system uses the Banker's Algorithm?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_option_index": 2,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Consider a scenario where two processes, P1 and P2, are competing for two resources, R1 and R2. P1 acquires R1, and P2 acquires R2. Both processes then request the resource held by the other. Which deadlock prevention technique would be most effective in this situation, assuming all resources are non-preemptable?",
+    "options": [
+      "Resource ordering",
+      "Process termination",
+      "Resource preemption",
+      "Rollback"
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "Which of the following is NOT a necessary condition for deadlock to occur in an operating system?",
+    "options": [
+      "Mutual exclusion",
+      "Hold and wait",
+      "Circular wait",
+      "Priority inversion"
+    ],
+    "correct_option_index": 3,
+    "category": "Deadlocks in OS"
+  },
+  {
+    "question": "A system has 5 processes (P1 to P5) and 3 resource types (A, B, C).  The following allocation and maximum need information is known:\n\n| Process | Allocation (A, B, C) | Max Need (A, B, C) |\n|---|---|---|\n| P1 | (1, 0, 1) | (3, 1, 2) |\n| P2 | (2, 0, 0) | (3, 0, 1) |\n| P3 | (0, 1, 1) | (1, 2, 1) |\n| P4 | (1, 1, 0) | (2, 1, 1) |\n| P5 | (0, 0, 0) | (2, 2, 1) |\n\nThe total resources available are (6, 3, 4). Is the system in a safe state?",
+    "options": [
+      "Yes",
+      "No",
+      "Cannot be determined",
+      "Deadlocked"
+    ],
+    "correct_option_index": 0,
+    "category": "Deadlocks in OS"
+  }
+]

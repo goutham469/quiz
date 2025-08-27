@@ -1,0 +1,827 @@
+[
+  {
+    "question": "Which of the following security goals aims to prevent unauthorized modification of data?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Authentication"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "A network administrator suspects a Man-in-the-Middle (MitM) attack. Which of the following protocols is MOST vulnerable to this type of attack if not implemented correctly?",
+    "options": [
+      "HTTPS",
+      "SSH",
+      "Telnet",
+      "SFTP"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a type of cryptographic attack that exploits the vulnerability in a weak or broken encryption algorithm to recover the plaintext message?",
+    "options": [
+      "Brute-force attack",
+      "Dictionary attack",
+      "Cryptanalysis",
+      "Rainbow table attack"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the primary purpose of a firewall in a network?",
+    "options": [
+      "To encrypt network traffic",
+      "To prevent unauthorized access",
+      "To speed up network performance",
+      "To monitor network usage"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is an example of a symmetric-key algorithm?",
+    "options": [
+      "RSA",
+      "Diffie-Hellman",
+      "AES",
+      "SHA-256"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the purpose of a VPN (Virtual Private Network)?",
+    "options": [
+      "To improve internet speed",
+      "To create a secure connection over a public network",
+      "To block all internet traffic",
+      "To monitor network activity"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which type of malware replicates itself and spreads to other computers on a network?",
+    "options": [
+      "Trojan horse",
+      "Virus",
+      "Worm",
+      "Spyware"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the main purpose of a digital certificate?",
+    "options": [
+      "To encrypt network traffic",
+      "To verify the identity of a website or server",
+      "To block spam emails",
+      "To improve network performance"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a method of preventing unauthorized access to a network by verifying the identity of users?",
+    "options": [
+      "Encryption",
+      "Firewall",
+      "Authentication",
+      "Intrusion Detection System"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the purpose of an Intrusion Detection System (IDS)?",
+    "options": [
+      "To prevent unauthorized access",
+      "To detect malicious activity",
+      "To encrypt network traffic",
+      "To improve network performance"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which security protocol is used to encrypt web traffic?",
+    "options": [
+      "FTP",
+      "HTTP",
+      "SMTP",
+      "HTTPS"
+    ],
+    "correct_option_index": 3,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is a common technique used by attackers to gain unauthorized access to a system by guessing passwords?",
+    "options": [
+      "Phishing",
+      "Brute-force attack",
+      "SQL injection",
+      "Cross-site scripting"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a security measure that can be used to protect against SQL injection attacks?",
+    "options": [
+      "Encryption",
+      "Input validation",
+      "Firewall",
+      "Antivirus software"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the purpose of a DMZ (Demilitarized Zone) in a network?",
+    "options": [
+      "To improve network speed",
+      "To isolate public-facing servers from the internal network",
+      "To block all internet traffic",
+      "To encrypt network traffic"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which type of attack involves sending a large number of requests to a server in order to overwhelm it and make it unavailable to legitimate users?",
+    "options": [
+      "Phishing",
+      "Malware attack",
+      "Denial-of-service (DoS) attack",
+      "SQL injection"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is NOT a common network security threat?",
+    "options": [
+      "Malware",
+      "Phishing",
+      "Network congestion",
+      "Denial of Service"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the purpose of a honeypot in network security?",
+    "options": [
+      "To improve network performance",
+      "To attract and trap attackers",
+      "To encrypt network traffic",
+      "To prevent unauthorized access"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a security protocol used for secure remote access to a computer?",
+    "options": [
+      "Telnet",
+      "FTP",
+      "SSH",
+      "HTTP"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the main goal of a phishing attack?",
+    "options": [
+      "To steal sensitive information",
+      "To damage computer hardware",
+      "To improve network performance",
+      "To encrypt network traffic"
+    ],
+    "correct_option_index": 0,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a type of firewall that inspects network traffic at the application layer?",
+    "options": [
+      "Packet filtering firewall",
+      "Stateful inspection firewall",
+      "Proxy firewall",
+      "Next-generation firewall"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the primary function of an Intrusion Prevention System (IPS) compared to an IDS?",
+    "options": [
+      "Only detects malicious activity",
+      "Only logs malicious activity",
+      "Actively prevents malicious activity",
+      "Sends alerts only after a successful attack"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is an asymmetric-key algorithm commonly used for digital signatures and encryption?",
+    "options": [
+      "AES",
+      "DES",
+      "RSA",
+      "Blowfish"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the main difference between a virus and a worm?",
+    "options": [
+      "Viruses can self-replicate, worms cannot",
+      "Worms require a host program, viruses do not",
+      "Viruses require human interaction to spread, worms do not",
+      "Worms are more dangerous than viruses"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a type of attack that exploits vulnerabilities in web applications to execute malicious scripts in a user's browser?",
+    "options": [
+      "SQL injection",
+      "Cross-site scripting (XSS)",
+      "Denial-of-service (DoS)",
+      "Man-in-the-middle (MitM)"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the purpose of a Security Information and Event Management (SIEM) system?",
+    "options": [
+      "To prevent unauthorized access",
+      "To detect and respond to security threats",
+      "To encrypt network traffic",
+      "To improve network performance"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following encryption modes is most vulnerable to known-plaintext attacks?",
+    "options": [
+      "CTR (Counter Mode)",
+      "CBC (Cipher Block Chaining)",
+      "ECB (Electronic Codebook)",
+      "GCM (Galois/Counter Mode)"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the main advantage of using a salt when hashing passwords?",
+    "options": [
+      "It makes the password easier to remember",
+      "It increases the speed of password verification",
+      "It prevents rainbow table attacks",
+      "It encrypts the password"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a type of network segmentation that isolates critical systems from the rest of the network?",
+    "options": [
+      "Firewall",
+      "VPN",
+      "VLAN",
+      "DMZ"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the purpose of a Web Application Firewall (WAF)?",
+    "options": [
+      "To protect against network-level attacks",
+      "To protect web applications from common attacks",
+      "To encrypt web traffic",
+      "To improve web application performance"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a security vulnerability that occurs when a program writes data beyond the bounds of an allocated buffer?",
+    "options": [
+      "SQL injection",
+      "Cross-site scripting (XSS)",
+      "Buffer overflow",
+      "Denial-of-service (DoS)"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the difference between black box, white box, and grey box penetration testing?",
+    "options": [
+      "Testing cost",
+      "Tester's knowledge of the system",
+      "Testing duration",
+      "Reporting format"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which is the most secure hashing algorithm as of 2024?",
+    "options": [
+      "MD5",
+      "SHA-1",
+      "SHA-256",
+      "SHA-512"
+    ],
+    "correct_option_index": 3,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a common technique to mitigate DDoS attacks?",
+    "options": [
+      "Port scanning",
+      "IP spoofing",
+      "Rate limiting",
+      "Packet sniffing"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What does the principle of 'Least Privilege' mean in network security?",
+    "options": [
+      "Granting all users the same level of access",
+      "Granting only necessary access rights",
+      "Granting no access rights",
+      "Granting temporary access rights"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is NOT a best practice for password management?",
+    "options": [
+      "Using strong, unique passwords",
+      "Changing passwords regularly",
+      "Storing passwords in plaintext",
+      "Using a password manager"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following attacks exploits a race condition?",
+    "options": [
+      "Buffer Overflow",
+      "SQL Injection",
+      "Time-of-check-to-time-of-use (TOCTOU)",
+      "Cross-Site Scripting (XSS)"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a network security technology that provides centralized authentication, authorization, and accounting (AAA) management?",
+    "options": [
+      "IDS",
+      "IPS",
+      "RADIUS",
+      "VPN"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the purpose of DNSSEC (Domain Name System Security Extensions)?",
+    "options": [
+      "To encrypt DNS traffic",
+      "To prevent DNS spoofing attacks",
+      "To improve DNS server performance",
+      "To block malicious websites"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a security protocol used to establish a secure channel between two applications over a network?",
+    "options": [
+      "FTP",
+      "HTTP",
+      "TLS/SSL",
+      "SMTP"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the purpose of a security audit?",
+    "options": [
+      "To prevent unauthorized access",
+      "To assess the security posture of a system or network",
+      "To encrypt network traffic",
+      "To improve network performance"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "In Kerberos authentication, what is the role of the Ticket Granting Ticket (TGT)?",
+    "options": [
+      "To encrypt user passwords",
+      "To grant access to specific network resources",
+      "To obtain service tickets for accessing resources",
+      "To verify user identity with the Key Distribution Center"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What security concern is primarily addressed by implementing ARP spoofing countermeasures?",
+    "options": [
+      "DNS hijacking",
+      "Man-in-the-Middle attacks",
+      "SYN flood attacks",
+      "Password cracking"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which routing protocol is particularly susceptible to security vulnerabilities due to its reliance on trust relationships between routers?",
+    "options": [
+      "OSPF",
+      "BGP",
+      "RIPv1",
+      "EIGRP"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the primary function of a Security Assertion Markup Language (SAML) in web security?",
+    "options": [
+      "Encrypting web traffic",
+      "Managing digital certificates",
+      "Exchanging authentication and authorization data",
+      "Preventing cross-site scripting attacks"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "A system administrator discovers that an unauthorized process is running with elevated privileges. What type of security vulnerability is MOST likely being exploited?",
+    "options": [
+      "SQL Injection",
+      "Cross-Site Scripting (XSS)",
+      "Privilege Escalation",
+      "Denial-of-Service (DoS)"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which technique is used to obscure the true IP address of a client making requests over a network?",
+    "options": [
+      "DNS spoofing",
+      "IP masking",
+      "ARP poisoning",
+      "SYN flooding"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is the most common attack vector used in ransomware incidents?",
+    "options": [
+      "Brute-force attacks",
+      "Software vulnerabilities",
+      "Social engineering",
+      "Physical intrusion"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which type of firewall inspects traffic based on the context of the application being used, rather than just the port or protocol?",
+    "options": [
+      "Packet filtering firewall",
+      "Circuit-level gateway",
+      "Stateful inspection firewall",
+      "Application firewall"
+    ],
+    "correct_option_index": 3,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "In cloud computing, what is the shared responsibility model for security?",
+    "options": [
+      "The cloud provider is fully responsible for all aspects of security.",
+      "The customer is fully responsible for all aspects of security.",
+      "The cloud provider is responsible for security 'of' the cloud, and the customer is responsible for security 'in' the cloud.",
+      "Security is only the responsibility of third-party vendors."
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the purpose of implementing two-factor authentication (2FA) on a network?",
+    "options": [
+      "To increase network speed",
+      "To make passwords easier to remember",
+      "To add an extra layer of security beyond just a password",
+      "To prevent data loss in case of a server failure"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the primary difference between a logical security control and a physical security control?",
+    "options": [
+      "Logical controls are hardware-based, while physical controls are software-based.",
+      "Logical controls protect data, while physical controls protect hardware.",
+      "Logical controls are implemented through software or configuration, while physical controls are tangible barriers.",
+      "Logical controls are cheaper than physical controls."
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the main purpose of data loss prevention (DLP) systems?",
+    "options": [
+      "To improve network performance",
+      "To prevent unauthorized data exfiltration",
+      "To encrypt all data on the network",
+      "To detect and remove malware"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is the BEST defense against replay attacks?",
+    "options": [
+      "Strong encryption algorithms",
+      "Regular password changes",
+      "Timestamping and sequence numbers",
+      "Firewall implementation"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the purpose of a Blue Team in a cybersecurity exercise?",
+    "options": [
+      "To simulate an attacker",
+      "To defend the network against attacks",
+      "To develop new security tools",
+      "To assess the security posture of the network"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following best describes the concept of 'defense in depth'?",
+    "options": [
+      "Relying on a single strong security measure",
+      "Implementing multiple layers of security controls",
+      "Using the latest security technologies",
+      "Focusing on preventing all attacks"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following describes a 'zero-day exploit'?",
+    "options": [
+      "An exploit that is used for only 24 hours",
+      "An exploit that is publicly known and patched",
+      "An exploit that targets a vulnerability unknown to the vendor",
+      "An exploit that requires no user interaction"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a characteristic of a botnet?",
+    "options": [
+      "A single compromised computer",
+      "A network of computers controlled by an attacker",
+      "A type of firewall",
+      "A method of encryption"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is used to control which network traffic is allowed or denied based on predefined rules?",
+    "options": [
+      "Router",
+      "Hub",
+      "Switch",
+      "Firewall"
+    ],
+    "correct_option_index": 3,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What security concept ensures that data is accessible and usable upon demand by authorized users?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Authenticity"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a method of verifying the integrity of a message using a secret key?",
+    "options": [
+      "Digital signature",
+      "Hash function",
+      "Message Authentication Code (MAC)",
+      "Encryption"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is a key difference between a port scanner and a vulnerability scanner?",
+    "options": [
+      "Port scanners detect open ports, while vulnerability scanners identify security flaws.",
+      "Port scanners identify security flaws, while vulnerability scanners detect open ports.",
+      "Port scanners are used for malicious purposes, while vulnerability scanners are used for security assessments.",
+      "Port scanners are more comprehensive than vulnerability scanners."
+    ],
+    "correct_option_index": 0,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What cryptographic primitive is used to prove that a message has not been tampered with and originates from a specific sender?",
+    "options": [
+      "Symmetric encryption",
+      "Hashing",
+      "Digital signature",
+      "Salting"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the purpose of a Certificate Authority (CA) in the context of SSL/TLS?",
+    "options": [
+      "To encrypt network traffic",
+      "To issue and manage digital certificates",
+      "To prevent malware infections",
+      "To manage firewall rules"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a security threat that exploits the trust relationships between websites to execute malicious code?",
+    "options": [
+      "SQL injection",
+      "Cross-site scripting (XSS)",
+      "Cross-site request forgery (CSRF)",
+      "Denial-of-service (DoS)"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the purpose of the 'nonce' in cryptographic protocols?",
+    "options": [
+      "To encrypt the data",
+      "To authenticate the sender",
+      "To prevent replay attacks",
+      "To generate encryption keys"
+    ],
+    "correct_option_index": 3,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following describes the key exchange algorithm used to securely exchange keys between client and server over a public network?",
+    "options": [
+      "AES",
+      "RSA",
+      "Diffie-Hellman",
+      "DES"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the primary purpose of implementing network segmentation?",
+    "options": [
+      "To increase network bandwidth",
+      "To improve network uptime",
+      "To reduce the attack surface and contain breaches",
+      "To simplify network management"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the main benefit of using a VPN (Virtual Private Network) tunnel in transport mode versus tunnel mode?",
+    "options": [
+      "Transport mode encrypts the entire packet, while tunnel mode only encrypts the payload.",
+      "Tunnel mode encrypts the entire packet, while transport mode only encrypts the payload.",
+      "Transport mode is more secure than tunnel mode.",
+      "Tunnel mode is faster than transport mode."
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a security vulnerability that can occur due to insecure coding practices in web applications?",
+    "options": [
+      "Man-in-the-middle attack",
+      "Buffer overflow",
+      "Session hijacking",
+      "Denial-of-service"
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a method of obscuring code to make it more difficult to understand and analyze?",
+    "options": [
+      "Encryption",
+      "Hashing",
+      "Obfuscation",
+      "Compression"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which of the following is a security principle that states that security mechanisms should be as simple as possible?",
+    "options": [
+      "Least privilege",
+      "Defense in depth",
+      "Fail-safe defaults",
+      "Economy of mechanism"
+    ],
+    "correct_option_index": 3,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is the primary advantage of using stateless firewalls over stateful firewalls?",
+    "options": [
+      "Stateless firewalls provide better security.",
+      "Stateless firewalls are faster and require less resources.",
+      "Stateless firewalls can inspect application layer traffic.",
+      "Stateless firewalls are easier to configure."
+    ],
+    "correct_option_index": 1,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "What is a 'side-channel attack'?",
+    "options": [
+      "An attack that bypasses all security measures",
+      "An attack that exploits physical vulnerabilities of a system",
+      "An attack that uses information leaked from the physical implementation of a cryptosystem",
+      "An attack that uses social engineering to gain access"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which security principle refers to the practice of ensuring that security measures are enabled by default, rather than requiring users to enable them?",
+    "options": [
+      "Least Privilege",
+      "Defense in Depth",
+      "Fail-Safe Defaults",
+      "Separation of Duty"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  },
+  {
+    "question": "Which cryptographic attack aims to find two different inputs that produce the same hash output?",
+    "options": [
+      "Preimage attack",
+      "Second Preimage attack",
+      "Collision attack",
+      "Birthday Attack"
+    ],
+    "correct_option_index": 2,
+    "category": "Network Security in CN"
+  }
+]

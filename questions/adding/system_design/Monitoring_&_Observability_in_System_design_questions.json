@@ -1,0 +1,541 @@
+[
+  {
+    "question": "Which of the following is NOT a key characteristic of Observability?",
+    "options": [
+      "Being able to ask new questions",
+      "Understanding internal states by examining outputs",
+      "Predefined dashboards are sufficient",
+      "Ability to debug production issues without new code deployments"
+    ],
+    "correct_option_index": 2,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Logs, metrics, and traces are often referred to as the 'three pillars' of Observability. Which of the following best describes the role of TRACES?",
+    "options": [
+      "Numerical representations of performance over time",
+      "Textual records of events",
+      "End-to-end view of a request as it flows through a system",
+      "Aggregated summaries of application behavior"
+    ],
+    "correct_option_index": 2,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "A system exhibiting high 'Mean Time To Detect' (MTTD) is likely suffering from what?",
+    "options": [
+      "Ineffective monitoring",
+      "Frequent deployments",
+      "Rapid growth",
+      "Excellent observability practices"
+    ],
+    "correct_option_index": 0,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Which technique is most effective for identifying performance bottlenecks in a complex microservices architecture?",
+    "options": [
+      "Centralized Logging",
+      "Distributed Tracing",
+      "Host-level Metrics",
+      "Application Logs"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "In the context of monitoring, what is a 'synthetic transaction'?",
+    "options": [
+      "A real user transaction captured for analysis",
+      "A simulated user interaction to proactively test system availability",
+      "A transaction that failed and was automatically rolled back",
+      "A transaction that was artificially inflated to skew performance metrics"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Which of the following is a benefit of using a 'push-based' monitoring system over a 'pull-based' system in a highly dynamic environment (e.g., auto-scaling containers)?",
+    "options": [
+      "Easier to configure",
+      "Reduced network overhead",
+      "More resilient to service discovery changes",
+      "Lower memory footprint on monitored hosts"
+    ],
+    "correct_option_index": 2,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the primary purpose of 'Alert Fatigue Reduction' techniques?",
+    "options": [
+      "To reduce the overall number of alerts generated",
+      "To improve the signal-to-noise ratio of alerts",
+      "To automate incident response",
+      "To simplify monitoring dashboards"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Consider a scenario where a spike in CPU utilization occurs on a critical database server.  Which of the following observability tools would be MOST helpful in determining the specific query causing the spike?",
+    "options": [
+      "System-level Metrics (CPU, Memory)",
+      "Database Connection Pool Metrics",
+      "Slow Query Logs",
+      "Network Latency Metrics"
+    ],
+    "correct_option_index": 2,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Which of the following is NOT a typical use case for 'sampling' in distributed tracing?",
+    "options": [
+      "Reducing storage costs",
+      "Lowering CPU overhead on instrumented services",
+      "Improving the accuracy of latency calculations",
+      "Generating representative traces for performance analysis"
+    ],
+    "correct_option_index": 2,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the purpose of adding 'context propagation' to your applications when using distributed tracing?",
+    "options": [
+      "To ensure that logs are correlated across different services",
+      "To pass tracing identifiers across service boundaries",
+      "To automatically scale resources based on request load",
+      "To enforce security policies across the application"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Which type of metric is best suited for measuring the rate of incoming requests to an API endpoint?",
+    "options": [
+      "Gauge",
+      "Counter",
+      "Histogram",
+      "Summary"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the main advantage of using a time-series database for storing monitoring data?",
+    "options": [
+      "Optimized for read-heavy workloads and time-based queries",
+      "Ideal for storing unstructured data like logs",
+      "Provides strong ACID properties for transactional data",
+      "Supports complex relational queries with high performance"
+    ],
+    "correct_option_index": 0,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Which of the following is a common strategy for dealing with log data when the volume is too high to process in real-time?",
+    "options": [
+      "Discard all logs older than 24 hours",
+      "Sample the log data and only process a subset",
+      "Aggregate logs at a higher level of granularity",
+      "Increase the resources allocated to the log processing pipeline"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "How can 'correlation IDs' improve observability in a microservices architecture?",
+    "options": [
+      "By uniquely identifying each request across all services",
+      "By providing a way to encrypt sensitive data in logs",
+      "By automatically scaling services based on request load",
+      "By enforcing authentication and authorization policies"
+    ],
+    "correct_option_index": 0,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the role of 'eBPF' (Extended Berkeley Packet Filter) in system observability?",
+    "options": [
+      "A network protocol for collecting metrics",
+      "A kernel technology for instrumenting and tracing applications",
+      "A distributed tracing framework",
+      "A log aggregation tool"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Which design principle promotes building systems that expose internal states through metrics, logs, and traces?",
+    "options": [
+      "Loose Coupling",
+      "High Cohesion",
+      "Information Hiding",
+      "Telemetry"
+    ],
+    "correct_option_index": 3,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the primary goal of implementing 'chaos engineering' in a production environment?",
+    "options": [
+      "To deliberately introduce failures to test the system's resilience",
+      "To optimize the system's performance under normal conditions",
+      "To identify security vulnerabilities in the system",
+      "To reduce the cost of infrastructure"
+    ],
+    "correct_option_index": 0,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Which of the following is a common anti-pattern in monitoring?",
+    "options": [
+      "Monitoring everything and alerting on every anomaly",
+      "Focusing on business metrics instead of system metrics",
+      "Using a single monitoring tool for all aspects of the system",
+      "Creating dashboards that are tailored to specific user roles"
+    ],
+    "correct_option_index": 0,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the relationship between monitoring and observability?",
+    "options": [
+      "Monitoring is a subset of observability",
+      "Observability is a subset of monitoring",
+      "They are two completely independent concepts",
+      "They are interchangeable terms"
+    ],
+    "correct_option_index": 0,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Which of these is a common tool used for visualizing time-series data?",
+    "options": [
+      "Elasticsearch",
+      "Kafka",
+      "Grafana",
+      "Redis"
+    ],
+    "correct_option_index": 2,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "A black box monitoring approach primarily focuses on:",
+    "options": [
+      "Internal code execution",
+      "Network packet analysis",
+      "External behavior and outputs",
+      "Operating system kernel parameters"
+    ],
+    "correct_option_index": 2,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Which of the following techniques helps in automatically detecting anomalies in time-series data?",
+    "options": [
+      "Static Thresholds",
+      "Machine Learning based Anomaly Detection",
+      "Manual Inspection",
+      "Random Sampling"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the primary purpose of 'Service Level Objectives' (SLOs) in system design?",
+    "options": [
+      "To define the minimum acceptable performance standards for a service",
+      "To track the cost of running a service",
+      "To measure the satisfaction of users with a service",
+      "To define the team responsible for maintaining a service"
+    ],
+    "correct_option_index": 0,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Which of these is NOT a common metric used in monitoring system performance?",
+    "options": [
+      "CPU Utilization",
+      "Memory Usage",
+      "Disk I/O",
+      "Number of Tweets about the service"
+    ],
+    "correct_option_index": 3,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Consider a scenario where a distributed transaction fails. Which observability technique is MOST helpful in pinpointing the exact point of failure?",
+    "options": [
+      "Aggregated Logs",
+      "System-Level Metrics",
+      "Distributed Tracing with span context",
+      "Application Health Checks"
+    ],
+    "correct_option_index": 2,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the key difference between 'metrics' and 'events' in monitoring?",
+    "options": [
+      "Metrics are numerical values measured over time, while events are discrete occurrences",
+      "Metrics are used for alerting, while events are used for debugging",
+      "Metrics are generated by the operating system, while events are generated by the application",
+      "Metrics are stored in a time-series database, while events are stored in a log file"
+    ],
+    "correct_option_index": 0,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the impact of high cardinality metrics on monitoring systems?",
+    "options": [
+      "Improved accuracy of anomaly detection",
+      "Increased storage costs and query performance degradation",
+      "Simplified dashboard creation",
+      "Reduced network bandwidth consumption"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "In a microservices architecture, what is a 'circuit breaker' pattern used for?",
+    "options": [
+      "To automatically retry failed requests",
+      "To prevent cascading failures by stopping requests to unhealthy services",
+      "To route requests to different versions of a service",
+      "To load balance requests across multiple instances of a service"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Which of the following is an example of 'infrastructure as code' that can be used for managing monitoring infrastructure?",
+    "options": [
+      "Docker",
+      "Terraform",
+      "Kubernetes",
+      "Git"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "When choosing a monitoring tool, what does 'agentless monitoring' refer to?",
+    "options": [
+      "Monitoring without using any agents installed on the target systems",
+      "Monitoring without requiring any configuration",
+      "Monitoring that is completely automated",
+      "Monitoring that does not collect any sensitive data"
+    ],
+    "correct_option_index": 0,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the relationship between SLI (Service Level Indicator), SLO (Service Level Objective), and SLA (Service Level Agreement)?",
+    "options": [
+      "SLI measures performance, SLO sets a target for the SLI, and SLA is a contract based on the SLO",
+      "SLA measures performance, SLO sets a target for the SLI, and SLI is a contract based on the SLO",
+      "SLO measures performance, SLI sets a target for the SLA, and SLA is a contract based on the SLI",
+      "SLI, SLO, and SLA are interchangeable terms"
+    ],
+    "correct_option_index": 0,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "A system with high 'controllability' in an observability context refers to",
+    "options": [
+      "Easy configuration of monitoring tools",
+      "The ability to influence or change the internal state of the system based on observed data",
+      "Strict access control over monitoring data",
+      "Automated scaling of resources based on metrics"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the benefit of using structured logging over unstructured logging?",
+    "options": [
+      "Smaller log file sizes",
+      "Easier parsing and querying of log data",
+      "Improved security of log data",
+      "Faster log processing speeds"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Which of the following is a key consideration when designing a monitoring system for a globally distributed application?",
+    "options": [
+      "Centralized data storage",
+      "Time zone awareness and consistent timestamps",
+      "Reliance on a single cloud provider",
+      "Ignoring network latency between regions"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Consider a scenario where an application experiences intermittent performance degradation. Which observability technique is best suited for identifying the root cause?",
+    "options": [
+      "Alerting on high CPU utilization",
+      "Periodic health checks",
+      "Continuous profiling of application code",
+      "Log aggregation and analysis"
+    ],
+    "correct_option_index": 2,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the primary challenge associated with monitoring serverless functions?",
+    "options": [
+      "Lack of access to the underlying infrastructure",
+      "Limited support for standard monitoring tools",
+      "Ephemeral nature of functions and difficulty in tracing requests",
+      "High cost of monitoring serverless functions"
+    ],
+    "correct_option_index": 3,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is a key benefit of using distributed tracing in conjunction with a service mesh?",
+    "options": [
+      "Automatic instrumentation of all services in the mesh",
+      "Simplified deployment of monitoring agents",
+      "Improved security of inter-service communication",
+      "Reduced network latency between services"
+    ],
+    "correct_option_index": 0,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Which of the following is a best practice for managing secrets (e.g., API keys, passwords) in a monitoring system?",
+    "options": [
+      "Storing secrets in plain text configuration files",
+      "Using environment variables with proper access controls",
+      "Hardcoding secrets in application code",
+      "Sharing secrets across multiple teams"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the primary benefit of using 'PromQL' (Prometheus Query Language)?",
+    "options": [
+      "Simplified configuration of Prometheus servers",
+      "Flexible and powerful querying of time-series data",
+      "Automatic generation of dashboards",
+      "Real-time alerting based on complex conditions"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the purpose of 'canary deployments' in the context of monitoring and observability?",
+    "options": [
+      "To test new features in a production environment with a limited subset of users",
+      "To automatically roll back deployments in case of failures",
+      "To monitor the health of critical services",
+      "To proactively identify security vulnerabilities"
+    ],
+    "correct_option_index": 0,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Which observability practice helps in identifying the cause of increased latency between two microservices?",
+    "options": [
+      "Centralized Logging",
+      "Distributed Tracing",
+      "CPU Profiling",
+      "Memory Heap Dump"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "A monitoring system showing a sudden drop in successful request rate for a payment gateway. What type of alert is most suitable in this scenario?",
+    "options": [
+      "Informational Alert",
+      "Warning Alert",
+      "Critical Alert",
+      "Debug Alert"
+    ],
+    "correct_option_index": 2,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "Which technique is used to estimate the impact of a change before it is fully deployed?",
+    "options": [
+      "A/B Testing",
+      "Shadowing",
+      "Blue/Green Deployments",
+      "Chaos Engineering"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the primary use case for metrics like 'RED' (Rate, Errors, Duration)?",
+    "options": [
+      "Debugging application code",
+      "Understanding the performance of a service from the user's perspective",
+      "Monitoring infrastructure health",
+      "Managing cloud costs"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "You have a critical service that relies on a third-party API. What kind of monitoring is MOST important to implement?",
+    "options": [
+      "CPU Usage of the service",
+      "Memory Usage of the service",
+      "Successful/Failed API call rates to the third-party service",
+      "Log volume of the service"
+    ],
+    "correct_option_index": 2,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "In the context of containers, what does 'cAdvisor' primarily monitor?",
+    "options": [
+      "Network traffic between containers",
+      "Resource usage of containers (CPU, memory, etc.)",
+      "Application logs within containers",
+      "Security vulnerabilities in container images"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "You observe an increase in the p99 latency of your application. Which observability tool will best help identify the source of the slow requests?",
+    "options": [
+      "Centralized logging",
+      "Host-level metrics",
+      "Distributed Tracing",
+      "Application logs"
+    ],
+    "correct_option_index": 2,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the most important aspect of selecting an alert threshold?",
+    "options": [
+      "Setting a threshold that is easy to calculate",
+      "Setting a threshold that triggers alerts frequently",
+      "Setting a threshold that balances sensitivity and noise to detect real issues",
+      "Setting a threshold that is based on historical data only"
+    ],
+    "correct_option_index": 2,
+    "category": "Monitoring & Observability in System design"
+  },
+  {
+    "question": "What is the use of 'span context' in distributed tracing?",
+    "options": [
+      "For creating unique identifiers for each trace",
+      "To pass tracing information between microservices",
+      "To filter traces based on specific criteria",
+      "To visualize the request flow across different services"
+    ],
+    "correct_option_index": 1,
+    "category": "Monitoring & Observability in System design"
+  }
+]

@@ -1,0 +1,618 @@
+[
+  {
+    "question": "A project has 5 tasks (A, B, C, D, E) with dependencies: A depends on B and C; B depends on D; C depends on E. If each task takes 1 day, what's the shortest completion time?",
+    "options": [
+      "3 days",
+      "4 days",
+      "5 days",
+      "6 days"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Consider a single machine scheduling problem with n jobs. Which of the following rules is guaranteed to minimize the makespan?",
+    "options": [
+      "Shortest Processing Time (SPT)",
+      "Earliest Due Date (EDD)",
+      "Longest Processing Time (LPT)",
+      "None of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Three jobs are to be scheduled on a single machine. Job 1 takes 3 hours, Job 2 takes 5 hours, and Job 3 takes 2 hours. What is the minimum possible total completion time for all three jobs?",
+    "options": [
+      "10 hours",
+      "18 hours",
+      "21 hours",
+      "24 hours"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "You have four tasks with the following processing times and deadlines: Task 1 (3, 5), Task 2 (2, 6), Task 3 (4, 9), Task 4 (1, 8). Using Earliest Due Date (EDD) scheduling, what is the maximum lateness?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_option_index": 0,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Which scheduling algorithm is most suitable for minimizing average waiting time in a batch processing system?",
+    "options": [
+      "First-Come, First-Served (FCFS)",
+      "Shortest Job First (SJF)",
+      "Priority Scheduling",
+      "Round Robin"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Five jobs need to be processed on a single machine. Their processing times are 3, 5, 2, 7, and 1. Using Shortest Processing Time (SPT) scheduling, what is the average completion time?",
+    "options": [
+      "3.6",
+      "4.6",
+      "5.6",
+      "6.6"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "A critical path in a project schedule defines the:",
+    "options": [
+      "Tasks with the most uncertainty",
+      "Tasks with the highest cost",
+      "Shortest possible project duration",
+      "Longest possible project duration"
+    ],
+    "correct_option_index": 3,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What is the primary goal of resource leveling in project scheduling?",
+    "options": [
+      "Minimize total project cost",
+      "Reduce project duration",
+      "Smooth out resource utilization",
+      "Maximize resource efficiency"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Which of the following is NOT a common heuristic used in job shop scheduling?",
+    "options": [
+      "Shortest Processing Time (SPT)",
+      "Earliest Due Date (EDD)",
+      "First-Come, First-Served (FCFS)",
+      "Largest Number First (LNF)"
+    ],
+    "correct_option_index": 3,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Consider a two-machine flow shop scheduling problem. What algorithm guarantees optimal makespan for two jobs?",
+    "options": [
+      "SPT",
+      "LPT",
+      "Johnson's Rule",
+      "EDD"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "A project consists of activities A, B, C, D, E, F.  A must precede B, C; B must precede D; C must precede E; D and E must precede F. Activities durations are: A=2, B=3, C=2, D=4, E=3, F=2. What is the project's critical path length?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correct_option_index": 3,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "In a multi-processor scheduling environment, what is 'processor affinity'?",
+    "options": [
+      "Prioritizing tasks based on resource requirements",
+      "Assigning tasks to processors that have already worked on them",
+      "Distributing tasks evenly across all processors",
+      "Minimizing context switching overhead"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What is the objective function typically minimized in a tardiness scheduling problem?",
+    "options": [
+      "Makespan",
+      "Total Completion Time",
+      "Maximum Lateness",
+      "Total Tardiness"
+    ],
+    "correct_option_index": 3,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Consider a preemptive scheduling algorithm. Which of the following events can trigger preemption?",
+    "options": [
+      "Completion of a task",
+      "Arrival of a higher-priority task",
+      "A task entering a waiting state",
+      "All of the above"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What is the purpose of Gantt charts in project scheduling?",
+    "options": [
+      "To estimate project costs",
+      "To visualize project timelines and dependencies",
+      "To allocate resources effectively",
+      "To track project risks"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Given 4 jobs with processing times and weights: J1(2,3), J2(3,2), J3(4,4), J4(5,1). What is the minimum weighted completion time using Weighted Shortest Processing Time (WSPT)?",
+    "options": [
+      "25.67",
+      "29.33",
+      "33.67",
+      "35.33"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What is the 'slack' or 'float' in project scheduling?",
+    "options": [
+      "The cost overrun allowed for each activity",
+      "The amount of time an activity can be delayed without delaying the project",
+      "The risk associated with an activity",
+      "The resource requirements of an activity"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "In resource-constrained project scheduling, what technique is often used to resolve resource conflicts?",
+    "options": [
+      "Crashing",
+      "Fast Tracking",
+      "Resource Leveling",
+      "Monte Carlo Simulation"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Which of the following scheduling problems is known to be NP-hard?",
+    "options": [
+      "Single machine scheduling with makespan minimization",
+      "Two machine flow shop scheduling",
+      "Job shop scheduling with makespan minimization",
+      "Earliest Due Date scheduling"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What is the critical ratio scheduling rule primarily used for?",
+    "options": [
+      "Minimizing inventory costs",
+      "Prioritizing jobs based on urgency",
+      "Optimizing resource allocation",
+      "Maximizing machine utilization"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Consider 3 jobs arriving at time 0 with processing times p1=2, p2=4, p3=6 and weights w1=3, w2=2, w3=1. Which sequence minimizes the weighted completion time?",
+    "options": [
+      "1, 2, 3",
+      "2, 3, 1",
+      "3, 2, 1",
+      "1, 3, 2"
+    ],
+    "correct_option_index": 0,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What is the primary difference between 'crashing' and 'fast tracking' a project schedule?",
+    "options": [
+      "Crashing adds resources, fast tracking re-sequences activities",
+      "Crashing increases cost, fast tracking reduces risk",
+      "Crashing shortens the critical path, fast tracking shortens the non-critical path",
+      "Crashing reduces scope, fast tracking increases scope"
+    ],
+    "correct_option_index": 0,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "In a time-constrained project scheduling problem, what is the primary objective?",
+    "options": [
+      "Minimize project cost",
+      "Maximize resource utilization",
+      "Complete the project within the specified deadline",
+      "Minimize project risk"
+    ],
+    "correct_option_index": 3,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What is the purpose of the 'forward pass' and 'backward pass' in critical path analysis?",
+    "options": [
+      "To identify project risks and opportunities",
+      "To calculate the earliest start and finish times, and the latest start and finish times for each activity",
+      "To allocate resources to project activities",
+      "To estimate project costs and durations"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Which of the following is a key benefit of using simulation in scheduling?",
+    "options": [
+      "It guarantees an optimal solution",
+      "It eliminates the need for real-world testing",
+      "It allows for the evaluation of different scheduling scenarios",
+      "It simplifies the scheduling process"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Five jobs are to be scheduled on a single machine. Their processing times and due dates are as follows: Job 1 (5, 10), Job 2 (3, 8), Job 3 (2, 5), Job 4 (6, 12), Job 5 (4, 9). What is the minimum number of tardy jobs if scheduled using Earliest Due Date rule?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "A project consists of six activities with precedence relations: A->B, A->C, B->D, C->E, D->F, E->F. The durations are: A=4, B=3, C=2, D=5, E=4, F=6. What is the earliest finish time for activity F?",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "17"
+    ],
+    "correct_option_index": 3,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What is the 'resource histogram' used for in project management?",
+    "options": [
+      "To track project costs",
+      "To display resource utilization over time",
+      "To identify critical path activities",
+      "To manage project risks"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Consider three jobs with processing times 3, 5, and 7.  What is the smallest possible makespan if these jobs are scheduled on two identical parallel machines?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Which metaheuristic algorithm is commonly used for solving complex scheduling problems?",
+    "options": [
+      "Greedy Algorithm",
+      "Dynamic Programming",
+      "Genetic Algorithm",
+      "Branch and Bound"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "A machine shop has three jobs with the following processing times and due dates: Job 1 (4, 10), Job 2 (6, 12), Job 3 (2, 8). Using the Shortest Slack Time (SST) rule, in what order should the jobs be processed?",
+    "options": [
+      "1, 2, 3",
+      "3, 1, 2",
+      "2, 1, 3",
+      "3, 2, 1"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "In a single-machine scheduling problem, if the objective is to minimize the maximum lateness, which rule provides the optimal solution?",
+    "options": [
+      "Shortest Processing Time (SPT)",
+      "Longest Processing Time (LPT)",
+      "Earliest Due Date (EDD)",
+      "First-Come, First-Served (FCFS)"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "A project has the following activities with durations in days: A(5), B(3), C(6), D(4), E(7). Dependencies: A->C, B->C, C->D, D->E. What is the minimum project completion time?",
+    "options": [
+      "14",
+      "16",
+      "22",
+      "25"
+    ],
+    "correct_option_index": 3,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Which of the following statements is true regarding the limitations of critical path method (CPM)?",
+    "options": [
+      "CPM cannot handle projects with multiple critical paths",
+      "CPM assumes activity durations are deterministic",
+      "CPM is not suitable for large projects",
+      "CPM cannot handle resource constraints"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Consider the problem of scheduling 'n' jobs on 'm' identical parallel machines to minimize makespan.  Which of the following statements is generally TRUE regarding the complexity of this problem?",
+    "options": [
+      "It can be solved optimally in polynomial time",
+      "It is NP-hard in general",
+      "It is polynomial-time solvable if 'n' is small",
+      "It is polynomial-time solvable if 'm' is small"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What is 'Total Float' in CPM/PERT?",
+    "options": [
+      "Maximum delay an activity can have without delaying project finish date",
+      "Maximum delay an activity can have without delaying any successor activity",
+      "Difference between early start and late finish",
+      "Cost associated with delaying an activity"
+    ],
+    "correct_option_index": 0,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Which is the MOST suitable chart for tracking and controlling project progress visually?",
+    "options": [
+      "Pareto Chart",
+      "Histogram",
+      "Gantt Chart",
+      "Scatter Plot"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "A company has a single machine and two jobs. Job 1 has a processing time of 4 and a due date of 10. Job 2 has a processing time of 6 and a due date of 12.  What schedule (1 then 2, or 2 then 1) minimizes maximum lateness?",
+    "options": [
+      "Schedule 1 then 2",
+      "Schedule 2 then 1",
+      "Both schedules yield the same maximum lateness",
+      "Cannot be determined"
+    ],
+    "correct_option_index": 0,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "The resource levelling technique aims at:",
+    "options": [
+      "Minimizing project duration",
+      "Minimizing total project cost",
+      "Smoothing out resource demand",
+      "Maximizing resource utilization"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Which of the following scheduling rules is best suited for minimizing the number of tardy jobs?",
+    "options": [
+      "Shortest Processing Time (SPT)",
+      "Earliest Due Date (EDD)",
+      "Slack Time Remaining (STR)",
+      "Critical Ratio (CR)"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Given the following activities and durations: A(3), B(5), C(2), D(4), E(6). Dependencies: A->D, B->D, C->E. If activities A, B, and C can start simultaneously, what is the earliest completion time for the project?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What is 'forward scheduling'?",
+    "options": [
+      "Scheduling jobs backwards from the due date",
+      "Scheduling jobs from the current date forward",
+      "Scheduling jobs based on their priority",
+      "Scheduling jobs based on resource availability"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What is the primary disadvantage of the First-Come, First-Served (FCFS) scheduling algorithm?",
+    "options": [
+      "It can lead to starvation of short jobs",
+      "It is difficult to implement",
+      "It requires knowledge of processing times",
+      "It always results in optimal performance"
+    ],
+    "correct_option_index": 0,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "A project manager is using a schedule compression technique to shorten the project duration. Which technique involves running activities in parallel that were originally planned to be sequential?",
+    "options": [
+      "Crashing",
+      "Fast Tracking",
+      "Resource Leveling",
+      "Scope Creep"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What is the mathematical formulation of total weighted tardiness minimization objective in scheduling?",
+    "options": [
+      "∑ wi Ci",
+      "∑ wi Ti",
+      "max(Ci)",
+      "max(Ti)"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What is a 'Work Breakdown Structure' (WBS) used for in Project scheduling?",
+    "options": [
+      "Resource Allocation",
+      "Risk Management",
+      "Scope Definition and Decomposition",
+      "Cost Estimation"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Consider two machines and three jobs. Job 1: Machine 1(3), Machine 2(2); Job 2: Machine 1(2), Machine 2(3); Job 3: Machine 1(4), Machine 2(1). What is optimal makespan using Johnson's Rule?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "Which technique is used to analyze and represent the uncertainties in project schedules?",
+    "options": [
+      "Regression Analysis",
+      "Monte Carlo Simulation",
+      "Decision Tree Analysis",
+      "Queuing Theory"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What is the primary purpose of earned value management (EVM) in project scheduling?",
+    "options": [
+      "To allocate resources effectively",
+      "To track project costs and schedule performance",
+      "To identify project risks and opportunities",
+      "To manage project communications"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "A job shop consists of 4 machines and jobs requiring operations on subset of these machines in specific order. Why is makespan minimization in such scenario considered hard?",
+    "options": [
+      "Jobs have different processing times",
+      "Machines have different speeds",
+      "Routing of jobs is not pre-defined",
+      "Machines are not available 24/7"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "If a task’s Early Start is day 5 and Late Start is day 10, and Early Finish is day 12 and Late Finish is day 17, the Total Float is:",
+    "options": [
+      "2",
+      "5",
+      "7",
+      "12"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What is “Free Float” in project scheduling?",
+    "options": [
+      "The amount of time an activity can be delayed without delaying the project",
+      "The amount of time an activity can be delayed without delaying any successor activity",
+      "Cost associated with delaying an activity",
+      "Risk associated with delaying an activity"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What does resource smoothing attempt to do?",
+    "options": [
+      "Shorten project duration",
+      "Optimize resource allocation",
+      "Maintain a constant level of resource usage",
+      "Minimize total project costs"
+    ],
+    "correct_option_index": 2,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "If activities B and C both depend on the completion of A, what kind of dependency is that?",
+    "options": [
+      "Finish-to-Start",
+      "Start-to-Finish",
+      "Finish-to-Finish",
+      "Start-to-Start"
+    ],
+    "correct_option_index": 0,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "In project scheduling, what’s the term for adding resources to shorten an activity?",
+    "options": [
+      "Fast Tracking",
+      "Crashing",
+      "Resource Leveling",
+      "Scope Creep"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  },
+  {
+    "question": "What type of project chart depicts task dependencies and critical paths?",
+    "options": [
+      "Gantt Chart",
+      "PERT Chart",
+      "Burndown Chart",
+      "Run Chart"
+    ],
+    "correct_option_index": 1,
+    "category": "Scheduling problems"
+  }
+]

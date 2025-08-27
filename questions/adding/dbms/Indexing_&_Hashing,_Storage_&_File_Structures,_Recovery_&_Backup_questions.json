@@ -1,0 +1,541 @@
+[
+  {
+    "question": "Which indexing technique is most suitable for range queries?",
+    "options": [
+      "Hash Index",
+      "B+ Tree Index",
+      "Bitmap Index",
+      "Inverted Index"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "A file is organized such that the logical sequence of records determines the physical order. This organization is called:",
+    "options": [
+      "Heap file organization",
+      "Sequential file organization",
+      "Hash file organization",
+      "Indexed sequential file organization"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which of the following is NOT a key advantage of RAID (Redundant Array of Independent Disks)?",
+    "options": [
+      "Increased storage capacity",
+      "Improved performance",
+      "Enhanced data security against hacking",
+      "Fault tolerance"
+    ],
+    "correct_option_index": 2,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "In database recovery, what does the acronym ACID stand for?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Accuracy, Consistency, Integrity, Durability",
+      "Atomicity, Correctness, Isolation, Dependability",
+      "Accuracy, Correctness, Integrity, Dependability"
+    ],
+    "correct_option_index": 0,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "What is the purpose of a write-ahead log in database recovery?",
+    "options": [
+      "To speed up query processing",
+      "To ensure data integrity during a crash",
+      "To reduce storage space",
+      "To simplify index creation"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which RAID level provides disk mirroring?",
+    "options": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 5",
+      "RAID 10"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "What is the main advantage of using extendable hashing?",
+    "options": [
+      "It avoids collisions completely",
+      "It requires minimal storage overhead",
+      "It allows dynamic growth and shrinking of the hash table",
+      "It provides the fastest access time"
+    ],
+    "correct_option_index": 2,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which recovery technique involves redoing all transactions that committed after the last checkpoint?",
+    "options": [
+      "Deferred update",
+      "Immediate update",
+      "Shadow paging",
+      "ARIES"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "What is the primary goal of a backup strategy?",
+    "options": [
+      "To improve query performance",
+      "To protect against data loss",
+      "To reduce storage costs",
+      "To simplify database administration"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which of the following is a characteristic of a dense index?",
+    "options": [
+      "It contains an entry for every record in the data file",
+      "It contains an entry for every block in the data file",
+      "It is smaller than a sparse index",
+      "It is only used for primary keys"
+    ],
+    "correct_option_index": 0,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Consider a disk with a block size of 4KB. A file of 100KB is stored on this disk. How many blocks are required to store the file?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which RAID level offers the best read performance?",
+    "options": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 5",
+      "RAID 6"
+    ],
+    "correct_option_index": 0,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "What is the main purpose of data striping in RAID?",
+    "options": [
+      "To provide fault tolerance",
+      "To improve read/write performance",
+      "To reduce storage costs",
+      "To simplify data backup"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "In ARIES recovery, what is the purpose of the Log Sequence Number (LSN)?",
+    "options": [
+      "To identify the transaction that modified a data item",
+      "To uniquely identify each log record",
+      "To track the order of transactions",
+      "To indicate the commit time of a transaction"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which hashing technique is most suitable when the number of records is unknown and may change frequently?",
+    "options": [
+      "Static Hashing",
+      "Linear Probing",
+      "Chaining",
+      "Extendable Hashing"
+    ],
+    "correct_option_index": 3,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which of the following is most likely to be stored in a non-volatile storage?",
+    "options": [
+      "Program instructions being executed.",
+      "Variable contents of an ongoing program.",
+      "Operating System.",
+      "Function call parameters."
+    ],
+    "correct_option_index": 2,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Suppose a disk has 2000 cylinders, numbered 0 to 1999. The drive is currently serving a request at cylinder 143, and the queue of pending requests, in FIFO order, is 86, 1470, 913, 1774, 948, 1509, 1022, 1750, 130. What is the number of head movements using the SCAN algorithm?",
+    "options": [
+      "7081",
+      "7175",
+      "7226",
+      "7280"
+    ],
+    "correct_option_index": 2,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "In the context of file systems, which of the following best describes the role of a superblock?",
+    "options": [
+      "It is a hidden file that contains system-critical data.",
+      "It's a data structure that organizes and describes how data is stored in a file system.",
+      "It's a file that manages security permissions of other files.",
+      "It's a backup copy of the file system's root directory."
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "If sector size is 512 bytes and a block contains 8 sectors then the size of the block in bytes will be?",
+    "options": [
+      "256 bytes",
+      "4096 bytes",
+      "1024 bytes",
+      "512 bytes"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "What is the main difference between full and incremental backups?",
+    "options": [
+      "Full backups are faster, incremental backups are more comprehensive",
+      "Full backups copy all data, incremental backups copy only data that has changed since the last backup",
+      "Full backups are stored offsite, incremental backups are stored onsite",
+      "Full backups are more expensive, incremental backups are cheaper"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which file organization is best suited for applications requiring frequent access to individual records based on a key value?",
+    "options": [
+      "Sequential file organization",
+      "Indexed sequential file organization",
+      "Hash file organization",
+      "Heap file organization"
+    ],
+    "correct_option_index": 2,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Consider a transaction log with the following entries: START T1; WRITE T1, X, 10, 20; START T2; WRITE T2, Y, 30, 40; COMMIT T1; WRITE T2, Z, 50, 60; COMMIT T2. If a crash occurs after the last WRITE operation, what would be the values of X, Y, and Z after recovery using immediate update?",
+    "options": [
+      "X=10, Y=30, Z=50",
+      "X=20, Y=40, Z=60",
+      "X=10, Y=40, Z=60",
+      "X=20, Y=30, Z=50"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which of the following is NOT a typical backup frequency option?",
+    "options": [
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Annually"
+    ],
+    "correct_option_index": 3,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "What is the purpose of a checkpoint in database recovery?",
+    "options": [
+      "To speed up query processing",
+      "To reduce the amount of log data that needs to be analyzed during recovery",
+      "To improve data security",
+      "To simplify index maintenance"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which of the following is most useful when trying to recover data from a damaged hard drive?",
+    "options": [
+      "System restore",
+      "Data carving",
+      "Antivirus scan",
+      "Defragmentation"
+    ],
+    "correct_option_index": 2,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which RAID level distributes parity information across all drives, offering both fault tolerance and performance benefits?",
+    "options": [
+      "RAID 1",
+      "RAID 3",
+      "RAID 5",
+      "RAID 10"
+    ],
+    "correct_option_index": 2,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which storage structure typically uses the most space",
+    "options": [
+      "Sparse Index",
+      "Dense Index",
+      "Hash table",
+      "B-tree"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Suppose you need to store very sensitive data like credit card details or cryptographic keys. Which would be the BEST storage?",
+    "options": [
+      "Volatile memory",
+      "Flash memory",
+      "Hard Disk Drive",
+      "Hardware Security Module (HSM)"
+    ],
+    "correct_option_index": 3,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "What is the main advantage of using a B+ tree index over a B-tree index for database systems?",
+    "options": [
+      "B+ trees are simpler to implement",
+      "B+ trees have a smaller index size",
+      "B+ trees store all data records in the leaf nodes, allowing for faster sequential access",
+      "B+ trees have a lower height for the same number of keys"
+    ],
+    "correct_option_index": 2,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which indexing method is particularly efficient for retrieving data based on a combination of multiple attributes?",
+    "options": [
+      "Hash Index",
+      "B+ Tree Index",
+      "Bitmap Index",
+      "Inverted Index"
+    ],
+    "correct_option_index": 2,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "A transaction performs several write operations but does not commit. The system crashes before the transaction can commit or rollback. After recovery, what should happen to the updates made by this transaction?",
+    "options": [
+      "The updates should be committed",
+      "The updates should be rolled back",
+      "The updates should be partially applied",
+      "The updates should be ignored"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which data recovery procedure would you employ following a hardware failure which caused all data to be lost?",
+    "options": [
+      "Roll forward",
+      "Roll backward",
+      "Roll out",
+      "Roll in"
+    ],
+    "correct_option_index": 0,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which of the following is NOT a common technique for minimizing data fragmentation?",
+    "options": [
+      "Compaction",
+      "Defragmentation",
+      "Garbage collection",
+      "Dynamic linking"
+    ],
+    "correct_option_index": 3,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Consider a disk with 1000 cylinders. The head is currently at cylinder 500. The queue of pending requests is 100, 900, 200, 600. Using the SSTF (Shortest Seek Time First) algorithm, what is the order in which the requests will be serviced?",
+    "options": [
+      "500, 100, 200, 600, 900",
+      "500, 600, 200, 900, 100",
+      "500, 600, 900, 200, 100",
+      "500, 600, 100, 200, 900"
+    ],
+    "correct_option_index": 2,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which approach is used for managing concurrency in the 'immediate update' database recovery technique to avoid inconsistencies during concurrent transactions?",
+    "options": [
+      "Two-phase locking",
+      "Time stamping",
+      "Optimistic concurrency control",
+      "All of the above"
+    ],
+    "correct_option_index": 3,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "What is the primary advantage of using cloud-based backup solutions compared to traditional on-premise backups?",
+    "options": [
+      "Lower upfront costs",
+      "Faster recovery times",
+      "Greater control over data location",
+      "Higher data security"
+    ],
+    "correct_option_index": 0,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "In the context of file system journaling, what is the difference between metadata journaling and full journaling?",
+    "options": [
+      "Metadata journaling only logs changes to metadata, while full journaling logs changes to both metadata and data",
+      "Metadata journaling is faster than full journaling, but offers less protection against data loss",
+      "Metadata journaling is used for small files, while full journaling is used for large files",
+      "Metadata journaling is only used in Linux systems, while full journaling is used in Windows systems"
+    ],
+    "correct_option_index": 0,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which of the following is NOT a typical consideration when selecting a storage file structure for a database?",
+    "options": [
+      "Frequency of data access",
+      "Size of the database",
+      "Type of queries to be performed",
+      "The color of the server rack"
+    ],
+    "correct_option_index": 3,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "What is 'Data Carving' in terms of Data Storage and File Recovery?",
+    "options": [
+      "It refers to restructuring database tables for efficient access.",
+      "It is the process of recovering files based on known file structure from raw disk data, without file system metadata.",
+      "It involves encrypting sensitive data at rest to enhance security",
+      "It refers to physical arrangement of data on magnetic disks."
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "In an environment with high transaction rates, which recovery technique generally results in less delay in transaction processing after a crash?",
+    "options": [
+      "Deferred update",
+      "Immediate update",
+      "Shadow paging",
+      "A combination of Deferred and Immediate update"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "A database system uses write-ahead logging. A transaction T1 writes data item X and the log record is written to disk. Subsequently, the data block containing X is written to disk. If a crash occurs before T1 commits, what happens during recovery?",
+    "options": [
+      "The update to X is undone",
+      "The update to X is redone",
+      "The update to X is ignored",
+      "The database is restored to the last checkpoint"
+    ],
+    "correct_option_index": 0,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which technique is most effective for recovering individual files from a corrupted file system without restoring the entire backup?",
+    "options": [
+      "Full backup restore",
+      "Differential backup restore",
+      "Incremental backup restore",
+      "Granular recovery"
+    ],
+    "correct_option_index": 3,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "When is the best to apply differential backups?",
+    "options": [
+      "To do restore from a full backup and only ONE differential backup",
+      "To do restore from only differential backups",
+      "To do restore from a full backup and all the other differential backups",
+      "Differential backups are never applied"
+    ],
+    "correct_option_index": 0,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "What makes an HSM more secure than traditional software-based encryption for protecting cryptographic keys?",
+    "options": [
+      "It offers better encryption algorithms.",
+      "It provides faster encryption processing.",
+      "It stores keys in tamper-resistant hardware.",
+      "It automatically backs up all encrypted data."
+    ],
+    "correct_option_index": 2,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which of the following scenarios poses the GREATEST risk to data stored in cloud storage?",
+    "options": [
+      "Hardware failure at the cloud provider's data center",
+      "Natural disaster affecting the cloud provider's region",
+      "Malicious insider at the cloud provider gaining unauthorized access",
+      "Accidental deletion of files by a cloud storage user"
+    ],
+    "correct_option_index": 3,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "What is the main difference between online and offline backups?",
+    "options": [
+      "Online backups are performed when the database is shut down, while offline backups are performed when the database is running.",
+      "Online backups are performed when the database is running, while offline backups are performed when the database is shut down.",
+      "Online backups are more secure than offline backups.",
+      "Online backups are faster than offline backups."
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "In the context of distributed database systems, what is a 'two-phase commit' (2PC) protocol primarily used for?",
+    "options": [
+      "Ensuring that all transactions are executed in a specific order",
+      "Guaranteeing that a transaction is either fully completed or completely rolled back across multiple nodes",
+      "Optimizing query performance across distributed databases",
+      "Managing data replication across different database instances"
+    ],
+    "correct_option_index": 1,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "What is the significance of 'fuzzy checkpointing' in database recovery systems?",
+    "options": [
+      "It allows checkpoints to be taken while the database is still active, minimizing downtime",
+      "It creates a blurred image of the database to protect sensitive information",
+      "It is a less accurate but faster method for creating checkpoints",
+      "It is a checkpointing technique specifically designed for fuzzy databases"
+    ],
+    "correct_option_index": 0,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  },
+  {
+    "question": "Which indexing technique is most suited for exact match queries when dealing with very large datasets where minimizing disk access is crucial?",
+    "options": [
+      "B+ Tree Index",
+      "Inverted Index",
+      "Clustered Index",
+      "Bloom Filter"
+    ],
+    "correct_option_index": 3,
+    "category": "Indexing & Hashing, Storage & File Structures, Recovery & Backup"
+  }
+]

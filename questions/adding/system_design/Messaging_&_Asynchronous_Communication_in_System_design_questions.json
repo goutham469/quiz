@@ -1,0 +1,497 @@
+[
+  {
+    "question": "Which messaging pattern guarantees that a message is delivered to exactly one consumer?",
+    "options": [
+      "Publish-Subscribe",
+      "Fanout",
+      "Point-to-Point",
+      "Topic-based"
+    ],
+    "correct_option_index": 2,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "In the context of message queues, what does 'at-least-once' delivery guarantee mean?",
+    "options": [
+      "Each message is delivered at most once.",
+      "Each message is delivered exactly once.",
+      "Each message is delivered at least once.",
+      "Messages might be lost, but no duplicates occur."
+    ],
+    "correct_option_index": 2,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Which of the following is a characteristic of asynchronous communication?",
+    "options": [
+      "Real-time interaction",
+      "Tight coupling between services",
+      "Blocking operations",
+      "Non-blocking operations"
+    ],
+    "correct_option_index": 3,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "What is the primary benefit of using message queues in system design?",
+    "options": [
+      "Increased latency",
+      "Tighter coupling",
+      "Decoupling of services",
+      "Direct method invocation"
+    ],
+    "correct_option_index": 2,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "What is the role of a 'broker' in a message queue system?",
+    "options": [
+      "To generate random message IDs",
+      "To route messages between producers and consumers",
+      "To encrypt messages before transmission",
+      "To compress messages for storage"
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Which of the following is a common message queue implementation?",
+    "options": [
+      "REST API",
+      "gRPC",
+      "RabbitMQ",
+      "SOAP"
+    ],
+    "correct_option_index": 2,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "What is the main purpose of a Dead Letter Queue (DLQ)?",
+    "options": [
+      "To store successfully processed messages",
+      "To store messages that failed processing after multiple retries",
+      "To store incoming messages temporarily",
+      "To store messages waiting for acknowledgement"
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "What is the consequence of message ordering issues in a distributed system relying on asynchronous messaging?",
+    "options": [
+      "Improved performance",
+      "Data inconsistencies",
+      "Reduced complexity",
+      "Guaranteed data integrity"
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Which design pattern is used to handle eventual consistency challenges arising from asynchronous messaging?",
+    "options": [
+      "Circuit Breaker",
+      "Saga",
+      "Singleton",
+      "Observer"
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "How does message acknowledgement contribute to message reliability in a distributed system?",
+    "options": [
+      "It increases network latency.",
+      "It ensures the message is successfully processed.",
+      "It prevents message expiration.",
+      "It triggers message re-routing."
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "In the context of message queues, what does 'exactly-once' delivery semantics require?",
+    "options": [
+      "Idempotency in consumers",
+      "At-least-once delivery only",
+      "Best-effort delivery",
+      "Fire-and-forget approach"
+    ],
+    "correct_option_index": 0,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Which architectural style is most suitable for systems leveraging asynchronous messaging and microservices?",
+    "options": [
+      "Monolithic Architecture",
+      "Service-Oriented Architecture (SOA)",
+      "Event-Driven Architecture (EDA)",
+      "Layered Architecture"
+    ],
+    "correct_option_index": 2,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "What is the primary advantage of using asynchronous communication over synchronous communication in high-traffic systems?",
+    "options": [
+      "Simpler error handling",
+      "Reduced complexity",
+      "Improved resource utilization and scalability",
+      "Guaranteed message delivery order"
+    ],
+    "correct_option_index": 2,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Which factor significantly impacts the performance of a message queue system?",
+    "options": [
+      "Consumer CPU utilization",
+      "Network bandwidth between producers and consumers",
+      "Producer memory usage",
+      "Consumer screen resolution"
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "What is the purpose of message TTL (Time-To-Live)?",
+    "options": [
+      "To guarantee message delivery",
+      "To set the priority of a message",
+      "To discard messages after a specific duration",
+      "To encrypt the message content"
+    ],
+    "correct_option_index": 2,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "How does back pressure management relate to asynchronous communication in system design?",
+    "options": [
+      "It forces synchronous communication.",
+      "It prevents consumers from being overwhelmed by producers.",
+      "It guarantees message ordering.",
+      "It eliminates the need for retries."
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Which type of testing is most critical for systems relying heavily on asynchronous messaging?",
+    "options": [
+      "Unit Testing",
+      "Integration Testing",
+      "User Acceptance Testing",
+      "Load Testing"
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "What is the role of a message schema in asynchronous communication?",
+    "options": [
+      "To define the message routing rules",
+      "To enforce a specific structure for messages",
+      "To define message encryption algorithms",
+      "To generate unique message IDs"
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Which of these design choices will most improve a message queue's throughput?",
+    "options": [
+      "Decreasing the batch size",
+      "Increasing the number of consumers",
+      "Using synchronous communication for acknowledgements",
+      "Disabling message persistence"
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "What are the implications of choosing a 'quorum' based message queue for consistency and availability?",
+    "options": [
+      "Higher write latency, improved read availability.",
+      "Lower read latency, decreased write availability.",
+      "Improved write latency, higher read availability",
+      "Higher consistency guarantees, potentially reduced availability during failures"
+    ],
+    "correct_option_index": 3,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Which strategy effectively addresses message duplication issues when using 'at-least-once' delivery semantics?",
+    "options": [
+      "Implementing retry mechanisms at the producer",
+      "Ensuring consumers are idempotent",
+      "Using a 'fanout' exchange",
+      "Using synchronous communication"
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Which message routing topology enables broadcasting a single message to multiple independent consumers for parallel processing?",
+    "options": [
+      "Direct Exchange",
+      "Topic Exchange",
+      "Fanout Exchange",
+      "Header Exchange"
+    ],
+    "correct_option_index": 2,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "A system requires eventual consistency across multiple microservices. Which pattern, using asynchronous communication, ensures that a sequence of operations either all succeed or all are rolled back?",
+    "options": [
+      "Circuit Breaker Pattern",
+      "Retry Pattern",
+      "Saga Pattern",
+      "CQRS Pattern"
+    ],
+    "correct_option_index": 2,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "How can you implement rate limiting for producers in a message queue system to prevent overloading the broker?",
+    "options": [
+      "By increasing the message TTL",
+      "By using a Dead Letter Queue",
+      "By implementing a token bucket algorithm at the producer",
+      "By disabling message persistence"
+    ],
+    "correct_option_index": 3,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "What is the consequence of a network partition between a producer and a message queue broker when using synchronous acknowledgements?",
+    "options": [
+      "The producer will continue sending messages without acknowledgement.",
+      "The producer will experience increased latency.",
+      "The producer will fail to send messages and potentially retry.",
+      "The broker will automatically reroute messages to other producers."
+    ],
+    "correct_option_index": 2,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Which protocol is commonly used for real-time bidirectional communication and can be integrated with messaging systems for advanced asynchronous features?",
+    "options": [
+      "HTTP",
+      "REST",
+      "WebSocket",
+      "SOAP"
+    ],
+    "correct_option_index": 2,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "How do message brokers handle persistence to ensure message durability in case of failures?",
+    "options": [
+      "By storing messages in memory only",
+      "By replicating messages across multiple nodes",
+      "By using a transient queue",
+      "By relying on the producer to re-send messages"
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Which approach would you use to minimize the impact of schema changes in messages on consumers within an asynchronous messaging system?",
+    "options": [
+      "Forcing consumers to upgrade simultaneously with producers.",
+      "Implementing schema evolution and versioning.",
+      "Using a schemaless message format.",
+      "Avoiding any schema changes after the initial deployment."
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "How can message queues be used to implement the Command Query Responsibility Segregation (CQRS) pattern in a distributed system?",
+    "options": [
+      "By directly querying the message queue for data.",
+      "By using the message queue as a primary data storage.",
+      "By routing commands and events to separate consumers using different queues.",
+      "By eliminating the need for separate read and write models."
+    ],
+    "correct_option_index": 2,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Consider a scenario where you have a high-volume message queue. What are the trade-offs between using a persistent queue versus a non-persistent (transient) queue?",
+    "options": [
+      "Persistent queues are faster, but messages are lost on failure. Transient queues are slower, but messages survive failures.",
+      "Persistent queues are slower, but messages survive failures. Transient queues are faster, but messages are lost on failure.",
+      "Persistent queues guarantee exactly-once delivery. Transient queues guarantee at-least-once delivery.",
+      "There are no trade-offs; persistent queues are always superior."
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "How does the concept of 'Correlation ID' assist in managing complex asynchronous workflows?",
+    "options": [
+      "By identifying and grouping messages belonging to the same logical transaction.",
+      "By encrypting the message payload for security.",
+      "By routing messages based on the priority level.",
+      "By preventing message loops in the system."
+    ],
+    "correct_option_index": 0,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "In a complex microservices architecture relying on asynchronous messaging, how would you monitor end-to-end message flow and identify bottlenecks?",
+    "options": [
+      "By monitoring CPU utilization of individual microservices only.",
+      "By aggregating logs from all microservices and message queues and implementing distributed tracing.",
+      "By relying solely on the message queue's built-in monitoring tools.",
+      "By randomly sampling messages and manually tracing their journey."
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Which security considerations are most critical when exposing message queues to external systems?",
+    "options": [
+      "Enabling anonymous access to all queues.",
+      "Using strong authentication and authorization mechanisms.",
+      "Ignoring message content encryption, as queues are inherently secure.",
+      "Relying solely on network firewalls for security."
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "What is the impact of high message fan-out (a single message being delivered to a large number of consumers) on a message queue system's performance and scalability?",
+    "options": [
+      "It reduces network bandwidth consumption.",
+      "It increases the load on the message broker due to message replication.",
+      "It simplifies message routing logic.",
+      "It eliminates the need for message persistence."
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "How can you leverage asynchronous messaging to implement elastic scaling of consumers in response to fluctuating message volume?",
+    "options": [
+      "By manually adjusting the number of consumers based on observed message queue length.",
+      "By configuring auto-scaling policies based on message queue depth and consumer resource utilization.",
+      "By disabling message persistence to reduce the load on consumers.",
+      "By forcing all consumers to process messages synchronously."
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "A critical business process involves multiple microservices communicating asynchronously. A failure in one service can cascade and impact the entire process. Which pattern can prevent this cascade effect?",
+    "options": [
+      "Retry Pattern",
+      "Circuit Breaker Pattern",
+      "Saga Pattern with local transactions",
+      "Direct service invocation"
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "You are designing a system where consumers need to filter messages based on complex criteria that go beyond simple routing keys. Which message queue exchange type is best suited for this scenario?",
+    "options": [
+      "Direct Exchange",
+      "Topic Exchange",
+      "Fanout Exchange",
+      "Header Exchange"
+    ],
+    "correct_option_index": 3,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "In a distributed system using asynchronous messaging, how do you ensure data integrity when a consumer needs to update multiple databases as part of processing a single message, where a failure in one database should roll back all updates?",
+    "options": [
+      "Using two-phase commit (2PC) across all databases.",
+      "Implementing a Saga pattern with compensating transactions for each database update.",
+      "Directly invoking synchronous APIs on each database.",
+      "Ignoring the possibility of partial failures."
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "How does the 'Outbox' pattern contribute to reliable asynchronous messaging in situations where a service needs to update its local database and send a message to a message queue?",
+    "options": [
+      "By storing the message in a separate database table alongside the local database update.",
+      "By sending the message directly to the queue before updating the local database.",
+      "By using a complex distributed transaction manager to coordinate both operations.",
+      "By skipping the message sending process to improve performance."
+    ],
+    "correct_option_index": 0,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "How can you handle situations where a consumer intermittently fails to process certain types of messages due to transient errors? What strategies should you employ, and what are their trade-offs?",
+    "options": [
+      "Drop the message and log the error. Easy but results in data loss",
+      "Retry immediately. High chance of overwhelming the consumer again",
+      "Send to DLQ after X retries with exponential backoff. Balances retries with preventing endless loops",
+      "Immediately alert the development team. Only works for critical issues"
+    ],
+    "correct_option_index": 2,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Consider a system with high message volume and a requirement for guaranteed message processing order for each user. How do you achieve this while still leveraging the scalability benefits of message queues?",
+    "options": [
+      "Use a single consumer instance to process all messages sequentially.",
+      "Partition messages based on user ID and use dedicated queues for each user.",
+      "Ignore message ordering requirements to simplify processing.",
+      "Force all users to send messages at a slow rate."
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "You need to integrate a legacy system that does not support modern messaging protocols with a microservices architecture that relies on asynchronous communication. What architectural pattern can facilitate this integration?",
+    "options": [
+      "Direct Database Sharing",
+      "Anti-Corruption Layer",
+      "Synchronous API Gateway",
+      "Ignoring the Legacy System"
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "A company is migrating from a monolithic architecture to a microservices architecture using asynchronous messaging. The old system relied heavily on ACID transactions. How do you approach replicating the consistency guarantees of ACID in the new distributed environment?",
+    "options": [
+      "Force all microservices to use the same database.",
+      "Implement distributed transactions using two-phase commit (2PC) across all microservices.",
+      "Embrace eventual consistency and use patterns like Sagas and compensating transactions.",
+      "Ignore consistency requirements to speed up the migration."
+    ],
+    "correct_option_index": 2,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Design a solution for A system needs to broadcast real-time updates (e.g., stock prices) to a large number of clients using WebSockets. The updates are generated by a separate service that publishes messages to a message queue. How do you efficiently handle the WebSocket connections and distribute the updates to clients?",
+    "options": [
+      "Have each client connect directly to the service generating updates. ",
+      "Use a dedicated WebSocket server that subscribes to the message queue and pushes updates to connected clients.",
+      "Force clients to poll the update service at regular intervals.",
+      "Ignore real-time requirements and use HTTP polling."
+    ],
+    "correct_option_index": 1,
+    "category": "Messaging & Asynchronous Communication in System design"
+  },
+  {
+    "question": "Describe the most effective strategy for selecting between Kafka, RabbitMQ, and Redis Streams for a new project, based on their key strengths and trade-offs concerning throughput, latency, ordering guarantees, and persistence capabilities.",
+    "options": [
+      "RabbitMQ if simple, fast, high message volume is needed",
+      "Redis Streams is low complexity and guarantees throughput.",
+      "Kafka excels with low latency, and fault tolerance ",
+      "Knowing project requirement, then weigh the technical charachteristics to make the best choice "
+    ],
+    "correct_option_index": 3,
+    "category": "Messaging & Asynchronous Communication in System design"
+  }
+]

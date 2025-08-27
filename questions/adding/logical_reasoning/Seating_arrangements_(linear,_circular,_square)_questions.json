@@ -1,0 +1,398 @@
+[
+  {
+    "question": "Six people – A, B, C, D, E, and F – are sitting in a row facing North. C is sitting between A and E. D is sitting to the immediate right of E. F is sitting to the immediate right of B. B is at one end. Who are sitting next to C?",
+    "options": [
+      "A and E",
+      "B and F",
+      "A and D",
+      "F and D"
+    ],
+    "correct_option_index": 0,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Eight friends A, B, C, D, E, F, G and H are sitting around a circle facing the center. B is third to the left of F and second to the right of D. A is second to the right of F and an immediate neighbor of G and C. E is not an immediate neighbor of D. Who is to the immediate left of A?",
+    "options": [
+      "C",
+      "G",
+      "H",
+      "B"
+    ],
+    "correct_option_index": 1,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Eight people are sitting in a square, four at the corners and four in the middle of the sides. The ones at the corner are facing the center and the ones in the middle are facing outside. A is sitting second to the left of B. Two people are sitting between B and C. D is sitting third to the left of C. E is facing outside. F is not an immediate neighbor of B. G is not facing the center. H is sitting to the immediate right of G. Who is sitting opposite to E?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_option_index": 2,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Five people are standing in a line facing you. One of the two people at the ends is a professor, and the other is a businessman. An advocate is to the right of a student. An author is to the left of the businessman. The student is standing between the professor and the advocate. Counting from your left, the advocate is at which position?",
+    "options": [
+      "1st",
+      "2nd",
+      "3rd",
+      "4th"
+    ],
+    "correct_option_index": 3,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Six friends – P, Q, R, S, T, and U – are sitting around a circular table facing the center. P is sitting to the immediate left of U. Q is sitting opposite to S. R is sitting between T and U. Who is sitting to the immediate right of Q?",
+    "options": [
+      "P",
+      "T",
+      "R",
+      "U"
+    ],
+    "correct_option_index": 1,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Seven people A, B, C, D, E, F, and G are sitting in a row facing North. D is to the immediate right of C. C is fourth to the right of G. B is between F and A. E is to the left of G. Who is sitting exactly in the middle?",
+    "options": [
+      "C",
+      "B",
+      "G",
+      "D"
+    ],
+    "correct_option_index": 2,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Eight people – P, Q, R, S, T, U, V, and W – are sitting around a circular table, facing the center. P is sitting second to the left of W. Q is sitting third to the right of T. V is sitting to the immediate left of T. R is sitting second to the right of S. U is sitting to the immediate right of W. Who is sitting opposite to Q?",
+    "options": [
+      "S",
+      "P",
+      "V",
+      "R"
+    ],
+    "correct_option_index": 0,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Six people – A, B, C, D, E, and F – are sitting around a square table. A is sitting in one of the corners. B is sitting opposite to A. C is sitting to the right of B. D is sitting to the left of C. E is sitting opposite to C. F is sitting to the right of E. Who is sitting to the left of A?",
+    "options": [
+      "B",
+      "F",
+      "E",
+      "D"
+    ],
+    "correct_option_index": 1,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "A, B, C, D, E, F, G and H are sitting around a circle facing the center. A sits third to the right of B and third to the left of C. D sits second to the left of A. E sits to the immediate right of B. F sits second to the right of E. G is not an immediate neighbour of B. Who sits to the immediate left of A?",
+    "options": [
+      "H",
+      "E",
+      "G",
+      "F"
+    ],
+    "correct_option_index": 0,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Six people – P, Q, R, S, T, and U – are sitting in a row facing South. P is to the immediate right of Q. U is to the left of T. R is between Q and T. S is to the right of T. Who are at the extreme ends?",
+    "options": [
+      "Q and S",
+      "P and U",
+      "Q and U",
+      "P and S"
+    ],
+    "correct_option_index": 2,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Eight friends A, B, C, D, E, F, G and H are sitting around a circular table, facing the centre. A sits third to the right of B, while B sits second to the right of C. D sits second to the left of C and fourth to the right of E. F sits second to the right of A. G is not an immediate neighbor of B. Who sits between E and F?",
+    "options": [
+      "A",
+      "C",
+      "H",
+      "D"
+    ],
+    "correct_option_index": 3,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Five people are sitting in a row facing North. A is to the immediate left of B, and E is to the immediate right of C. A is to the right of C. D is to the immediate right of E. What is the arrangement of the people?",
+    "options": [
+      "C-A-B-E-D",
+      "C-B-A-E-D",
+      "C-A-E-B-D",
+      "B-A-C-E-D"
+    ],
+    "correct_option_index": 0,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Six people are sitting around a circular table facing the center. A is sitting between B and C. D is sitting opposite to B. E is sitting to the right of C. F is sitting to the left of A. Who is sitting opposite to C?",
+    "options": [
+      "E",
+      "F",
+      "A",
+      "D"
+    ],
+    "correct_option_index": 1,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Eight persons A, B, C, D, E, F, G and H are sitting around a square table facing the centre. Four of them sit at the corners while four sit at the middle of each side. A sits second to the left of E. E sits in the middle of one of the sides. G is not an immediate neighbor of E. Only one person sits between A and H. C sits second to the right of B. B is not an immediate neighbor of E. D is not an immediate neighbor of A. F sits in the middle of one of the sides. Who sits between A and H?",
+    "options": [
+      "C",
+      "B",
+      "F",
+      "D"
+    ],
+    "correct_option_index": 2,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Seven people – A, B, C, D, E, F, and G – are sitting in a circle facing the center. A is sitting between B and C. D is sitting to the left of C. E is sitting to the right of D. F is sitting between E and G. Who is sitting to the right of A?",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_option_index": 1,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Eight people are sitting around a circular table. Three of them are men and five are women. No two men are sitting next to each other. A, B, C, D, E, F, G and H are the people. A is sitting between H and B. E is sitting between C and D. G is sitting between E and F. H is a man. Who is sitting to the right of F?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_option_index": 0,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Six people – P, Q, R, S, T, and U – are sitting around a hexagonal table, one person on each side. P is sitting opposite to Q. R is sitting to the right of Q. S is sitting opposite to R. T is sitting to the right of S. U is sitting opposite to T. If P and R exchange their positions, who will be sitting to the right of R?",
+    "options": [
+      "Q",
+      "T",
+      "U",
+      "S"
+    ],
+    "correct_option_index": 0,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Twelve people are sitting in two parallel rows containing six people each, in such a way that there is an equal distance between adjacent persons. In row 1: P, Q, R, S, T and U are seated and all of them are facing south. In row 2: A, B, C, D, E and F are seated and all of them are facing north. Therefore, in the given seating arrangement each member seated in a row faces another member of the other row. R sits third to the right of P. A faces R and A does not sit at any of the extreme ends. D sits third to the right of A. T faces C and T does not sit at any of the extreme ends. Only one person sits between C and E. Q and B are immediate neighbors. U sits to the immediate left of S. Who faces U?",
+    "options": [
+      "B",
+      "C",
+      "E",
+      "F"
+    ],
+    "correct_option_index": 3,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Eight people are sitting around a circular table facing the center. A is sitting second to the right of B. C is sitting to the immediate left of B. D is sitting opposite to B. E is sitting to the right of D. F is sitting between E and G. H is sitting to the left of A. Who is sitting between C and D?",
+    "options": [
+      "A",
+      "E",
+      "G",
+      "H"
+    ],
+    "correct_option_index": 4,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Five people – A, B, C, D, and E – are sitting in a row facing you. B is on the left of A. E is on the right of D. C is sitting between A and D. What is the order of the people?",
+    "options": [
+      "B-A-C-D-E",
+      "B-A-D-C-E",
+      "A-B-C-D-E",
+      "A-B-D-C-E"
+    ],
+    "correct_option_index": 0,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Twelve persons are sitting in two rows with six persons in each row. Persons in the first row are facing towards the east and persons in the second row are facing towards the west. A is sitting between P and Q. U is sitting between R and S. P is the neighbor of S. Q is opposite to T. U is the neighbor of T. S is sitting at the extreme end of the row. What is the position of A from the left end?",
+    "options": [
+      "First",
+      "Second",
+      "Third",
+      "Fourth"
+    ],
+    "correct_option_index": 2,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Six people are sitting around a circular table, facing the center. A is to the left of B, and C is to the right of A. E is to the left of D, and F is between D and B. Who is opposite to B?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_option_index": 2,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Eight people are sitting around a square table. Four are at the corners and facing the center, and four are in the middle of the sides and facing outwards. A sits second to the right of B. B sits in the middle of one of the sides. C sits second to the left of A. D sits to the immediate right of C. E is facing outwards. F is not an immediate neighbor of B. G is not facing the center. H sits to the immediate right of G. Who sits between A and B when counted clockwise from A?",
+    "options": [
+      "C and D",
+      "H and G",
+      "F and E",
+      "D and H"
+    ],
+    "correct_option_index": 3,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Six people – A, B, C, D, E, and F – are sitting in a row. A and B are in the center. C and D are at the ends. E is sitting to the left of C. Who is to the right of D?",
+    "options": [
+      "A",
+      "B",
+      "E",
+      "F"
+    ],
+    "correct_option_index": 3,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Ten people are sitting in two parallel rows containing five people each. In row 1: A, B, C, D and E are seated and all of them are facing South. In row 2: P, Q, R, S and T are seated and all of them are facing North. Therefore, in the given seating arrangement each member seated in a row faces another member of the other row. A sits third to the right of B. P faces A. R sits to the immediate left of P. Only one person sits between R and Q. T does not sit at any of the extreme ends. C is not an immediate neighbor of B. Which of the following is true regarding the seating arrangement?",
+    "options": [
+      "E faces S",
+      "D faces P",
+      "C sits at one of the extreme ends",
+      "B faces Q"
+    ],
+    "correct_option_index": 0,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Six friends are sitting around a circular table. P is sitting to the immediate right of Q. R is sitting opposite to P. S is sitting to the left of T. U is sitting opposite to T. If P and T interchange their places, who will sit to the right of T?",
+    "options": [
+      "Q",
+      "R",
+      "S",
+      "U"
+    ],
+    "correct_option_index": 0,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Eight people are sitting in a rectangular arrangement. Two people on each longer side and one each on the shorter sides. No one is facing each other. John is sitting opposite to Mary. Lisa is sitting between John and Tom. Ben is sitting between Mary and Kate. Kate is sitting to the right of David. Who are sitting on the shorter sides?",
+    "options": [
+      "John and Mary",
+      "Lisa and Tom",
+      "David and Ben",
+      "Kate and Tom"
+    ],
+    "correct_option_index": 2,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Eight people are sitting around a circular table. A is sitting opposite to B. C is sitting to the left of A. D is sitting to the right of B. E is sitting opposite to C. F is sitting to the right of E. G is sitting to the left of F. H is sitting opposite to G. If A and E exchange places, who will be sitting to the right of E?",
+    "options": [
+      "B",
+      "C",
+      "F",
+      "G"
+    ],
+    "correct_option_index": 1,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Twelve people are sitting in two parallel rows containing six people each, in such a way that there is an equal distance between adjacent persons. In row 1: A, B, C, D, E and F are seated and all of them are facing South. In row 2: P, Q, R, S, T and U are seated and all of them are facing North. Therefore, in the given seating arrangement each member seated in a row faces another member of the other row. S sits third to the left of Q. P faces S. T sits to the immediate right of P. Only one person sits between T and R. C sits at an extreme end. E sits to the immediate right of C. B faces U. D sits to the right of A. Which of the following groups is sitting at the extreme end of the rows?",
+    "options": [
+      "E, C and Q, S",
+      "E, C and Q, U",
+      "E, F and Q, S",
+      "A, D and Q, S"
+    ],
+    "correct_option_index": 0,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Eight persons are seated in a circle facing the center. All of them have different ages: 15, 18, 21, 24, 27, 30, 33 and 36 years. The age of the person sitting opposite to the oldest person is equal to the sum of the ages of his immediate neighbors. The person whose age is 33 is sitting second to the left of the one whose age is 15. The person whose age is 27 is sitting opposite to the one whose age is 18. The sum of the ages of immediate neighbors of the person with age 21 is 60. The person whose age is 30 is not an immediate neighbor of the person whose age is 18. What is the age of the person sitting opposite the one whose age is 21?",
+    "options": [
+      "24",
+      "27",
+      "30",
+      "33"
+    ],
+    "correct_option_index": 1,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "A, B, C, D, E, F, G, H, and I are sitting in a circle facing the center. B is to the immediate right of A. E is to the immediate left of D. F is between C and G. H is to the immediate left of B. A is between I and C. D is not an immediate neighbor of A or B. Who is between F and H?",
+    "options": [
+      "I",
+      "A",
+      "B",
+      "C"
+    ],
+    "correct_option_index": 3,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Twelve persons are sitting around a circular table, all facing the center. M is to the immediate left of N. O is third to the right of P. Q is second to the left of R. S is fourth to the right of M. T is third to the left of U. V is to the immediate right of W. N is third to the right of Q. U is between N and O. What is the position of P with respect to V?",
+    "options": [
+      "Second to the left",
+      "Third to the right",
+      "Fourth to the left",
+      "Fifth to the right"
+    ],
+    "correct_option_index": 3,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Six people are sitting in a row. A is to the left of B but to the right of C. D is to the right of E but to the left of C. F is sitting at the right end. Who are the neighbors of D?",
+    "options": [
+      "E and C",
+      "C and B",
+      "A and E",
+      "A and F"
+    ],
+    "correct_option_index": 0,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Eight friends, A, B, C, D, E, F, G and H, are sitting around a circular table, facing the center. Each of them is married. No two husbands or two wives are sitting next to each other. A is sitting between her husband and E. C, who is the wife of B, is sitting second to the left of H. F, the husband of G, is sitting third to the right of E. D is the wife of A. Who is sitting opposite to H?",
+    "options": [
+      "A",
+      "B",
+      "D",
+      "G"
+    ],
+    "correct_option_index": 2,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Five people A, B, C, D, and E are sitting in a row facing you. A is to the left of C, and B is to the right of D. E is sitting at the end of the row, and A is next to B. What is the position of C?",
+    "options": [
+      "First",
+      "Second",
+      "Third",
+      "Cannot be determined"
+    ],
+    "correct_option_index": 2,
+    "category": "Seating arrangements (linear, circular, square)"
+  },
+  {
+    "question": "Twelve people are sitting around a rectangular table. Four on each longer side and two on each shorter side. No one is facing each other. A is opposite to B. C is to the right of A, and D is to the left of B. E is on one of the longer sides. F is not on any of the corners. H is next to B and is on a shorter side. G is the husband of D, and F is the wife of E.  If C and D switch places who is opposite D?",
+    "options": [
+      "A",
+      "B",
+      "A's spouse",
+      "B's spouse"
+    ],
+    "correct_option_index": 0,
+    "category": "Seating arrangements (linear, circular, square)"
+  }
+]

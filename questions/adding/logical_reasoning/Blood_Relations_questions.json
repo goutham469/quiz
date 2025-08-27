@@ -1,0 +1,794 @@
+[
+  {
+    "question": "Pointing to a photograph, a man said, 'I have no brother or sister but that man's father is my father's son.' Whose photograph was it?",
+    "options": [
+      "His Son",
+      "His Nephew",
+      "His Father",
+      "His Grandfather"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is B's brother. C is A's mother. D is C's father. E is B's son. How is D related to A?",
+    "options": [
+      "Son",
+      "Grandson",
+      "Grandfather",
+      "Great Grandfather"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "P is the brother of Q. R is the father of P. S is the mother of R. T is the grandmother of Q. How is T related to P?",
+    "options": [
+      "Grandfather",
+      "Grandmother",
+      "Father",
+      "Mother"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If A + B means A is the brother of B; A - B means A is the sister of B; and A x B means A is the father of B. Which of the following means that C is the son of M?",
+    "options": [
+      "M - N x C + F",
+      "F + N x M - C",
+      "M x N - C + F",
+      "M x N + C - F"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Pointing to a woman, Naman said, 'She is the daughter of the only child of my grandmother.' How is the woman related to Naman?",
+    "options": [
+      "Sister",
+      "Daughter",
+      "Cousin",
+      "Mother"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is the son of B. C, B's sister, has a son D and a daughter E. F is the maternal uncle of D. How many nephews does F have?",
+    "options": [
+      "None",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "P is the mother of K; K is the sister of D; D is the father of J. How is P related to J?",
+    "options": [
+      "Mother",
+      "Grandmother",
+      "Aunt",
+      "Cannot be determined"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is the brother of B. B is the daughter of C. D is the father of A. Then, how is C related to D?",
+    "options": [
+      "Daughter",
+      "Sister",
+      "Wife",
+      "Granddaughter"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If P + Q means P is the brother of Q; P - Q means P is the mother of Q; P x Q means P is the sister of Q; Which of the following means M is the maternal uncle of R?",
+    "options": [
+      "M + N x R",
+      "M - N + R",
+      "M + N - R",
+      "M - N x R"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Introducing a man, a woman said, 'He is the only son of my mother's mother.' How is the woman related to the man?",
+    "options": [
+      "Mother",
+      "Sister",
+      "Daughter",
+      "Granddaughter"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is the father of C and D is the son of B. E is the brother of A. If C is the sister of D, how is B related to E?",
+    "options": [
+      "Daughter",
+      "Brother-in-law",
+      "Husband",
+      "Sister-in-law"
+    ],
+    "correct_option_index": 3,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Pointing towards a person in the photograph, Anjali said, 'He is the only son of the father of my sister's brother.' How is that person related to Anjali?",
+    "options": [
+      "Father",
+      "Mother",
+      "Brother",
+      "Sister"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If A * B means A is the son of B; A + B means A is the sister of B; A $ B means A is the father of B; Which of the following would mean E is the paternal grandfather of F?",
+    "options": [
+      "E $ G * F",
+      "E $ G + F",
+      "E * G $ F",
+      "E + G $ F"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Introducing a girl, Vipul said, 'Her mother is the only daughter of my father.' How is Vipul related to the girl?",
+    "options": [
+      "Brother",
+      "Father",
+      "Uncle",
+      "Husband"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "X and Y are children of A. A is the father of X but Y is not his son. How is Y related to A?",
+    "options": [
+      "Sister",
+      "Brother",
+      "Daughter",
+      "Uncle"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is B's sister. C is B's mother. D is C's father. E is D's mother. Then, how is A related to D?",
+    "options": [
+      "Granddaughter",
+      "Grandfather",
+      "Daughter",
+      "Grandmother"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Pointing to a lady, a man said, 'The son of her only brother is the brother of my wife.' How is the lady related to the man?",
+    "options": [
+      "Mother's sister",
+      "Grandmother",
+      "Sister of father-in-law",
+      "Cannot be determined"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If A $ B means A is the father of B; A # B means A is the mother of B; A @ B means A is the sister of B; then how is H related to D in H # K $ L @ D?",
+    "options": [
+      "Mother",
+      "Sister",
+      "Aunt",
+      "Cannot be determined"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Introducing a man to her husband, a woman said, 'His brother's father is the only son of my grandfather.' How is the woman related to this man?",
+    "options": [
+      "Mother",
+      "Sister",
+      "Daughter",
+      "Aunt"
+    ],
+    "correct_option_index": 3,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is the brother of B. F is the sister of A. C is the brother of D. E is the mother of A. If F is the daughter of K, then who is the uncle of C?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "K"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "P is the father of T. T is the daughter of M. M is the wife of J. How is J related to P?",
+    "options": [
+      "Son",
+      "Daughter",
+      "Son-in-law",
+      "Daughter-in-law"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Q is the brother of R. P is the sister of Q. T is the father of S, who is Q's nephew. How is T related to P?",
+    "options": [
+      "Father",
+      "Mother",
+      "Grandfather",
+      "Cannot be determined"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If 'A $ B' means 'A is the brother of B', 'A @ B' means 'A is the sister of B', and 'A # B' means 'A is the father of B', then which of the following indicates that 'U is the son of V'?",
+    "options": [
+      "V # W $ U",
+      "V # W @ U",
+      "V $ W # U",
+      "V @ W # U"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Pointing to a man, a woman said, 'He is the father of the only daughter of my mother.' How is the woman related to the man?",
+    "options": [
+      "Sister",
+      "Daughter",
+      "Wife",
+      "Mother"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is the sister of B. C is the mother of B. D is the father of C. E is the mother of D. Then, how is A related to D?",
+    "options": [
+      "Granddaughter",
+      "Grandson",
+      "Daughter",
+      "Son"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A says to B, 'I am the father of the son of your father’s brother.' How is B related to A?",
+    "options": [
+      "Cousin",
+      "Nephew",
+      "Uncle",
+      "Brother or Sister"
+    ],
+    "correct_option_index": 3,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is the brother of B. C is the father of A. D is the brother of E. E is the daughter of B. Then, who is the uncle of D?",
+    "options": [
+      "A",
+      "C",
+      "B",
+      "E"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Introducing a boy, a girl said, 'He is the son of the only brother of my mother.' How is the boy related to the girl?",
+    "options": [
+      "Brother",
+      "Nephew",
+      "Uncle",
+      "Cousin"
+    ],
+    "correct_option_index": 3,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If A + B means A is the sister of B; A - B means A is the daughter of B; A x B means A is the mother of B; Which of the following means M is the aunt of N?",
+    "options": [
+      "M + L x K + N",
+      "M + L - K x N",
+      "M x L + K - N",
+      "M x L - K + N"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "P is the son of Q, while Q and R are sisters to one another. T is the mother of R. If S is the son of T, which of the following statements is correct?",
+    "options": [
+      "Q is the grandmother of P",
+      "S is the maternal uncle of P",
+      "T is the paternal grandmother of P",
+      "R is the paternal uncle of P"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A man said to a lady, 'Your mother's husband's sister is my aunt.' How is the lady related to the man?",
+    "options": [
+      "Daughter",
+      "Sister",
+      "Mother",
+      "Granddaughter"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is the father of X. B is the mother of Y. The sister of X and Y is Z. Which of the following statements is definitely not true?",
+    "options": [
+      "B is the mother of X",
+      "A and B are husband and wife",
+      "X and Y are siblings",
+      "A is the father of Y"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If P $ Q means P is the brother of Q; P # Q means P is the mother of Q; P * Q means P is the daughter of Q. Which of the following shows the relation that A is the maternal uncle of B?",
+    "options": [
+      "A $ C # B",
+      "A $ C * B",
+      "A # C $ B",
+      "A # C * D $ B"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Pointing to a woman, a man said, 'She is the mother of my son's wife.' How is the woman related to the man?",
+    "options": [
+      "Daughter-in-law",
+      "Grandmother",
+      "Mother-in-law",
+      "Sister-in-law"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Introducing a boy, Neha said, 'He is the son of my father's only brother.' How is Neha related to the boy?",
+    "options": [
+      "Sister",
+      "Niece",
+      "Aunt",
+      "Cousin"
+    ],
+    "correct_option_index": 3,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is the father of B and C. B is the son of A, but C is not the son of A. What is C to A?",
+    "options": [
+      "Daughter",
+      "Nephew",
+      "Niece",
+      "Grandson"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If A * B means A is the mother of B; A + B means A is the sister of B; A $ B means A is the father of B. Which of the following means 'D is the granddaughter of A'?",
+    "options": [
+      "A * B $ C + D",
+      "A * B + C $ D",
+      "A $ B + C * D",
+      "A * B + C + D"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Pointing to a person, Raju said, 'He is the son of my father's only son.' How is Raju related to that person?",
+    "options": [
+      "Father",
+      "Uncle",
+      "Brother",
+      "Cousin"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is the sister of B. B is married to D. B and D have a daughter G. How is G related to A?",
+    "options": [
+      "Sister",
+      "Daughter",
+      "Niece",
+      "Aunt"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If A @ B means A is the father of B; A $ B means A is the sister of B; A * B means A is the son of B. Which of the following means M is the paternal grandfather of N?",
+    "options": [
+      "M @ Q $ R * N",
+      "M @ Q * R $ N",
+      "M $ Q @ R * N",
+      "M $ Q * R @ N"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Pointing to a photograph, a man said, 'She is the only daughter of my wife's father.' How is the man related to the person in the photograph?",
+    "options": [
+      "Father",
+      "Husband",
+      "Brother",
+      "Uncle"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is the brother of B; C is the father of A; D is the brother of C; and E is the mother of D. Then, how is B related to E?",
+    "options": [
+      "Grandson or Granddaughter",
+      "Daughter",
+      "Grandfather",
+      "Grandmother"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A man introduces a woman as the daughter of his wife’s only brother. How is the woman related to the man?",
+    "options": [
+      "Daughter",
+      "Niece",
+      "Sister",
+      "Cousin"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If A + B means A is the son of B; A - B means A is the wife of B; A x B means A is the brother of B. Which of the following represents P is the maternal uncle of Q?",
+    "options": [
+      "P x M + N - Q",
+      "P x M - N + Q",
+      "P + M x N - Q",
+      "P - N + M x Q"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "P is the brother of Q and R. S is R's mother. T is P's father. Which of the following statements is definitely true?",
+    "options": [
+      "S is Q's grandmother",
+      "T is R's mother",
+      "Q is T's son",
+      "P is S's son"
+    ],
+    "correct_option_index": 3,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Pointing to a girl in the photograph, Amar said, 'Her mother's brother is the only son of my mother's father.' How is the girl's mother related to Amar?",
+    "options": [
+      "Mother",
+      "Sister",
+      "Aunt",
+      "Grandmother"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Introducing Sarita, Mahesh said, 'She is the only daughter of my father's only daughter.' How is Mahesh related to Sarita?",
+    "options": [
+      "Father",
+      "Uncle",
+      "Brother",
+      "Grandfather"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If A $ B means A is the father of B; A # B means A is the sister of B; A @ B means A is the son of B. Which of the following means 'M is the son of Q'?",
+    "options": [
+      "Q $ R @ M",
+      "Q @ R $ M",
+      "Q # R @ M",
+      "Q $ M"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Pointing to a lady, a man said, 'She is the daughter of the sister of my father.' How is the lady related to the man?",
+    "options": [
+      "Mother",
+      "Sister",
+      "Aunt",
+      "Daughter"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If A is the brother of B, B is the sister of C, and C is the father of D, then how is D related to A?",
+    "options": [
+      "Nephew",
+      "Niece",
+      "Uncle",
+      "Cannot be determined"
+    ],
+    "correct_option_index": 3,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Given: A + B means A is the son of B; A - B means A is the wife of B; A * B means A is the brother of B. If P * Q + R - S, then which of the following is definitely false?",
+    "options": [
+      "Q is the father of R",
+      "P is the brother of Q",
+      "R is the wife of S",
+      "S is the mother-in-law of Q"
+    ],
+    "correct_option_index": 3,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "X is the brother of Y. V is the daughter of Y. Z is the wife of X. What is the relation of Z to V?",
+    "options": [
+      "Mother",
+      "Aunt",
+      "Sister",
+      "Sister-in-law"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A tells B, 'Your mother's husband's sister is my aunt'. How is B related to A?",
+    "options": [
+      "Brother",
+      "Sister",
+      "Cousin",
+      "Nephew"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If P + Q means P is the father of Q, P - Q means P is the sister of Q, and P * Q means P is the brother of Q, then how is A related to D in A*B+C-D?",
+    "options": [
+      "Father",
+      "Uncle",
+      "Aunt",
+      "Cannot be Determined"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A, B, and C are sisters. D is the brother of E and E is the daughter of B. By this statement, who are C's children?",
+    "options": [
+      "D and E",
+      "E",
+      "D",
+      "None"
+    ],
+    "correct_option_index": 3,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is the father of C. C and D are sisters. E is the son of D. How is E related to A?",
+    "options": [
+      "Son",
+      "Grandson",
+      "Uncle",
+      "Brother"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Pointing towards a girl, Rajan said, 'She is the daughter of the only son of my grandfather'. How is Rajan related to the girl?",
+    "options": [
+      "Father",
+      "Uncle",
+      "Brother",
+      "Cannot be determined"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "P is the father of Q. Q is the son of R. S is R's wife. How is Q related to S?",
+    "options": [
+      "Son",
+      "Daughter",
+      "Brother",
+      "Sister"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If P + Q means P is the brother of Q, P - Q means P is the sister of Q, and P = Q means P is the father of Q, which of the following means that C is the uncle of D?",
+    "options": [
+      "C + B = A - D",
+      "B = A + C - D",
+      "C - A + B = D",
+      "C + A - B = D"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is the son of B. C is the sister of B and has a daughter D. E is the brother of C. How is D related to A?",
+    "options": [
+      "Sister",
+      "Niece",
+      "Aunt",
+      "Cousin"
+    ],
+    "correct_option_index": 3,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A man said to a lady, 'Your mother's husband's sister is my aunt'. How is the lady related to the man?",
+    "options": [
+      "Daughter",
+      "Sister",
+      "Mother",
+      "Granddaughter"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Given the relationships: P * Q means P is the father of Q, P + Q means P is the daughter of Q, P / Q means P is the sister of Q, which of the following shows A is the granddaughter of F?",
+    "options": [
+      "F * B + C / A",
+      "F * B / C + A",
+      "F * B + C * A",
+      "F / B + C * A"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is the father of B. C is the son of D. E is the brother of A. If B is the sister of D, how is C related to E?",
+    "options": [
+      "Nephew",
+      "Grandson",
+      "Uncle",
+      "Cousin"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A tells B that C is his father’s nephew. D is A’s cousin but not the brother of C. What is the relationship of C to D?",
+    "options": [
+      "Father",
+      "Sister",
+      "Mother",
+      "Uncle"
+    ],
+    "correct_option_index": 3,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If A + B means A is the mother of B, A - B means A is the brother of B, and A % B means A is the father of B, then which of the following represents 'M is the son of N'?",
+    "options": [
+      "N + R % M",
+      "N + R - M",
+      "N + R + M",
+      "N - R % M"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is the brother of B. C is the father of A. D is the brother of E. E is the daughter of B. What is the relation of D to C?",
+    "options": [
+      "Grandson",
+      "Granddaughter",
+      "Nephew",
+      "Cannot be determined"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A man said to a lady, 'Your brother's only sister is my mother'. How is the lady related to the man's father?",
+    "options": [
+      "Daughter",
+      "Sister",
+      "Mother",
+      "Granddaughter"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "If X $ Y means X is the father of Y; X # Y means X is the mother of Y; X @ Y means X is the sister of Y, then how is K related to M in K @ L # N $ M?",
+    "options": [
+      "Grandson",
+      "Granddaughter",
+      "Son",
+      "Daughter"
+    ],
+    "correct_option_index": 2,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "Q is the brother of R. P is the sister of Q. T is the father of S who is Q's nephew. Who is T to P?",
+    "options": [
+      "Mother",
+      "Father",
+      "Sister",
+      "Cannot be determined"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is B's brother. C is A's mother. D is C's father. E is B's son. What is the relationship between D and E?",
+    "options": [
+      "Paternal Grandfather",
+      "Maternal Grandfather",
+      "Paternal Great-Grandfather",
+      "Cannot be Determined"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A says to B, 'I am the father of the son of your father’s brother.' How is B related to A?",
+    "options": [
+      "Nephew",
+      "Cousin",
+      "Uncle",
+      "Cannot be Determined"
+    ],
+    "correct_option_index": 1,
+    "category": "Blood Relations"
+  },
+  {
+    "question": "A is B's sister. C is B's mother. D is C's father. E is D's mother. How is A related to D?",
+    "options": [
+      "Granddaughter",
+      "Grandson",
+      "Great-Granddaughter",
+      "Cannot be Determined"
+    ],
+    "correct_option_index": 0,
+    "category": "Blood Relations"
+  }
+]
