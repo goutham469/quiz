@@ -1,13 +1,35 @@
 import { View, Text, StyleSheet, Pressable } from "react-native";
-import { useRouter } from "expo-router"; // or from "@react-navigation/native" if you use that
+import { useRouter } from "expo-router";
+import { useEffect } from "react";
+import ReactAsyncStorageAPI from "@/services/storage";
 
 export default function HomeScreen() {
   const router = useRouter();
 
+  useEffect(() => {
+    const checkUser = async () => {
+      try {
+        const user = await ReactAsyncStorageAPI.get("user");
+        if (user) {
+          const parsedUser = JSON.parse(user);
+          if (parsedUser?.email) {
+            router.replace("/dashboard/home"); // replace avoids going back to login
+          }
+        }
+      } catch (err) {
+        console.error("Error checking user session:", err);
+      }
+    };
+
+    checkUser();
+  }, []);
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Welcome to QuizMaster 🎯</Text>
-      <Text style={styles.subtitle}>Test your knowledge and improve daily!</Text>
+      <Text style={styles.subtitle}>
+        Test your knowledge and improve daily!
+      </Text>
 
       <View style={styles.buttonContainer}>
         <Pressable

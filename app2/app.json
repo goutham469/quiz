@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "app2",
+    "name": "aptitude",
     "slug": "app2",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,7 +17,8 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.goutham469.app2"
+      "package": "com.goutham469.app2",
+      "permissions": ["RECORD_AUDIO"]
     },
     "web": {
       "bundler": "metro",

@@ -108,5 +108,57 @@ export default API = {
                 error:"Network error"
             }
         }
+    },
+    'start_interview' : async(data) => {
+        try{
+            const response = await fetch(`${SERVER_URL}/interview/start-interview?email=${data.email}`)
+            return await response.json()
+        }catch(err){
+            return{
+                success:false,
+                error:"Network error"
+            }
+        }
+    },
+    'submit_user_response' : async(data) => {
+        try{
+            const response = await fetch(`${SERVER_URL}/interview/submit-user-response`, {
+                method:"POST",
+                headers:{"Content-Type":"application/json"},
+                body:JSON.stringify(data)
+            })
+            return await response.json()
+        }catch(err){
+            return{
+                success:false,
+                error:"Network error"
+            }
+        }
+    },
+    'finish_interview' : async(data) => {
+        try{
+            const response = await fetch(`${SERVER_URL}/interview/finish-interview`, {
+                method:"PUT",
+                headers:{"Content-Type":"application/json"},
+                body:JSON.stringify(data)
+            })
+            return await response.json()
+        }catch(err){
+            return{
+                success:false,
+                error:"Network error"
+            }
+        }
+    },
+    'get_interview_attempts' : async(data) => {
+        try{
+            const response = await fetch(`${SERVER_URL}/interview/get-user-interviews?email=${data.email}`)
+            return await response.json()
+        }catch(err){
+            return{
+                success:false,
+                error:"Network error"
+            }
+        }
     }
 }

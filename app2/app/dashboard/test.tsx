@@ -35,10 +35,10 @@ const Test = () => {
         setStep(step + 1);
     }
 
-    async function getQuestions() {
+    async function getQuestions(n) {
         setLoading(true);
         try {
-            const response = await API.get_questions({ category: category, count: questionCount })
+            const response = await API.get_questions({ category: category, count: n })
             if (response.success) {
                 setQuestions(response.questions)
                 setStep(step + 1);
@@ -52,7 +52,7 @@ const Test = () => {
 
     function handleQuestionsCountSelect(cnt) {
         setQuestionCount(cnt);
-        getQuestions();
+        getQuestions(cnt);
     }
 
     useEffect(() => {
@@ -168,7 +168,7 @@ function QuizComponent({ questions = [], setStep }) {
             )
         );
 
-        console.log( responses );
+        // console.log( responses );
     }
 
     async function calculatePayload() {
@@ -476,18 +476,18 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     progressContainer: {
-        marginBottom: 30,
+        marginBottom: 5,
     },
     progressBar: {
         height: 8,
-        backgroundColor: '#1e1e3f',
+        backgroundColor: '#2b2b51ff',
         borderRadius: 4,
         overflow: 'hidden',
         marginBottom: 10,
     },
     progressFill: {
         height: '100%',
-        backgroundColor: '#4c6ef5',
+        backgroundColor: '#1cad17ff',
         borderRadius: 4,
     },
     progressText: {
@@ -498,7 +498,7 @@ const styles = StyleSheet.create({
     questionCard: { 
         borderRadius: 20,
         padding: 5,
-        marginBottom: 10, 
+        marginBottom: 5, 
     },
     questionNumber: {
         fontSize: 14,
@@ -509,14 +509,14 @@ const styles = StyleSheet.create({
         letterSpacing: 1,
     },
     questionText: {
-        fontSize: 20,
-        fontWeight: '600',
-        color: '#ffffff',
+        fontSize: 16,
+        fontWeight: '400',
+        color: '#ce0000ff',
         lineHeight: 28,
-        marginBottom: 25,
+        marginBottom: 15,
     },
     optionsContainer: {
-        gap: 12,
+        gap: 8,
     },
     optionButton: {
         backgroundColor: '#16213e',
@@ -536,7 +536,7 @@ const styles = StyleSheet.create({
     optionContent: {
         flexDirection: 'row',
         alignItems: 'center',
-        padding: 16,
+        padding: 8,
     },
     optionIndicator: {
         width: 20,
@@ -552,7 +552,7 @@ const styles = StyleSheet.create({
         borderColor: '#4c6ef5',
     },
     optionText: {
-        fontSize: 16,
+        fontSize: 14,
         color: '#ffffff',
         flex: 1,
         lineHeight: 22,
@@ -564,7 +564,7 @@ const styles = StyleSheet.create({
     navigationContainer: {
         flexDirection: 'row',
         alignItems: 'center',
-        paddingTop: 20,
+        paddingTop: 10,
     },
     navSpacer: {
         flex: 1,

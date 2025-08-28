@@ -38,3 +38,48 @@ Content-Type: application/json
     "category": "Programming"
   }
 ]
+
+###
+GET http://localhost:4000/interview/start-interview?email=uppinurigouthamreddy@gmail.com 
+###
+POST http://localhost:4000/interview/submit-user-response
+Content-Type: application/json
+
+{
+  "interview_id":1,
+  "conversation":[
+    {
+      "role":"USER",
+      "text":"I believe electric vehicles are the future of transportation. They help reduce carbon emissions."
+    },
+    {
+      "role":"SYSTEM",
+      "text":"That’s true, EVs produce zero tailpipe emissions, which is crucial in fighting climate change."
+    },
+    {
+      "role":"USER",
+      "text":"But don’t you think the high cost of EVs makes them less accessible to common people?"
+    },
+    {
+      "role":"SYSTEM",
+      "text":"Yes, the initial cost is high, but governments are providing subsidies, and battery prices are falling rapidly."
+    },
+    {
+      "role":"USER",
+      "text":"Still, charging infrastructure is not developed enough, especially in rural areas"
+    },
+    {
+      "role":"SYSTEM",
+      "text":"You’re right, infrastructure is a challenge. However, many countries are investing heavily in building charging stations."
+    }
+  ],
+  "topic":"Are Electric Vehicles the Future of Transportation?",
+  "response":"Another concern is the environmental impact of battery production and disposal."
+}
+###
+PUT http://localhost:4000/interview/finish-interview
+Content-Type: application/json
+
+{
+  "interview_id":1
+}

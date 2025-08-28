@@ -6,8 +6,7 @@ CREATE TABLE IF NOT EXISTS questions (
     question TEXT NOT NULL,
     options JSON NOT NULL, -- Array of 4 options as JSON
     correct_option_index INT NOT NULL CHECK (correct_option_index >= 0 AND correct_option_index <= 3),
-    category VARCHAR(50) NOT NULL, -- Changed from ENUM to VARCHAR for flexibility
-    subCategory VARCHAR(100), -- Added subcategory field
+    category ENUM('aptitude', 'general_knowledge', 'technical') NOT NULL,
     difficulty ENUM('easy', 'medium', 'hard') DEFAULT 'medium',
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
@@ -54,6 +53,16 @@ INSERT INTO questions (question, options, correct_option_index, category, diffic
 -- Technical Questions
 ('What does CPU stand for?', '["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Computer Processing Unit"]', 0, 'technical', 'easy'),
 ('Which protocol is used for secure web browsing?', '["HTTP", "HTTPS", "FTP", "SMTP"]', 1, 'technical', 'easy'),
+('What is the primary function of RAM?', '["Long-term storage", "Temporary storage", "Processing data", "Displaying graphics"]', 1, 'technical', 'medium'),
+('Which programming language is known as the "language of the web"?', '["Java", "Python", "JavaScript", "C++"]', 2, 'technical', 'medium');
+
+-- Create indexes for better performance
+CREATE INDEX idx_questions_category ON questions(category);
+CREATE INDEX idx_questions_difficulty ON questions(difficulty);
+CREATE INDEX idx_quiz_attempts_user_id ON quiz_attempts(user_id);
+CREATE INDEX idx_quiz_attempts_category ON quiz_attempts(category);
+CREATE INDEX idx_quiz_responses_attempt_id ON quiz_responses(attempt_id);
+CREATE INDEX idx_quiz_responses_question_id ON quiz_responses(question_id);
 ('What is the primary function of RAM?', '["Long-term storage", "Temporary storage", "Processing data", "Displaying graphics"]', 1, 'technical', 'medium'),
 ('Which programming language is known as the "language of the web"?', '["Java", "Python", "JavaScript", "C++"]', 2, 'technical', 'medium');
 

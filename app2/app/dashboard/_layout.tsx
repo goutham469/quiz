@@ -52,6 +52,34 @@ export default function DashboardLayout() {
             ),
           }}
         />
+
+        <Tabs.Screen
+          name="interview"
+          options={{
+            title: "Interview",
+            tabBarIcon: ({ color, size }) => (
+              <Image
+                source={require("../../assets/icons/interview.png")}
+                style={{ width: size, height: size, tintColor: color }}
+              />
+            ),
+          }}
+        />
+
+        <Tabs.Screen
+          name="i_attempts"
+          options={{
+            title: "I-attempts",
+            tabBarIcon: ({ color, size }) => (
+              <Image
+                source={require("../../assets/icons/interview.png")}
+                style={{ width: size, height: size, tintColor: color }}
+              />
+            ),
+          }}
+        />
+
+        
         <Tabs.Screen
           name="profile"
           options={{
@@ -64,6 +92,7 @@ export default function DashboardLayout() {
             ),
           }}
         />
+        
       </Tabs>
     </View>
   );

@@ -1,14 +1,14 @@
 import os
 import json
 import mysql.connector
+import logging
 
-# MySQL connection
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+
+# MySQL connection using environment variables
 db = mysql.connector.connect(
-    host="",
-    user=" ",          # change if needed
-    password="",  # change if needed
-    database=""          # change if needed
-)
+    host=os.getenv("MYSQL_DATABASE_HOST", "localhost"),
 cursor = db.cursor()
 
 # Root folder where your question categories are stored
