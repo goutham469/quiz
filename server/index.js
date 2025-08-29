@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
-const { getAiResponse } = require('./controllers/interview.controller');
 
 // Load environment variables
 dotenv.config();
@@ -27,39 +26,43 @@ app.get('/health', (req, res) => {
   });
 });
 
-const chat = [
-    {
-      "USER": "I believe electric vehicles are the future of transportation. They help reduce carbon emissions.",
-      "SYSTEM": "That’s true, EVs produce zero tailpipe emissions, which is crucial in fighting climate change."
-    },
-    {
-      "USER": "But don’t you think the high cost of EVs makes them less accessible to common people?",
-      "SYSTEM": "Yes, the initial cost is high, but governments are providing subsidies, and battery prices are falling rapidly."
-    },
-    {
-      "USER": "Still, charging infrastructure is not developed enough, especially in rural areas.",
-      "SYSTEM": "You’re right, infrastructure is a challenge. However, many countries are investing heavily in building charging stations."
-    },
-    {
-      "USER": "Another concern is the environmental impact of battery production and disposal.",
-      "SYSTEM": "That’s a valid point. Research is ongoing in battery recycling and developing eco-friendly alternatives like solid-state batteries."
-    },
-    {
-      "USER": "So overall, EVs may not be perfect now, but they seem to be the direction the world is heading towards.",
-      "SYSTEM": "Exactly. While there are challenges, EVs represent a cleaner, sustainable future compared to traditional fossil-fuel vehicles."
+app.get('/apk', (req, res) => {
+  const filePath = __dirname + '/aptitude.apk';
+  res.download(filePath, 'aptitude.apk', (err) => {
+    if (err) {
+      console.error("Error while sending APK:", err);
+      res.status(500).send("Error while downloading the file.");
     }
-  ]
+  });
+});
 
+const simpleGit = require('simple-git');
+const { getKolkataTime } = require('./helpers/tools');
+const git = simpleGit();
 
-app.get("/test", async(req,res)=>{
-  res.send( await getAiResponse( 'Are Electric Vehicles the Future of Transportation?', chat ) )
-})
+app.get('/version', async (req, res) => {
+  try {
+    const log = await git.log({ maxCount: 1 });
+    const commit = log.latest;
+    const branch = await git.revparse(['--abbrev-ref', 'HEAD']);
+
+    res.json({
+      branch: branch.trim(),
+      latestCommit: {
+        hash: commit.hash,
+        date: getKolkataTime(commit.date) ,
+        message: commit.message,
+        author: commit.author_name,
+      }
+    });
+  } catch (err) {
+    console.error("Error fetching Git version info:", err);
+    res.status(500).json({ error: "Unable to fetch version info" });
+  }
+});
 
 // Start server
 app.listen(PORT, () => {
   console.log(`🚀 Server is running on port ${PORT}`);
-  console.log(`📱 Health check: http://localhost:${PORT}/health`);
-  console.log(`👤 User endpoints: http://localhost:${PORT}/user`);
-  console.log(`🧠 Quiz endpoints: http://localhost:${PORT}/quiz`);
 });
 
