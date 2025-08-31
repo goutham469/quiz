@@ -18,7 +18,7 @@ async function startInterview( data )
                 error:"User not found."
             }
         }else{
-            const topic = gdTopics[ Math.floor(Math.random() * 50) ];
+            const topic = gdTopics[ Math.floor(Math.random() * gdTopics.length ) ];
             const [ insertStatus ] = await pool.query("INSERT INTO interviews (user_id, topic, started_at) VALUES(?,?,?);", [ user.user_id, topic, getKolkataTime() ] )
             return {
                 success:true,
