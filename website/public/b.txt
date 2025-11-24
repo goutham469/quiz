@@ -1,0 +1,137 @@
+Here is the minimal, clean, required-only code for:
+
+✔ Load ABC text
+✔ Tokenize characters
+✔ Prepare sequences
+✔ Build Char-RNN (Embedding + LSTM + Dense)
+✔ Train 20 epochs
+✔ Generate new ABC sequence
+
+No optional callbacks, no extras.
+
+
+---
+
+✅ Minimal Required Code — Char-RNN for ABC Music
+
+import numpy as np
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Embedding, LSTM, Dense
+
+# -------------------------
+# Load ABC dataset
+# -------------------------
+with open("music.abc", "r", encoding="utf-8") as f:
+    text = f.read()
+
+chars = sorted(list(set(text)))
+vocab_size = len(chars)
+
+char2idx = {c: i for i, c in enumerate(chars)}
+idx2char = {i: c for c, i in char2idx.items()}
+
+text_as_int = np.array([char2idx[c] for c in text])
+
+# -------------------------
+# Create sequences
+# -------------------------
+SEQ_LEN = 40
+STEP = 3
+
+inputs = []
+targets = []
+
+for i in range(0, len(text_as_int) - SEQ_LEN, STEP):
+    inputs.append(text_as_int[i : i + SEQ_LEN])
+    targets.append(text_as_int[i + SEQ_LEN])
+
+X = np.array(inputs)
+y = np.array(targets)
+
+# -------------------------
+# Build Char-RNN Model
+# -------------------------
+model = Sequential([
+    Embedding(vocab_size, 64, input_length=SEQ_LEN),
+    LSTM(256, return_sequences=True),
+    LSTM(256),
+    Dense(vocab_size, activation="softmax")
+])
+
+model.compile(loss="sparse_categorical_crossentropy", optimizer="adam")
+model.summary()
+
+# -------------------------
+# Train (20 epochs)
+# -------------------------
+model.fit(X, y, batch_size=128, epochs=20)
+
+# -------------------------
+# Generate ABC music
+# -------------------------
+def sample(preds, temp=1.0):
+    preds = np.asarray(preds).astype("float64")
+    preds = np.log(preds + 1e-8) / temp
+    preds = np.exp(preds) / np.sum(np.exp(preds))
+    return np.random.choice(len(preds), p=preds)
+
+def generate(seed_text, length=400):
+    seq = [char2idx[c] for c in seed_text[-SEQ_LEN:]]
+    output = seed_text
+
+    for _ in range(length):
+        x = np.array(seq[-SEQ_LEN:]).reshape(1, SEQ_LEN)
+        preds = model.predict(x, verbose=0)[0]
+        next_index = sample(preds, temp=0.8)
+        next_char = idx2char[next_index]
+        output += next_char
+        seq.append(next_index)
+
+    return output
+
+# pick a random seed
+start = np.random.randint(0, len(text) - SEQ_LEN)
+seed = text[start : start + SEQ_LEN]
+
+print("\nGenerated Music:\n")
+print(generate(seed, length=400))
+
+
+---
+
+OUTPUT YOU WILL GET
+
+✔ Model Summary (LSTM layers visible)
+
+Example:
+
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 40, 64)            ...
+lstm (LSTM)                  (None, 40, 256)           ...
+lstm_1 (LSTM)                (None, 256)               ...
+dense (Dense)                (None, vocab_size)        ...
+=================================================================
+
+✔ Generated ABC Music Sequence
+
+Sample:
+
+X:1
+T:Generated
+M:4/4
+K:C
+GABc d2 Bc|G2F E2D|...
+
+(This will be different based on training.)
+
+
+---
+
+If you want, I can also give you:
+✔ dataset format example
+✔ shorter version with fewer lines
+✔ PyTorch version
+
+Just tell me!
